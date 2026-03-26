@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
-<info>
-<name>Faleria Content</name>
-<update version="1.0.0">
-<file name="user-faleria.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria.index" />
-</update>
-</info>
-<files>
-<file name="players-handbook.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/core/players-handbook.index" />
-</files>
+    <info>
+      <name>Faleria Content</name>
+      <update version="1.0.0">
+          <file name="user-faleria.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria.index" />
+      </update>
+    </info>
+    <files>
+      <file name="players-handbook.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/core/players-handbook.index" />
+    </files>
 </index>
