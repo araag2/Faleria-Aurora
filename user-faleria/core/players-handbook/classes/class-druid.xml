@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Druid</name>
-		<description>The Druid class from the Player’s Handbook.</description>
+		<description>The Druid class from the Beginner's Guide.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.2.9">
 			<file name="class-druid.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/classes/class-druid.xml" />
 		</update>
 	</info>
 
-	<element name="Druid" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_DRUID">
+	<element name="Druid" type="Class" source="Beginner's Guide" id="ID_WOTC_PHB_CLASS_DRUID">
 		<description>
 			<!-- <p class="flavor">A priest of the Old Faith, wielding the powers of nature— moonlight and plant growth, fire and lightning—and adopting animal forms.</p> -->
 			<p>Holding high a gnarled staff wreathed with holly, an elf summons the fury of the storm and calls down explosive bolts of lightning to smite the torch-carrying orcs who threaten her forest.</p>
@@ -136,7 +136,7 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Druidic" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUIDIC">
+	<element name="Druidic" type="Class Feature" source="Beginner's Guide" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUIDIC">
 		<description>
 			<p>You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message’s presence with a successful DC 15 Wisdom (Perception) check but can’t decipher it without magic.</p>
 		</description>
@@ -147,7 +147,7 @@
 			<grant type="Language" id="ID_LANGUAGE_DRUIDIC" />
 		</rules>
 	</element>
-	<element name="Spellcasting" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID">
+	<element name="Spellcasting" type="Class Feature" source="Beginner's Guide" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID">
 		<description>
 			<p>Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will.</p>
 			<h5>CANTRIPS</h5>
@@ -203,7 +203,7 @@
 			<select type="Spell" name="Cantrip (Druid)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Druid" />
 		</rules>
 	</element>
-	<element name="Wildshape" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_WILDSHAPE">
+	<element name="Wildshape" type="Class Feature" source="Beginner's Guide" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_WILDSHAPE">
 		<description>
 			<p>Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.</p>
 			<p class="indent">Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn’t have a flying or swimming speed.</p>
@@ -227,7 +227,7 @@
 			<stat name="druid wildshape:hours" value="level:druid:half" />
 		</rules>
 	</element>
-	<element name="Druid Circle" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUID_CIRCLE">
+	<element name="Druid Circle" type="Class Feature" source="Beginner's Guide" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUID_CIRCLE">
 		<description>
 			<p>At 2nd level, you choose to identify with a circle of druids: the Circle of the Land or the Circle of the Moon, both detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</p>
 		</description>
@@ -238,7 +238,7 @@
 			<select type="Archetype" name="Druid Circle" supports="Druid Circle" level="2"/>
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID">
+	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID">
 		<compendium display="false" />
 		<description>
 			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
@@ -252,7 +252,7 @@
 			<select type="Class Feature" name="Improvement Option (Druid 19)" supports="Improvement Option,Druid,19" level="19" />
 		</rules>
 	</element>
-	<element name="Timeless Body" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_TIMELESS_BODY">
+	<element name="Timeless Body" type="Class Feature" source="Beginner's Guide" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_TIMELESS_BODY">
 		<description>
 			<p>Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.</p>
 		</description>
@@ -260,7 +260,7 @@
 			<description>For every 10 years that pass, your body ages only 1 year.</description>
 		</sheet>
 	</element>
-	<element name="Beast Spells" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_BEAST_SPELLS">
+	<element name="Beast Spells" type="Class Feature" source="Beginner's Guide" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_BEAST_SPELLS">
 		<description>
 			<p>Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren’t able to provide material components.</p>
 		</description>
@@ -269,7 +269,7 @@
 			You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren’t able to provide material components.</description>
 		</sheet>
 	</element>
-	<element name="Archdruid" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ARCHDRUID">
+	<element name="Archdruid" type="Class Feature" source="Beginner's Guide" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ARCHDRUID">
 		<description>
 			<p>At 20th level, you can use your Wild Shape an unlimited number of times.</p>
 		</description>
@@ -278,7 +278,7 @@
 		</sheet>
 	</element>
 
-	<element name="Circle of the Land" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_CIRCLEOFTHELAND">
+	<element name="Circle of the Land" type="Archetype" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_CIRCLEOFTHELAND">
 		<supports>Druid Circle</supports>
 		<description>
 			<p>The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle’s wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by the land where you were initiated into the circle’s mysterious rites.</p>
@@ -301,7 +301,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURES_SANCTUARY" level="14" />
 		</rules>
 	</element>
-	<element name="Bonus Cantrip" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_BONUS_CANTRIP">
+	<element name="Bonus Cantrip" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_BONUS_CANTRIP">
 		<description>
 			<p>When you choose this circle at 2nd level, you learn one additional druid cantrip of your choice.</p>
 		</description>
@@ -310,7 +310,7 @@
 			<select type="Spell" name="Bonus Cantrip (Druid)" supports="0,Druid" spellcasting="Druid" />
 		</rules>
 	</element>
-	<element name="Natural Recovery" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURAL_RECOVERY">
+	<element name="Natural Recovery" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURAL_RECOVERY">
 		<description>
 			<p>Starting at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can’t use this feature again until you finish a long rest.</p>
 			<p class="indent">For example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level slot or two 1st-level slots.</p>
@@ -319,7 +319,7 @@
 			<description>During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level of {{level:druid:half:up}}, and none of the slots can be 6th level or higher.</description>
 		</sheet>
 	</element>
-	<element name="Circle Spells" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_CIRCLE_SPELLS">
+	<element name="Circle Spells" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_CIRCLE_SPELLS">
 		<description>
 			<p>Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land—arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark—and consult the associated list of spells.</p>
 			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
@@ -329,7 +329,7 @@
 			<select type="Archetype Feature" name="Circle Spells" supports="Circle Spells" level="3"/>
 		</rules>
 	</element>
-	<element name="Land’s Stride" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_LANDS_STRIDE">
+	<element name="Land’s Stride" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_LANDS_STRIDE">
 		<description>
 			<p>Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.</p>
 			<p class="indent">In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</p>
@@ -339,7 +339,7 @@
 			You have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</description>
 		</sheet>
 	</element>
-	<element name="Nature’s Ward" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURES_WARD">
+	<element name="Nature’s Ward" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURES_WARD">
 		<description>
 			<p>When you reach 10th level, you can’t be charmed or frightened by elementals or fey, and you are immune to poison and disease.</p>
 		</description>
@@ -347,7 +347,7 @@
 			<description>You can’t be charmed or frightened by elementals or fey, and you are immune to poison and disease.</description>
 		</sheet>
 	</element>
-	<element name="Nature’s Sanctuary" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURES_SANCTUARY">
+	<element name="Nature’s Sanctuary" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURES_SANCTUARY">
 		<description>
 			<p>When you reach 14th level, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.</p>
 			<p class="indent">The creature is aware of this effect before it makes its attack against you.</p>
@@ -357,7 +357,7 @@
 		</sheet>
 	</element>
 
-	<element name="Arctic Circle" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_ARCTIC">
+	<element name="Arctic Circle" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_ARCTIC">
 		<supports>Circle Spells</supports>
 		<description>
 			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
@@ -384,7 +384,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_CONE_OF_COLD" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
-	<element name="Coast Circle" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_COAST">
+	<element name="Coast Circle" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_COAST">
 		<supports>Circle Spells</supports>
 		<description>
 			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
@@ -411,7 +411,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
-	<element name="Desert Circle" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_DESERT">
+	<element name="Desert Circle" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_DESERT">
 		<supports>Circle Spells</supports>
 		<description>
 			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
@@ -438,7 +438,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_STONE" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
-	<element name="Forest Circle" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_FOREST">
+	<element name="Forest Circle" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_FOREST">
 		<supports>Circle Spells</supports>
 		<description>
 			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
@@ -465,7 +465,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_TREE_STRIDE" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
-	<element name="Grassland Circle" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_GRASSLAND">
+	<element name="Grassland Circle" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_GRASSLAND">
 		<supports>Circle Spells</supports>
 		<description>
 			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
@@ -492,7 +492,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
-	<element name="Mountain Circle" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_MOUNTAIN">
+	<element name="Mountain Circle" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_MOUNTAIN">
 		<supports>Circle Spells</supports>
 		<description>
 			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
@@ -518,7 +518,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_STONE" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
-	<element name="Swamp Circle" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_SWAMP">
+	<element name="Swamp Circle" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_SWAMP">
 		<supports>Circle Spells</supports>
 		<description>
 			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
@@ -545,7 +545,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
-	<element name="Underdark Circle" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_UNDERDARK">
+	<element name="Underdark Circle" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_UNDERDARK">
 		<supports>Circle Spells</supports>
 		<description>
 			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
@@ -572,7 +572,7 @@
 		</rules>
 	</element>
 
-	<element name="Circle of the Moon" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_CIRCLEOFTHEMOON">
+	<element name="Circle of the Moon" type="Archetype" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_CIRCLEOFTHEMOON">
 		<supports>Druid Circle</supports>
 		<description>
 			<p>Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might gofor weeks on end before crossing paths with another humanoid creature, let alone another druid.</p>
@@ -594,7 +594,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_THOUSAND_FORMS" level="14" />
 		</rules>
 	</element>
-	<element name="Combat Wild Shape" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_COMBAT_WILD_SHAPE">
+	<element name="Combat Wild Shape" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_COMBAT_WILD_SHAPE">
 		<description>
 			<p>When you choose this circle at 2nd level, you gain the ability to use Wild Shape on your turn as a bonus action, rather than as an action.</p>
 			<p class="indent">Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the spell slot expended.</p>
@@ -604,7 +604,7 @@
 			While you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain 1d8 hp per level of the spell slot expended.</description>
 		</sheet>
 	</element>
-	<element name="Circle Forms" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_CIRCLE_FORMS">
+	<element name="Circle Forms" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_CIRCLE_FORMS">
 		<description>
 			<p>The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a beast with a challenge rating as high as 1 (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).</p>
 			<p class="indent">Starting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.</p>
@@ -621,7 +621,7 @@
 			<stat name="circle forms:cr" value="6" level="18" bonus="base" />
 		</rules>
 	</element>
-	<element name="Primal Strike" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_PRIMAL_STRIKE">
+	<element name="Primal Strike" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_PRIMAL_STRIKE">
 		<description>
 			<p>Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
 		</description>
@@ -629,7 +629,7 @@
 			<description>Your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage..</description>
 		</sheet>
 	</element>
-	<element name="Elemental Wild Shape" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_ELEMENTAL_WILD_SHAPE">
+	<element name="Elemental Wild Shape" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_ELEMENTAL_WILD_SHAPE">
 		<description>
 			<p>At 10th level, you can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental.</p>
 		</description>
@@ -637,7 +637,7 @@
 			<description>You can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental.</description>
 		</sheet>
 	</element>
-	<element name="Thousand Forms" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_THOUSAND_FORMS">
+	<element name="Thousand Forms" type="Archetype Feature" source="Beginner's Guide" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_THOUSAND_FORMS">
 		<description>
 			<p>By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the alter self spell at will.</p>
 		</description>

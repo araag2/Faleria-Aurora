@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Guild Artisan" type="Background" source="Player’s Handbook" id="ID_BACKGROUND_GUILD_ARTISAN">
+	<element name="Guild Artisan" type="Background" source="Beginner's Guide" id="ID_BACKGROUND_GUILD_ARTISAN">
 		<description>
 			<p>You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right.</p>
 			<ul class="unstyled">
@@ -123,7 +123,7 @@
 		</rules>
 	</element>
 
-	<element name="Feature: Guild Membership" type="Background Feature" source="Player’s Handbook" id="ID_BACKGROUND_FEATURE_GUILD_MEMBERSHIP">
+	<element name="Feature: Guild Membership" type="Background Feature" source="Beginner's Guide" id="ID_BACKGROUND_FEATURE_GUILD_MEMBERSHIP">
 		<supports>Background Feature</supports>
 		<description>
 			<p>As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.</p>
@@ -133,7 +133,7 @@
 		<sheet alt="Guild Membership" />
 	</element>
 
-	<element name="Variant Guild Artisan: Guild Merchant" type="Background Variant" source="Player’s Handbook" id="ID_BACKGROUND_VARIANT_GUILD_MERCHANT">
+	<element name="Variant Guild Artisan: Guild Merchant" type="Background Variant" source="Beginner's Guide" id="ID_BACKGROUND_VARIANT_GUILD_MERCHANT">
 		<supports>Variant Guild Artisan</supports>
 		<description>
 			<p>Instead of an artisans’ guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You don’t craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant’s life lends itself to adventure far more than the life of an artisan.</p>
@@ -144,7 +144,7 @@
 			<select type="Background Feature" name="Guild Merchant Option" supports="Guild Merchant Option" />
 		</rules>
 	</element>
-	<element name="Navigator’s Tools" type="Background Feature" source="Player’s Handbook" id="ID_BACKGROUND_FEATURE_GUILD_MERCHANT_OPTION_A">
+	<element name="Navigator’s Tools" type="Background Feature" source="Beginner's Guide" id="ID_BACKGROUND_FEATURE_GUILD_MERCHANT_OPTION_A">
 		<supports>Guild Merchant Option</supports>
 		<description>
 			<p>Rather than proficiency with artisan’s tools, you might be proficient with navigator’s tools or an additional language.</p>
@@ -153,7 +153,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS" />
 		</rules>
 	</element>
-	<element name="Additional Language" type="Background Feature" source="Player’s Handbook" id="ID_BACKGROUND_FEATURE_GUILD_MERCHANT_OPTION_B">
+	<element name="Additional Language" type="Background Feature" source="Beginner's Guide" id="ID_BACKGROUND_FEATURE_GUILD_MERCHANT_OPTION_B">
 		<supports>Guild Merchant Option</supports>
 		<description>
 			<p>Rather than proficiency with artisan’s tools, you might be proficient with navigator’s tools or an additional language.</p>

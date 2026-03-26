@@ -6,7 +6,7 @@
 			<file name="race-halforc.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/races/race-halforc.xml" />
 		</update>
 	</info>
-	<element name="Half-Orc" type="Race" source="Player’s Handbook" id="ID_RACE_HALFORC">
+	<element name="Half-Orc" type="Race" source="Beginner's Guide" id="ID_RACE_HALFORC">
 		<description>
 			<p class="flavor">Whether united under the leadership of a mighty warlock or having fought to a standstill after years of conflict, orc and human tribes sometimes form alliances, joining forces into a larger horde to the terror of civilized lands nearby. When these alliances are sealed by marriages, half-orcs are born. Some half-orcs rise to become proud chiefs of orc tribes, their human blood giving them an edge over their full-blooded orc rivals. Some venture into the world to prove their worth among humans and other more civilized races. Many of these become adventurers, achieving greatness for their mighty deeds and notoriety for their barbaric customs and savage fury.</p>
 			<h4>SCARRED AND STRONG</h4>
@@ -58,7 +58,7 @@
 			<select type="Race Variant" name="Half-Orc Variant" supports="Half-Orc Variant" optional="true" />
 		</rules>
 	</element>	
-	<element name="Menacing" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_MENACING">
+	<element name="Menacing" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_MENACING">
 		<description>
 			<p>You gain proficiency in the Intimidation skill.</p>
 		</description>
@@ -69,7 +69,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
 		</rules>
 	</element>
-	<element name="Relentless Endurance" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_RELENTLESS_ENDURANCE">
+	<element name="Relentless Endurance" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_RELENTLESS_ENDURANCE">
 		<description>
 			<p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</p>
 		</description>
@@ -77,7 +77,7 @@
 			<description>When you are reduced to 0 hps but not killed outright, you can drop to 1 hp instead.</description>
 		</sheet>
 	</element>
-	<element name="Savage Attacks" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SAVAGE_ATTACKS">
+	<element name="Savage Attacks" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_SAVAGE_ATTACKS">
 		<description>
 			<p>When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</p>
 		</description>

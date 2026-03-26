@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Sailor" type="Background" source="Player’s Handbook" id="ID_BACKGROUND_SAILOR">
+	<element name="Sailor" type="Background" source="Beginner's Guide" id="ID_BACKGROUND_SAILOR">
 		<description>
 			<p>You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new.</p>
 			<p class="indent">Discuss the nature of the ship you previously sailed with your Dungeon Master. Was it a merchant ship, a naval vessel, a ship of discovery, or a pirate ship? How famous (or infamous) is it? Is it widely traveled? Is it still sailing, or is it missing and presumed lost with all hands?</p>
@@ -73,7 +73,7 @@
 		</rules>
 	</element>
 
-	<element name="Feature: Ship’s Passage" type="Background Feature" source="Player’s Handbook" id="ID_WOTC_PHB_BACKGROUND_FEATURE_SAILOR_SHIPS_PASSAGE">
+	<element name="Feature: Ship’s Passage" type="Background Feature" source="Beginner's Guide" id="ID_WOTC_PHB_BACKGROUND_FEATURE_SAILOR_SHIPS_PASSAGE">
 		<supports>Background Feature</supports>
 		<description>
 			<p>When you need to, you can secure free passage on a sailing ship for yourself and your adventuring companions. You might sail on the ship you served on, or another ship you have good relations with (perhaps one captained by a former crewmate). Because you’re calling in a favor, you can’t be certain of a schedule or route that will meet your every need. Your Dungeon Master will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage.</p>
@@ -81,7 +81,7 @@
 		<sheet alt="Ship’s Passage" />
 	</element>
 	
-	<element name="Variant Sailor: Pirate" type="Background Variant" source="Player’s Handbook" id="ID_WOTC_PHB_BACKGROUND_VARIANT_SAILOR_PIRATE">
+	<element name="Variant Sailor: Pirate" type="Background Variant" source="Beginner's Guide" id="ID_WOTC_PHB_BACKGROUND_VARIANT_SAILOR_PIRATE">
 		<supports>Background Variant, Sailor</supports>
 		<description>
 			<p>You spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and savages. You’ve indulged in larceny on the high seas and sent more than one deserving soul to a briny grave. Fear and bloodshed are no strangers to you, and you’ve garnered a somewhat unsavory reputation in many a port town.</p>
@@ -90,7 +90,7 @@
 		<sheet alt="Pirate" />
 	</element>
 	
-	<element name="Variant Feature: Bad Reputation" type="Background Feature" source="Player’s Handbook" id="ID_WOCT_PHB_BACKGROUND_FEATURE_PIRATE_BAD_REPUTATION">
+	<element name="Variant Feature: Bad Reputation" type="Background Feature" source="Beginner's Guide" id="ID_WOCT_PHB_BACKGROUND_FEATURE_PIRATE_BAD_REPUTATION">
 		<supports>Background Feature, Sailor</supports>
 		<description>
 			<p>If your character has a sailor background, you may select Ihis background feature instead of Ship’s Passage.</p>

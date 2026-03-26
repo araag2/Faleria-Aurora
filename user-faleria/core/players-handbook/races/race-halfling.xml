@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-  <element name="Halfling" type="Race" source="Player’s Handbook" id="ID_RACE_HALFLING">
+  <element name="Halfling" type="Race" source="Beginner's Guide" id="ID_RACE_HALFLING">
     <description>
       <p class="flavor">The comforts of home are the goals of most halfling’s lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies; a blazing fire and a generous meal; fine drink and fine conversation. Though some halflings live out their days in remote agricultural communities, others form nomadic bands that travel constantly, lured by the open road and the wide horizon to discover the wonders of new lands and peoples. But even these wanderers love peace, food, hearth, and home, though home might be a wagon jostling along an dirt road or a raft floating downriver.</p>
 
@@ -78,7 +78,7 @@
     </rules>
   </element>
 
-  <element name="Lucky" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_LUCKY">
+  <element name="Lucky" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_LUCKY">
     <description>
       <p>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p>
     </description>
@@ -86,7 +86,7 @@
       <description>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</description>
     </sheet>
   </element>
-  <element name="Brave" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_BRAVE">
+  <element name="Brave" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_BRAVE">
     <description>
       <p>You have advantage on saving throws against being frightened.</p>
     </description>
@@ -94,7 +94,7 @@
       <description>You have advantage on saving throws against being frightened.</description>
     </sheet>
   </element>
-  <element name="Halfling Nimbleness" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFLING_NIMBLENESS">
+  <element name="Halfling Nimbleness" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_HALFLING_NIMBLENESS">
     <description>
       <p>You can move through the space of any creature that is of a size larger than yours.</p>
     </description>
@@ -102,7 +102,7 @@
       <description>You can move through the space of any creature that is of a size larger than yours.</description>
     </sheet>
   </element>
-  <element name="Halfling Subrace" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFLING_SUBRACE">
+  <element name="Halfling Subrace" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_HALFLING_SUBRACE">
     <description>
       <p>The two main kinds of halfling, lightfoot and stout, are more like closely related families than true subraces. Choose one of these subraces.</p>
     </description>
@@ -112,7 +112,7 @@
     </rules>
   </element>
 
-  <element name="Lightfoot Halfling" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_LIGHTFOOT_HALFLING">
+  <element name="Lightfoot Halfling" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_LIGHTFOOT_HALFLING">
     <supports>Halfling</supports>
     <description>
       <p>As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You’re inclined to be affable and get along well with others. In the Forgotten Realms, lightfoot halflings have spread the farthest and thus are the most common variety.</p>
@@ -128,7 +128,7 @@
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NATURALLY_STEALTHY" />
     </rules>
   </element>
-  <element name="Stout Halfling" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_STOUT_HALFLING">
+  <element name="Stout Halfling" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_STOUT_HALFLING">
     <supports>Halfling</supports>
     <description>
       <p>As a stout halfling, you’re hardier than average and have some resistance to poison. Some say that stouts have dwarven blood. In the Forgotten Realms, these halflings are called stronghearts, and they’re most common in the south.</p>
@@ -144,7 +144,7 @@
     </rules>
   </element>
 
-  <element name="Naturally Stealthy" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_NATURALLY_STEALTHY">
+  <element name="Naturally Stealthy" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_NATURALLY_STEALTHY">
     <description>
       <p>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</p>
     </description>
@@ -152,7 +152,7 @@
       <description>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</description>
     </sheet>
   </element>
-  <element name="Stout Resilience" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_STOUT_RESILIENCE">
+  <element name="Stout Resilience" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_STOUT_RESILIENCE">
     <description>
       <p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
     </description>

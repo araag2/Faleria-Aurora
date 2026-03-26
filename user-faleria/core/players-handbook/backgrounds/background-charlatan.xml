@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Charlatan" type="Background" source="Player’s Handbook" id="ID_BACKGROUND_CHARLATAN">
+	<element name="Charlatan" type="Background" source="Beginner's Guide" id="ID_BACKGROUND_CHARLATAN">
 		<description>
 			<p>You have always had a way with people. You know what makes them tick, you can tease out their hearts’ desires after a few minutes of conversation, and with a few leading questions you can read them like they were children’s books. It’s a useful talent, and one that you’re perfectly willing to use for your advantage.</p>
 			<p class="indent">You know what people want and you deliver, or rather, you promise to deliver. Common sense should steer people away from things that sound too good to be true, but common sense seems to be in short supply when you’re around. The bottle of pink-colored liquid will surely cure that unseemly rash, this ointment—nothing more than a bit of fat with a sprinkle of silver dust—can restore youth and vigor, and there’s a bridge in the city that just happens to be for sale. These marvels sound implausible, but you make them sound like the real deal.</p>
@@ -90,7 +90,7 @@
 		</rules>
 	</element>
 	
-	<element name="Feature: False Identity" type="Background Feature" source="Player’s Handbook" id="ID_BACKGROUND_FEATURE_FALSE_IDENTITY">
+	<element name="Feature: False Identity" type="Background Feature" source="Beginner's Guide" id="ID_BACKGROUND_FEATURE_FALSE_IDENTITY">
 		<supports>Background Feature</supports>
 		<description>
 			<p>You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.</p>
