@@ -12,7 +12,6 @@
 		<file name="source.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/core/players-handbook/source.xml" />
 		
 		<!-- races -->
-		<file name="race-dragonborn.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/core/players-handbook/races/race-dragonborn.xml" />
 		<file name="race-dwarf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/core/players-handbook/races/race-dwarf.xml" />
 		<file name="race-elf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/core/players-handbook/races/race-elf.xml" />
 		<file name="race-gnome.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/core/players-handbook/races/race-gnome.xml" />
