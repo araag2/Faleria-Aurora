@@ -2,7 +2,7 @@
 <index>
     <info>
       <name>Faleria Content</name>
-      <update version="1.0.0">
+      <update version="1.0.1">
           <file name="user-faleria.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria.index" />
       </update>
     </info>
