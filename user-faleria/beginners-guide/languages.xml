@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Languages</name>
+		<update version="0.0.2">
+			<file name="languages.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/languages.xml" />
+		</update>
+	</info>
+
+	<!-- most languages were moved to Core's ALE.xml -->
+	<element name="Draconic" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_DRACONIC">
+		<requirements>!ID_WOTC_PHB24_LANGUAGE_DRACONIC</requirements>
+		<supports>Exotic</supports>
+		<description>
+			<p>Typically spoken by dragons and dragonborn.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Dragons, dragonborn</set>
+			<set name="script">Draconic</set>
+		</setters>
+	</element>
+
+</elements>

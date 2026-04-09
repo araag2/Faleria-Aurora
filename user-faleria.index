@@ -7,6 +7,6 @@
       </update>
     </info>
     <files>
-      <file name="beginners-guide.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/core/beginners-guide.index" />
+      <file name="beginners-guide.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide.index" />
     </files>
 </index>
