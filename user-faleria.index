@@ -7,6 +7,8 @@
       </update>
     </info>
     <files>
+    	<file name="internal.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/internal.xml" />
+		  <file name="ALE.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/ALE.xml" />
       <file name="beginners-guide.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide.index" />
     </files>
 </index>
