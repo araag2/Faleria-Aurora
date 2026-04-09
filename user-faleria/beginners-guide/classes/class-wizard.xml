@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Wizard</name>
-		<description>The Wizard class from the Player’s Handbook.</description>
+		<description>The Wizard class from the Beginner's Guide.</description>
 		<author url="https://faleria.pt/">Faleria</author>
 		<update version="0.3.5">
 			<file name="class-wizard.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-wizard.xml" />
 		</update>
 	</info>
 
-	<element name="Wizard" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_WIZARD">
+	<element name="Wizard" type="Class" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_WIZARD">
 		<description>
 			<p>Clad in the silver robes that denote her station, an elf closes her eyes to shut out the distractions of the battlefield and begins her quiet chant. Fingers weaving in front of her, she completes her spell and launches a tiny bead of fire toward the enemy ranks, where it erupts into a conflagration that engulfs the soldiers.</p>
 			<p class="indent">Checking and rechecking his work, a human scribes an intricate magic circle in chalk on the bare stone floor, then sprinkles powdered iron along every line and graceful curve. When the circle is complete, he drones a long incantation. A hole opens in space inside the circle, bringing a whiff of brimstone from the otherworldly plane beyond.</p>
@@ -79,12 +79,12 @@
 				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
 				<tr><td>20th</td><td class="left">Signature Spell</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
 			</table>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELL_MASTERY" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_SPELL_MASTERY" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" />
 		</description>
 		<sheet display="false">
 			<description>A scholarly magic-user capable of manipulating the structures of reality.</description>
@@ -95,22 +95,22 @@
 		</setters>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
-			<select type="Proficiency" name="Skill Proficiency (Wizard)" supports="Skill,Wizard" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" level="1"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" level="1" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" level="2" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" level="4" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELL_MASTERY" level="18" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" level="20" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_FALERIA_BG_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_FALERIA_BG_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_FALERIA_BG_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_FALERIA_BG_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_FALERIA_BG_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_FALERIA_BG_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_FALERIA_BG_MULTICLASS_WIZARD"/>
+			<select type="Proficiency" name="Skill Proficiency (Wizard)" supports="Skill,Wizard" number="2" requirements="!ID_FALERIA_BG_MULTICLASS_WIZARD"/>
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" level="1"/>
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" level="1" />
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" level="2" />
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" level="4" />
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_SPELL_MASTERY" level="18" />
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" level="20" />
 		</rules>
-		<multiclass id="ID_WOTC_PHB_MULTICLASS_WIZARD">
+		<multiclass id="ID_FALERIA_BG_MULTICLASS_WIZARD">
 			<prerequisite>Intelligence 13</prerequisite>
 			<requirements>([int:13],!(ID_WOTC_PHB24_CLASS_WIZARD||ID_WOTC_PHB24_MULTICLASS_WIZARD))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
 			<setters>
@@ -121,7 +121,7 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Spellcasting" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
+	<element name="Spellcasting" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_SPELLCASTING</requirements>
 		<description>
 			<p>As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power.</p>
@@ -206,7 +206,7 @@
 			<select type="Spell" name="Spellbook (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" number="2" spellcasting="Wizard" />
 		</rules>
 	</element>
-	<element name="Arcane Recovery" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY">
+	<element name="Arcane Recovery" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ARCANE_RECOVERY</requirements>
 		<description>
 			<p>You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.</p>
@@ -216,7 +216,7 @@
 			<description>Once per day when you finish a short rest, you can choose expended spell slots up to 5th level to recover. The spell slots can have a combined level that is equal to or less than {{level:wizard:half:up}}.</description>
 		</sheet>
 	</element>
-	<element name="Arcane Tradition" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION">
+	<element name="Arcane Tradition" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_ARCANE_TRADITION">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ARCANE_TRADITION</requirements>
 		<description>
 			<p>The study of wizardry is ancient, stretching back to the earliest mortal discoveries of magic. It is firmly established in fantasy gaming worlds, with various traditions dedicated to its complex study.</p>
@@ -229,7 +229,7 @@
 			<select type="Archetype" name="Arcane Tradition" supports="Arcane Tradition" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD">
+	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -244,7 +244,7 @@
 			<select type="Class Feature" name="Improvement Option (Wizard 19)" supports="Improvement Option,Wizard,19" level="19" />
 		</rules>
 	</element>
-	<element name="Spell Mastery" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELL_MASTERY">
+	<element name="Spell Mastery" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_SPELL_MASTERY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_SPELL_MASTERY</requirements>
 		<description>
 			<p>At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-­level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.</p>
@@ -255,7 +255,7 @@
 			By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels.</description>
 		</sheet>
 	</element>
-	<element name="Signature Spells" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS">
+	<element name="Signature Spells" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_SIGNATURE_SPELLS</requirements>
 		<description>
 			<p>When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-­level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don’t count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can’t do so again until you finish a short or long rest.</p>

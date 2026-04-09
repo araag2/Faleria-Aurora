@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Warlock</name>
-		<description>The Warlock class from the Player’s Handbook.</description>
+		<description>The Warlock class from the Beginner's Guide.</description>
 		<author url="https://faleria.pt/">Faleria</author>
 		<update version="0.4.0">
 			<file name="class-warlock.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-warlock.xml" />
 		</update>
 	</info>
 
-	<element name="Warlock" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_WARLOCK">
+	<element name="Warlock" type="Class" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_WARLOCK">
 		<description>
 			<p>With a pseudodragon curled on his shoulder, a young elf in golden robes smiles warmly, weaving a magical charm into his honeyed words and bending the palace sentinel to his will.</p>
 			<p class="indent">As flames spring to life in her hands, a wizened human whispers the secret name of her demonic patron, infusing her spell with fiendish magic. Shifting his gaze between a battered tome and the odd alignment of the stars overhead, a wild-eyed tiefling chants the mystic ritual that will open a doorway to a distant world.</p>
@@ -80,13 +80,13 @@
 				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>8</td></tr>
 				<tr><td>20th</td><td class="left">Eldritch Master</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>8</td></tr>
 			</table>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_PACT_BOON" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER" />
 		</description>
 		<sheet display="false">
 			<description>A wielder of magic that is derived from a bargain with an extraplanar entity.</description>
@@ -96,20 +96,20 @@
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
-			<select type="Proficiency" name="Skill Proficiency (Warlock)" supports="Skill,Warlock" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON" level="1"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" level="1" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" level="2" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON" level="3" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK" level="4" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM" level="11" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER" level="20" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_WARLOCK"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_FALERIA_BG_MULTICLASS_WARLOCK"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_FALERIA_BG_MULTICLASS_WARLOCK"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_FALERIA_BG_MULTICLASS_WARLOCK"/>
+			<select type="Proficiency" name="Skill Proficiency (Warlock)" supports="Skill,Warlock" number="2" requirements="!ID_FALERIA_BG_MULTICLASS_WARLOCK"/>
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON" level="1"/>
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" level="1" />
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" level="2" />
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_PACT_BOON" level="3" />
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK" level="4" />
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM" level="11" />
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER" level="20" />
 		</rules>
-		<multiclass id="ID_WOTC_PHB_MULTICLASS_WARLOCK">
+		<multiclass id="ID_FALERIA_BG_MULTICLASS_WARLOCK">
 			<prerequisite>Charisma 13</prerequisite>
 			<requirements>([cha:13],!(ID_WOTC_PHB24_CLASS_WARLOCK||ID_WOTC_PHB24_MULTICLASS_WARLOCK))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
 			<setters>
@@ -122,7 +122,7 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Otherworldly Patron" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON">
+	<element name="Otherworldly Patron" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_OTHERWORLDLY_PATRON</requirements>
 		<description>
 			<p>At 1st level, you have struck a bargain with an otherworldly being of your choice.</p>
@@ -132,7 +132,7 @@
 			<select type="Archetype" name="Otherworldly Patron" supports="Otherworldly Patron" />
 		</rules>
 	</element>
-	<element name="Pact Magic" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
+	<element name="Pact Magic" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_SPELLCASTING_PACT_MAGIC</requirements>
 		<description>
 			<p>Your arcane research and the magic bestowed on you by your patron have given you facility with spells.</p>
@@ -206,7 +206,7 @@
 			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Warlock"/>
 		</rules>
 	</element>
-	<element name="Eldritch Invocations" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS">
+	<element name="Eldritch Invocations" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_INVOCATIONS</requirements>
 		<description>
 			<p>In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.</p>
@@ -223,7 +223,7 @@
 			<select type="Class Feature" name="Eldritch Invocation (Level 18)" supports="Eldritch Invocation" level="18" />
 		</rules>
 	</element>
-	<element name="Pact Boon" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON">
+	<element name="Pact Boon" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_PACT_BOON">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_PACT_BOON</requirements>
 		<description>
 			<p>At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.</p>
@@ -244,7 +244,7 @@
 			<select type="Class Feature" name="Pact Boon" supports="Pact Boon" level="3"/>
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK">
+	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -259,7 +259,7 @@
 			<select type="Class Feature" name="Improvement Option (Warlock 19)" supports="Improvement Option,Warlock,19" level="19" />
 		</rules>
 	</element>
-	<element name="Mystic Arcanum" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM">
+	<element name="Mystic Arcanum" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_MYSTIC_ARCANUM</requirements>
 		<description>
 			<p>At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th-level spell from the warlock spell list as this arcanum.</p>
@@ -276,7 +276,7 @@
 			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,9" level="17" spellcasting="Warlock" />
 		</rules>
 	</element>
-	<element name="Eldritch Master" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER">
+	<element name="Eldritch Master" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_MASTER</requirements>
 		<description>
 			<p>At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again.</p>
@@ -286,14 +286,14 @@
 		</sheet>
 	</element>
 
-	<element name="Pact of the Chain" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN">
+	<element name="Pact of the Chain" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN">
 		<supports>Pact Boon</supports>
 		<description>
 			<p>You learn the <em>find familiar</em> spell and can cast it as a ritual. The spell doesn’t count against your number of spells known.</p>
 			<p class="indent">When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.</p>
 			<p class="indent">Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack with its reaction.</p>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_FIND_FAMILIAR" />
+				<div element="ID_FALERIA_BG_SPELL_FIND_FAMILIAR" />
 			</div>
 		</description>
 		<sheet>
@@ -301,11 +301,11 @@
 			Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack with its reaction.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_FIND_FAMILIAR" spellcasting="Warlock" />
 			<select type="Companion" name="Familiar, Pact of the Chain" supports="Familiar||Variant Familiar" />
 		</rules>
 	</element>
-	<element name="Pact of the Tome" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME">
+	<element name="Pact of the Tome" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME">
 		<supports>Pact Boon</supports>
 		<description>
 			<p>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class’s spell list (the three needn’t be from the same list). While the book is on your person, you can cast those cantrips at will. They don’t count against your number of cantrips known. If they don’t appear on the warlock spell list, they are nonetheless warlock spells for you.</p>
@@ -319,7 +319,7 @@
 			<select type="Spell" name="Cantrip (Pact of the Tome)" supports="0" level="1" number="3" spellcasting="Warlock"/>
 		</rules>
 	</element>
-	<element name="Pact of the Blade" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE">
+	<element name="Pact of the Blade" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE">
 		<supports>Pact Boon</supports>
 		<description>
 			<p>You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>

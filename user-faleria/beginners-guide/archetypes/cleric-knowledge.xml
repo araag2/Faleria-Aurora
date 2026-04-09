@@ -6,7 +6,7 @@
 		</update>
 	</info>
 
-	<element name="Knowledge Domain" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_CLERIC_KNOWLEDGE_DOMAIN">
+	<element name="Knowledge Domain" type="Archetype" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_CLERIC_KNOWLEDGE_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
 			<p>The gods of knowledge—including Oghma, Boccob, Gilean, Aureon, and Thoth—value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.</p>
@@ -21,34 +21,34 @@
 				<tr><td>7th</td><td><em>arcane eye, confusion</em></td></tr>
 				<tr><td>9th</td><td><em>legend lore, scrying</em></td></tr>
 			</table>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_POTENT_SPELLCASTING" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_POTENT_SPELLCASTING" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST" />
 		</description>
 		<sheet display="false">
 			<description>The gods of knowledge value learning and understanding above all.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_COMMAND" level="1" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_IDENTIFY" level="1" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_AUGURY" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_NONDETECTION" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_CONFUSION" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_LEGEND_LORE" level="9" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="9" spellcasting="Cleric" prepared="true" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE" level="1"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES" level="2"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS" level="6"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_POTENT_SPELLCASTING" level="8"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST" level="17"/>
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_COMMAND" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_IDENTIFY" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_AUGURY" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_SUGGESTION" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_NONDETECTION" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_SPEAK_WITH_DEAD" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_ARCANE_EYE" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_CONFUSION" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_LEGEND_LORE" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_SCRYING" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE" level="1"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES" level="2"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS" level="6"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_POTENT_SPELLCASTING" level="8"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST" level="17"/>
 		</rules>
 	</element>
-	<element name="Blessings of Knowledge" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE">
+	<element name="Blessings of Knowledge" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE</requirements>
 		<description>
 			<p>At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: Arcana, History, Nature, or Religion.</p>
@@ -60,7 +60,7 @@
 			<select type="Archetype Feature" name="Blessings of Knowledge" supports="Blessings of Knowledge" number="2"/>
 		</rules>
 	</element>
-	<element name="Blessings of Knowledge (Arcana)" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_ARCANA">
+	<element name="Blessings of Knowledge (Arcana)" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_ARCANA">
 		<supports>Blessings of Knowledge</supports>
 		<description>
 			<p>You become proficient in Arcana.</p>
@@ -73,7 +73,7 @@
 			<stat name="arcana:proficiency" value="proficiency" bonus="double"/>
 		</rules>
 	</element>
-	<element name="Blessings of Knowledge (History)" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_HISTORY">
+	<element name="Blessings of Knowledge (History)" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_HISTORY">
 		<supports>Blessings of Knowledge</supports>
 		<description>
 			<p>You become proficient in History.</p>
@@ -86,7 +86,7 @@
 			<stat name="history:proficiency" value="proficiency" bonus="double"/>
 		</rules>
 	</element>
-	<element name="Blessings of Knowledge (Nature)" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_NATURE">
+	<element name="Blessings of Knowledge (Nature)" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_NATURE">
 		<supports>Blessings of Knowledge</supports>
 		<description>
 			<p>You become proficient in Nature.</p>
@@ -99,7 +99,7 @@
 			<stat name="nature:proficiency" value="proficiency" bonus="double"/>
 		</rules>
 	</element>
-	<element name="Blessings of Knowledge (Religion)" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_RELIGION">
+	<element name="Blessings of Knowledge (Religion)" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_RELIGION">
 		<supports>Blessings of Knowledge</supports>
 		<description>
 			<p>You become proficient in Religion.</p>
@@ -112,7 +112,7 @@
 			<stat name="religion:proficiency" value="proficiency" bonus="double"/>
 		</rules>
 	</element>
-	<element name="Channel Divinity: Knowledge of the Ages" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES">
+	<element name="Channel Divinity: Knowledge of the Ages" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES</requirements>
 		<supports>Channel Divinity</supports>
 		<description>
@@ -122,7 +122,7 @@
 			<description>You choose one skill or tool. For 10 minutes, you have proficiency with the chosen skill or tool.</description>
 		</sheet>
 	</element>
-	<element name="Read Thoughts" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS">
+	<element name="Read Thoughts" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS</requirements>
 		<description>
 			<p>At 6th level, you can use your Channel Divinity to read a creature’s thoughts. You can then use your access to the creature’s mind to command it.</p>
@@ -134,11 +134,11 @@
 			<description>Choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature fails its save, you can read its surface thoughts when it is within 60 feet of you. This effect lasts for 1 minute. During that time, you can use your action to end this effect and cast the suggestion spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell.</description>
 		</sheet>
 		<rules>
-			<!-- <grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" />spellcasting="Cleric" prepared="true" -->
-			<!-- <set target="ID_PHB_SPELL_SUGGESTION" parent="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS" field="name" value="Read Thoughts: Suggestion" /> -->
+			<!-- <grant type="Spell" id="ID_FALERIA_BG_SPELL_SUGGESTION" />spellcasting="Cleric" prepared="true" -->
+			<!-- <set target="ID_FALERIA_BG_SPELL_SUGGESTION" parent="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS" field="name" value="Read Thoughts: Suggestion" /> -->
 		</rules>
 	</element>
-	<element name="Potent Spellcasting" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_POTENT_SPELLCASTING">
+	<element name="Potent Spellcasting" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_POTENT_SPELLCASTING">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING</requirements>
 		<description>
 			<p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>
@@ -147,7 +147,7 @@
 			<description>+{{wisdom:modifier}} to the damage you deal with any cleric cantrip.</description>
 		</sheet>
 	</element>
-	<element name="Visions of the Past" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST">
+	<element name="Visions of the Past" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST</requirements>
 		<description>
 			<p>Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain concentration during that time, as if you were casting a spell.</p>

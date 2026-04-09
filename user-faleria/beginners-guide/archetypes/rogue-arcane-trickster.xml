@@ -6,29 +6,29 @@
 		</update>
 	</info>
 
-	<element name="Arcane Trickster" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_ARCANE_TRICKSTER">
+	<element name="Arcane Trickster" type="Archetype" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_ARCANE_TRICKSTER">
 		<supports>Roguish Archetype</supports>
 		<description>
 			<p>Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.</p>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELLCASTING" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGE_HAND_LEGERDEMAIN" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGICAL_AMBUSH" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELL_THIEF" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELLCASTING" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGE_HAND_LEGERDEMAIN" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGICAL_AMBUSH" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELL_THIEF" />
 		</description>
 		<sheet display="false">
 			<description>You enhance you fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELLCASTING" level="3"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGE_HAND_LEGERDEMAIN" level="3"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGICAL_AMBUSH" level="9"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER" level="13"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELL_THIEF" level="17"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELLCASTING" level="3"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGE_HAND_LEGERDEMAIN" level="3"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGICAL_AMBUSH" level="9"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER" level="13"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELL_THIEF" level="17"/>
 		</rules>
 	</element>
 
-	<element name="Spellcasting" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELLCASTING">
+	<element name="Spellcasting" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELLCASTING">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_SPELLCASTING</requirements>
 		<description>
 			<p>When you reach 3rd level, you gain the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.</p>
@@ -86,7 +86,7 @@
 			<stat name="arcane trickster:spellcasting:slots:3" value="1" level="16" />
 			<stat name="arcane trickster:spellcasting:slots:4" value="1" level="19" />
 
-			<grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" level="3" spellcasting="Arcane Trickster" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_MAGE_HAND" level="3" spellcasting="Arcane Trickster" />
 			<select type="Spell" name="Cantrip (Arcane Trickster)" supports="Wizard, 0" level="3" number="2" spellcasting="Arcane Trickster" />
 			<select type="Spell" name="Cantrip (Arcane Trickster)" supports="Wizard, 0" level="10" number="1" spellcasting="Arcane Trickster" />
 			<select type="Spell" name="Spell (Arcane Trickster)" supports="Wizard, 1" level="3" number="1" spellcasting="Arcane Trickster" />
@@ -103,7 +103,7 @@
 			<select type="Spell" name="Spell (Arcane Trickster)" supports="(Wizard||$(spellcasting:list)), $(spellcasting:slots)" level="20" spellcasting="Arcane Trickster"/>
 		</rules>
 	</element>
-	<element name="Mage Hand Legerdemain" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGE_HAND_LEGERDEMAIN">
+	<element name="Mage Hand Legerdemain" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGE_HAND_LEGERDEMAIN">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_MAGE_HAND_LEGERDEMAIN</requirements>
 		<description>
 			<p>Starting at 3rd level, when you cast mage hand, you can make the spectral hand invisible, and you can perform the following additional tasks with it:</p>
@@ -121,7 +121,7 @@
 			You can perform one of these tasks without being noticed by a creature if you succeed on a Sleight of Hand check contested by the creature’s Perception check. In addition, you can use the bonus action granted by your Cunning Action to control the hand.</description>
 		</sheet>
 	</element>
-	<element name="Magical Ambush" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGICAL_AMBUSH">
+	<element name="Magical Ambush" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGICAL_AMBUSH">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_MAGICAL_AMBUSH</requirements>
 		<description>
 			<p>Starting at 9th level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn.</p>
@@ -130,7 +130,7 @@
 			<description>If you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn.</description>
 		</sheet>
 	</element>
-	<element name="Versatile Trickster" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER">
+	<element name="Versatile Trickster" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER</requirements>
 		<description>
 			<p>At 13th level, you gain the ability to distract targets with your mage hand. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.</p>
@@ -139,7 +139,7 @@
 			<description>On your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.</description>
 		</sheet>
 	</element>
-	<element name="Spell Thief" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELL_THIEF">
+	<element name="Spell Thief" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELL_THIEF">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_SPELL_THIEF</requirements>
 		<description>
 			<p>At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.</p>

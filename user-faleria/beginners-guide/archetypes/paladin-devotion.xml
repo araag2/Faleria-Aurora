@@ -6,7 +6,7 @@
 		</update>
 	</info>
 
-	<element name="Oath of Devotion" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_PALADIN_OATH_OF_DEVOTION">
+	<element name="Oath of Devotion" type="Archetype" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_PALADIN_OATH_OF_DEVOTION">
 		<supports>Sacred Oath</supports>
 		<description>
 			<p>The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods’ tenets as the measure of their devotion. They hold angels—the perfect servants of good—as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.</p>
@@ -17,22 +17,22 @@
 			<p class="indent"><strong><em>Compassion.</em></strong> Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.</p>
 			<p class="indent"><strong><em>Honor.</em></strong> Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.</p>
 			<p class="indent"><strong><em>Duty.</em></strong> Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.</p>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_DEVOTION_OATH_SPELLS" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_DEVOTION_CHANNEL_DIVINITY" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_AURA_OF_DEVOTION" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_PURITY_OF_SPIRIT" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_HOLY_NIMBUS" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_DEVOTION_OATH_SPELLS" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_DEVOTION_CHANNEL_DIVINITY" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_AURA_OF_DEVOTION" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_PURITY_OF_SPIRIT" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_HOLY_NIMBUS" />
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_DEVOTION_OATH_SPELLS" level="3" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_DEVOTION_CHANNEL_DIVINITY" level="3" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_AURA_OF_DEVOTION" level="7" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_PURITY_OF_SPIRIT" level="15" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_HOLY_NIMBUS" level="20" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_DEVOTION_OATH_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_DEVOTION_CHANNEL_DIVINITY" level="3" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_AURA_OF_DEVOTION" level="7" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_PURITY_OF_SPIRIT" level="15" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_HOLY_NIMBUS" level="20" />
 		</rules>
 	</element>
-	<element name="Oath Spells" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_DEVOTION_OATH_SPELLS">
+	<element name="Oath Spells" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_DEVOTION_OATH_SPELLS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_DEVOTION_OATH_SPELLS</requirements>
 		<description>
 			<p>You gain oath spells at the paladin levels listed.</p>
@@ -50,19 +50,19 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="3" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SANCTUARY" level="3" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION" level="5" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_ZONE_OF_TRUTH" level="5" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_BEACON_OF_HOPE" level="9" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" level="9" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="13" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="13" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_COMMUNE" level="17" spellcasting="Paladin" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="17" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="3" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_SANCTUARY" level="3" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_LESSER_RESTORATION" level="5" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_ZONE_OF_TRUTH" level="5" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_BEACON_OF_HOPE" level="9" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_DISPEL_MAGIC" level="9" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_FREEDOM_OF_MOVEMENT" level="13" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_GUARDIAN_OF_FAITH" level="13" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_COMMUNE" level="17" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_FLAME_STRIKE" level="17" spellcasting="Paladin" prepared="true" />
 		</rules>
 	</element>
-	<element name="Channel Divinity" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_DEVOTION_CHANNEL_DIVINITY">
+	<element name="Channel Divinity" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_DEVOTION_CHANNEL_DIVINITY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_DEVOTION_CHANNEL_DIVINITY</requirements>
 		<description>
 			<p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
@@ -73,11 +73,11 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_CHANNEL_DIVINITY_SACRED_WEAPON" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_CHANNEL_DIVINITY_TURN_THE_UNHOLY" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_CHANNEL_DIVINITY_SACRED_WEAPON" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_CHANNEL_DIVINITY_TURN_THE_UNHOLY" />
 		</rules>
 	</element>
-	<element name="Channel Divinity: Sacred Weapon" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_CHANNEL_DIVINITY_SACRED_WEAPON">
+	<element name="Channel Divinity: Sacred Weapon" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_CHANNEL_DIVINITY_SACRED_WEAPON">
 		<description>
 			<p>As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration.</p>
 			<p class="indent">You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</p>
@@ -87,7 +87,7 @@
 			You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</description>
 		</sheet>
 	</element>
-	<element name="Channel Divinity: Turn the Unholy" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_CHANNEL_DIVINITY_TURN_THE_UNHOLY">
+	<element name="Channel Divinity: Turn the Unholy" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_CHANNEL_DIVINITY_TURN_THE_UNHOLY">
 		<description>
 			<p>As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.</p>
 			<p class="indent">A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</p>
@@ -97,7 +97,7 @@
 			A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</description>
 		</sheet>
 	</element>
-	<element name="Aura of Devotion" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_AURA_OF_DEVOTION">
+	<element name="Aura of Devotion" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_AURA_OF_DEVOTION">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_DEVOTION_AURA_OF_DEVOTION</requirements>
 		<description>
 			<p>Starting at 7th level, you and friendly creatures within 10 feet of you can’t be charmed while you are conscious.</p>
@@ -111,19 +111,19 @@
 			<stat name="aura of devotion:range" value="30" level="18" />
 		</rules>
 	</element>
-	<element name="Purity of Spirit" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_PURITY_OF_SPIRIT">
+	<element name="Purity of Spirit" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_PURITY_OF_SPIRIT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_DEVOTION_PURITY_OF_SPIRIT</requirements>
 		<description>
 			<p>Beginning at 15th level, you are always under the effects of a <em>protection from evil and good</em> spell.</p>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" />
+				<div element="ID_FALERIA_BG_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" />
 			</div>
 		</description>
 		<sheet>
 			<description>You are always under the effects of a protection from evil and good spell.</description>
 		</sheet>
 	</element>
-	<element name="Holy Nimbus" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_HOLY_NIMBUS">
+	<element name="Holy Nimbus" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_PALADIN_HOLY_NIMBUS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_DEVOTION_HOLY_NIMBUS</requirements>
 		<description>
 			<p>At 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.</p>

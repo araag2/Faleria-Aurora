@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Druid</name>
-		<description>The Druid class from the Player’s Handbook.</description>
+		<description>The Druid class from the Beginner's Guide.</description>
 		<author url="https://faleria.pt/">Faleria</author>
 		<update version="0.3.2">
 			<file name="class-druid.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-druid.xml" />
 		</update>
 	</info>
 
-	<element name="Druid" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_DRUID">
+	<element name="Druid" type="Class" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_DRUID">
 		<description>
 			<!-- <p class="flavor">A priest of the Old Faith, wielding the powers of nature— moonlight and plant growth, fire and lightning—and adopting animal forms.</p> -->
 			<p>Holding high a gnarled staff wreathed with holly, an elf summons the fury of the storm and calls down explosive bolts of lightning to smite the torch-carrying orcs who threaten her forest.</p>
@@ -79,14 +79,14 @@
 				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
 				<tr><td>20th</td><td class="left">Archdruid</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
 			</table>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUIDIC" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_WILDSHAPE" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUID_CIRCLE" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_TIMELESS_BODY" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_BEAST_SPELLS" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ARCHDRUID" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_DRUID_DRUIDIC" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_DRUID_WILDSHAPE" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_DRUID_DRUID_CIRCLE" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_DRUID_TIMELESS_BODY" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_DRUID_BEAST_SPELLS" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_DRUID_ARCHDRUID" />
 		</description>
 		<sheet display="false">
 			<description>A priest of the Old Faith, wielding the powers of nature—moonlight and plant growth, fire and lightning—and adopting animal forms.</description>
@@ -96,33 +96,33 @@
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<select type="Proficiency" name="Skill Proficiency (Druid)" supports="Skill,Druid" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUIDIC" level="1"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID" level="1"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_WILDSHAPE" level="2"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUID_CIRCLE" level="2"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID" level="4"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_TIMELESS_BODY" level="18"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_BEAST_SPELLS" level="18"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ARCHDRUID" level="20"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<select type="Proficiency" name="Skill Proficiency (Druid)" supports="Skill,Druid" number="2" requirements="!ID_FALERIA_BG_MULTICLASS_DRUID"/>
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_DRUIDIC" level="1"/>
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID" level="1"/>
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_WILDSHAPE" level="2"/>
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_DRUID_CIRCLE" level="2"/>
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID" level="4"/>
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_TIMELESS_BODY" level="18"/>
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_BEAST_SPELLS" level="18"/>
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_ARCHDRUID" level="20"/>
 		</rules>
-		<multiclass id="ID_WOTC_PHB_MULTICLASS_DRUID">
+		<multiclass id="ID_FALERIA_BG_MULTICLASS_DRUID">
 			<prerequisite>Wisdom 13</prerequisite>
 			<requirements>([wis:13],!(ID_WOTC_PHB24_CLASS_DRUID||ID_WOTC_PHB24_MULTICLASS_DRUID))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
 			<setters>
@@ -136,7 +136,7 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Druidic" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUIDIC">
+	<element name="Druidic" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_DRUIDIC">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_DRUIDIC</requirements>
 		<description>
 			<p>You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message’s presence with a successful DC 15 Wisdom (Perception) check but can’t decipher it without magic.</p>
@@ -148,7 +148,7 @@
 			<grant type="Language" id="ID_LANGUAGE_DRUIDIC" />
 		</rules>
 	</element>
-	<element name="Spellcasting" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID">
+	<element name="Spellcasting" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_SPELLCASTING</requirements>
 		<description>
 			<p>Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will.</p>
@@ -208,7 +208,7 @@
 			<select type="Spell" name="Cantrip (Druid)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Druid" />
 		</rules>
 	</element>
-	<element name="Wild Shape" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_WILDSHAPE">
+	<element name="Wild Shape" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_WILDSHAPE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_WILD_SHAPE</requirements>
 		<description>
 			<p>Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.</p>
@@ -242,7 +242,7 @@
 			<stat name="druid wildshape:hours" value="level:druid:half" />
 		</rules>
 	</element>
-	<element name="Druid Circle" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUID_CIRCLE">
+	<element name="Druid Circle" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_DRUID_CIRCLE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_DRUID_CIRCLE</requirements>
 		<description>
 			<p>At 2nd level, you choose to identify with a circle of druids: the Circle of the Land or the Circle of the Moon, both detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</p>
@@ -254,7 +254,7 @@
 			<select type="Archetype" name="Druid Circle" supports="Druid Circle" level="2"/>
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID">
+	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -269,7 +269,7 @@
 			<select type="Class Feature" name="Improvement Option (Druid 19)" supports="Improvement Option,Druid,19" level="19" />
 		</rules>
 	</element>
-	<element name="Timeless Body" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_TIMELESS_BODY">
+	<element name="Timeless Body" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_TIMELESS_BODY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_TIMELESS_BODY</requirements>
 		<description>
 			<p>Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.</p>
@@ -278,7 +278,7 @@
 			<description>For every 10 years that pass, your body ages only 1 year.</description>
 		</sheet>
 	</element>
-	<element name="Beast Spells" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_BEAST_SPELLS">
+	<element name="Beast Spells" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_BEAST_SPELLS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_BEAST_SPELLS</requirements>
 		<description>
 			<p>Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren’t able to provide material components.</p>
@@ -288,7 +288,7 @@
 			You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren’t able to provide material components.</description>
 		</sheet>
 	</element>
-	<element name="Archdruid" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ARCHDRUID">
+	<element name="Archdruid" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_DRUID_ARCHDRUID">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_ARCHDRUID</requirements>
 		<description>
 			<p>At 20th level, you can use your Wild Shape an unlimited number of times.</p>

@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Human" type="Race" source="Player’s Handbook" id="ID_RACE_HUMAN">
+	<element name="Human" type="Race" source="Beginner's Guide" id="ID_RACE_HUMAN">
 		<description>
 			<p class="flavor">In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that’s why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.</p>
 
@@ -89,27 +89,27 @@
 			<set name="weight" modifier="2d4">110 lb.</set>
 		</setters>
 		<rules>
-			<stat name="strength" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
-			<stat name="dexterity" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
-			<stat name="constitution" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
-			<stat name="intelligence" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
-			<stat name="wisdom" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
-			<stat name="charisma" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
+			<stat name="strength" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_FALERIA_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
+			<stat name="dexterity" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_FALERIA_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
+			<stat name="constitution" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_FALERIA_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
+			<stat name="intelligence" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_FALERIA_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
+			<stat name="wisdom" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_FALERIA_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
+			<stat name="charisma" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_FALERIA_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
 			<grant type="Size" id="ID_SIZE_MEDIUM"/>
 			<stat name="innate speed" value="30" bonus="base"/>
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Language (Human)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT,!ID_WOTC_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_FALERIA_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_FALERIA_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Language (Human)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT,!ID_FALERIA_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_HUMAN"/>
 			<select type="Race Variant" name="Human Variant" supports="Human" optional="true" />
 		</rules>
 	</element>
 
-	<element name="Human Variant" type="Race Variant" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT">
+	<element name="Human Variant" type="Race Variant" source="Beginner's Guide" id="ID_RACE_VARIANT_HUMAN_VARIANT">
 		<supports>Human</supports>
 		<requirements>ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
 		<description>
-			<p>If your campaign uses the optional feat rules from the Player’s Handbook, your Dungeon Master might allow these variant traits, all of which replace the human’s Ability Score Increase trait.</p>
+			<p>If your campaign uses the optional feat rules from the Beginner's Guide, your Dungeon Master might allow these variant traits, all of which replace the human’s Ability Score Increase trait.</p>
 			<p>
 				<span class="feature">Ability Score Increase.</span>Two different ability scores of your choice increase by 1.<br />
 				<span class="feature">Skills.</span>You gain proficiency in one skill of your choice.<br />
@@ -135,7 +135,7 @@
 
 
 	<!--Human Variant Ability Score Increase-->
-	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_STRENGTH">
+	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Beginner's Guide" id="ID_RACE_VARIANT_HUMAN_VARIANT_STRENGTH">
 		<compendium display="false" />
 		<supports>Human Variant</supports>
 		<description>
@@ -146,7 +146,7 @@
 			<stat name="strength" value="1" alt="Human Variant" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_DEXTERITY">
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Beginner's Guide" id="ID_RACE_VARIANT_HUMAN_VARIANT_DEXTERITY">
 		<compendium display="false" />
 		<supports>Human Variant</supports>
 		<description>
@@ -157,7 +157,7 @@
 			<stat name="dexterity" value="1" alt="Human Variant" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_CONSTITUTION">
+	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Beginner's Guide" id="ID_RACE_VARIANT_HUMAN_VARIANT_CONSTITUTION">
 		<compendium display="false" />
 		<supports>Human Variant</supports>
 		<description>
@@ -168,7 +168,7 @@
 			<stat name="constitution" value="1" alt="Human Variant" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_INTELLIGENCE">
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Beginner's Guide" id="ID_RACE_VARIANT_HUMAN_VARIANT_INTELLIGENCE">
 		<compendium display="false" />
 		<supports>Human Variant</supports>
 		<description>
@@ -179,7 +179,7 @@
 			<stat name="intelligence" value="1" alt="Human Variant" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_WISDOM">
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Beginner's Guide" id="ID_RACE_VARIANT_HUMAN_VARIANT_WISDOM">
 		<compendium display="false" />
 		<supports>Human Variant</supports>
 		<description>
@@ -190,7 +190,7 @@
 			<stat name="wisdom" value="1" alt="Human Variant" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_CHARISMA">
+	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Beginner's Guide" id="ID_RACE_VARIANT_HUMAN_VARIANT_CHARISMA">
 		<compendium display="false" />
 		<supports>Human Variant</supports>
 		<description>

@@ -8,7 +8,7 @@
 	</info>
 
 	<!-- most languages were moved to Core's ALE.xml -->
-	<element name="Draconic" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_DRACONIC">
+	<element name="Draconic" type="Language" source="Beginner's Guide" id="ID_LANGUAGE_DRACONIC">
 		<requirements>!ID_WOTC_PHB24_LANGUAGE_DRACONIC</requirements>
 		<supports>Exotic</supports>
 		<description>

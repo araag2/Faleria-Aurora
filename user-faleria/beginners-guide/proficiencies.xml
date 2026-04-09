@@ -8,7 +8,7 @@
 	</info>
 
 	<!-- most proficiencies can be found in Core's ALE.xml -->
-	<element name="Weapon Proficiency (Polearms)" type="Proficiency" source="Player’s Handbook" id="ID_INTERNAL_PROFICIENCY_GROUP_POLEARMS">
+	<element name="Weapon Proficiency (Polearms)" type="Proficiency" source="Beginner's Guide" id="ID_INTERNAL_PROFICIENCY_GROUP_POLEARMS">
 		<requirements>!ID_WOTC_PHB24_PROFICIENCY_GROUP_POLEARMS</requirements>
 		<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
 		<rules>

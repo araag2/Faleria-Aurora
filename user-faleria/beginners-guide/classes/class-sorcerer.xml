@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Sorcerer</name>
-		<description>The Sorcerer class from the Player’s Handbook.</description>
+		<description>The Sorcerer class from the Beginner's Guide.</description>
 		<author url="https://faleria.pt/">Faleria</author>
 		<update version="0.3.0">
 			<file name="class-sorcerer.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-sorcerer.xml" />
 		</update>
 	</info>
 
-	<element name="Sorcerer" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_SORCERER">
+	<element name="Sorcerer" type="Class" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_SORCERER">
 		<description>
 			<p>Golden eyes flashing, a human stretches out her hand and unleashes the dragonfire that burns in her veins. As an inferno rages around her foes, leathery wings spread from her back and she takes to the air.</p>
 			<p class="indent">Long hair whipped by a conjured wind, a half-elf spreads his arms wide and throws his head back. Lifting him momentarily off the ground, a wave of magic surges up in him, through him, and out from him in a mighty blast of lightning.</p>
@@ -79,12 +79,12 @@
 				<tr><td>19th</td><td>19</td><td class="left">Ability Score Improvement</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
 				<tr><td>20th</td><td>20</td><td class="left">Sorcerous Restoration</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
 			</table>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_METAMAGIC" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER" />
+			<div element="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION" />
 		</description>
 		<sheet display="false">
 			<description>A spellcaster who draws on inherent magic from a gift or bloodline.</description>
@@ -94,22 +94,22 @@
 			<set name="hd">d6</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
-			<select type="Proficiency" name="Skill Proficiency (Sorcerer)" supports="Skill,Sorcerer" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER" level="1" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN" level="1"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" level="2" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC" level="3" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER" level="4" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION" level="20" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_FALERIA_BG_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_FALERIA_BG_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_FALERIA_BG_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_FALERIA_BG_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_FALERIA_BG_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_FALERIA_BG_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_FALERIA_BG_MULTICLASS_SORCERER"/>
+			<select type="Proficiency" name="Skill Proficiency (Sorcerer)" supports="Skill,Sorcerer" number="2" requirements="!ID_FALERIA_BG_MULTICLASS_SORCERER"/>
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER" level="1" />
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN" level="1"/>
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" level="2" />
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_METAMAGIC" level="3" />
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER" level="4" />
+			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION" level="20" />
 		</rules>
-		<multiclass id="ID_WOTC_PHB_MULTICLASS_SORCERER">
+		<multiclass id="ID_FALERIA_BG_MULTICLASS_SORCERER">
 			<prerequisite>Charisma 13</prerequisite>
 			<requirements>([cha:13],!(ID_WOTC_PHB24_CLASS_SORCERER||ID_WOTC_PHB24_MULTICLASS_SORCERER))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
 			<setters>
@@ -120,7 +120,7 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Spellcasting" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
+	<element name="Spellcasting" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SPELLCASTING</requirements>
 		<description>
 			<p>An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells.</p>
@@ -192,7 +192,7 @@
 			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Sorcerer"/>
 		</rules>
 	</element>
-	<element name="Sorcerous Origin" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN">
+	<element name="Sorcerous Origin" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SORCEROUS_ORIGIN</requirements>
 		<description>
 			<p>Choose a sorcerous origin, which describes the source of your innate magical power: Draconic Bloodline or Wild Magic, both detailed at the end of the class description.</p>
@@ -203,7 +203,7 @@
 			<select type="Archetype" name="Sorcerous Origin" supports="Sorcerous Origin" />
 		</rules>
 	</element>
-	<element name="Font of Magic" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC">
+	<element name="Font of Magic" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_FONT_OF_MAGIC</requirements>
 		<description>
 			<p>At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.</p>
@@ -233,7 +233,7 @@
 			<stat name="sorcery-points" value="level:sorcerer" />
 		</rules>
 	</element>
-	<element name="Metamagic" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC">
+	<element name="Metamagic" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_METAMAGIC">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC</requirements>
 		<description>
 			<p>At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.</p>
@@ -248,7 +248,7 @@
 			<select type="Class Feature" name="Metamagic" supports="Metamagic" level="17"/>
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER">
+	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -263,7 +263,7 @@
 			<select type="Class Feature" name="Improvement Option (Sorcerer 19)" supports="Improvement Option,Sorcerer,19" level="19" />
 		</rules>
 	</element>
-	<element name="Sorcerous Restoration" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION">
+	<element name="Sorcerous Restoration" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SORCEROUS_RESTORATION</requirements>
 		<description>
 			<p>At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.</p>
@@ -274,7 +274,7 @@
 	</element>
 
 	<!-- Metamagic Options -->
-	<element name="Careful Spell" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_CAREFUL_SPELL">
+	<element name="Careful Spell" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_METAMAGIC_CAREFUL_SPELL">
 		<supports>Metamagic</supports>
 		<requirements>!ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_CAREFUL_SPELL</requirements>
 		<description>
@@ -288,7 +288,7 @@
 			<stat name="metamagic careful spell:creatures" value="charisma:modifier" bonus="base" />
 		</rules>
 	</element>
-	<element name="Distant Spell" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_DISTANT_SPELL">
+	<element name="Distant Spell" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_METAMAGIC_DISTANT_SPELL">
 		<supports>Metamagic</supports>
 		<requirements>!ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_DISTANT_SPELL</requirements>
 		<description>
@@ -298,7 +298,7 @@
 			<description>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell. When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</description>
 		</sheet>
 	</element>
-	<element name="Empowered Spell" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_EMPOWERED_SPELL">
+	<element name="Empowered Spell" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_METAMAGIC_EMPOWERED_SPELL">
 		<supports>Metamagic</supports>
 		<requirements>!ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_EMPOWERED_SPELL</requirements>
 		<description>
@@ -313,7 +313,7 @@
 			<stat name="metamagic empowered spell:rerolls" value="charisma:modifier" bonus="base" />
 		</rules>
 	</element>
-	<element name="Extended Spell" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_EXTENDED_SPELL">
+	<element name="Extended Spell" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_METAMAGIC_EXTENDED_SPELL">
 		<supports>Metamagic</supports>
 		<requirements>!ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_EXTENDED_SPELL</requirements>
 		<description>
@@ -323,7 +323,7 @@
 			<description>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.</description>
 		</sheet>
 	</element>
-	<element name="Heightened Spell" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_HEIGHTENED_SPELL">
+	<element name="Heightened Spell" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_METAMAGIC_HEIGHTENED_SPELL">
 		<supports>Metamagic</supports>
 		<requirements>!ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_HEIGHTENED_SPELL</requirements>
 		<description>
@@ -333,7 +333,7 @@
 			<description>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.</description>
 		</sheet>
 	</element>
-	<element name="Quickened Spell" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_QUICKEND_SPELL">
+	<element name="Quickened Spell" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_METAMAGIC_QUICKEND_SPELL">
 		<supports>Metamagic</supports>
 		<requirements>!ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_QUICKEND_SPELL</requirements>
 		<description>
@@ -343,7 +343,7 @@
 			<description>When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.</description>
 		</sheet>
 	</element>
-	<element name="Subtle Spell" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_SUBTLE_SPELL">
+	<element name="Subtle Spell" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_METAMAGIC_SUBTLE_SPELL">
 		<supports>Metamagic</supports>
 		<requirements>!ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_SUBTLE_SPELL</requirements>
 		<description>
@@ -353,7 +353,7 @@
 			<description>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.</description>
 		</sheet>
 	</element>
-	<element name="Twinned Spell" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_TWINNED_SPELL">
+	<element name="Twinned Spell" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SORCERER_METAMAGIC_TWINNED_SPELL">
 		<supports>Metamagic</supports>
 		<requirements>!ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_TWINNED_SPELL</requirements>
 		<description>

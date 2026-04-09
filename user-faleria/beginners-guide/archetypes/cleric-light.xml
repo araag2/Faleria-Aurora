@@ -6,7 +6,7 @@
 		</update>
 	</info>
 
-	<element name="Light Domain" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_CLERIC_LIGHT_DOMAIN">
+	<element name="Light Domain" type="Archetype" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_CLERIC_LIGHT_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
 			<p>Gods of light—including Helm, Lathander, Pholtus, Branchala, the Silver Flame, Belenus, Apollo, and Re-Horakhty—promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods’ discerning vision, charged with chasing away lies and burning away darkness.</p>
@@ -21,46 +21,46 @@
 				<tr><td>7th</td><td><em>guardian of faith, wall of fire</em></td></tr>
 				<tr><td>9th</td><td><em>flame strike, scrying</em></td></tr>
 			</table>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_POTENT_SPELLCASTING" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_POTENT_SPELLCASTING" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT" />
 		</description>
 		<sheet display="false">
 			<description>Gods of light promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" level="1" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="1" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FLAMING_SPHERE" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SCORCHING_RAY" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_DAYLIGHT" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="9" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="9" spellcasting="Cleric" prepared="true" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP" level="1"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" level="1"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN" level="2"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE" level="6"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_POTENT_SPELLCASTING" level="8"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT" level="17"/>
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_BURNING_HANDS" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_FAERIE_FIRE" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_FLAMING_SPHERE" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_SCORCHING_RAY" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_DAYLIGHT" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_FIREBALL" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_GUARDIAN_OF_FAITH" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_WALL_OF_FIRE" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_FLAME_STRIKE" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_SCRYING" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP" level="1"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" level="1"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN" level="2"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE" level="6"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_POTENT_SPELLCASTING" level="8"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT" level="17"/>
 		</rules>
 	</element>
-	<element name="Bonus Cantrip" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP">
+	<element name="Bonus Cantrip" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_BONUS_CANTRIP</requirements>
 		<description>
 			<p>When you choose this domain at 1st level, you gain the <i>light</i> cantrip if you don’t already know it. This cantrip doesn’t count against the number of cleric cantrips you know.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_LIGHT" spellcasting="Cleric" />
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_LIGHT" spellcasting="Cleric" />
 		</rules>
 	</element>
-	<element name="Warding Flare" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE">
+	<element name="Warding Flare" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_WARDING_FLARE</requirements>
 		<description>
 			<p>Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can’t be blinded is immune to this feature.</p>
@@ -74,7 +74,7 @@
 			<stat name="warding flare:count" value="wisdom:modifier" bonus="base" />
 		</rules>
 	</element>
-	<element name="Channel Divinity: Radiance of the Dawn" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN">
+	<element name="Channel Divinity: Radiance of the Dawn" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN</requirements>
 		<description>
 			<p>Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes.</p>
@@ -84,7 +84,7 @@
 			<description>You present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes 2d10+{{level:cleric}} radiant damage on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.</description>
 		</sheet>
 	</element>
-	<element name="Improved Flare" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE">
+	<element name="Improved Flare" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_IMPROVED_FLARE</requirements>
 		<description>
 			<p>Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you.</p>
@@ -93,7 +93,7 @@
 			<description>You can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you.</description>
 		</sheet>
 	</element>
-	<element name="Potent Spellcasting" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_POTENT_SPELLCASTING">
+	<element name="Potent Spellcasting" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_POTENT_SPELLCASTING">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING</requirements>
 		<description>
 			<p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>
@@ -102,7 +102,7 @@
 			<description>+{{wisdom:modifier}} to the damage you deal with any cleric cantrip.</description>
 		</sheet>
 	</element>
-	<element name="Corona of Light" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT">
+	<element name="Corona of Light" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_CORONA_OF_LIGHT</requirements>
 		<description>
 			<p>Starting at 17th level, you can use your action to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.</p>

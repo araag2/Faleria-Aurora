@@ -2,15 +2,15 @@
 <elements>
 	<info>
 		<name>Feats</name>
-		<description>Feats from the Player’s Handbook.</description>
+		<description>Feats from the Beginner's Guide.</description>
 		<author url="https://faleria.pt/">Faleria</author>
 		<update version="0.2.0">
 			<file name="feats.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/feats.xml" />
 		</update>
 	</info>
 
-	<element name="Actor" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ACTOR">
-		<requirements>!ID_WOTC_PHB24_FEAT_ACTOR||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Actor" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ACTOR">
+		<requirements>!ID_WOTC_PHB24_FEAT_ACTOR||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>Skilled at mimicry and dramatics, you gain the following benefits</p>
 			<ul>
@@ -28,8 +28,8 @@
 		</rules>
 	</element>
 
-	<element name="Alert" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ALERT">
-		<requirements>!ID_WOTC_PHB24_FEAT_ALERT||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Alert" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ALERT">
+		<requirements>!ID_WOTC_PHB24_FEAT_ALERT||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>Always on the lookout for danger, you gain the following benefits:</p>
 			<ul>
@@ -47,8 +47,8 @@
 		</rules>
 	</element>
 
-	<element name="Athlete" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ATHLETE">
-		<requirements>!ID_WOTC_PHB24_FEAT_ATHLETE||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Athlete" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ATHLETE">
+		<requirements>!ID_WOTC_PHB24_FEAT_ATHLETE||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You have undergone extensive physical training to gain the following benefits:</p>
 			<ul>
@@ -64,12 +64,12 @@
 			You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.</description>
 		</sheet>
 		<rules>
-			<select type="Ability Score Improvement" name="Athlete" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+			<select type="Ability Score Improvement" name="Athlete" supports="ID_FALERIA_BG_FEAT_ASI_STRENGTH|ID_FALERIA_BG_FEAT_ASI_DEXTERITY" />
 		</rules>
 	</element>
 
-	<element name="Charger" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_CHARGER">
-		<requirements>!ID_WOTC_PHB24_FEAT_CHARGER||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Charger" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_CHARGER">
+		<requirements>!ID_WOTC_PHB24_FEAT_CHARGER||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>When you use your action to Dash, you can use a bonus action to make one melee weapon attack or to shove a creature.</p>
 			<p class="indent">If you move at least 10 feet in a straight line immediately before taking this bonus action, you either gain a +5 bonus to the attack’s damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed).</p>
@@ -80,8 +80,8 @@
 		</sheet>
 	</element>
 
-	<element name="Crossbow Expert" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_CROSSBOWEXPERT">
-		<requirements>!ID_WOTC_PHB24_FEAT_CROSSBOW_EXPERT||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Crossbow Expert" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_CROSSBOWEXPERT">
+		<requirements>!ID_WOTC_PHB24_FEAT_CROSSBOW_EXPERT||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>Thanks to extensive practice with the crossbow, you gain the following benefits:</p>
 			<ul>
@@ -97,9 +97,9 @@
 		</sheet>
 	</element>
 
-	<element name="Defensive Duelist" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_DEFENSIVE_DUELIST">
+	<element name="Defensive Duelist" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_DEFENSIVE_DUELIST">
 		<prerequisite>Dexterity 13 or higher</prerequisite>
-		<requirements>([dex:13],!ID_WOTC_PHB24_FEAT_DEFENSIVE_DUELIST)||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+		<requirements>([dex:13],!ID_WOTC_PHB24_FEAT_DEFENSIVE_DUELIST)||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><i>Prerequisite: Dexterity 13 or higher</i></p>
 			<p>When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.</p>
@@ -112,8 +112,8 @@
 		</rules>
 	</element>
 
-	<element name="Dual Wielder" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_DUALWIELDER">
-		<requirements>!ID_WOTC_PHB24_FEAT_DUAL_WIELDER||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Dual Wielder" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_DUALWIELDER">
+		<requirements>!ID_WOTC_PHB24_FEAT_DUAL_WIELDER||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You master fighting with two weapons, gaining the following benefits:</p>
 			<ul>
@@ -132,7 +132,7 @@
 		</rules>
 	</element>
 
-	<element name="Dungeon Delver" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_DUNGEON_DELVER">
+	<element name="Dungeon Delver" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_DUNGEON_DELVER">
 		<description>
 			<p>Alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:</p>
 			<ul>
@@ -151,8 +151,8 @@
 		<!-- todo: traps resistance condition -->
 	</element>
 
-	<element name="Durable" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_DURABLE">
-		<requirements>!ID_WOTC_PHB24_FEAT_DURABLE||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Durable" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_DURABLE">
+		<requirements>!ID_WOTC_PHB24_FEAT_DURABLE||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>Hardy and resilient, you gain the following benefits:</p>
 			<ul>
@@ -172,9 +172,9 @@
 		</rules>
 	</element>
 
-	<element name="Elemental Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT">
+	<element name="Elemental Adept" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ELEMENTAL_ADEPT">
 		<prerequisite>The ability to cast at least one spell</prerequisite>
-		<requirements>([type:spell],!ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT)||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+		<requirements>([type:spell],!ID_WOTC_PHB24_FEAT_ELEMENTAL_ADEPT)||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><i>Prerequisite: The ability to cast at least one spell</i></p>
 			<p>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.</p>
@@ -186,7 +186,7 @@
 			<select type="Feat Feature" name="Elemental Adept" supports="Elemental Adept" />
 		</rules>
 	</element>
-	<element name="Acid" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_ACID">
+	<element name="Acid" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ELEMENTAL_ADEPT_ACID">
 		<compendium display="false" />
 		<supports>Elemental Adept</supports>
 		<description>
@@ -196,7 +196,7 @@
 			<description>Spells you cast ignore acid resistance. Treat any 1 on a damage die as a 2 with acid spells.</description>
 		</sheet>
 	</element>
-	<element name="Cold" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_COLD">
+	<element name="Cold" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ELEMENTAL_ADEPT_COLD">
 		<compendium display="false" />
 		<supports>Elemental Adept</supports>
 		<description>
@@ -206,7 +206,7 @@
 			<description>Spells you cast ignore cold resistance. Treat any 1 on a damage die as a 2 with cold spells.</description>
 		</sheet>
 	</element>
-	<element name="Fire" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_FIRE">
+	<element name="Fire" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ELEMENTAL_ADEPT_FIRE">
 		<compendium display="false" />
 		<supports>Elemental Adept</supports>
 		<description>
@@ -216,7 +216,7 @@
 			<description>Spells you cast ignore fire resistance. Treat any 1 on a damage die as a 2 with fire spells.</description>
 		</sheet>
 	</element>
-	<element name="Lightning" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_LIGHTNING">
+	<element name="Lightning" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ELEMENTAL_ADEPT_LIGHTNING">
 		<compendium display="false" />
 		<supports>Elemental Adept</supports>
 		<description>
@@ -226,7 +226,7 @@
 			<description>Spells you cast ignore lightning resistance. Treat any 1 on a damage die as a 2 with lightning spells.</description>
 		</sheet>
 	</element>
-	<element name="Thunder" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_THUNDER">
+	<element name="Thunder" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ELEMENTAL_ADEPT_THUNDER">
 		<compendium display="false" />
 		<supports>Elemental Adept</supports>
 		<description>
@@ -236,10 +236,10 @@
 			<description>Spells you cast ignore thunder resistance. Treat any 1 on a damage die as a 2 with thunder spells.</description>
 		</sheet>
 	</element>
-	<element name="Elemental Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_2">
+	<element name="Elemental Adept" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ELEMENTAL_ADEPT_2">
 		<compendium display="false" />
 		<prerequisite>The ability to cast at least one spell</prerequisite>
-		<requirements>ID_PHB_FEAT_ELEMENTAL_ADEPT,[type:spell]</requirements>
+		<requirements>ID_FALERIA_BG_FEAT_ELEMENTAL_ADEPT,[type:spell]</requirements>
 		<description>
 			<p><i>Prerequisite: The ability to cast at least one spell</i></p>
 			<p>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.</p>
@@ -251,10 +251,10 @@
 			<select type="Feat Feature" name="Elemental Adept" supports="Elemental Adept" />
 		</rules>
 	</element>
-	<element name="Elemental Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_3">
+	<element name="Elemental Adept" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ELEMENTAL_ADEPT_3">
 		<compendium display="false" />
 		<prerequisite>The ability to cast at least one spell</prerequisite>
-		<requirements>ID_PHB_FEAT_ELEMENTAL_ADEPT_2,[type:spell]</requirements>
+		<requirements>ID_FALERIA_BG_FEAT_ELEMENTAL_ADEPT_2,[type:spell]</requirements>
 		<description>
 			<p><i>Prerequisite: The ability to cast at least one spell</i></p>
 			<p>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.</p>
@@ -266,10 +266,10 @@
 			<select type="Feat Feature" name="Elemental Adept" supports="Elemental Adept" />
 		</rules>
 	</element>
-	<element name="Elemental Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_4">
+	<element name="Elemental Adept" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ELEMENTAL_ADEPT_4">
 		<compendium display="false" />
 		<prerequisite>The ability to cast at least one spell</prerequisite>
-		<requirements>ID_PHB_FEAT_ELEMENTAL_ADEPT_3,[type:spell]</requirements>
+		<requirements>ID_FALERIA_BG_FEAT_ELEMENTAL_ADEPT_3,[type:spell]</requirements>
 		<description>
 			<p><i>Prerequisite: The ability to cast at least one spell</i></p>
 			<p>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.</p>
@@ -281,10 +281,10 @@
 			<select type="Feat Feature" name="Elemental Adept" supports="Elemental Adept" />
 		</rules>
 	</element>
-	<element name="Elemental Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_5">
+	<element name="Elemental Adept" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ELEMENTAL_ADEPT_5">
 		<compendium display="false" />
 		<prerequisite>The ability to cast at least one spell</prerequisite>
-		<requirements>ID_PHB_FEAT_ELEMENTAL_ADEPT_4,[type:spell]</requirements>
+		<requirements>ID_FALERIA_BG_FEAT_ELEMENTAL_ADEPT_4,[type:spell]</requirements>
 		<description>
 			<p><i>Prerequisite: The ability to cast at least one spell</i></p>
 			<p>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.</p>
@@ -297,9 +297,9 @@
 		</rules>
 	</element>
 
-	<element name="Grappler" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_GRAPPLER">
+	<element name="Grappler" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_GRAPPLER">
 		<prerequisite>Strength 13 or higher</prerequisite>
-		<requirements>([str:13],!ID_WOTC_PHB24_FEAT_GRAPPLER)||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+		<requirements>([str:13],!ID_WOTC_PHB24_FEAT_GRAPPLER)||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p class="flavor">Prerequisite: Strength 13 or higher</p>
 			<p>You’ve developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:</p>
@@ -314,8 +314,8 @@
 		</sheet>
 	</element>
 
-	<element name="Great Weapon Master" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_GREATWEAPONMASTER">
-		<requirements>!ID_WOTC_PHB24_FEAT_GREAT_WEAPON_MASTER||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Great Weapon Master" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_GREATWEAPONMASTER">
+		<requirements>!ID_WOTC_PHB24_FEAT_GREAT_WEAPON_MASTER||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You’ve learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:</p>
 			<ul>
@@ -329,8 +329,8 @@
 		</sheet>
 	</element>
 
-	<element name="Healer" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_HEALER">
-		<requirements>!ID_WOTC_PHB24_FEAT_HEALER||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Healer" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_HEALER">
+		<requirements>!ID_WOTC_PHB24_FEAT_HEALER||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:</p>
 			<ul>
@@ -344,9 +344,9 @@
 		</sheet>
 	</element>
 
-	<element name="Heavily Armored" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_HEAVILYARMORED">
+	<element name="Heavily Armored" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_HEAVILYARMORED">
 		<prerequisite>Proficiency with medium armor</prerequisite>
-		<requirements>(ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR,!ID_WOTC_PHB24_FEAT_HEAVILY_ARMORED)||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+		<requirements>(ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR,!ID_WOTC_PHB24_FEAT_HEAVILY_ARMORED)||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><i>Prerequisite: Proficiency with medium armor</i></p>
 			<p>You have trained to master the use of heavy armor, gaining the following benefits:</p>
@@ -364,9 +364,9 @@
 		</rules>
 	</element>
 
-	<element name="Heavy Armor Master" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_HEAVYARMORMASTER">
+	<element name="Heavy Armor Master" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_HEAVYARMORMASTER">
 		<prerequisite>Proficiency with heavy armor</prerequisite>
-		<requirements>(ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR,!ID_WOTC_PHB24_FEAT_HEAVY_ARMOR_MASTER)||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+		<requirements>(ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR,!ID_WOTC_PHB24_FEAT_HEAVY_ARMOR_MASTER)||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><i>Prerequisite: Proficiency with heavy armor</i></p>
 			<p>You can use your armor to deflect strikes that would kill others. You gain the following benefits:</p>
@@ -383,9 +383,9 @@
 		</rules>
 	</element>
 
-	<element name="Inspiring Leader" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_INSPIRINGLEADER">
+	<element name="Inspiring Leader" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_INSPIRINGLEADER">
 		<prerequisite>Charisma 13 or higher</prerequisite>
-		<requirements>([cha:13],!ID_WOTC_PHB24_FEAT_INSPIRING_LEADER)||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+		<requirements>([cha:13],!ID_WOTC_PHB24_FEAT_INSPIRING_LEADER)||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><i>Prerequisite: Charisma 13 or higher</i></p>
 			<p>You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier. A creature can’t gain temporary hit points from this feat again until it has finished a short or long rest.</p>
@@ -399,8 +399,8 @@
 		</rules>
 	</element>
 
-	<element name="Keen Mind" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_KEENMIND">
-		<requirements>!ID_WOTC_PHB24_FEAT_KEEN_MIND||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Keen Mind" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_KEENMIND">
+		<requirements>!ID_WOTC_PHB24_FEAT_KEEN_MIND||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You have a mind that can track time, direction, and detail with uncanny precision. You gain the following benefits:</p>
 			<ul>
@@ -420,8 +420,8 @@
 		</rules>
 	</element>
 
-	<element name="Lightly Armored" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_LIGHTLYARMORED">
-		<requirements>!ID_WOTC_PHB24_FEAT_LIGHTLY_ARMORED||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Lightly Armored" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_LIGHTLYARMORED">
+		<requirements>!ID_WOTC_PHB24_FEAT_LIGHTLY_ARMORED||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You have trained to master the use of light armor, gaining the following benefits:</p>
 			<ul>
@@ -433,12 +433,12 @@
 			<description>You have trained to master the use of light armor.</description>
 		</sheet>
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Lightly Armored)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Lightly Armored)" supports="ID_FALERIA_BG_FEAT_ASI_STRENGTH|ID_FALERIA_BG_FEAT_ASI_DEXTERITY" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 		</rules>
 	</element>
 
-	<element name="Linguist" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_LINGUIST">
+	<element name="Linguist" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_LINGUIST">
 		<description>
 			<p>You have studied languages and codes, gaining the following benefits:</p>
 			<ul>
@@ -458,8 +458,8 @@
 		</rules>
 	</element>
 
-	<element name="Lucky" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_LUCKY">
-		<requirements>!ID_WOTC_PHB24_FEAT_LUCKY||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Lucky" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_LUCKY">
+		<requirements>!ID_WOTC_PHB24_FEAT_LUCKY||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You have inexplicable luck that seems to kick in at just the right moment.</p>
 			<p class="indent">You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.</p>
@@ -473,8 +473,8 @@
 		</sheet>
 	</element>
 
-	<element name="Mage Slayer" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_MAGESLAYER">
-		<requirements>!ID_WOTC_PHB24_FEAT_MAGE_SLAYER||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Mage Slayer" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_MAGESLAYER">
+		<requirements>!ID_WOTC_PHB24_FEAT_MAGE_SLAYER||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:</p>
 			<ul>
@@ -490,8 +490,8 @@
 		</sheet>
 	</element>
 
-	<element name="Magic Initiate" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_MAGICINITIATE">
-		<requirements>!ID_WOTC_PHB24_FEAT_MAGIC_INITIATE||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Magic Initiate" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_MAGICINITIATE">
+		<requirements>!ID_WOTC_PHB24_FEAT_MAGIC_INITIATE||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>Choose a class: bard, cleric, druid, sorcerer, warlock, or wizard. You learn two cantrips of your choice from that class’s spell list.</p>
 			<p class="indent">In addition, choose one 1st-level spell to learn from that same list. Using this feat, you can cast the spell once at its lowest level, and you must finish a long rest before you can cast it in this way again.</p>
@@ -502,7 +502,7 @@
 			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate" />
 		</rules>
 	</element>
-	<element name="Bard" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_BARD">
+	<element name="Bard" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_MAGIC_INITIATE_BARD">
 		<supports>Magic Initiate</supports>
 		<description>
 			<p>You learn two cantrips of your choice from the bard’s spell list.</p>
@@ -517,7 +517,7 @@
 			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Bard" />
 		</rules>
 	</element>
-	<element name="Cleric" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_CLERIC">
+	<element name="Cleric" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_MAGIC_INITIATE_CLERIC">
 		<supports>Magic Initiate</supports>
 		<description>
 			<p>You learn two cantrips of your choice from the cleric’s spell list.</p>
@@ -532,7 +532,7 @@
 			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Cleric" />
 		</rules>
 	</element>
-	<element name="Druid" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_DRUID">
+	<element name="Druid" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_MAGIC_INITIATE_DRUID">
 		<supports>Magic Initiate</supports>
 		<description>
 			<p>You learn two cantrips of your choice from the druid spell list.</p>
@@ -547,7 +547,7 @@
 			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Druid" />
 		</rules>
 	</element>
-	<element name="Sorcerer" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_SORCERER">
+	<element name="Sorcerer" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_MAGIC_INITIATE_SORCERER">
 		<supports>Magic Initiate</supports>
 		<description>
 			<p>You learn two cantrips of your choice from the sorcerer’s spell list.</p>
@@ -562,7 +562,7 @@
 			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Sorcerer" />
 		</rules>
 	</element>
-	<element name="Warlock" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_WARLOCK">
+	<element name="Warlock" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_MAGIC_INITIATE_WARLOCK">
 		<supports>Magic Initiate</supports>
 		<description>
 			<p>You learn two cantrips of your choice from the warlock’s spell list.</p>
@@ -577,7 +577,7 @@
 			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Warlock" />
 		</rules>
 	</element>
-	<element name="Wizard" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_WIZARD">
+	<element name="Wizard" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_MAGIC_INITIATE_WIZARD">
 		<supports>Magic Initiate</supports>
 		<description>
 			<p>You learn two cantrips of your choice from the wizard’s spell list.</p>
@@ -593,7 +593,7 @@
 		</rules>
 	</element>
 
-	<element name="Martial Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_MARTIALADEPT">
+	<element name="Martial Adept" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_MARTIALADEPT">
 		<description>
 			<p>You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:</p>
 			<ul>
@@ -622,9 +622,9 @@
 		</rules>
 	</element>
 
-	<element name="Medium Armor Master" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_MEDIUMARMORMASTER">
+	<element name="Medium Armor Master" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_MEDIUMARMORMASTER">
 		<prerequisite>Proficiency with medium armor</prerequisite>
-		<requirements>(ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR,!ID_WOTC_PHB24_FEAT_MEDIUM_ARMOR_MASTER)||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+		<requirements>(ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR,!ID_WOTC_PHB24_FEAT_MEDIUM_ARMOR_MASTER)||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><i>Prerequisite: Proficiency with medium armor</i></p>
 			<p>You have practiced moving in medium armor to gain the following benefits:</p>
@@ -641,7 +641,7 @@
 		</rules>
 	</element>
 
-	<element name="Mobile" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_MOBILE">
+	<element name="Mobile" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_MOBILE">
 		<description>
 			<p>You are exceptionally speedy and agile. You gain the following benefits:</p>
 			<ul>
@@ -663,9 +663,9 @@
 		</rules>
 	</element>
 
-	<element name="Moderately Armored" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_MODERATELYARMORED">
+	<element name="Moderately Armored" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_MODERATELYARMORED">
 		<prerequisite>Proficiency with light armor</prerequisite>
-		<requirements>(ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR,!ID_WOTC_PHB24_FEAT_MODERATELY_ARMORED)||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+		<requirements>(ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR,!ID_WOTC_PHB24_FEAT_MODERATELY_ARMORED)||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><i>Prerequisite: Proficiency with light armor</i></p>
 			<p>You have trained to master the use of medium armor and shields, gaining the following benefits:</p>
@@ -678,14 +678,14 @@
 			<description>You have trained to master the use of medium armor and shields.</description>
 		</sheet>
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Moderately Armored)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Moderately Armored)" supports="ID_FALERIA_BG_FEAT_ASI_STRENGTH|ID_FALERIA_BG_FEAT_ASI_DEXTERITY" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
 		</rules>
 	</element>
 
-	<element name="Mounted Combatant" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_MOUNTEDCOMBATANT">
-		<requirements>!ID_WOTC_PHB24_FEAT_MOUNTED_COMBATANT||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Mounted Combatant" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_MOUNTEDCOMBATANT">
+		<requirements>!ID_WOTC_PHB24_FEAT_MOUNTED_COMBATANT||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You are a dangerous foe to face while mounted. While you are mounted and aren’t incapacitated, you gain the following benefits:</p>
 			<ul>
@@ -701,8 +701,8 @@
 		</sheet>
 	</element>
 
-	<element name="Observant" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_OBSERVANT">
-		<requirements>!ID_WOTC_PHB24_FEAT_OBSERVANT||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Observant" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_OBSERVANT">
+		<requirements>!ID_WOTC_PHB24_FEAT_OBSERVANT||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>Quick to notice details of your environment, you gain the following benefits:</p>
 			<ul>
@@ -716,14 +716,14 @@
 			You have a +5 bonus to your passive Perception and passive Investigation scores.</description>
 		</sheet>
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Observant)" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Observant)" supports="ID_FALERIA_BG_FEAT_ASI_INTELLIGENCE|ID_FALERIA_BG_FEAT_ASI_WISDOM" />
 			<stat name="perception:passive" value="5" />
 			<stat name="investigation:passive" value="5" />
 		</rules>
 	</element>
 
-	<element name="Polearm Master" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_POLEARMMASTER">
-		<requirements>!ID_WOTC_PHB24_FEAT_POLEARM_MASTER||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Polearm Master" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_POLEARMMASTER">
+		<requirements>!ID_WOTC_PHB24_FEAT_POLEARM_MASTER||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You can keep your enemies at bay with reach weapons. You gain the following benefits:</p>
 			<ul>
@@ -737,8 +737,8 @@
 		</sheet>
 	</element>
 
-	<element name="Resilient" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT">
-		<requirements>!ID_WOTC_PHB24_FEAT_RESILIENT||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Resilient" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_RESILIENT">
+		<requirements>!ID_WOTC_PHB24_FEAT_RESILIENT||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>Choose one ability score. You gain the following benefits:</p>
 			<ul>
@@ -751,7 +751,7 @@
 			<select type="Feat Feature" name="Resilient (Feat)" supports="Resilient" />
 		</rules>
 	</element>
-	<element name="Resilient (Strength)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_STRENGTH">
+	<element name="Resilient (Strength)" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_RESILIENT_STRENGTH">
 		<compendium display="false" />
 		<supports>Resilient</supports>
 		<description>
@@ -764,7 +764,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
 		</rules>
 	</element>
-	<element name="Resilient (Dexterity)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_DEXTERITY">
+	<element name="Resilient (Dexterity)" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_RESILIENT_DEXTERITY">
 		<compendium display="false" />
 		<supports>Resilient</supports>
 		<description>
@@ -777,7 +777,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
 		</rules>
 	</element>
-	<element name="Resilient (Constitution)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_CONSTITUTION">
+	<element name="Resilient (Constitution)" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_RESILIENT_CONSTITUTION">
 		<compendium display="false" />
 		<supports>Resilient</supports>
 		<description>
@@ -790,7 +790,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
 		</rules>
 	</element>
-	<element name="Resilient (Intelligence)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_INTELLIGENCE">
+	<element name="Resilient (Intelligence)" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_RESILIENT_INTELLIGENCE">
 		<compendium display="false" />
 		<supports>Resilient</supports>
 		<description>
@@ -803,7 +803,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
 		</rules>
 	</element>
-	<element name="Resilient (Wisdom)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_WISDOM">
+	<element name="Resilient (Wisdom)" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_RESILIENT_WISDOM">
 		<compendium display="false" />
 		<supports>Resilient</supports>
 		<description>
@@ -816,7 +816,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
 		</rules>
 	</element>
-	<element name="Resilient (Charisma)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_CHARISMA">
+	<element name="Resilient (Charisma)" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_RESILIENT_CHARISMA">
 		<compendium display="false" />
 		<supports>Resilient</supports>
 		<description>
@@ -830,9 +830,9 @@
 		</rules>
 	</element>
 
-	<element name="Ritual Caster" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_RITUALCASTER">
+	<element name="Ritual Caster" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_RITUALCASTER">
 		<prerequisite>Intelligence or Wisdom 13 or higher</prerequisite>
-		<requirements>(([int:13]||[wis:13]),!ID_WOTC_PHB24_FEAT_RITUAL_CASTER)||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+		<requirements>(([int:13]||[wis:13]),!ID_WOTC_PHB24_FEAT_RITUAL_CASTER)||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><i>Prerequisite: Intelligence or Wisdom 13 or higher</i></p>
 			<p>You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.</p>
@@ -847,7 +847,7 @@
 			<select type="Feat Feature" name="Ritual Caster" supports="Ritual Caster" />
 		</rules>
 	</element>
-	<element name="Bard" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_BARD">
+	<element name="Bard" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_RITUAL_CASTER_BARD">
 		<compendium display="false" />
 		<supports>Ritual Caster</supports>
 		<description>
@@ -861,7 +861,7 @@
 			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Bard" number="2" />
 		</rules>
 	</element>
-	<element name="Cleric" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_CLERIC">
+	<element name="Cleric" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_RITUAL_CASTER_CLERIC">
 		<compendium display="false" />
 		<supports>Ritual Caster</supports>
 		<description>
@@ -875,7 +875,7 @@
 			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Cleric" number="2" />
 		</rules>
 	</element>
-	<element name="Druid" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_DRUID">
+	<element name="Druid" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_RITUAL_CASTER_DRUID">
 		<compendium display="false" />
 		<supports>Ritual Caster</supports>
 		<description>
@@ -889,7 +889,7 @@
 			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Druid" number="2" />
 		</rules>
 	</element>
-	<element name="Sorcerer" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_SORCERER">
+	<element name="Sorcerer" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_RITUAL_CASTER_SORCERER">
 		<compendium display="false" />
 		<supports>Ritual Caster</supports>
 		<description>
@@ -903,7 +903,7 @@
 			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Sorcerer" number="2" />
 		</rules>
 	</element>
-	<element name="Warlock" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_WARLOCK">
+	<element name="Warlock" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_RITUAL_CASTER_WARLOCK">
 		<compendium display="false" />
 		<supports>Ritual Caster</supports>
 		<description>
@@ -917,7 +917,7 @@
 			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Warlock" number="2" />
 		</rules>
 	</element>
-	<element name="Wizard" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_WIZARD">
+	<element name="Wizard" type="Feat Feature" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_RITUAL_CASTER_WIZARD">
 		<compendium display="false" />
 		<supports>Ritual Caster</supports>
 		<description>
@@ -932,8 +932,8 @@
 		</rules>
 	</element>
 
-	<element name="Savage Attacker" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_SAVAGEATTACKER">
-		<requirements>!ID_WOTC_PHB24_FEAT_SAVAGE_ATTACKER||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Savage Attacker" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_SAVAGEATTACKER">
+		<requirements>!ID_WOTC_PHB24_FEAT_SAVAGE_ATTACKER||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice as use either total.</p>
 		</description>
@@ -942,8 +942,8 @@
 		</sheet>
 	</element>
 
-	<element name="Sentinel" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_SENTINEL">
-		<requirements>!ID_WOTC_PHB24_FEAT_SENTINEL||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Sentinel" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_SENTINEL">
+		<requirements>!ID_WOTC_PHB24_FEAT_SENTINEL||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You have mastered techniques to take advantage of every drop in any enemy’s guard, gaining the following benefits:</p>
 			<ul>
@@ -959,8 +959,8 @@
 		</sheet>
 	</element>
 
-	<element name="Sharpshooter" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_SHARPSHOOTER">
-		<requirements>!ID_WOTC_PHB24_FEAT_SHARPSHOOTER||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Sharpshooter" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_SHARPSHOOTER">
+		<requirements>!ID_WOTC_PHB24_FEAT_SHARPSHOOTER||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You have mastered ranged weapons and can make shots that others find impossible. You gain the following benefits:</p>
 			<ul>
@@ -976,8 +976,8 @@
 		</sheet>
 	</element>
 
-	<element name="Shield Master" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_SHIELDMASTER">
-		<requirements>!ID_WOTC_PHB24_FEAT_SHIELD_MASTER||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Shield Master" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_SHIELDMASTER">
+		<requirements>!ID_WOTC_PHB24_FEAT_SHIELD_MASTER||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You use shields not just for protection but also for offense. You gain the following benefits while you are wielding a shield:</p>
 			<ul>
@@ -993,8 +993,8 @@
 		</sheet>
 	</element>
 
-	<element name="Skilled" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_SKILLED">
-		<requirements>!ID_WOTC_PHB24_FEAT_SKILLED||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Skilled" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_SKILLED">
+		<requirements>!ID_WOTC_PHB24_FEAT_SKILLED||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You gain proficiency in any combination of three skills or tools of your choice.</p>
 		</description>
@@ -1004,9 +1004,9 @@
 		</rules>
 	</element>
 
-	<element name="Skulker" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_SKULKER">
+	<element name="Skulker" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_SKULKER">
 		<prerequisite>Dexterity 13 or higher</prerequisite>
-		<requirements>([dex:13],!ID_WOTC_PHB24_FEAT_SKULKER)||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+		<requirements>([dex:13],!ID_WOTC_PHB24_FEAT_SKULKER)||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p class="flavor">Prerequisite: Dexterity 13 or higher</p>
 			<p>You are expert at slinking through shadows. You gain the following benefits:</p>
@@ -1023,9 +1023,9 @@
 		</sheet>
 	</element>
 
-	<element name="Spell Sniper" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_SPELLSNIPER">
+	<element name="Spell Sniper" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_SPELLSNIPER">
 		<prerequisite>The ability to cast at least one spell</prerequisite>
-		<requirements>([type:spell],!ID_WOTC_PHB24_FEAT_SPELLSNIPER)||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+		<requirements>([type:spell],!ID_WOTC_PHB24_FEAT_SPELLSNIPER)||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><i>Prerequisite: The ability to cast at least one spell</i></p>
 			<p>You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:</p>
@@ -1044,8 +1044,8 @@
 		</rules>
 	</element>
 
-	<element name="Tavern Brawler" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_TAVERNBRAWLER">
-		<requirements>!ID_WOTC_PHB24_FEAT_TAVERN_BRAWLER||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Tavern Brawler" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_TAVERNBRAWLER">
+		<requirements>!ID_WOTC_PHB24_FEAT_TAVERN_BRAWLER||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:</p>
 			<ul>
@@ -1061,13 +1061,13 @@
 			When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a bonus action to attempt to grapple the target.</description>
 		</sheet>
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Tavern Brawler)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CONSTITUTION" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Tavern Brawler)" supports="ID_FALERIA_BG_FEAT_ASI_STRENGTH|ID_FALERIA_BG_FEAT_ASI_CONSTITUTION" />
 			<grant type="Proficiency" id="ID_ALE_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS" />
 		</rules>
 	</element>
 
-	<element name="Tough" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_TOUGH">
-		<requirements>!ID_WOTC_PHB24_FEAT_TOUGH||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Tough" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_TOUGH">
+		<requirements>!ID_WOTC_PHB24_FEAT_TOUGH||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>Your hit points maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit points maximum increases by an additional 2 hit points.</p>
 		</description>
@@ -1081,8 +1081,8 @@
 		</rules>
 	</element>
 
-	<element name="War Caster" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_WARCASTER">
-		<requirements>!ID_WOTC_PHB24_FEAT_WAR_CASTER||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="War Caster" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_WARCASTER">
+		<requirements>!ID_WOTC_PHB24_FEAT_WAR_CASTER||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p><i>Prerequisite: The ability to cast at least one spell</i></p>
 			<p>You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:</p>
@@ -1099,8 +1099,8 @@
 		</sheet>
 	</element>
 
-	<element name="Weapon Master" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_WEAPONMASTER">
-		<requirements>!ID_WOTC_PHB24_FEAT_WEAPON_MASTER||ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER</requirements>
+	<element name="Weapon Master" type="Feat" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_WEAPONMASTER">
+		<requirements>!ID_WOTC_PHB24_FEAT_WEAPON_MASTER||ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER</requirements>
 		<description>
 			<p>You have practiced extensively with a variety of weapons, gaining the following benefits:</p>
 			<ul>
@@ -1110,13 +1110,13 @@
 		</description>
 		<sheet />
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Weapon Master)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Weapon Master)" supports="ID_FALERIA_BG_FEAT_ASI_STRENGTH|ID_FALERIA_BG_FEAT_ASI_DEXTERITY" />
 			<select type="Proficiency" name="Weapon Master" supports="Weapon" number="4" />
 		</rules>
 	</element>
 
 	<!--Feat Ability Score Increase-->
-	<element name="Ability Score Increase (Strength)" type="Ability Score Improvement" source="Player’s Handbook" id="ID_PHB_FEAT_ASI_STRENGTH">
+	<element name="Ability Score Increase (Strength)" type="Ability Score Improvement" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ASI_STRENGTH">
 		<compendium display="false" />
 		<supports>Feat, Athlete</supports>
 		<description>
@@ -1129,7 +1129,7 @@
 			<stat name="strength" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Dexterity)" type="Ability Score Improvement" source="Player’s Handbook" id="ID_PHB_FEAT_ASI_DEXTERITY">
+	<element name="Ability Score Increase (Dexterity)" type="Ability Score Improvement" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ASI_DEXTERITY">
 		<compendium display="false" />
 		<supports>Feat, Athlete</supports>
 		<description>
@@ -1142,7 +1142,7 @@
 			<stat name="dexterity" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Constitution)" type="Ability Score Improvement" source="Player’s Handbook" id="ID_PHB_FEAT_ASI_CONSTITUTION">
+	<element name="Ability Score Increase (Constitution)" type="Ability Score Improvement" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ASI_CONSTITUTION">
 		<compendium display="false" />
 		<supports>Feat</supports>
 		<description>
@@ -1155,7 +1155,7 @@
 			<stat name="constitution" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Intelligence)" type="Ability Score Improvement" source="Player’s Handbook" id="ID_PHB_FEAT_ASI_INTELLIGENCE">
+	<element name="Ability Score Increase (Intelligence)" type="Ability Score Improvement" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ASI_INTELLIGENCE">
 		<compendium display="false" />
 		<supports>Feat</supports>
 		<description>
@@ -1168,7 +1168,7 @@
 			<stat name="intelligence" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Wisdom)" type="Ability Score Improvement" source="Player’s Handbook" id="ID_PHB_FEAT_ASI_WISDOM">
+	<element name="Ability Score Increase (Wisdom)" type="Ability Score Improvement" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ASI_WISDOM">
 		<compendium display="false" />
 		<supports>Feat</supports>
 		<description>
@@ -1181,7 +1181,7 @@
 			<stat name="wisdom" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Charisma)" type="Ability Score Improvement" source="Player’s Handbook" id="ID_PHB_FEAT_ASI_CHARISMA">
+	<element name="Ability Score Increase (Charisma)" type="Ability Score Improvement" source="Beginner's Guide" id="ID_FALERIA_BG_FEAT_ASI_CHARISMA">
 		<compendium display="false" />
 		<supports>Feat</supports>
 		<description>
@@ -1196,11 +1196,11 @@
 	</element>
 
 	<!-- Feat Unlocker -->
-	<element name="Feat Unlocker" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_FEAT_UNLOCKER">
+	<element name="Feat Unlocker" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_FEAT_UNLOCKER">
 		<compendium display="false" />
 		<description>
-			<p>Once equipped, this item allows you to ignore prerequisites for all of the <i>Player’s Handbook</i> Feats.</p>
-			<p><u><b>Note.</b></u> This item in combination with the Feat Unlocker for the <i>Player’s Handbook (2024)</i>, can be used to allow selection of duplicate Feats.</p>
+			<p>Once equipped, this item allows you to ignore prerequisites for all of the <i>Beginner's Guide</i> Feats.</p>
+			<p><u><b>Note.</b></u> This item in combination with the Feat Unlocker for the <i>Beginner's Guide (2024)</i>, can be used to allow selection of duplicate Feats.</p>
 		</description>
 		<setters>
 			<set name="category">Additional Feature</set>
@@ -1208,9 +1208,9 @@
 			<set name="inventory-hidden">true</set>
 		</setters>
 		<rules>
-			<grant type="Grants" id="ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER" />
+			<grant type="Grants" id="ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER" />
 		</rules>
 	</element>
 
-	<element name="Feat Unlocker" type="Grants" source="Player’s Handbook" id="ID_WOTC_PHB_GRANTS_FEAT_UNLOCKER" />
+	<element name="Feat Unlocker" type="Grants" source="Beginner's Guide" id="ID_FALERIA_BG_GRANTS_FEAT_UNLOCKER" />
 </elements>

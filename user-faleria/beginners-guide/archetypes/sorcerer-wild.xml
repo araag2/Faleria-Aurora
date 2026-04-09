@@ -6,16 +6,16 @@
 		</update>
 	</info>
 
-	<element name="Wild Magic" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_WILD_MAGIC">
+	<element name="Wild Magic" type="Archetype" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_WILD_MAGIC">
 		<supports>Sorcerous Origin</supports>
 		<description>
 			<p>Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.</p>
 			<p>Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.</p>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WILD_MAGIC_SURGE" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TIDES_OF_CHAOS" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BEND_LUCK" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_CONTROLLED_CHAOS" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_SPELL_BOMBARDMENT" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_WILD_MAGIC_SURGE" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_TIDES_OF_CHAOS" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_BEND_LUCK" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_CONTROLLED_CHAOS" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_SPELL_BOMBARDMENT" />
 			<h5 class="caption">WILD MAGIC SURGE</h5>
 			<table>
 				<thead>
@@ -77,14 +77,14 @@
 			<description>Your innate magic comes from the wild forces of chaos that underlie the order of creation.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WILD_MAGIC_SURGE" level="1" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TIDES_OF_CHAOS" level="1" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BEND_LUCK" level="6" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CONTROLLED_CHAOS" level="14" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_SPELL_BOMBARDMENT" level="18" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_WILD_MAGIC_SURGE" level="1" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_TIDES_OF_CHAOS" level="1" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_BEND_LUCK" level="6" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_CONTROLLED_CHAOS" level="14" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_SPELL_BOMBARDMENT" level="18" />
 		</rules>
 	</element>
-	<element name="Wild Magic Surge" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WILD_MAGIC_SURGE">
+	<element name="Wild Magic Surge" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_WILD_MAGIC_SURGE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_WILD_MAGIC_SURGE</requirements>
 		<supports>Wild Magic</supports>
 		<description>
@@ -94,7 +94,7 @@
 			<description>Once per turn, the DM can have you roll a d20 immediately after you cast a sorcerer spell of 1st level or higher. If you roll a 1, roll on the Wild Magic Surge table to create a magical effect. If that effect is a spell, it is too wild to be affected by your Metamagic, and if it normally requires concentration, it doesn’t require concentration in this case; the spell lasts for its full duration.</description>
 		</sheet>
 	</element>
-	<element name="Tides of Chaos" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TIDES_OF_CHAOS">
+	<element name="Tides of Chaos" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_TIDES_OF_CHAOS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_TIDES_OF_CHAOS</requirements>
 		<supports>Wild Magic</supports>
 		<description>
@@ -106,7 +106,7 @@
 			Any time before you regain the use of this feature, the DM can have you roll on the Wild Magic Surge table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature.</description>
 		</sheet>
 	</element>
-	<element name="Bend Luck" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BEND_LUCK">
+	<element name="Bend Luck" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_BEND_LUCK">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_BEND_LUCK</requirements>
 		<supports>Wild Magic</supports>
 		<description>
@@ -116,7 +116,7 @@
 			<description>When another creature you can see makes an attack roll, an ability check, or a saving throw, you can spend 2 sorcery points to roll 1d4 and apply the number rolled as a bonus or penalty to the creature’s roll. You can do so after the creature rolls but before any effects of the roll occur.</description>
 		</sheet>
 	</element>
-	<element name="Controlled Chaos" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CONTROLLED_CHAOS">
+	<element name="Controlled Chaos" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_CONTROLLED_CHAOS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_CONTROLLED_CHAOS</requirements>
 		<supports>Wild Magic</supports>
 		<description>
@@ -126,7 +126,7 @@
 			<description>Whenever you roll on the Wild Magic Surge table, you can roll twice and use either number.</description>
 		</sheet>
 	</element>
-	<element name="Spell Bombardment" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_SPELL_BOMBARDMENT">
+	<element name="Spell Bombardment" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_SPELL_BOMBARDMENT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_SPELL_BOMBARDMENT</requirements>
 		<supports>Wild Magic</supports>
 		<description>

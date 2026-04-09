@@ -6,28 +6,28 @@
 		</update>
 	</info>
 
-	<element name="The Fiend" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_FIEND">
+	<element name="The Fiend" type="Archetype" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_OTHERWORLDLY_PATRON_FIEND">
 		<supports>Otherworldly Patron</supports>
 		<description>
 			<p>You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz’Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.</p>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL"/>
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST"/>
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING"/>
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK"/>
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE"/>
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL"/>
 		</description>
 		<sheet display="false">
 			<description>You have made a pact with a fiend from the lower planes of existence.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST" level="1" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING" level="1" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK" level="6" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE" level="10" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL" level="14" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST" level="1" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING" level="1" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK" level="6" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE" level="10" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL" level="14" />
 		</rules>
 	</element>
-	<element name="Expanded Spell List" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST">
+	<element name="Expanded Spell List" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_EXPANDED_SPELL_LIST</requirements>
 		<description>
 			<p>The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
@@ -47,19 +47,19 @@
 			<description>The Fiend lets you choose from an expanded list of spells when you learn a warlock spell.</description>
 		</sheet>
 		<spellcasting name="Warlock" extend="true">
-			<extend>ID_PHB_SPELL_BURNING_HANDS</extend>
-			<extend>ID_PHB_SPELL_COMMAND</extend>
-			<extend>ID_PHB_SPELL_BLINDNESS_DEAFNESS</extend>
-			<extend>ID_PHB_SPELL_SCORCHING_RAY</extend>
-			<extend>ID_PHB_SPELL_FIREBALL</extend>
-			<extend>ID_PHB_SPELL_STINKING_CLOUD</extend>
-			<extend>ID_PHB_SPELL_FIRE_SHIELD</extend>
-			<extend>ID_PHB_SPELL_WALL_OF_FIRE</extend>
-			<extend>ID_PHB_SPELL_FLAME_STRIKE</extend>
-			<extend>ID_PHB_SPELL_HALLOW</extend>
+			<extend>ID_FALERIA_BG_SPELL_BURNING_HANDS</extend>
+			<extend>ID_FALERIA_BG_SPELL_COMMAND</extend>
+			<extend>ID_FALERIA_BG_SPELL_BLINDNESS_DEAFNESS</extend>
+			<extend>ID_FALERIA_BG_SPELL_SCORCHING_RAY</extend>
+			<extend>ID_FALERIA_BG_SPELL_FIREBALL</extend>
+			<extend>ID_FALERIA_BG_SPELL_STINKING_CLOUD</extend>
+			<extend>ID_FALERIA_BG_SPELL_FIRE_SHIELD</extend>
+			<extend>ID_FALERIA_BG_SPELL_WALL_OF_FIRE</extend>
+			<extend>ID_FALERIA_BG_SPELL_FLAME_STRIKE</extend>
+			<extend>ID_FALERIA_BG_SPELL_HALLOW</extend>
 		</spellcasting>
 	</element>
-	<element name="Dark One’s Blessing" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING">
+	<element name="Dark One’s Blessing" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_DARK_ONES_BLESSING</requirements>
 		<description>
 			<p>Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1).</p>
@@ -72,7 +72,7 @@
 			<stat name="dark ones blessing:temp hp" value="level:warlock" />
 		</rules>
 	</element>
-	<element name="Dark One’s Own Luck" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK">
+	<element name="Dark One’s Own Luck" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_DARK_ONES_OWN_LUCK</requirements>
 		<description>
 			<p>Starting at 6th level, you can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll’s effects occur.</p>
@@ -82,7 +82,7 @@
 			<description>When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll.</description>
 		</sheet>
 	</element>
-	<element name="Fiendish Resilience" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE">
+	<element name="Fiendish Resilience" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_FIENDISH_RESILIENCE</requirements>
 		<description>
 			<p>Starting at 10th level, you can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.</p>
@@ -91,7 +91,7 @@
 			<description>You can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.</description>
 		</sheet>
 	</element>
-	<element name="Hurl Through Hell" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL">
+	<element name="Hurl Through Hell" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_HURL_THROUGH_HELL</requirements>
 		<description>
 			<p>Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape.</p>

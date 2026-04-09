@@ -6,28 +6,28 @@
 		</update>
 	</info>
 
-	<element name="The Archfey" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_ARCHFEY">
+	<element name="The Archfey" type="Archetype" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_OTHERWORLDLY_PATRON_THE_ARCHFEY">
 		<supports>Otherworldly Patron</supports>
 		<description>
 			<p>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being’s motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.</p>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES"/>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM"/>
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST"/>
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE"/>
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE"/>
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES"/>
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM"/>
 		</description>
 		<sheet display="false">
 			<description>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST" level="1" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE" level="1" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE" level="6" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES" level="10" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM" level="14" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST" level="1" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE" level="1" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE" level="6" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES" level="10" />
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM" level="14" />
 		</rules>
 	</element>
-	<element name="Expanded Spell List" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST">
+	<element name="Expanded Spell List" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_EXPANDED_SPELL_LIST</requirements>
 		<description>
 			<p>The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
@@ -47,19 +47,19 @@
 			<description>The Archfey lets you choose from an expanded list of spells when you learn a warlock spell.</description>
 		</sheet>
 		<spellcasting name="Warlock" extend="true">
-			<extend>ID_PHB_SPELL_FAERIE_FIRE</extend>
-			<extend>ID_PHB_SPELL_SLEEP</extend>
-			<extend>ID_PHB_SPELL_CALM_EMOTIONS</extend>
-			<extend>ID_PHB_SPELL_PHANTASMAL_FORCE</extend>
-			<extend>ID_PHB_SPELL_BLINK</extend>
-			<extend>ID_PHB_SPELL_PLANT_GROWTH</extend>
-			<extend>ID_PHB_SPELL_DOMINATE_BEAST</extend>
-			<extend>ID_PHB_SPELL_GREATER_INVISIBILITY</extend>
-			<extend>ID_PHB_SPELL_DOMINATE_PERSON</extend>
-			<extend>ID_PHB_SPELL_SEEMING</extend>
+			<extend>ID_FALERIA_BG_SPELL_FAERIE_FIRE</extend>
+			<extend>ID_FALERIA_BG_SPELL_SLEEP</extend>
+			<extend>ID_FALERIA_BG_SPELL_CALM_EMOTIONS</extend>
+			<extend>ID_FALERIA_BG_SPELL_PHANTASMAL_FORCE</extend>
+			<extend>ID_FALERIA_BG_SPELL_BLINK</extend>
+			<extend>ID_FALERIA_BG_SPELL_PLANT_GROWTH</extend>
+			<extend>ID_FALERIA_BG_SPELL_DOMINATE_BEAST</extend>
+			<extend>ID_FALERIA_BG_SPELL_GREATER_INVISIBILITY</extend>
+			<extend>ID_FALERIA_BG_SPELL_DOMINATE_PERSON</extend>
+			<extend>ID_FALERIA_BG_SPELL_SEEMING</extend>
 		</spellcasting>
 	</element>
-	<element name="Fey Presence" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE">
+	<element name="Fey Presence" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_FEY_PRESENCE</requirements>
 		<description>
 			<p>Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all charmed or frightened by you (your choice) until the end of your next turn.</p>
@@ -69,7 +69,7 @@
 			<description>You can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw. The creatures that fail their saving throws are all charmed or frightened by you until the end of your next turn.</description>
 		</sheet>
 	</element>
-	<element name="Misty Escape" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE">
+	<element name="Misty Escape" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_MISTY_ESCAPE</requirements>
 		<description>
 			<p>Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell.</p>
@@ -79,7 +79,7 @@
 			<description>When you take damage, you can turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell.</description>
 		</sheet>
 	</element>
-	<element name="Beguiling Defenses" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES">
+	<element name="Beguiling Defenses" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_BEGUILING_DEFENSES</requirements>
 		<description>
 			<p>Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being charmed, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be charmed by you for 1 minute or until the creature takes any damage.</p>
@@ -88,7 +88,7 @@
 			<description>You are immune to being charmed, and when another creature attempts to charm you, you can attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw or be charmed by you for 1 minute or until the creature takes any damage.</description>
 		</sheet>
 	</element>
-	<element name="Dark Delirium" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM">
+	<element name="Dark Delirium" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_DARK_DELIRIUM</requirements>
 		<description>
 			<p>Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 minute or until your concentration is broken (as if you are concentrating on a spell). This effect ends early if the creature takes any damage.</p>

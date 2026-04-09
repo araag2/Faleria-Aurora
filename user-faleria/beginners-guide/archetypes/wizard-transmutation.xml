@@ -6,29 +6,29 @@
 		</update>
 	</info>
 
-	<element name="School of Transmutation" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_TRANSMUTATION">
+	<element name="School of Transmutation" type="Archetype" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_WIZARD_SCHOOL_OF_TRANSMUTATION">
 		<supports>Arcane Tradition</supports>
 		<description>
 			<p>You are a student of spells that modify energy and matter. To you, the world is not a fixed thing, but eminently mutable, and you delight in being an agent of change. You wield the raw stuff of creation and learn to alter both physical forms and mental qualities. Your magic gives you the tools to become a smith on reality’s forge.</p>
 			<p class="indent">Some transmuters are tinkerers and pranksters, turning people into toads and transforming copper into silver for fun and occasional profit. Others pursue their magical studies with deadly seriousness, seeking the power of the gods to make and destroy worlds.</p>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTATION_SAVANT" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MINOR_ALCHEMY" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTERS_STONE" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_SHAPECHANGER" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MASTER_TRANSMUTER" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTATION_SAVANT" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MINOR_ALCHEMY" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTERS_STONE" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_SHAPECHANGER" />
+			<div element="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MASTER_TRANSMUTER" />
 		</description>
 		<sheet display="false">
 			<description>You are a student of spells that modify energy and matter.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTATION_SAVANT" level="2"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MINOR_ALCHEMY" level="2"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTERS_STONE" level="6"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_SHAPECHANGER" level="10"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MASTER_TRANSMUTER" level="14"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTATION_SAVANT" level="2"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MINOR_ALCHEMY" level="2"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTERS_STONE" level="6"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_SHAPECHANGER" level="10"/>
+			<grant type="Archetype Feature" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MASTER_TRANSMUTER" level="14"/>
 		</rules>
 	</element>
-	<element name="Transmutation Savant" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTATION_SAVANT">
+	<element name="Transmutation Savant" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTATION_SAVANT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_TRANSMUTATION_TRANSMUTATION_SAVANT</requirements>
 		<description>
 			<p>Beginning when you select this school at 2nd level, the gold and time you must spend to copy a transmutation spell into your spellbook is halved.</p>
@@ -37,7 +37,7 @@
 			<description>The gold and time you must spend to copy a transmutation spell into your spellbook is halved.</description>
 		</sheet>
 	</element>
-	<element name="Minor Alchemy" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MINOR_ALCHEMY">
+	<element name="Minor Alchemy" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MINOR_ALCHEMY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_TRANSMUTATION_MINOR_ALCHEMY</requirements>
 		<description>
 			<p>Starting at 2nd level when you select this school, you can temporarily alter the physical properties of one nonmagical object, changing it from one substance into another. You perform a special alchemical procedure on one object composed entirely of wood, stone (but not a gemstone), iron, copper, or silver, transforming it into a different one of those materials. For each 10 minutes you spend performing the procedure, you can transform up to 1 cubic foot of material. After 1 hour, or until you lose your concentration (as if you were concentrating on a spell), the material reverts to its original substance.</p>
@@ -46,7 +46,7 @@
 			<description>You can temporarily alter the physical properties of one nonmagical object, changing it from one substance into another. You perform a special alchemical procedure on one object composed entirely of wood, stone (but not a gemstone), iron, copper, or silver, transforming it into a different one of those materials. For each 10 minutes you spend performing the procedure, you can transform up to 1 cubic foot of material. After 1 hour, or until you lose your concentration, the material reverts to its original substance.</description>
 		</sheet>
 	</element>
-	<element name="Transmuter’s Stone" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTERS_STONE">
+	<element name="Transmuter’s Stone" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTERS_STONE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_TRANSMUTATION_TRANSMUTERS_STONE</requirements>
 		<description>
 			<p>Starting at 6th level, you can spend 8 hours creating a transmuter’s stone that stores transmutation magic. You can benefit from the stone yourself or give it to another creature. A creature gains a benefit of your choice as long as the stone is in the creature’s possession. When you create the stone, choose the benefit from the following options:</p>
@@ -63,7 +63,7 @@
 			<description>You can spend 8 hours creating a transmuter’s stone that stores transmutation magic.</description>
 		</sheet>
 	</element>
-	<element name="Shapechanger" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_SHAPECHANGER">
+	<element name="Shapechanger" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_SHAPECHANGER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_TRANSMUTATION_SHAPECHANGER</requirements>
 		<description>
 			<p>At 10th level, you add the polymorph spell to your spellbook, if it is not there already. You can cast polymorph without expending a spell slot. When you do so, you can target only yourself and transform into a beast whose challenge rating is 1 or lower.</p>
@@ -73,10 +73,10 @@
 			<description>You can cast polymorph without expending a spell slot. When you do so, you can target only yourself and transform into a beast whose challenge rating is 1 or lower.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" spellcasting="Wizard"/>
+			<grant type="Spell" id="ID_FALERIA_BG_SPELL_POLYMORPH" spellcasting="Wizard"/>
 		</rules>
 	</element>
-	<element name="Master Transmuter" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MASTER_TRANSMUTER">
+	<element name="Master Transmuter" type="Archetype Feature" source="Beginner's Guide" id="ID_FALERIA_BG_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MASTER_TRANSMUTER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_TRANSMUTATION_MASTER_TRANSMUTER</requirements>
 		<description>
 			<p>Starting at 14th level, you can use your action to consume the reserve of transmutation magic stored within your transmuter’s stone in a single burst. When you do so, choose one of the following effects. Your transmuter’s stone is destroyed and can’t be remade until you finish a long rest.</p>
@@ -94,7 +94,7 @@
 		</sheet>
 	</element>
 
-	<element name="Transmuter’s Stone, Darkvision" type="Magic Item" source="Player’s Handbook" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_DARKVISION">
+	<element name="Transmuter’s Stone, Darkvision" type="Magic Item" source="Beginner's Guide" id="ID_FALERIA_BG_MAGIC_ITEM_TRANSMUTERS_STONE_DARKVISION">
 		<description>
 			<p><em>This item can be created by a wizard that has the School of Transmutation arcane tradition</em></p>
 			<p>As long as the stone is in the creature’s possession you have darkvision out to a range of 60 feet.</p>
@@ -108,7 +108,7 @@
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 		</rules>
 	</element>
-	<element name="Transmuter’s Stone, Speed" type="Magic Item" source="Player’s Handbook" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_SPEED">
+	<element name="Transmuter’s Stone, Speed" type="Magic Item" source="Beginner's Guide" id="ID_FALERIA_BG_MAGIC_ITEM_TRANSMUTERS_STONE_SPEED">
 		<description>
 			<p><em>This item can be created by a wizard that has the School of Transmutation arcane tradition</em></p>
 			<p>An increase to speed of 10 feet while the creature is unencumbered.</p>
@@ -122,7 +122,7 @@
 			<stat name="speed:misc" value="10" />
 		</rules>
 	</element>
-	<element name="Transmuter’s Stone, Saving Throw" type="Magic Item" source="Player’s Handbook" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_CONSTITUTION_SAVE">
+	<element name="Transmuter’s Stone, Saving Throw" type="Magic Item" source="Beginner's Guide" id="ID_FALERIA_BG_MAGIC_ITEM_TRANSMUTERS_STONE_CONSTITUTION_SAVE">
 		<description>
 			<p><em>This item can be created by a wizard that has the School of Transmutation arcane tradition</em></p>
 			<p>As long as the stone is in the creature’s possession you have proficiency in Constitution saving throws.</p>
@@ -136,7 +136,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />			
 		</rules>
 	</element>
-	<element name="Transmuter’s Stone, Acid Resistance" type="Magic Item" source="Player’s Handbook" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_ACID">
+	<element name="Transmuter’s Stone, Acid Resistance" type="Magic Item" source="Beginner's Guide" id="ID_FALERIA_BG_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_ACID">
 		<description>
 			<p><em>This item can be created by a wizard that has the School of Transmutation arcane tradition</em></p>
 			<p>As long as the stone is in the creature’s possession you have resistance to acid damage.</p>
@@ -150,7 +150,7 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
 		</rules>
 	</element>
-	<element name="Transmuter’s Stone, Cold Resistance" type="Magic Item" source="Player’s Handbook" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_COLD">
+	<element name="Transmuter’s Stone, Cold Resistance" type="Magic Item" source="Beginner's Guide" id="ID_FALERIA_BG_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_COLD">
 		<description>
 			<p><em>This item can be created by a wizard that has the School of Transmutation arcane tradition</em></p>
 			<p>As long as the stone is in the creature’s possession you have resistance to cold damage.</p>
@@ -164,7 +164,7 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
 		</rules>
 	</element>
-	<element name="Transmuter’s Stone, Fire Resistance" type="Magic Item" source="Player’s Handbook" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_FIRE">
+	<element name="Transmuter’s Stone, Fire Resistance" type="Magic Item" source="Beginner's Guide" id="ID_FALERIA_BG_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_FIRE">
 		<description>
 			<p><em>This item can be created by a wizard that has the School of Transmutation arcane tradition</em></p>
 			<p>As long as the stone is in the creature’s possession you have resistance to fire damage.</p>
@@ -178,7 +178,7 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
 		</rules>
 	</element>
-	<element name="Transmuter’s Stone, Lightning Resistance" type="Magic Item" source="Player’s Handbook" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_LIGHTNING">
+	<element name="Transmuter’s Stone, Lightning Resistance" type="Magic Item" source="Beginner's Guide" id="ID_FALERIA_BG_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_LIGHTNING">
 		<description>
 			<p><em>This item can be created by a wizard that has the School of Transmutation arcane tradition</em></p>
 			<p>As long as the stone is in the creature’s possession you have resistance to lightning damage.</p>
@@ -192,7 +192,7 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
 		</rules>
 	</element>
-	<element name="Transmuter’s Stone, Thunder Resistance" type="Magic Item" source="Player’s Handbook" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_THUNDER">
+	<element name="Transmuter’s Stone, Thunder Resistance" type="Magic Item" source="Beginner's Guide" id="ID_FALERIA_BG_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_THUNDER">
 		<description>
 			<p><em>This item can be created by a wizard that has the School of Transmutation arcane tradition</em></p>
 			<p>As long as the stone is in the creature’s possession you have resistance to thunder damage.</p>
