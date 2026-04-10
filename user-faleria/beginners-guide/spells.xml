@@ -137,7 +137,6 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-		</element>
 	<element name="Conjure Animal Feed" type="Spell" source="Beginner's Guide" id="ID_FALERIA_BG_SPELL_CONJURE_ANIMAL_FEED">
 		<supports>Wizard, Druid, Ranger</supports>
 		<description>

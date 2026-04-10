@@ -30,7 +30,6 @@
 			<p class="indent"><strong><em>Mortal Subtype.</em></strong> Two subtypes are available: Adept Humans and Veteran Humans.</p>
 
             <p> See <a href="https://faleria.pt/mortal_type/human-1752568707799x276926597219745800">Website</a> for more details.</p>
-
 		</description>
 		<rules>
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (FHuman)" supports="Custom Ability Score Increase 1"/>
