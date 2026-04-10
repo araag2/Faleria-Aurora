@@ -11,6 +11,9 @@
 	<files>	
 		<file name="source.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/source.xml" />
 
+		<!-- Faleria Races -->
+		<file name="race-FHuman.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-FHuman.xml" />
+
 		<!-- races -->
 		<file name="race-dragonborn.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-dragonborn.xml" />
 		<file name="race-dwarf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-dwarf.xml" />
