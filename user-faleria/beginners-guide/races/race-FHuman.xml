@@ -6,10 +6,6 @@
 			<file name="FHuman.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-FHuman.xml" />
 		</update>
 	</info>
-
-    			<p class="flavor">Halafins are 0.5–1 meter tall, average 35 kg, and are humanoids. Halafins reach adulthood at 25 but are considered young until 35. On average, they live about 120 years. See <a href="https://faleria.pt/mortal_type/human-1752568707799x276926597219745800">Halafin Homebrew Source</a> for details.</p>
-			
-
 	<element name="FHuman" type="Race" source="Beginner's Guide" id="ID_RACE_FHuman">
 		<description>
             <h2>Human</h2>
