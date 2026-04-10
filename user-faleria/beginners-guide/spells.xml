@@ -137,6 +137,28 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
+		</element>
+	<element name="Conjure Animal Feed" type="Spell" source="Beginner's Guide" id="ID_FALERIA_BG_SPELL_CONJURE_ANIMAL_FEED">
+		<supports>Wizard, Druid, Ranger</supports>
+		<description>
+			<p>With the flick of the wrist, you make a tiny brown sphere appear in your hand. Its smell and taste are unappealing to most humanoids, but is quite appealing to most beasts. If a willing beast consumes this treat, you gain advantage on Wisdom (Animal Handling) checks made with that beast for 1 minute. If after 1 minute the feed is not consumed, then it disappears.</p>
+			<p class="indent">Though flavourful, this feed is unable to satiate an animals hunger.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a bread crumb</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 	<element name="Animal Shapes" type="Spell" source="Beginner's Guide" id="ID_FALERIA_BG_SPELL_ANIMAL_SHAPES">
 		<supports>Druid</supports>
 		<description>
