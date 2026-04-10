@@ -125,7 +125,7 @@
 		</rules>
 		<multiclass id="ID_FALERIA_BG_MULTICLASS_RANGER">
 			<prerequisite>Dexterity 13 and Wisdom 13</prerequisite>
-			<requirements>(([dex:13],[wis:13]),!(ID_WOTC_PHB24_CLASS_RANGER||ID_WOTC_PHB24_MULTICLASS_RANGER))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
+			<requirements>(([dex:13],[wis:13]),!(ID_WOTC_PHB24_CLASS_RANGER||ID_WOTC_PHB24_MULTICLASS_RANGER))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
 			<setters>
 				<set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons, one skill from the class’s skill list</set>
 			</setters>

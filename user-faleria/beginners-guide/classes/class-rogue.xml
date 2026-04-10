@@ -126,7 +126,7 @@
 		</rules>
 		<multiclass id="ID_FALERIA_BG_MULTICLASS_ROGUE">
 			<prerequisite>Dexterity 13</prerequisite>
-			<requirements>([dex:13],!(ID_WOTC_PHB24_CLASS_ROGUE||ID_WOTC_PHB24_MULTICLASS_ROGUE))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
+			<requirements>([dex:13],!(ID_WOTC_PHB24_CLASS_ROGUE||ID_WOTC_PHB24_MULTICLASS_ROGUE))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
 			<setters>
 				<set name="multiclass proficiencies">Light armor, one skill from the class’s skill list, thieves’ tools</set>
 			</setters>

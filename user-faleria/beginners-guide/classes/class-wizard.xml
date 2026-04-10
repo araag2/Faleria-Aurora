@@ -112,7 +112,7 @@
 		</rules>
 		<multiclass id="ID_FALERIA_BG_MULTICLASS_WIZARD">
 			<prerequisite>Intelligence 13</prerequisite>
-			<requirements>([int:13],!(ID_WOTC_PHB24_CLASS_WIZARD||ID_WOTC_PHB24_MULTICLASS_WIZARD))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
+			<requirements>([int:13],!(ID_WOTC_PHB24_CLASS_WIZARD||ID_WOTC_PHB24_MULTICLASS_WIZARD))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
 			<setters>
 				<set name="multiclass proficiencies">—</set>
 			</setters>

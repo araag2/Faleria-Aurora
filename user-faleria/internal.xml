@@ -1141,23 +1141,6 @@
 		</setters>
 	</element>
 
-	<!-- Multiclass Unlocker -->
-	<element name="Multiclass Unlocker" type="Item" source="Internal" id="ID_INTERNAL_ITEM_MULTICLASS_UNLOCKER">
-		<description>
-			<p>Once equipped, this item allows you to ignore Multiclass prerequisites for all of the Classes.</p>
-			<p><u><b>Note.</b></u> Some (non-official) Classes are likely to be missing parts that allow for this item to work, thus still requiring you to fullfil their prerequisites.</p>
-		</description>
-		<setters>
-			<set name="category">Additional Feature</set>
-			<set name="slot">misc</set>
-			<set name="inventory-hidden">true</set>
-		</setters>
-		<rules>
-			<grant type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER" />
-		</rules>
-	</element>
-	<element name="Multiclass Unlocker" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER" />
-
 	<!-- Proficiency or Double elements. First two elements of each set are here for reference, the "Double" elements are changed from the version within the app, in order to apply new Expertise Proficiency elements -->
 	<element name="Acrobatics Proficiency or Double" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_ACROBATICS">
 		<rules>

@@ -120,7 +120,7 @@
 		</rules>
 		<multiclass id="ID_FALERIA_BG_MULTICLASS_BARD">
 			<prerequisite>Charisma 13</prerequisite>
-			<requirements>([cha:13],!(ID_WOTC_PHB24_CLASS_BARD||ID_WOTC_PHB24_MULTICLASS_BARD))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
+			<requirements>([cha:13],!(ID_WOTC_PHB24_CLASS_BARD||ID_WOTC_PHB24_MULTICLASS_BARD))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
 			<setters>
 				<set name="multiclass proficiencies">Light armor, one skill of your choice, one musical instrument of your choice</set>
 			</setters>

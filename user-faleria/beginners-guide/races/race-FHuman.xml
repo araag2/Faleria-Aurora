@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>FHuman</name>
+		<update version="0.2.6">
+			<file name="FHuman.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-FHuman.xml" />
+		</update>
+	</info>
+
+    			<p class="flavor">Halafins are 0.5–1 meter tall, average 35 kg, and are humanoids. Halafins reach adulthood at 25 but are considered young until 35. On average, they live about 120 years. See <a href="https://faleria.pt/mortal_type/human-1752568707799x276926597219745800">Halafin Homebrew Source</a> for details.</p>
+			
+
+	<element name="FHuman" type="Race" source="Beginner's Guide" id="ID_RACE_FHuman">
+		<description>
+            <h2>Human</h2>
+			<p class="flavor">"They are a plague upon this world. These little pests can not only survive anywhere in this world but also thrive wherever they settle. Their kind has given great contributions to my field of study though, I'll give them that. Much like goblins, humans are born as dumb as rocks, gross little balls of pure potential, but, unlike goblins, they live long enough to actually make a difference. 
+            
+            I met a brilliant human once. He was kind hearted and dedicated. Achieved what took me 90 years in just 10. They can be great. It still saddens me that he didn't approve of my methods."
+            
+            - Y. Mageshell, Manyhals of Death</p>
+
+			<p>Humans are everywhere in Faleria, from the coldest mountains, to the driest deserts. While most other mortals are born with special skills or abilities, with wit or cunning, humans are born with naught. Where as other mortals are born with advantages, humans need to work for theirs and there lies humanities power. Humans are born to choose their fate and, when that fate doesn't suit them, they will adapt to the world or adapt the world to them.</p>
+
+			<h4>The first men</h4>
+			<p>It is said that humans were one of the three primary Kássian races, the first to emerge in the world of Faleria, being created alongside Dwarves and Elves by Yivor, Myllad and Kássia as servants in their godly works. Humans were created for Kássia, Queen of the gods, to explore Faleria in search of the Vigil gods. After they had succeeded in this quest, their numbers had grown exponentially. Some humans had built communities, kingdoms and empires.</p>
+
+			<p class="indent">Humans have changed a lot through the generations and have changed the world alongside them. They take pride in their ancestors and their legacy. Stories are told of heroes who conquered great beasts or kings who truly earned their crown. Despite being the ones who live the least out of the Kássians, humans survive in memory for much longer.</p>
+
+			<h4>Human TRAITS</h4>
+            <p class="indent"><strong><em>Creature Type.</em></strong> Humans are 1,50-1,85 meters tall, average 75 kg and are humanoids. Humans reach adulthood in their late teens but are considered young until the age of 25. On average, they live about 70 years.</p>
+            <p class="indent"><strong><em>Size and Speed.</em></strong> Your size is Medium and your base walking speed is 9 meters.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> You increase an ability score by 2 and one other ability score by 1, or three different ability scores by 1.</p>
+            <p class="indent"><strong><em>Feat.</em></strong> You gain one feat of your choice.</p>
+			<p class="indent"><strong><em>Mortal Subtype.</em></strong> Two subtypes are available: Adept Humans and Veteran Humans.</p>
+
+            See <a href="https://faleria.pt/mortal_type/human-1752568707799x276926597219745800">Website</a> for more details.</p>
+
+		</description>
+		<rules>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (FHuman)" supports="Custom Ability Score Increase 1"/>
+			<stat name="innate speed" value="9" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_ELVISH" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_FALERIA_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_HUMAN"/>
+			<select type="Feat" name="Feat (FHuman)" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FHUMAN_SUBTYPE" />
+		</rules>
+	</element>
+	<element name="FHuman Subtype" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_FHUMAN_SUBTYPE">
+		<description>
+			<p>Two subtypes are available: Adept Humans and Veteran Humans.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="FHuman Subrace" supports="FHuman" />
+		</rules>
+	</element>
+
+	<element name="Adept Human" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_ADEPT_HUMAN">
+		<supports>FHuman</supports>
+		<description>
+            <p class="indent"><strong><em>Mortal Subtype.</em></strong> Adept Humans are a cornerstone of Faleria. They can be found in any society, in any tavern or farm, for they live to adapt. Humans with these talents can come from anywhere and be however many faces there are in crowded streets. It is a tragedy that most of them would never know of their gift of resilience and indomitability until it’s too late to enjoy it.</p>
+			<p class="indent"><strong><em>Quick Learner.</em></strong> Whenever you gain an Ability Score Improvement you can increase one additional ability score by 1. If you gain a feat instead, you don’t gain an additional ability score, but can choose to change what ability score increase said feat gives, if any.</p>
+			<p class="indent"><strong><em>Malleable.</em></strong> You gain half proficiency in a skill of your choosing. This half proficiency may be changed after finishing a long rest.</p>
+		</description>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_ADEPT_HUMAN"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_QUICK_LEARNER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MALLEABLE" />
+		</rules>
+	</element> 	
+	<element name="Quick Learner" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_QUICK_LEARNER">
+		<description>
+			<p>Whenever you gain an Ability Score Improvement you can increase one additional ability score by 1. If you gain a feat instead, you don’t gain an additional ability score, but can choose to change what ability score increase said feat gives, if any.</p>
+		</description>
+		<rules>
+			<!-- TO:DO Not Sure how to Implement This <grant type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Quick Learner)" supports="Custom Ability Score Increase 1"/> -->
+		</rules>
+	</element>
+    <element name="Malleable" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_MALLEABLE">
+        <description>
+            <p>You gain half proficiency in a skill of your choosing. This half proficiency may be changed after finishing a long rest.</p>
+        </description>
+        <sheet>
+			<description>You gain half proficiency in a skill of your choosing. This half proficiency may be changed after finishing a long rest.</description>
+		</sheet>
+        <rules>
+			<select type="Proficiency" name="Malleable Skill (Half Proficiency)" supports="Faleria Skill Half Proficiency" number="1" />
+        </rules>
+    </element>
+
+		<element name="Veteran Human" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_VETERAN_HUMAN">
+		<supports>FHuman</supports>
+		<description>
+            <p class="indent"><strong><em>Mortal Subtype.</em></strong> Veteran Humans have gone through a hard life that shaped them. No less adaptable than others, these humans can easily adapt their skills as they see fit. Any of them can tell you stories of a troubled past, a busy life, a lost home, or even all of them combined.</p>
+			<p class="indent"><strong><em>Sharp Mind.</em></strong> For the purposes of multiclassing, you can ignore ability score prerequisites.</p>
+			<p class="indent"><strong><em>Long Life.</em></strong> You can choose 2 backgrounds instead of 1. The second background you choose does not give you items nor gold.</p>
+		</description>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_VETERAN_HUMAN"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SHARP_MIND" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LONG_LIFE" />
+		</rules>
+	</element> 	
+	<element name="Sharp Mind" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_SHARP_MIND">
+		<description>
+			<p>For the purposes of multiclassing, you can ignore ability score prerequisites.</p>
+		</description>
+			<!-- Implement Sharp Mind Racial Trait by changing the multiclassing rules to allow ignoring ability score prerequisites if id="ID_RACIAL_TRAIT_SHARP_MIND" is present in character -->
+	</element>
+    <element name="Long Life" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_LONG_LIFE">
+        <description>
+            <p>You can choose 2 backgrounds instead of 1. The second background you choose does not give you items nor gold.</p>
+        </description>
+        <rules>
+			<!-- TO:DO Implement Long Life Racial Trait -->
+        </rules>
+    </element>
+</elements>

@@ -114,7 +114,7 @@
 		</rules>
 		<multiclass id="ID_FALERIA_BG_MULTICLASS_CLERIC">
 			<prerequisite>Wisdom 13</prerequisite>
-			<requirements>([wis:13],!(ID_WOTC_PHB24_CLASS_CLERIC||ID_WOTC_PHB24_MULTICLASS_CLERIC))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
+			<requirements>([wis:13],!(ID_WOTC_PHB24_CLASS_CLERIC||ID_WOTC_PHB24_MULTICLASS_CLERIC))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
 			<setters>
 				<set name="multiclass proficiencies">Light armor, medium armor, shields</set>
 			</setters>
