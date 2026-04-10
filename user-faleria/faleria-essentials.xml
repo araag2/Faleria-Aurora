@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
 	<info>
-		<name>Aurora Legacy Essentials</name>
+		<name>Faleria Essentials</name>
 		<description>Elements that have functionality similar to Internals, but can appear in the Compendium.</description>
 		<update version="0.0.1">
-			<file name="ALE.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/ALE.xml" />
+			<file name="faleria-essentials.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials.xml" />
 		</update>
 	</info>
 
-	<element name="Aurora Legacy Essentials" type="Source" source="Core" id="ID_SOURCE_AURORA_LEGACY_ESSENTIALS">
+	<element name="Faleria Essentials" type="Source" source="Core" id="ID_SOURCE_AURORA_LEGACY_ESSENTIALS">
 		<description>
-			<p>The <i>Aurora Legacy Essentials</i> is a collection of elements that function in a similar way to <i>Internal</i> elements, allowing compatibility between original 5e (2014) and updated rules (2024). But while <i>Internal</i> elements are hidden from the Compendium (as those elements often don't even contain any descriptions), the elements of this source still appear as any other elements, which gives the ability for the user to quickly look up and reference relevant rules.</p>
+			<p>The <i>Faleria Essentials</i> is a collection of elements that function in a similar way to <i>Internal</i> elements, allowing compatibility between original 5e (2014) and updated rules (2024). But while <i>Internal</i> elements are hidden from the Compendium (as those elements often don't even contain any descriptions), the elements of this source still appear as any other elements, which gives the ability for the user to quickly look up and reference relevant rules.</p>
 		</description>
 		<setters>
-			<set name="abbreviation">ALE</set>
+			<set name="abbreviation">FE</set>
 			<set name="url" />
-			<set name="author" url="https://github.com/AuroraLegacy/elements">Aurora Legacy Team</set>
-			<set name="official">true</set>
+			<set name="author" url="https://github.com/araag2/Faleria-Aurora/blob/master/user-faleria.index">Faleria Team</set>
+			<set name="official">false</set>
 			<set name="core">true</set>
-			<set name="information">The contents of this source are required for the proper functionality of the Aurora Legacy repository.</set>
+			<set name="information">The contents of this source are required for the proper functionality of the Faleria repository.</set>
 			<set name="release">00000000</set>
 		</setters>
 	</element>
 
 	<!-- Proficiencies. Override the same elements within the app. Used by both the original PHB and PHB24 -->
-	<element name="Acrobatics" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_ACROBATICS">
+	<element name="Acrobatics" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_ACROBATICS">
 		<supports>Skill,Dexterity,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_MONK,Monk, PHB24 Fighter, PHB24 Rogue</supports>
 		<description>
 			<p>Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you’re trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship’s deck. The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.</p>
@@ -34,7 +34,7 @@
 		</rules>
 	</element>
 
-	<element name="Animal Handling" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_ANIMALHANDLING">
+	<element name="Animal Handling" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_ANIMALHANDLING">
 		<supports>Skill,Wisdom,ID_PROFICIENCY_SKILL,ID_CLASS_BARBARIAN,Barbarian,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_RANGER,Ranger, PHB24 Fighter</supports>
 		<description>
 			<p>When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal’s intentions, the GM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver.</p>
@@ -44,7 +44,7 @@
 		</rules>
 	</element>
 
-	<element name="Arcana" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_ARCANA">
+	<element name="Arcana" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_ARCANA">
 		<supports>Skill,Intelligence,ID_PROFICIENCY_SKILL,ID_CLASS_SORCERER,Sorcerer,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_WARLOCK,Warlock,ID_CLASS_WIZARD,Wizard, PHB24 Wizard</supports>
 		<description>
 			<p>Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.</p>
@@ -54,7 +54,7 @@
 		</rules>
 	</element>
 
-	<element name="Athletics" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_ATHLETICS">
+	<element name="Athletics" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_ATHLETICS">
 		<supports>Skill,Strength,ID_PROFICIENCY_SKILL,ID_CLASS_BARBARIAN,Barbarian,ID_CLASS_ROGUE,Rogue,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_MONK,Monk,ID_CLASS_PALADIN,Paladin,ID_CLASS_RANGER,Ranger, PHB24 Fighter, PHB24 Rogue</supports>
 		<description>
 			<p>Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:</p>
@@ -69,7 +69,7 @@
 		</rules>
 	</element>
 
-	<element name="Deception" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_DECEPTION">
+	<element name="Deception" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_DECEPTION">
 		<supports>Skill,Charisma,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_SORCERER,Sorcerer,ID_CLASS_BARD,Bard,ID_CLASS_WARLOCK,Warlock, PHB24 Rogue</supports>
 		<description>
 			<p>Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone’s suspicions with false assurances, or maintain a straight face while telling a blatant lie.</p>
@@ -79,7 +79,7 @@
 		</rules>
 	</element>
 
-	<element name="History" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_HISTORY">
+	<element name="History" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_HISTORY">
 		<supports>Skill,Intelligence,ID_PROFICIENCY_SKILL,ID_CLASS_CLERIC,Cleric,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_MONK,Monk,ID_CLASS_WARLOCK,Warlock,ID_CLASS_WIZARD,Wizard, PHB24 Fighter, PHB24 Wizard</supports>
 		<description>
 			<p>Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations.</p>
@@ -89,7 +89,7 @@
 		</rules>
 	</element>
 
-	<element name="Insight" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_INSIGHT">
+	<element name="Insight" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_INSIGHT">
 		<supports>Skill,Wisdom,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_SORCERER,Sorcerer,ID_CLASS_CLERIC,Cleric,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_MONK,Monk,ID_CLASS_PALADIN,Paladin,ID_CLASS_RANGER,Ranger,ID_CLASS_WIZARD,Wizard, PHB24 Rogue, PHB24 Wizard</supports>
 		<description>
 			<p>Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone’s next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.</p>
@@ -99,7 +99,7 @@
 		</rules>
 	</element>
 
-	<element name="Intimidation" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_INTIMIDATION">
+	<element name="Intimidation" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_INTIMIDATION">
 		<supports>Skill,Charisma,ID_PROFICIENCY_SKILL,ID_CLASS_BARBARIAN,Barbarian,ID_CLASS_ROGUE,Rogue,ID_CLASS_SORCERER,Sorcerer,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_PALADIN,Paladin,ID_CLASS_WARLOCK,Warlock, PHB24 Fighter, PHB24 Rogue</supports>
 		<description>
 			<p>When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.</p>
@@ -109,7 +109,7 @@
 		</rules>
 	</element>
 
-	<element name="Investigation" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_INVESTIGATION">
+	<element name="Investigation" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_INVESTIGATION">
 		<supports>Skill,Intelligence,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_BARD,Bard,ID_CLASS_RANGER,Ranger,ID_CLASS_WARLOCK,Warlock,ID_CLASS_WIZARD,Wizard, PHB24 Rogue, PHB24 Wizard</supports>
 		<description>
 			<p>When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check.</p>
@@ -119,7 +119,7 @@
 		</rules>
 	</element>
 
-	<element name="Medicine" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_MEDICINE">
+	<element name="Medicine" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_MEDICINE">
 		<supports>Skill,Wisdom,ID_PROFICIENCY_SKILL,ID_CLASS_CLERIC,Cleric,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_PALADIN,Paladin,ID_CLASS_WIZARD,Wizard, PHB24 Wizard</supports>
 		<description>
 			<p>A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness.</p>
@@ -129,7 +129,7 @@
 		</rules>
 	</element>
 
-	<element name="Nature" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_NATURE">
+	<element name="Nature" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_NATURE">
 		<supports>Skill,Intelligence,ID_PROFICIENCY_SKILL,ID_CLASS_BARBARIAN,Barbarian,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_RANGER,Ranger,ID_CLASS_WARLOCK,Warlock, PHB24 Wizard</supports>
 		<description>
 			<p>Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.</p>
@@ -139,7 +139,7 @@
 		</rules>
 	</element>
 
-	<element name="Perception" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_PERCEPTION">
+	<element name="Perception" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_PERCEPTION">
 		<supports>Skill,Wisdom,ID_PROFICIENCY_SKILL,ID_CLASS_BARBARIAN,Barbarian,ID_CLASS_ROGUE,Rogue,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_RANGER,Ranger, PHB24 Fighter, PHB24 Rogue</supports>
 		<description>
 			<p>Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.</p>
@@ -149,7 +149,7 @@
 		</rules>
 	</element>
 
-	<element name="Performance" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_PERFORMANCE">
+	<element name="Performance" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_PERFORMANCE">
 		<supports>Skill,Charisma,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_BARD,Bard</supports>
 		<description>
 			<p>Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment.</p>
@@ -159,7 +159,7 @@
 		</rules>
 	</element>
 
-	<element name="Persuasion" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_PERSUASION">
+	<element name="Persuasion" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_PERSUASION">
 		<supports>Skill,Charisma,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_SORCERER,Sorcerer,ID_CLASS_CLERIC,Cleric,ID_CLASS_BARD,Bard,ID_CLASS_PALADIN,Paladin, PHB24 Fighter, PHB24 Rogue</supports>
 		<description>
 			<p>When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.</p>
@@ -169,7 +169,7 @@
 		</rules>
 	</element>
 
-	<element name="Religion" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_RELIGION">
+	<element name="Religion" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_RELIGION">
 		<supports>Skill,Intelligence,ID_PROFICIENCY_SKILL,ID_CLASS_SORCERER,Sorcerer,ID_CLASS_CLERIC,Cleric,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_MONK,Monk,ID_CLASS_PALADIN,Paladin,ID_CLASS_WARLOCK,Warlock,ID_CLASS_WIZARD,Wizard, PHB24 Wizard</supports>
 		<description>
 			<p>Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.</p>
@@ -179,7 +179,7 @@
 		</rules>
 	</element>
 
-	<element name="Sleight of Hand" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND">
+	<element name="Sleight of Hand" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND">
 		<supports>Skill,Dexterity,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_BARD,Bard, PHB24 Rogue</supports>
 		<description>
 			<p>Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person’s pocket.</p>
@@ -189,7 +189,7 @@
 		</rules>
 	</element>
 
-	<element name="Stealth" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_STEALTH">
+	<element name="Stealth" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_STEALTH">
 		<supports>Skill,Dexterity,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_BARD,Bard,ID_CLASS_MONK,Monk,ID_CLASS_RANGER,Ranger, PHB24 Rogue</supports>
 		<description>
 			<p>Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.</p>
@@ -199,7 +199,7 @@
 		</rules>
 	</element>
 
-	<element name="Survival" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SKILL_SURVIVAL">
+	<element name="Survival" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SKILL_SURVIVAL">
 		<supports>Skill,Wisdom,ID_PROFICIENCY_SKILL,ID_CLASS_BARBARIAN,Barbarian,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_RANGER,Ranger, PHB24 Fighter</supports>
 		<description>
 			<p>The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards.</p>
@@ -210,7 +210,7 @@
 	</element>
 
 	<!-- Tool Proficiencies -->
-	<element name="Tool Proficiency (Alchemist’s supplies)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES">
+	<element name="Tool Proficiency (Alchemist’s supplies)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -248,7 +248,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Brewer’s supplies)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES">
+	<element name="Tool Proficiency (Brewer’s supplies)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -285,7 +285,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Calligrapher's supplies)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES">
+	<element name="Tool Proficiency (Calligrapher's supplies)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -322,7 +322,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Carpenter’s tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS">
+	<element name="Tool Proficiency (Carpenter’s tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -362,7 +362,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Cartographer’s tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS">
+	<element name="Tool Proficiency (Cartographer’s tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -400,7 +400,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Cobbler’s tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS">
+	<element name="Tool Proficiency (Cobbler’s tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -436,7 +436,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Cook’s utensils)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS">
+	<element name="Tool Proficiency (Cook’s utensils)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -474,7 +474,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Glassblower’s tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS">
+	<element name="Tool Proficiency (Glassblower’s tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -509,7 +509,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Jeweler’s tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS">
+	<element name="Tool Proficiency (Jeweler’s tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -544,7 +544,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Leatherworker’s tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS">
+	<element name="Tool Proficiency (Leatherworker’s tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -579,7 +579,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Mason’s tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS">
+	<element name="Tool Proficiency (Mason’s tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -615,7 +615,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Painter’s supplies)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES">
+	<element name="Tool Proficiency (Painter’s supplies)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -650,7 +650,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Potter’s tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS">
+	<element name="Tool Proficiency (Potter’s tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -686,7 +686,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Smith’s tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS">
+	<element name="Tool Proficiency (Smith’s tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -722,7 +722,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Tinker’s tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS">
+	<element name="Tool Proficiency (Tinker’s tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -758,7 +758,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Weaver’s tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS">
+	<element name="Tool Proficiency (Weaver’s tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -795,7 +795,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Woodcarver’s tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS">
+	<element name="Tool Proficiency (Woodcarver’s tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -831,7 +831,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Musical instrument)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_MUSICAL_INSTRUMENT">
+	<element name="Tool Proficiency (Musical instrument)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_MUSICAL_INSTRUMENT">
 		<description>
 			<p>Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus, as described in chapter 10. Each type of musical instrument requires a separate proficiency.</p>
 		</description>
@@ -849,7 +849,7 @@
 		</rules>
 	</element>
 
-	<element name="Tool Proficiency (Bagpipes)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_BAGPIPES">
+	<element name="Tool Proficiency (Bagpipes)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_BAGPIPES">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Musical Instrument</b> from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -882,7 +882,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Drum)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DRUM">
+	<element name="Tool Proficiency (Drum)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DRUM">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Musical Instrument</b> from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -915,7 +915,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Dulcimer)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DULCIMER">
+	<element name="Tool Proficiency (Dulcimer)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DULCIMER">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Musical Instrument</b> from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -948,7 +948,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Flute)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FLUTE">
+	<element name="Tool Proficiency (Flute)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FLUTE">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Musical Instrument</b> from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -981,7 +981,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Lute)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_LUTE">
+	<element name="Tool Proficiency (Lute)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_LUTE">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Musical Instrument</b> from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1014,7 +1014,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Lyre)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_LYRE">
+	<element name="Tool Proficiency (Lyre)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_LYRE">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Musical Instrument</b> from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1047,7 +1047,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Horn)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HORN">
+	<element name="Tool Proficiency (Horn)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HORN">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Musical Instrument</b> from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1080,7 +1080,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Pan flute)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_PAN_FLUTE">
+	<element name="Tool Proficiency (Pan flute)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_PAN_FLUTE">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Musical Instrument</b> from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1113,7 +1113,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Shawm)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SHAWM">
+	<element name="Tool Proficiency (Shawm)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SHAWM">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Musical Instrument</b> from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1146,7 +1146,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Viol)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VIOL">
+	<element name="Tool Proficiency (Viol)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VIOL">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Musical Instrument</b> from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1179,7 +1179,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Navigator’s tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS">
+	<element name="Tool Proficiency (Navigator’s tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS">
 		<supports>Tool</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1212,7 +1212,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Thieves’ tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS">
+	<element name="Tool Proficiency (Thieves’ tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS">
 		<supports>Tool, Thieves tools</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1246,7 +1246,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Vehicles (land))" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND">
+	<element name="Tool Proficiency (Vehicles (land))" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND">
 		<supports>Tool, Vehicles</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Vehicle Proficiency</b> from the original <i>Player’s Handbook</i>, page 155:</p>
@@ -1272,7 +1272,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Vehicles (water))" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER">
+	<element name="Tool Proficiency (Vehicles (water))" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER">
 		<supports>Tool, Vehicles</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Vehicle Proficiency</b> from the original <i>Player’s Handbook</i>, page 155:</p>
@@ -1299,7 +1299,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Gaming set)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_GAMING_SET">
+	<element name="Tool Proficiency (Gaming set)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_GAMING_SET">
 		<description>
 			<p>This item encompasses a wide range of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.</p>
 		</description>
@@ -1311,7 +1311,7 @@
 		</rules>
 	</element>
 
-	<element name="Tool Proficiency (Dice set)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET">
+	<element name="Tool Proficiency (Dice set)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET">
 		<supports>Tool, Gaming Set</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Gaming Set</b> from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1345,7 +1345,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Dragonchess set)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET">
+	<element name="Tool Proficiency (Dragonchess set)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET">
 		<supports>Tool, Gaming Set</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Gaming Set</b> from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1379,7 +1379,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Playing card set)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET">
+	<element name="Tool Proficiency (Playing card set)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET">
 		<supports>Tool, Gaming Set</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Gaming Set</b> from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1413,7 +1413,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Three-Dragon Ante set)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_THREE_DRAGON_ANTE_SET">
+	<element name="Tool Proficiency (Three-Dragon Ante set)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_THREE_DRAGON_ANTE_SET">
 		<supports>Tool, Gaming Set</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description of <b>Gaming Set</b> from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1447,7 +1447,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Disguise kit)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT">
+	<element name="Tool Proficiency (Disguise kit)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT">
 		<supports>Tool, Kit</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1486,7 +1486,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Forgery kit)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT">
+	<element name="Tool Proficiency (Forgery kit)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT">
 		<supports>Tool, Kit</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1523,7 +1523,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Herbalism kit)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT">
+	<element name="Tool Proficiency (Herbalism kit)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT">
 		<supports>Tool, Kit</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1560,7 +1560,7 @@
 		</description>
 	</element>
 
-	<element name="Tool Proficiency (Poisoner’s kit)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT">
+	<element name="Tool Proficiency (Poisoner’s kit)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT">
 		<supports>Tool, Kit</supports>
 		<description>
 			<p style="margin-bottom:-0.5px">Description from the original <i>Player’s Handbook</i>, page 154:</p>
@@ -1598,7 +1598,7 @@
 	</element>
 
 	<!-- Skill Expertise -->
-	<element name="Skill Expertise (Acrobatics)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_ACROBATICS">
+	<element name="Skill Expertise (Acrobatics)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_ACROBATICS">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_ACROBATICS</requirements>
 		<description>
@@ -1613,7 +1613,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Animal Handling)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_ANIMAL_HANDLING">
+	<element name="Skill Expertise (Animal Handling)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_ANIMAL_HANDLING">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_ANIMALHANDLING</requirements>
 		<description>
@@ -1628,7 +1628,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Arcana)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_ARCANA">
+	<element name="Skill Expertise (Arcana)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_ARCANA">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_ARCANA</requirements>
 		<description>
@@ -1643,7 +1643,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Athletics)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_ATHLETICS">
+	<element name="Skill Expertise (Athletics)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_ATHLETICS">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_ATHLETICS</requirements>
 		<description>
@@ -1658,7 +1658,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Deception)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_DECEPTION">
+	<element name="Skill Expertise (Deception)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_DECEPTION">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_DECEPTION</requirements>
 		<description>
@@ -1673,7 +1673,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (History)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_HISTORY">
+	<element name="Skill Expertise (History)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_HISTORY">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_HISTORY</requirements>
 		<description>
@@ -1688,7 +1688,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Insight)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_INSIGHT">
+	<element name="Skill Expertise (Insight)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_INSIGHT">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_INSIGHT</requirements>
 		<description>
@@ -1703,7 +1703,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Intimidation)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_INTIMIDATION">
+	<element name="Skill Expertise (Intimidation)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_INTIMIDATION">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_INTIMIDATION</requirements>
 		<description>
@@ -1718,7 +1718,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Investigation)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_INVESTIGATION">
+	<element name="Skill Expertise (Investigation)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_INVESTIGATION">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_INVESTIGATION</requirements>
 		<description>
@@ -1733,7 +1733,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Medicine)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_MEDICINE">
+	<element name="Skill Expertise (Medicine)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_MEDICINE">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_MEDICINE</requirements>
 		<description>
@@ -1748,7 +1748,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Nature)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_NATURE">
+	<element name="Skill Expertise (Nature)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_NATURE">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_NATURE</requirements>
 		<description>
@@ -1763,7 +1763,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Perception)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_PERCEPTION">
+	<element name="Skill Expertise (Perception)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_PERCEPTION">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_PERCEPTION</requirements>
 		<description>
@@ -1778,7 +1778,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Performance)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_PERFORMANCE">
+	<element name="Skill Expertise (Performance)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_PERFORMANCE">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_PERFORMANCE</requirements>
 		<description>
@@ -1793,7 +1793,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Persuasion)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_PERSUASION">
+	<element name="Skill Expertise (Persuasion)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_PERSUASION">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_PERSUASION</requirements>
 		<description>
@@ -1808,7 +1808,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Religion)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_RELIGION">
+	<element name="Skill Expertise (Religion)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_RELIGION">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_RELIGION</requirements>
 		<description>
@@ -1823,7 +1823,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Sleight of Hand)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_SLEIGHT_OF_HAND">
+	<element name="Skill Expertise (Sleight of Hand)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_SLEIGHT_OF_HAND">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_SLEIGHTOFHAND</requirements>
 		<description>
@@ -1838,7 +1838,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Stealth)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_STEALTH">
+	<element name="Skill Expertise (Stealth)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_STEALTH">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_STEALTH</requirements>
 		<description>
@@ -1853,7 +1853,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Expertise (Survival)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_SURVIVAL">
+	<element name="Skill Expertise (Survival)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_SKILL_EXPERTISE_SURVIVAL">
 		<supports>Expertise, Skill Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_SURVIVAL</requirements>
 		<description>
@@ -1868,7 +1868,7 @@
 		</rules>
 	</element>
 
-	<element name="Tool Expertise (Thieves’ Tools)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_TOOL_EXPERTISE_THIEVES_TOOLS">
+	<element name="Tool Expertise (Thieves’ Tools)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_TOOL_EXPERTISE_THIEVES_TOOLS">
 		<supports>Expertise, Tool Expertise, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_INTERNAL_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS</requirements>
 		<description>
@@ -1884,7 +1884,7 @@
 		</rules>
 	</element>
 	<!-- Class Feature needed to display a description of Tool Expertise. Requirements block this element from displaying when character already has original PHB's Expertise element, typically gained from the Rogue class. Requirements aren't necessary for any other (future) tool expertise elements. -->
-	<element name="Tool Expertise (Thieves’ Tools)" type="Class Feature" source="Aurora Legacy Essentials" id="ID_INTERNAL_CLASS_FEATURE_TOOL_EXPERTISE_THIEVES_TOOLS">
+	<element name="Tool Expertise (Thieves’ Tools)" type="Class Feature" source="Faleria Essentials" id="ID_INTERNAL_CLASS_FEATURE_TOOL_EXPERTISE_THIEVES_TOOLS">
 		<requirements>!ID_EXPERTISE_TOOL_THIEVES_TOOLS</requirements>
 		<sheet>
         	<description>Your proficiency bonus is doubled for any Thieves’ Tools check you make.</description>
@@ -1892,56 +1892,56 @@
 	</element>
 
 	<!-- Saving Throws -->
-	<element name="Saving Throw Proficiency (Strength)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH">
+	<element name="Saving Throw Proficiency (Strength)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH">
 		<supports>Saving Throw</supports>
 		<rules>
 			<stat name="strength:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
 		</rules>
 	</element>
 
-	<element name="Saving Throw Proficiency (Dexterity)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY">
+	<element name="Saving Throw Proficiency (Dexterity)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY">
 		<supports>Saving Throw</supports>
 		<rules>
 			<stat name="dexterity:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
 		</rules>
 	</element>
 
-	<element name="Saving Throw Proficiency (Constitution)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION">
+	<element name="Saving Throw Proficiency (Constitution)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION">
 		<supports>Saving Throw</supports>
 		<rules>
 			<stat name="constitution:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
 		</rules>
 	</element>
 
-	<element name="Saving Throw Proficiency (Intelligence)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE">
+	<element name="Saving Throw Proficiency (Intelligence)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE">
 		<supports>Saving Throw</supports>
 		<rules>
 			<stat name="intelligence:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
 		</rules>
 	</element>
 
-	<element name="Saving Throw Proficiency (Wisdom)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM">
+	<element name="Saving Throw Proficiency (Wisdom)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM">
 		<supports>Saving Throw</supports>
 		<rules>
 			<stat name="wisdom:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
 		</rules>
 	</element>
 
-	<element name="Saving Throw Proficiency (Charisma)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA">
+	<element name="Saving Throw Proficiency (Charisma)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA">
 		<supports>Saving Throw</supports>
 		<rules>
 			<stat name="charisma:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Simple Weapons)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS">
+	<element name="Weapon Proficiency (Simple Weapons)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS">
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_RANGED_WEAPONS" />
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Simple Melee Weapons)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS">
+	<element name="Weapon Proficiency (Simple Melee Weapons)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS">
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
@@ -1957,7 +1957,7 @@
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Simple Ranged Weapons)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_RANGED_WEAPONS">
+	<element name="Weapon Proficiency (Simple Ranged Weapons)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_RANGED_WEAPONS">
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
@@ -1966,14 +1966,14 @@
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Martial Weapons)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS">
+	<element name="Weapon Proficiency (Martial Weapons)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS">
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS" />
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Martial Melee Weapons)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+	<element name="Weapon Proficiency (Martial Melee Weapons)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL" />
@@ -1996,7 +1996,7 @@
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Martial Ranged Weapons)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS">
+	<element name="Weapon Proficiency (Martial Ranged Weapons)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS">
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
@@ -2006,159 +2006,159 @@
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Club)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB">
+	<element name="Weapon Proficiency (Club)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB">
 		<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_CLUBS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Dagger)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER">
+	<element name="Weapon Proficiency (Dagger)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER">
 		<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Greatclub)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATCLUB">
+	<element name="Weapon Proficiency (Greatclub)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATCLUB">
 		<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CLUBS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Handaxe)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE">
+	<element name="Weapon Proficiency (Handaxe)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE">
 		<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Javelin)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN">
+	<element name="Weapon Proficiency (Javelin)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN">
 		<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Light Hammer)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER">
+	<element name="Weapon Proficiency (Light Hammer)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER">
 		<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_HAMMERS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Mace)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE">
+	<element name="Weapon Proficiency (Mace)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE">
 		<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_GROUP_MACES</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Quarterstaff)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF">
+	<element name="Weapon Proficiency (Quarterstaff)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF">
 		<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_POLEARMS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Sickle)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE">
+	<element name="Weapon Proficiency (Sickle)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE">
 		<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Spear)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR">
+	<element name="Weapon Proficiency (Spear)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR">
 		<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SPEARS, ID_INTERNAL_WEAPON_GROUP_POLEARMS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Unarmed Strike)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_UNARMED_STRIKE">
+	<element name="Weapon Proficiency (Unarmed Strike)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_UNARMED_STRIKE">
 		<supports>Weapon, Simple, Melee</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Dart)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART">
+	<element name="Weapon Proficiency (Dart)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART">
 		<supports>Weapon, Simple, Ranged, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Light Crossbow)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT">
+	<element name="Weapon Proficiency (Light Crossbow)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT">
 		<supports>Weapon, Simple, Ranged, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Shortbow)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW">
+	<element name="Weapon Proficiency (Shortbow)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW">
 		<supports>Weapon, Simple, Ranged, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Sling)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING">
+	<element name="Weapon Proficiency (Sling)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING">
 		<supports>Weapon, Simple, Ranged, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Battleaxe)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE">
+	<element name="Weapon Proficiency (Battleaxe)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Flail)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL">
+	<element name="Weapon Proficiency (Flail)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Glaive)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE">
+	<element name="Weapon Proficiency (Glaive)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_POLEARMS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Greataxe)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE">
+	<element name="Weapon Proficiency (Greataxe)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Greatsword)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD">
+	<element name="Weapon Proficiency (Greatsword)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Halberd)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD">
+	<element name="Weapon Proficiency (Halberd)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_POLEARMS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Lance)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE">
+	<element name="Weapon Proficiency (Lance)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_LANCE, ID_WOTC_PHB24_WEAPON_PROPERTY_HEAVY, ID_WOTC_PHB24_WEAPON_GROUP_POLEARMS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Longsword)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD">
+	<element name="Weapon Proficiency (Longsword)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Maul)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL">
+	<element name="Weapon Proficiency (Maul)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_MAULS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Morningstar)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR">
+	<element name="Weapon Proficiency (Morningstar)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Pike)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE">
+	<element name="Weapon Proficiency (Pike)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_POLEARMS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Rapier)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER">
+	<element name="Weapon Proficiency (Rapier)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Scimitar)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR">
+	<element name="Weapon Proficiency (Scimitar)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Shortsword)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD">
+	<element name="Weapon Proficiency (Shortsword)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Trident)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT">
+	<element name="Weapon Proficiency (Trident)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Warhammer)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER">
+	<element name="Weapon Proficiency (Warhammer)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_HAMMERS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (War Pick)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK">
+	<element name="Weapon Proficiency (War Pick)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_PHB24_WEAPON_PROPERTY_VERSATILE</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Whip)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP">
+	<element name="Weapon Proficiency (Whip)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Blowgun)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN">
+	<element name="Weapon Proficiency (Blowgun)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN">
 		<supports>Weapon, Martial, Ranged, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Hand Crossbow)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND">
+	<element name="Weapon Proficiency (Hand Crossbow)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND">
 		<supports>Weapon, Martial, Ranged, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_DAMAGE_TYPE_PIERCING,ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION,ID_INTERNAL_WEAPON_PROPERTY_LIGHT,ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Heavy Crossbow)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY">
+	<element name="Weapon Proficiency (Heavy Crossbow)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY">
 		<supports>Weapon, Martial, Ranged, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Longbow)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW">
+	<element name="Weapon Proficiency (Longbow)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW">
 		<supports>Weapon, Martial, Ranged, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Net)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET">
+	<element name="Weapon Proficiency (Net)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET">
 		<supports>Weapon, Martial, Ranged, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_NET, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Swords)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_SWORDS">
+	<element name="Weapon Proficiency (Swords)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_SWORDS">
 		<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD" />
@@ -2169,7 +2169,7 @@
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Axes)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_AXES">
+	<element name="Weapon Proficiency (Axes)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_AXES">
 		<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
@@ -2178,14 +2178,14 @@
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Maces)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_MACES">
+	<element name="Weapon Proficiency (Maces)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_MACES">
 		<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" />
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Hammers)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_HAMMERS">
+	<element name="Weapon Proficiency (Hammers)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_HAMMERS">
 		<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" />
@@ -2193,14 +2193,14 @@
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Mauls)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_MAULS">
+	<element name="Weapon Proficiency (Mauls)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_MAULS">
 		<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL" />
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Bows)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_BOWS">
+	<element name="Weapon Proficiency (Bows)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_BOWS">
 		<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
@@ -2208,7 +2208,7 @@
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Crossbows)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_CROSSBOWS">
+	<element name="Weapon Proficiency (Crossbows)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_CROSSBOWS">
 		<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" />
@@ -2217,14 +2217,14 @@
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Spears)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_SPEARS">
+	<element name="Weapon Proficiency (Spears)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_SPEARS">
 		<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
 		</rules>
 	</element>
 
-	<element name="Weapon Proficiency (Clubs)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_CLUBS">
+	<element name="Weapon Proficiency (Clubs)" type="Proficiency" source="Faleria Essentials" id="ID_INTERNAL_PROFICIENCY_GROUP_CLUBS">
 		<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" />
@@ -2234,7 +2234,7 @@
 
 	<!-- Armor Proficiencies. Overrides the same elements within the app, so they can be used with disabled PHB Source
 	to do: add descriptions from original PHB -->
-	<element name="Armor Proficiency (Light Armor)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR">
+	<element name="Armor Proficiency (Light Armor)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR">
 		<description>
 			<p>Made from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.</p>
 		</description>
@@ -2245,7 +2245,7 @@
 		</rules>
 	</element>
 
-	<element name="Armor Proficiency (Medium Armor)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR">
+	<element name="Armor Proficiency (Medium Armor)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR">
 		<description>
 			<p>Medium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base number from your armor type to determine your Armor Class.</p>
 		</description>
@@ -2258,7 +2258,7 @@
 		</rules>
 	</element>
 
-	<element name="Armor Proficiency (Heavy Armor)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR">
+	<element name="Armor Proficiency (Heavy Armor)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR">
 		<description>
 			<p>Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk.</p>
 			<p class="indent">Heavy armor doesn’t let you add your Dexterity modifier to your Armor Class, but it also doesn’t penalize you if your Dexterity modifier is negative.</p>
@@ -2271,7 +2271,7 @@
 		</rules>
 	</element>
 
-	<element name="Armor Proficiency (Shields)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS">
+	<element name="Armor Proficiency (Shields)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS">
 		<description>
 			<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>
 		</description>
@@ -2280,60 +2280,60 @@
 		</rules>
 	</element>
 
-	<element name="Armor Proficiency (Padded)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED">
+	<element name="Armor Proficiency (Padded)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED">
 		<supports>Light Armor, ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 	</element>
 
-	<element name="Armor Proficiency (Leather)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER">
+	<element name="Armor Proficiency (Leather)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER">
 		<supports>Light Armor, ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 	</element>
 
-	<element name="Armor Proficiency (Studded Leather)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER">
+	<element name="Armor Proficiency (Studded Leather)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER">
 		<supports>Light Armor, ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 	</element>
 
-	<element name="Armor Proficiency (Hide)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE">
+	<element name="Armor Proficiency (Hide)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE">
 		<supports>Medium Armor, ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
 	</element>
 
-	<element name="Armor Proficiency (Chain Shirt)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT">
+	<element name="Armor Proficiency (Chain Shirt)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT">
 		<supports>Medium Armor, ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
 	</element>
 
-	<element name="Armor Proficiency (Scale Mail)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SCALE_MAIL">
+	<element name="Armor Proficiency (Scale Mail)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SCALE_MAIL">
 		<supports>Medium Armor, ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
 	</element>
 
-	<element name="Armor Proficiency (Breastplate)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_BREASTPLATE">
+	<element name="Armor Proficiency (Breastplate)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_BREASTPLATE">
 		<supports>Medium Armor, ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
 	</element>
 
-	<element name="Armor Proficiency (Half Plate)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HALF_PLATE">
+	<element name="Armor Proficiency (Half Plate)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HALF_PLATE">
 		<supports>Medium Armor, ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
 	</element>
 
-	<element name="Armor Proficiency (Ring Mail)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_RING_MAIL">
+	<element name="Armor Proficiency (Ring Mail)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_RING_MAIL">
 		<supports>Heavy Armor, ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
 	</element>
 
-	<element name="Armor Proficiency (Chain Mail)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_MAIL">
+	<element name="Armor Proficiency (Chain Mail)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_MAIL">
 		<supports>Heavy Armor, ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
 	</element>
 
-	<element name="Armor Proficiency (Splint)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SPLINT">
+	<element name="Armor Proficiency (Splint)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SPLINT">
 		<supports>Heavy Armor, ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
 	</element>
 
-	<element name="Armor Proficiency (Plate)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PLATE">
+	<element name="Armor Proficiency (Plate)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PLATE">
 		<supports>Heavy Armor, ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
 	</element>
 
-	<element name="Armor Proficiency (Shield)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD">
+	<element name="Armor Proficiency (Shield)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD">
 		<supports>Shield, ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
 	</element>
 
 	<!-- Weapon Proficiencies -->
-	<element name="Weapon Proficiency (Improvised Weapons)" type="Proficiency" source="Aurora Legacy Essentials" id="ID_ALE_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS">
+	<element name="Weapon Proficiency (Improvised Weapons)" type="Proficiency" source="Faleria Essentials" id="ID_ALE_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS">
 		<supports>Improvised Weapons</supports>
 		<description>
 			<p>Sometimes characters don’t have their weapons and have to attack with whatever is close at hand. An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead goblin.</p>
@@ -2343,7 +2343,7 @@
 	</element>
 
 	<!-- Alignments. Overrides the same elements within the app, so they can be used with disabled PHB Source -->
-	<element name="Lawful Good" type="Alignment" source="Aurora Legacy Essentials" id="ID_ALIGNMENT_LAWFUL_GOOD">
+	<element name="Lawful Good" type="Alignment" source="Faleria Essentials" id="ID_ALIGNMENT_LAWFUL_GOOD">
 		<supports />
 		<description>
 			<p>Lawful good (LG) creatures can be counted on to do the right thing as expected by society. Gold dragons, paladins, and most dwarves are lawful good.</p>
@@ -2354,7 +2354,7 @@
 		<rules />
 	</element>
 
-	<element name="Neutral Good" type="Alignment" source="Aurora Legacy Essentials" id="ID_ALIGNMENT_NEUTRAL_GOOD">
+	<element name="Neutral Good" type="Alignment" source="Faleria Essentials" id="ID_ALIGNMENT_NEUTRAL_GOOD">
 		<supports />
 		<description>
 			<p>Neutral good (NG) folk do the best they can to help others according to their needs. Many celestials, some cloud giants, and most gnomes are neutral good.</p>
@@ -2365,7 +2365,7 @@
 		<rules />
 	</element>
 
-	<element name="Chaotic Good" type="Alignment" source="Aurora Legacy Essentials" id="ID_ALIGNMENT_CHAOTIC_GOOD">
+	<element name="Chaotic Good" type="Alignment" source="Faleria Essentials" id="ID_ALIGNMENT_CHAOTIC_GOOD">
 		<supports />
 		<description>
 			<p>Chaotic good (CG) creatures act as their conscience directs, with little regard for what others expect. Copper dragons, many elves, and unicorns are chaotic good.</p>
@@ -2376,7 +2376,7 @@
 		<rules />
 	</element>
 
-	<element name="Lawful Neutral" type="Alignment" source="Aurora Legacy Essentials" id="ID_ALIGNMENT_LAWFUL_NEUTRAL">
+	<element name="Lawful Neutral" type="Alignment" source="Faleria Essentials" id="ID_ALIGNMENT_LAWFUL_NEUTRAL">
 		<supports />
 		<description>
 			<p>Lawful neutral (LN) individuals act in accordance with law, tradition, or personal codes. Many monks and some wizards are lawful neutral.</p>
@@ -2387,7 +2387,7 @@
 		<rules />
 	</element>
 
-	<element name="Neutral" type="Alignment" source="Aurora Legacy Essentials" id="ID_ALIGNMENT_NEUTRAL">
+	<element name="Neutral" type="Alignment" source="Faleria Essentials" id="ID_ALIGNMENT_NEUTRAL">
 		<supports />
 		<description>
 			<p>Neutral (N) is the alignment of those who prefer to steer clear of moral questions and don’t take sides, doing what seems best at the time. Lizardfolk, most druids, and many humans are neutral.</p>
@@ -2398,7 +2398,7 @@
 		<rules />
 	</element>
 
-	<element name="Chaotic Neutral" type="Alignment" source="Aurora Legacy Essentials" id="ID_ALIGNMENT_CHAOTIC_NEUTRAL">
+	<element name="Chaotic Neutral" type="Alignment" source="Faleria Essentials" id="ID_ALIGNMENT_CHAOTIC_NEUTRAL">
 		<supports />
 		<description>
 			<p>Chaotic neutral (CN) creatures follow their whims, holding their personal freedom above all else. Many barbarians and rogues, and some bards, are chaotic neutral.</p>
@@ -2409,7 +2409,7 @@
 		<rules />
 	</element>
 
-	<element name="Lawful Evil" type="Alignment" source="Aurora Legacy Essentials" id="ID_ALIGNMENT_LAWFUL_EVIL">
+	<element name="Lawful Evil" type="Alignment" source="Faleria Essentials" id="ID_ALIGNMENT_LAWFUL_EVIL">
 		<supports />
 		<description>
 			<p>Lawful evil (LE) creatures methodically take what they want, within the limits of a code of tradition, loyalty, or order. Devils, blue dragons, and hobgoblins are lawful evil.</p>
@@ -2420,7 +2420,7 @@
 		<rules />
 	</element>
 
-	<element name="Neutral Evil" type="Alignment" source="Aurora Legacy Essentials" id="ID_ALIGNMENT_NEUTRAL_EVIL">
+	<element name="Neutral Evil" type="Alignment" source="Faleria Essentials" id="ID_ALIGNMENT_NEUTRAL_EVIL">
 		<supports />
 		<description>
 			<p>Neutral evil (NE) is the alignment of those who do whatever they can get away with, without compassion or qualms. Many drow, some cloud giants, and yugoloths are neutral evil.</p>
@@ -2431,7 +2431,7 @@
 		<rules />
 	</element>
 
-	<element name="Chaotic Evil" type="Alignment" source="Aurora Legacy Essentials" id="ID_ALIGNMENT_CHAOTIC_EVIL">
+	<element name="Chaotic Evil" type="Alignment" source="Faleria Essentials" id="ID_ALIGNMENT_CHAOTIC_EVIL">
 		<supports />
 		<description>
 			<p>Chaotic evil (CE) creatures act with arbitrary violence, spurred by their greed, hatred, or bloodlust. Demons, red dragons, and orcs are chaotic evil.</p>
@@ -2443,7 +2443,7 @@
 	</element>
 
 	<!-- Languages. Overrides the same elements within the app, so they can be used with disabled PHB Source -->
-	<element name="Common" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_COMMON">
+	<element name="Common" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_COMMON">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by humans.</p>
@@ -2455,7 +2455,7 @@
 		</setters>
 	</element>
 
-	<element name="Dwarvish" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_DWARVISH">
+	<element name="Dwarvish" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_DWARVISH">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by dwarves.</p>
@@ -2467,7 +2467,7 @@
 		</setters>
 	</element>
 
-	<element name="Elvish" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_ELVISH">
+	<element name="Elvish" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_ELVISH">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by elves.</p>
@@ -2479,7 +2479,7 @@
 		</setters>
 	</element>
 
-	<element name="Giant" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_GIANT">
+	<element name="Giant" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_GIANT">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by ogres and giants.</p>
@@ -2491,7 +2491,7 @@
 		</setters>
 	</element>
 
-	<element name="Gnomish" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_GNOMISH">
+	<element name="Gnomish" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_GNOMISH">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by gnomes.</p>
@@ -2503,7 +2503,7 @@
 		</setters>
 	</element>
 
-	<element name="Goblin" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_GOBLIN">
+	<element name="Goblin" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_GOBLIN">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by goblinoids.</p>
@@ -2515,7 +2515,7 @@
 		</setters>
 	</element>
 
-	<element name="Halfling" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_HALFLING">
+	<element name="Halfling" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_HALFLING">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by halflings.</p>
@@ -2527,7 +2527,7 @@
 		</setters>
 	</element>
 
-	<element name="Orc" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_ORC">
+	<element name="Orc" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_ORC">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by orcs.</p>
@@ -2540,7 +2540,7 @@
 	</element>
 
 	<!-- Rare Languages (uses "Exotic" or "Secret" support for pre-2024 rules)-->
-	<element name="Abyssal" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_ABYSSAL">
+	<element name="Abyssal" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_ABYSSAL">
 		<supports>Exotic, Rare</supports>
 		<description>
 			<p>Typically spoken by demons.</p>
@@ -2552,7 +2552,7 @@
 		</setters>
 	</element>
 
-	<element name="Celestial" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_CELESTIAL">
+	<element name="Celestial" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_CELESTIAL">
 		<supports>Exotic, Rare</supports>
 		<description>
 			<p>Typically spoken by celestials</p>
@@ -2564,7 +2564,7 @@
 		</setters>
 	</element>
 
-	<element name="Deep Speech" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_DEEP_SPEECH">
+	<element name="Deep Speech" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_DEEP_SPEECH">
 		<supports>Exotic, Rare</supports>
 		<description>
 			<p>Typically spoken by mind flayers and beholders.</p>
@@ -2576,7 +2576,7 @@
 		</setters>
 	</element>
 
-	<element name="Infernal" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_INFERNAL">
+	<element name="Infernal" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_INFERNAL">
 		<supports>Exotic, Rare</supports>
 		<description>
 			<p>Typically spoken by devils.</p>
@@ -2588,7 +2588,7 @@
 		</setters>
 	</element>
 
-	<element name="Primordial" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_PRIMORDIAL">
+	<element name="Primordial" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_PRIMORDIAL">
 		<supports>Exotic, Rare</supports>
 		<description>
 			<p>Typically spoken by elementals.</p>
@@ -2601,7 +2601,7 @@
 		</setters>
 	</element>
 
-	<element name="Sylvan" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_SYLVAN">
+	<element name="Sylvan" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_SYLVAN">
 		<supports>Exotic, Rare</supports>
 		<description>
 			<p>Typically spoken by fey creatures.</p>
@@ -2613,7 +2613,7 @@
 		</setters>
 	</element>
 
-	<element name="Undercommon" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_UNDERCOMMON">
+	<element name="Undercommon" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_UNDERCOMMON">
 		<supports>Exotic, Rare</supports>
 		<description>
 			<p>Typically spoken by underdark traders.</p>
@@ -2625,7 +2625,7 @@
 		</setters>
 	</element>
 
-	<element name="Druidic" type="Language" source="Aurora Legacy Essentials" id="ID_LANGUAGE_DRUIDIC">
+	<element name="Druidic" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_DRUIDIC">
 		<supports>Secret, Rare</supports>
 		<description>
 			<p>The secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message’s presence with a successful DC 15 Wisdom (Perception) check but can’t decipher it without magic.</p>
@@ -2636,7 +2636,7 @@
 		</setters>
 	</element>
 
-	<element name="Thieves’ Cant" type="Language" source="Aurora Legacy Essentials" id="ID_WOTC_PHB_LANGUAGE_THIEVES_CANT">
+	<element name="Thieves’ Cant" type="Language" source="Faleria Essentials" id="ID_WOTC_PHB_LANGUAGE_THIEVES_CANT">
 		<supports>Secret, Rare</supports>
 		<description>
 			<p>A secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves’ cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</p>
@@ -2648,7 +2648,7 @@
 	</element>
 
 	<!-- Vision elements -->
-	<element name="Darkvision" type="Vision" source="Aurora Legacy Essentials" id="ID_VISION_DARKVISION">
+	<element name="Darkvision" type="Vision" source="Faleria Essentials" id="ID_VISION_DARKVISION">
 		<requirements>!ID_VISION_SUPERIORDARKVISION</requirements>
 		<description>
 			<p>Many creatures in the worlds of D&amp;D, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can’t discern color in darkness, only shades of gray.</p>
@@ -2661,7 +2661,7 @@
 		</rules>
 	</element>
 
-	<element name="Blindsight" type="Vision" source="Aurora Legacy Essentials" id="ID_VISION_BLINDSIGHT">
+	<element name="Blindsight" type="Vision" source="Faleria Essentials" id="ID_VISION_BLINDSIGHT">
 		<description>
 			<p>A creature with blindsight can perceive its surroundings without relying on sight, within a specific radius. Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense.</p>
 		</description>
@@ -2673,7 +2673,7 @@
 		</rules>
 	</element>
 
-	<element name="Truesight" type="Vision" source="Aurora Legacy Essentials" id="ID_VISION_TRUESIGHT">
+	<element name="Truesight" type="Vision" source="Faleria Essentials" id="ID_VISION_TRUESIGHT">
 		<description>
 			<p>A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Ethereal Plane.</p>
 		</description>
@@ -2685,7 +2685,7 @@
 		</rules>
 	</element>
 
-	<element name="Tremorsense" type="Vision" source="Aurora Legacy Essentials" id="ID_VISION_TREMORSENSE">
+	<element name="Tremorsense" type="Vision" source="Faleria Essentials" id="ID_VISION_TREMORSENSE">
 		<description>
 			<p>A monster with tremorsense can detect and pinpoint the origin of vibrations within a specific radius, provided that the monster and the source of the vibrations are in contact with the same ground or substance.</p>
 			<p class="indent">Tremorsense can't be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs, have this special sense.</p>
@@ -2699,7 +2699,7 @@
 	</element>
 
 	<!-- Ranger's Favored Terrain features, also used by Fighter's Scout subclass from UA20160104 -->
-	<element name="Arctic" type="Class Feature" source="Aurora Legacy Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_ARCTIC">
+	<element name="Arctic" type="Class Feature" source="Faleria Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_ARCTIC">
 		<supports>Favored Terrain</supports>
 		<description>
 			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
@@ -2715,7 +2715,7 @@
 		</description>		
 	</element>
 
-	<element name="Coast" type="Class Feature" source="Aurora Legacy Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_COAST">
+	<element name="Coast" type="Class Feature" source="Faleria Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_COAST">
 		<supports>Favored Terrain</supports>
 		<description>
 			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
@@ -2731,7 +2731,7 @@
 		</description>		
 	</element>
 
-	<element name="Desert" type="Class Feature" source="Aurora Legacy Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_DESERT">
+	<element name="Desert" type="Class Feature" source="Faleria Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_DESERT">
 		<supports>Favored Terrain</supports>
 		<description>
 			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
@@ -2747,7 +2747,7 @@
 		</description>		
 	</element>
 
-	<element name="Forest" type="Class Feature" source="Aurora Legacy Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_FOREST">
+	<element name="Forest" type="Class Feature" source="Faleria Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_FOREST">
 		<supports>Favored Terrain</supports>
 		<description>
 			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
@@ -2763,7 +2763,7 @@
 		</description>		
 	</element>
 
-	<element name="Grassland" type="Class Feature" source="Aurora Legacy Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_GRASSLAND">
+	<element name="Grassland" type="Class Feature" source="Faleria Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_GRASSLAND">
 		<supports>Favored Terrain</supports>
 		<description>
 			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
@@ -2779,7 +2779,7 @@
 		</description>		
 	</element>
 
-	<element name="Mountain" type="Class Feature" source="Aurora Legacy Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_MOUNTAIN">
+	<element name="Mountain" type="Class Feature" source="Faleria Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_MOUNTAIN">
 		<supports>Favored Terrain</supports>
 		<description>
 			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
@@ -2795,7 +2795,7 @@
 		</description>		
 	</element>
 
-	<element name="Swamp" type="Class Feature" source="Aurora Legacy Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_SWAMP">
+	<element name="Swamp" type="Class Feature" source="Faleria Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_SWAMP">
 		<supports>Favored Terrain</supports>
 		<description>
 			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
@@ -2811,7 +2811,7 @@
 		</description>		
 	</element>
 
-	<element name="Underdark" type="Class Feature" source="Aurora Legacy Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_UNDERDARK">
+	<element name="Underdark" type="Class Feature" source="Faleria Essentials" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_UNDERDARK">
 		<supports>Favored Terrain</supports>
 		<description>
 			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
