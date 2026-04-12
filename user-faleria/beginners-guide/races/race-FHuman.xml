@@ -8,21 +8,21 @@
 	</info>
 	<element name="FHuman" type="Race" source="Beginner's Guide" id="ID_RACE_FHuman">
 		<description>
-            <h2>Human</h2>
 			<p class="flavor">"They are a plague upon this world. These little pests can not only survive anywhere in this world but also thrive wherever they settle. Their kind has given great contributions to my field of study though, I'll give them that. Much like goblins, humans are born as dumb as rocks, gross little balls of pure potential, but, unlike goblins, they live long enough to actually make a difference. 
             
             I met a brilliant human once. He was kind hearted and dedicated. Achieved what took me 90 years in just 10. They can be great. It still saddens me that he didn't approve of my methods."
-            
-            - Y. Mageshell, Manyhals of Death</p>
+			<br />- Y. Mageshell, Manyhals of Death</p>
+        
 
 			<p>Humans are everywhere in Faleria, from the coldest mountains, to the driest deserts. While most other mortals are born with special skills or abilities, with wit or cunning, humans are born with naught. Where as other mortals are born with advantages, humans need to work for theirs and there lies humanities power. Humans are born to choose their fate and, when that fate doesn't suit them, they will adapt to the world or adapt the world to them.</p>
 
-			<h4>The first men</h4>
+			<h4>THE FIRST MEN</h4>
 			<p>It is said that humans were one of the three primary Kássian races, the first to emerge in the world of Faleria, being created alongside Dwarves and Elves by Yivor, Myllad and Kássia as servants in their godly works. Humans were created for Kássia, Queen of the gods, to explore Faleria in search of the Vigil gods. After they had succeeded in this quest, their numbers had grown exponentially. Some humans had built communities, kingdoms and empires.</p>
 
 			<p class="indent">Humans have changed a lot through the generations and have changed the world alongside them. They take pride in their ancestors and their legacy. Stories are told of heroes who conquered great beasts or kings who truly earned their crown. Despite being the ones who live the least out of the Kássians, humans survive in memory for much longer.</p>
 
-			<h4>Human TRAITS</h4>
+			<h4>HUMAN TRAITS</h4>
+			<p>Your human character has certain characteristics in common with all other humans.</p>
             <p class="indent"><strong><em>Creature Type.</em></strong> Humans are 1,50-1,85 meters tall, average 75 kg and are humanoids. Humans reach adulthood in their late teens but are considered young until the age of 25. On average, they live about 70 years.</p>
             <p class="indent"><strong><em>Size and Speed.</em></strong> Your size is Medium and your base walking speed is 9 meters.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> You increase an ability score by 2 and one other ability score by 1, or three different ability scores by 1.</p>

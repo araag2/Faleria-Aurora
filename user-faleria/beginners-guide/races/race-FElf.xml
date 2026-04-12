@@ -9,22 +9,22 @@
 
 	<element name="FElf" type="Race" source="Beginner's Guide" id="ID_RACE_FELF">
 		<description>
-			<h2>Elf</h2>
 			<p class="flavor">"Far greater is the admiration I harbor for the elves than for any other type of mortal in this world of ours. Only the Gods could stand in my way, had I been gifted with an elven body at birth. I admit to be envious of their natural link with magic, even if most misuse it."
 			<br />- Y. Mageshell, Manyhals of Death</p>
 
 			<p>The tall and slender elves were born into magic. Many are the elves that adore the finer things in life, such as silk, silver and adornments that connect them with the life around them. Due to their long life they may come off as uncaring, stagnant or even lazy, when in reality they just see the world in a completely different way than any other mortal could hope to.</p>
 
-			<h4>Arcane Masters</h4>
+			<h4>ARCANE MASTERS</h4>
 			<p>It's said that of the three primary Kassian races elves were the last to emerge in Faleria, being created alongside humans and dwarves by Yivor, Myllad and Kassia as servants in their godly works. Elves were created for Myllad, God of knowledge, magic and libraries, to serve in his vast library. Through the years, elves organized and catalogued his many scrolls and tomes and, sometimes, even conducted field research alongside humans.</p>
 
-			<h4>Elf Names</h4>
+			<h4>ELF NAMES</h4>
 			<p>Elven names are full of voiced sounds and tend to involve diphthongs, l's and r's. Examples of elven names are Hemcriel, Zavandriel and Emaria.</p>
 
-			<h4>Broken People</h4>
+			<h4>BROKEN PEOPLE</h4>
 			<p>Elves had already settled in Faleria for many generations once the Great Penury broke out. During and after that period, some elven lineages turned to conquest while others sought to rebuild what was lost. This divide still shapes elven cultures today.</p>
 
-			<h4>Elf Traits</h4>
+			<h4>ELF TRAITS</h4>
+            <p>Your elven character has certain characteristics in common with all other elves.</p>
 			<p class="indent"><strong><em>Creature Type.</em></strong> Elves are 1,75-2 meters tall, average 68 kg and are humanoids. Elves reach adulthood at the age of 108 but are considered young until the age of 150. On average, they live about 500 years.</p>
 			<p class="indent"><strong><em>Size and Speed.</em></strong> Your size is Medium and your base walking speed is 9 meters.</p>
 			<p class="indent"><strong><em>Elven Ability Score Increase.</em></strong> You may choose to increase an ability score by 2 and one other ability score by 1, or increase three different ability scores by 1. Your Intelligence score maximum is 22, instead of the normal 20.</p>
@@ -84,6 +84,7 @@
 		</sheet>
 	</element>
 
+    
 	<element name="FElf Subrace" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_FELF_SUBRACE">
 		<description>
 			<p>Four subtypes are available: Dark Elves, Imperial Elves, Light Elves and Night Elves.</p>
@@ -99,7 +100,7 @@
     <!-- Dark Elf Sub Race-->
 
     <element name="Dark Elf" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_DARK_ELF">
-		<supports>Elf</supports>
+		<supports>FElf</supports>
 		<description>
             <p class="indent"><strong><em>Mortal Subtype.</em></strong> <em>Dark Elves</em> are natural to the frozen tundras of Nyjörsa. They are often mistaken for dwarves in literature due to both being described as “ice-born” in silvanian, but physically they are very different. Like most elves, these are a tall and slender people, but dark elves tend to be the bulkiest of the elves. They have a distinct charcoal or dark blue skin, purple or pink eyes and silver white hair.</p>
 
@@ -134,7 +135,7 @@
     <!-- Imperial Elf Sub Race-->
 
 	<element name="Imperial Elf" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_IMPERIAL_ELF">
-		<supports>Elf</supports>
+		<supports>FElf</supports>
 		<description>
             <p class="indent"><strong><em>Mortal Subtype.</em></strong> <em>Imperial Elves</em> are closely related to light elves, directly deriving from them in “recent” times. Over the centuries, they have been raised only to serve the emperor. These elves have blonde or light brown hair, blue or green eyes and fair skin. Their ears are the longest of any elf, their length being a symbol of virtue, being adorned elegantly to show power or achievements.</p>
 
@@ -181,7 +182,7 @@
     <!-- Light Elf -->
 
     <element name="Light Elf" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_LIGHT_ELF">
-		<supports>Elf</supports>
+		<supports>FElf</supports>
 		<description>
             <p class="indent"><strong><em>Mortal Subtype.</em></strong> <em>Light Elves</em> are the long lost cousins to the imperial elves. Natural to Scanduri, they are descendants of the elves that chose not to join the empire. These elves have brownish skin, brown or black hair, brown or black eyes and have the shortest ears of all elvish subtypes, with some being mistaken for Half-Elves. Despite their darker features, they call themselves light elves due to their enlightened decision to stay in Scanduri. Imperial elves only call them traitors.</p>
 
@@ -222,7 +223,7 @@
     <!-- Night Elf -->
 
     <element name="Night Elf" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_NIGHT_ELF">
-		<supports>Elf</supports>
+		<supports>FElf</supports>
 		<description>
             <p class="indent"><strong><em>Mortal Subtype.</em></strong> <em>Night Elves</em> were the first elves to set foot in Faleria. Their purpose is lost to time, but now they remain in Manyhal. Having spent millenea in this world, their magic has attuned with the very nature that surrounds them. Their bodies have adapted to nature and transformed to resemble it. Their hair comes in almost any colour, as long as nature presents it. Their eyes either have a humanlike iris or an iris that covers their whole eye and these can be orange, yellow, brown, green or blue. Their skin has become a variation of the colour of tree trunks, so in a range from spruce to dark oak.</p>
 
