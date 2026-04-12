@@ -19,8 +19,9 @@
 			<set name="image">https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/Faleria.png</set>
 			<!-- <set name="errata">https://media.wizards.com/2020/dnd/downloads/PH-Errata.pdf</set>  -->
 			<set name="author" abbreviation="Faleria" url="https://faleria.pt/">Faleria</set>
-			<set name="official">false</set>
+			<!-- <set name="official">true</set> -->
 			<set name="core">true</set>
+			<set name="homebrew">true</set>
 			<!-- <set name="supplement">true</set> -->
 			<set name="release">20260409</set>
 			<!-- Release date was changed so the source appears right after the other core (2014) books. Correct release date: 20140819 -->

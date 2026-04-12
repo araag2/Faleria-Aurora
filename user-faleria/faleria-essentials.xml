@@ -18,6 +18,7 @@
 			<set name="author" url="https://github.com/araag2/Faleria-Aurora/blob/master/user-faleria.index">Faleria</set>
 			<set name="official">false</set>
 			<set name="core">true</set>
+			<set name="homebrew">true</set>
 			<set name="information">The contents of this source are required for the proper functionality of the Faleria repository.</set>
 			<set name="release">00000000</set>
 		</setters>
