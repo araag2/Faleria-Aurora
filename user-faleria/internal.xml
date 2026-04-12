@@ -3,7 +3,7 @@
 	<info>
 		<name>Internal</name>
 		<description>Elements that should've been part of the app itself</description>
-		<update version="0.1.5">
+		<update version="0.1.6">
 			<file name="internal.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/internal.xml" />
 		</update>
 	</info>
@@ -1064,11 +1064,16 @@
 		</rules>
 	</element>
 
+	<!--Faleria Race/Subrace Grants for Feats, Items, Exc-->
+	<element name="Race Dark Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DARK_ELF" />
+	<element name="Race Imperial Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_IMPERIAL_ELF" />
+	<element name="Race Light Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_LIGHT_ELF" />
+	<element name="Race Night Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_NIGHT_ELF" />
+
 	<!--Race/Subrace Grants for Feats, Items, Exc-->
 	<element name="Race Dragonborn" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DRAGONBORN" />
 	<element name="Race Dwarf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DWARF" />
 	<element name="Race Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_ELF" />
-	<element name="Race Dark Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DARK_ELF" />
 	<element name="Race High Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HIGH_ELF" />
 	<element name="Race Wood Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_WOOD_ELF" />
 	<element name="Race Gnome" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_GNOME" />
