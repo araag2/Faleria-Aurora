@@ -32,7 +32,7 @@
             <p> See <a href="https://faleria.pt/mortal_type/human-1752568707799x276926597219745800">Website</a> for more details.</p>
 		</description>
 		<rules>
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (FHuman)" supports="Custom Ability Score Increase 1"/>
+			<select type="Ability Score Improvement" name="Human Ability Score Improvement Option (FHuman)" supports="Custom Ability Score Improvement Option" />
 			<stat name="innate speed" value="9" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
@@ -40,10 +40,10 @@
 			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_FALERIA_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_HUMAN"/>
 			<select type="Feat" name="Feat (FHuman)" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FHUMAN_SUBTYPE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FHUMAN_SUBRACE" />
 		</rules>
 	</element>
-	<element name="FHuman Subtype" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_FHUMAN_SUBTYPE">
+	<element name="FHuman Subrace" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_FHUMAN_SUBRACE">
 		<description>
 			<p>Two subtypes are available: Adept Humans and Veteran Humans.</p>
 		</description>
