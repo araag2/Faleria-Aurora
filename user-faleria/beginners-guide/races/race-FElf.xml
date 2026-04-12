@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>FElf</name>
-		<update version="0.3.0">
+		<update version="0.3.1">
 			<file name="race-FElf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-FElf.xml" />
 		</update>
 	</info>
