@@ -7,7 +7,7 @@
 			<file name="items-tools.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/items/items-tools.xml" />
 		</update>
 	</info>
-	<element name="Alchemist’s Supplies" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_ALCHEMISTS_SUPPLIES">
+	<element name="Alchemist’s Supplies" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_ALCHEMISTS_SUPPLIES">
 		<description>
 			<p>Alchemist’s supplies enable a character to produce useful concoctions, such as acid or alchemist’s fire.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Alchemist’s supplies include two glass beakers, a metal frame to hold a beaker in place over an open flame, a glass stirring rod, a small mortar and pestle, and a pouch of common alchemical ingredients, including salt, powdered iron, and purified water.</p>
@@ -34,7 +34,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES</set>
 		</setters>
 	</element>
-	<element name="Brewer’s Supplies" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_BREWERS_SUPPLIES">
+	<element name="Brewer’s Supplies" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_BREWERS_SUPPLIES">
 		<description>
 			<p>Brewing is the art of producing beer. Not only does beer serve as an alcoholic beverage, but the process of brewing purifies water. Crafting beer takes weeks of fermentation, but only a few hours of work.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Brewer's supplies include a large glass jug, a quantity of hops, a siphon, and several feet of tubing.</p>
@@ -60,7 +60,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES</set>
 		</setters>
 	</element>
-	<element name="Calligrapher’s Supplies" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_CALLIGRAPHERS_SUPPLIES">
+	<element name="Calligrapher’s Supplies" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_CALLIGRAPHERS_SUPPLIES">
 		<description>
 			<p>Calligraphy treats writing as a delicate, beautiful art. Calligraphers produce text that is pleasing to the eye, using a style that is difficult to forge. Their supplies also give them some ability to examine scripts and determine if they are legitimate, since a calligrapher’s training involves long hours of studying writing and attempting to replicate its style and design.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Calligrapher’s supplies include ink, a dozen sheets of parchment, and three quills.</p>
@@ -86,7 +86,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES</set>
 		</setters>
 	</element>
-	<element name="Carpenter’s Tools" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_CARPENTERS_TOOLS">
+	<element name="Carpenter’s Tools" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_CARPENTERS_TOOLS">
 		<description>
 			<p>Skill at carpentry enables a character to construct wooden structures. A carpenter can build a house, a shack, a wooden cabinet, or similar items.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Carpenter’s tools include a saw, a hammer, nails, a hatchet, a square, a ruler, an adze, a plane, and a chisel.</p>
@@ -115,7 +115,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS</set>
 		</setters>
 	</element>
-	<element name="Cartographer’s Tools" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_CARTOGRAPHERS_TOOLS">
+	<element name="Cartographer’s Tools" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_CARTOGRAPHERS_TOOLS">
 		<description>
 			<p>Using cartographer’s tools, you can create accurate maps to make travel easier for yourself and those who come after you. These maps can range from large-scale depictions of mountain ranges to diagrams that show the layout of a dungeon level.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Cartographer’s tools consist of a quill, ink, parchment, a pair of compasses, calipers, and a ruler.</p>
@@ -142,7 +142,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS</set>
 		</setters>
 	</element>
-	<element name="Cobbler’s Tools" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_COBBLERS_TOOLS">
+	<element name="Cobbler’s Tools" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_COBBLERS_TOOLS">
 		<description>
 			<p>Although the cobbler’s trade might seem too humble for an adventurer, a good pair of boots will see a character across rugged wilderness and through deadly dungeons.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Cobbler’s tools consist of a hammer, an awl, a knife, a shoe stand, a cutter, spare leather, and thread.</p>
@@ -167,7 +167,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS</set>
 		</setters>
 	</element>
-	<element name="Cook’s Utensils" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_COOKS_UTENSILS">
+	<element name="Cook’s Utensils" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_COOKS_UTENSILS">
 		<description>
 			<p>Adventuring is a hard life. With a cook along on the journey, your meals will be much better than the typical mix of hardtack and dried fruit.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Cook’s utensils include a metal pot, knives, forks, a stirring spoon, and a ladle.</p>
@@ -194,7 +194,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS</set>
 		</setters>
 	</element>
-	<element name="Disguise Kit" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_DISGUISE_KIT">
+	<element name="Disguise Kit" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_DISGUISE_KIT">
 		<description>
 			<p>The perfect tool for anyone who wants to engage in trickery, a disguise kit enables its owner to adopt a false identity.</p>
 			<p class="indent"><strong><em>Components.</em></strong> A disguise kit includes cosmetics, hair dye, small props, and a few pieces of clothing.</p>
@@ -222,7 +222,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT</set>
 		</setters>
 	</element>
-	<element name="Forgery Kit" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_FORGERY_KIT">
+	<element name="Forgery Kit" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_FORGERY_KIT">
 		<description>
 			<p>A forgery kit is designed to duplicate documents and to make it easier to copy a person’s seal or signature.</p>
 			<p class="indent"><strong><em>Components.</em></strong> A forgery kit includes several different types of ink, a variety of parchments and papers, several quills, seals and sealing wax, gold and silver leaf, and small tools to sculpt melted wax to mimic a seal.</p>
@@ -249,7 +249,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT</set>
 		</setters>
 	</element>
-	<element name="Glassblower’s Tools" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_GLASSBLOWERS_TOOLS">
+	<element name="Glassblower’s Tools" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_GLASSBLOWERS_TOOLS">
 		<description>
 			<p>Someone who is proficient with glassblower’s tools has not only the ability to shape glass, but also specialized knowledge of the methods used to produce glass objects.</p>
 			<p class="indent"><strong><em>Components.</em></strong> The tools include a blowpipe, a small marver, blocks, and tweezers. You need a source of heat to work glass.</p>
@@ -273,7 +273,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS</set>
 		</setters>
 	</element>
-	<element name="Herbalism Kit" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_HERBALISM_KIT">
+	<element name="Herbalism Kit" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_HERBALISM_KIT">
 		<description>
 			<p>Proficiency with an herbalism kit allows you to identify plants and safely collect their useful elements.</p>
 			<p class="indent"><strong><em>Components.</em></strong> An herbalism kit includes pouches to store herbs, clippers and leather gloves for collecting plants, a mortar and pestle, and several glass jars.</p>
@@ -299,7 +299,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT</set>
 		</setters>
 	</element>
-	<element name="Jeweler’s Tools" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_JEWELERS_TOOLS">
+	<element name="Jeweler’s Tools" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_JEWELERS_TOOLS">
 		<description>
 			<p>Training with jeweler’s tools includes the basic techniques needed to beautify gems. it also gives you expertise in identifying precious stones.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Jeweler’s tools consist Of a small saw and hammer, files, pliers, and tweezers.</p>
@@ -323,7 +323,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS</set>
 		</setters>
 	</element>
-	<element name="Leatherworker’s Tools" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_LEATHERWORKERS_TOOLS">
+	<element name="Leatherworker’s Tools" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_LEATHERWORKERS_TOOLS">
 		<description>
 			<p>Knowledge of leatherworking extends to lore concerning animal hides and their properties. It also confers knowledge of leather armor and similar goods.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Leatherworker’s tools include a knife, a small mallet, an edger, a hole punch, thread, and leather scraps.</p>
@@ -347,7 +347,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS</set>
 		</setters>
 	</element>
-	<element name="Mason’s Tools" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_MASONS_TOOLS">
+	<element name="Mason’s Tools" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_MASONS_TOOLS">
 		<description>
 			<p>Mason’s tools allow you to craft stone structures, including walls and buildings crafted from brick.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Mason’s tools consist of a trowel, a hammer, a chisel, brushes, and a square.</p>
@@ -372,7 +372,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS</set>
 		</setters>
 	</element>
-	<element name="Navigator’s Tools" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_NAVIGATORS_TOOLS">
+	<element name="Navigator’s Tools" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_NAVIGATORS_TOOLS">
 		<description>
 			<p>Proficiency with navigator's tools helps you determine a true course based on observing the stars. It also grants you insight into charts and maps while developing your sense of direction.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Navigator’s tools include a sextant, a compass, calipers, a ruler, parchment, ink, and a quill.</p>
@@ -395,7 +395,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS</set>
 		</setters>
 	</element>
-	<element name="Painter’s Supplies" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_PAINTERS_SUPPLIES">
+	<element name="Painter’s Supplies" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_PAINTERS_SUPPLIES">
 		<description>
 			<p>Proficiency with painter’s supplies represents your ability to paint and draw. You also acquire an understanding of art history, which can aid you in examining works of art.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Painter’s supplies include an easel, canvas, paints, brushes, charcoal sticks. and a palette.</p>
@@ -419,7 +419,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES</set>
 		</setters>
 	</element>
-	<element name="Poisoner’s Kit" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_POISONERS_KIT">
+	<element name="Poisoner’s Kit" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_POISONERS_KIT">
 		<description>
 			<p>A poisoner’s kit is a favored resource for thieves, assassins, and others who engage in skulduggery. It allows you to apply poisons and create them from various materials. Your knowledge of poisons also helps you treat them.</p>
 			<p class="indent"><strong><em>Components.</em></strong> A poisoner’s kit includes glass vials, a mortar and pestle, chemicals, and a glass stirring rod.</p>
@@ -445,7 +445,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT</set>
 		</setters>
 	</element>
-	<element name="Potter’s Tools" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_POTTERS_TOOLS">
+	<element name="Potter’s Tools" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_POTTERS_TOOLS">
 		<description>
 			<p>Potter’s tools are used to create a variety of ceramic Objects, most typically pots and similar vessels.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Potter’s tools include potter’s needles, ribs, scrapers, a knife, and calipers.</p>
@@ -470,7 +470,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS</set>
 		</setters>
 	</element>
-	<element name="Smith’s Tools" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_SMITHS_TOOLS">
+	<element name="Smith’s Tools" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_SMITHS_TOOLS">
 		<description>
 			<p>Smith’s tools allow you to work metal, heating it to alter its shape, repair damage, or work raw ingots into useful items.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Smith’s tools include hammers, tongs, charcoal, rags, and a Whetstone.</p>
@@ -495,7 +495,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS</set>
 		</setters>
 	</element>
-	<element name="Thieves’ Tools" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_THIEVES_TOOLS">
+	<element name="Thieves’ Tools" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_THIEVES_TOOLS">
 		<description>
 			<p>Perhaps the most common tools used by adventurers, thieves’ tools are designed for picking locks and foiling traps. Proficiency with the tools also grants you a general knowledge of traps and locks.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Thieves’ tools include a small file, a set Of lock picks, a small mirror mounted on a metal handle, a set of narrow—bladed scissors, and a pair of pliers.</p>
@@ -519,7 +519,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS</set>
 		</setters>
 	</element>
-	<element name="Tinker’s Tools" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_TINKERS_TOOLS">
+	<element name="Tinker’s Tools" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_TINKERS_TOOLS">
 		<description>
 			<p>A set of tinker’s tools is designed to enable you to repair many mundane objects. Though you can’t manufacture much with tinker’s tools, you can mend torn clothes, sharpen a worn sword, and patch a tattered suit of chain mail.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Tinker’s tools include a variety of hand tools, thread, needles, a Whetstone, scraps of cloth and leather, and a small pot of glue.</p>
@@ -544,7 +544,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS</set>
 		</setters>
 	</element>
-	<element name="Weaver’s Tools" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_WEAVERS_TOOLS">
+	<element name="Weaver’s Tools" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_WEAVERS_TOOLS">
 		<description>
 			<p>Weaver‘s tools allow you to create cloth and tailor it into articles of clothing.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Weaver’s tools include thread, needles, and scraps of cloth. You know how to work a loom, but such equipment is too large to transport.</p>
@@ -570,7 +570,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS</set>
 		</setters>
 	</element>
-	<element name="Woodcarver’s Tools" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_WOODCARVERS_TOOLS">
+	<element name="Woodcarver’s Tools" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_WOODCARVERS_TOOLS">
 		<description>
 			<p>Woodcarver’s tools allow you to craft intricate objects from wood, such as wooden tokens or arrows.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Woodcarver’s tools consist of a knife, a gouge, and a small saw.</p>
@@ -589,7 +589,7 @@
 			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS</set>
 		</setters>
 	</element>		
-	<element name="Dice Set" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_DICE_SET">
+	<element name="Dice Set" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_DICE_SET">
 		<description>
 			<p>If you are proficient with the Dice Set, you can add your proficiency bonus to ability checks you make to play a game.</p>
 		</description>
@@ -602,7 +602,7 @@
 			<set name="proficiency">ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET</set>
 		</setters>
 	</element>
-	<element name="Dragonchess Set" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_DRAGONCHESS_SET">
+	<element name="Dragonchess Set" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_DRAGONCHESS_SET">
 		<description>
 			<p>If you are proficient with the Dragonchess Set, you can add your proficiency bonus to ability checks you make to play a game.</p>
 		</description>
@@ -615,7 +615,7 @@
 			<set name="proficiency">ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET</set>
 		</setters>
 	</element>
-	<element name="Playing Card Set" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_PLAYING_CARD_SET">
+	<element name="Playing Card Set" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_PLAYING_CARD_SET">
 		<description>
 			<p>If you are proficient with the Playing Card Set, you can add your proficiency bonus to ability checks you make to play a game.</p>
 		</description>
@@ -628,7 +628,7 @@
 			<set name="proficiency">ID_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET</set>
 		</setters>
 	</element>
-	<element name="Three-Dragon Ante Set" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_THREE_DRAGON_ANTE_SET">
+	<element name="Three-Dragon Ante Set" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_THREE_DRAGON_ANTE_SET">
 		<description>
 			<p>If you are proficient with the Three-Dragon Ante Set, you can add your proficiency bonus to ability checks you make to play a game.</p>
 		</description>
@@ -643,7 +643,7 @@
 	</element>
 
 	<!-- not an actual item, some supporting description -->
-	<!-- <element name="Gaming Set" type="Support" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_GAMING_SET">
+	<!-- <element name="Gaming Set" type="Support" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_GAMING_SET">
 		<description>
 			<p>Proficiency with a gaming set applies to one type of game, such as Three-Dragon Ante or games of chance that use dice.</p>
 			<p class="indent"><strong><em>Components.</em></strong> A gaming set has all the pieces needed to play a specific game or type of game, such as a complete deck of cards or a board and tokens.</p><p class="indent"><strong><em>History.</em></strong> Your mastery of a game includes knowledge of its history, as well as of important events it was connected to or prominent historical figures involved with it.</p><p class="indent"><strong><em>Insight.</em></strong> Playing games with someone is a good way to gain understanding of their personality, granting you a better ability to discern their lies from their truths and read their mood.</p><p class="indent"><strong><em>Sleight of Hand.</em></strong> Sleight of Hand is a useful skill for cheating at a game, as it allows you to swap pieces, palm cards, or alter a die roll. Alternatively, engrossing a target in a game by manipulating the components with dexterous movements is a great distraction for a pickpocketing attempt.</p><h5>GAMING SET</h5>
@@ -656,7 +656,7 @@
 			</table>
 		</description>
 	</element>
-	<element name="Land and Water Vehicles" type="Support" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_LAND_AND_WATER_VEHICLES">
+	<element name="Land and Water Vehicles" type="Support" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_LAND_AND_WATER_VEHICLES">
 		<description>
 			<p>Proficiency with land vehicles covers a wide range of options, from chariots and howdahs to wagons and carts. Proficiency with water vehicles covers anything that navigates waterways. Proficiency with vehicles grants the knowledge needed to handle vehicles of that type, along with knowledge of how to repair and maintain them.</p>
 			<p class="indent">In addition, a character proficient with water vehicles is knowledgeable about anything a professional sailor would be familiar with, such as information about the sea and islands, tying knots, and assessing weather and sea conditions.</p>
@@ -671,7 +671,7 @@
 			</table>
 		</description>
 	</element>
-	<element name="Musical Instruments" type="Support" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_TOOL_MUSICAL_INSTRUMENTS">
+	<element name="Musical Instruments" type="Support" source="Beginner's Guide" id="ID_BG_ITEM_TOOL_MUSICAL_INSTRUMENTS">
 		<description>
 			<p>Proficiency with a musical instrument indicates you are familiar with the techniques used to play it. You also have knowledge of some songs commonly performed with that instrument.</p>
 			<p class="indent"><strong><em>History.</em></strong> Your expertise aids you in recalling lore related to your instrument.</p><p class="indent"><strong><em>Performance.</em></strong> Your ability to put on a good show is improved when you incorporate an instrument into your act.</p><p class="indent"><strong><em>Compose a Tune.</em></strong> As part of a long rest, you can compose a new tune and lyrics for your instrument. You might use this ability to impress a noble or spread scandalous rumors with a catchy tune.</p><h5>MUSICAL INSTRUMENTS</h5>

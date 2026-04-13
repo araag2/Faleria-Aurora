@@ -5,15 +5,13 @@ from pathlib import Path
 
 
 TEXT_REPLACEMENTS = [
-    #("Player’s Handbook", "Beginner's Guide"),
-    #("Player's Handbook", "Beginner's Guide"),
-    ("ID_FALERIA_PHB24_", "ID_WOTC_PHB24_"),
-    #("ID_WOTC_PHB_", "ID_FALERIA_BG_"),
-    #("ID_WOTC_", "ID_FALERIA_"),
-    ("ID_BG24_", "ID_PHB24_"),
-    #("ID_PHB_", "ID_FALERIA_BG_"),
-    #("PLAYERS_HANDBOOK", "BEGINNERS_GUIDE"),
-    #("PHB.png", "BG.png"),
+    #("https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/tashas-cauldron-of-everything/", "https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/"),
+    #("source=\"Tasha’s Cauldron of Everything\"", "source=\"Beginner's Guide\""),
+    #("source=\"Player's Handbook\"", "source=\"Beginner's Guide\""),
+    #("ID_WOTC_", "ID_"),
+    ("ID_PHB24_", "ID_BG_"),
+    #("ID_PHB_", "ID_BG_"),
+    #("ID_FALERIA_BG_", "ID_BG_"),
 ]
 
 

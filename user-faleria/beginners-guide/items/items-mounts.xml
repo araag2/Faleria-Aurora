@@ -8,7 +8,7 @@
 			<file name="items-mounts.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/items/items-mounts.xml" />
 		</update>
 	</info>
-	<element name="Camel" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_CAMEL">
+	<element name="Camel" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_CAMEL">
 		<description>
 			<p><strong><em>Speed.</em></strong> 50 ft.<br/><strong><em>Carrying Capacity.</em></strong> 480 lb.</p>
 		</description>
@@ -19,7 +19,7 @@
 			<set name="type">Mount</set>
 		</setters>
 	</element> 
-	<element name="Donkey" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_DONKEY">
+	<element name="Donkey" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_DONKEY">
 		<description>
 			<p><strong><em>Speed.</em></strong> 40 ft.<br/><strong><em>Carrying Capacity.</em></strong> 420 lb.</p>
 		</description>
@@ -30,7 +30,7 @@
 			<set name="type">Mount</set>
 		</setters>
 	</element> 
-	<element name="Mule" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_MULE">
+	<element name="Mule" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_MULE">
 		<description>
 			<p><strong><em>Speed.</em></strong> 40 ft.<br/><strong><em>Carrying Capacity.</em></strong> 420 lb.</p>
 		</description>
@@ -41,7 +41,7 @@
 			<set name="type">Mount</set>
 		</setters>
 	</element> 
-	<element name="Elephant" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_ELEPHANT">
+	<element name="Elephant" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_ELEPHANT">
 		<description>
 			<p><strong><em>Speed.</em></strong> 40 ft.<br/><strong><em>Carrying Capacity.</em></strong> 1320 lb.</p>
 		</description>
@@ -52,7 +52,7 @@
 			<set name="type">Mount</set>
 		</setters>
 	</element> 
-	<element name="Horse, Draft" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_HORSE_DRAFT">
+	<element name="Horse, Draft" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_HORSE_DRAFT">
 		<description>
 			<p><strong><em>Speed.</em></strong> 40 ft.<br/><strong><em>Carrying Capacity.</em></strong> 540 lb.</p>
 		</description>
@@ -63,7 +63,7 @@
 			<set name="type">Mount</set>
 		</setters>
 	</element> 
-	<element name="Horse, Riding" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_HORSE_RIDING">
+	<element name="Horse, Riding" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_HORSE_RIDING">
 		<description>
 			<p><strong><em>Speed.</em></strong> 60 ft.<br/><strong><em>Carrying Capacity.</em></strong> 480 lb.</p>
 		</description>
@@ -74,7 +74,7 @@
 			<set name="type">Mount</set>
 		</setters>
 	</element> 
-	<element name="Mastiff" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_MASTIFF">
+	<element name="Mastiff" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_MASTIFF">
 		<description>
 			<p><strong><em>Speed.</em></strong> 40 ft.<br/><strong><em>Carrying Capacity.</em></strong> 195 lb.</p>
 		</description>
@@ -85,7 +85,7 @@
 			<set name="type">Mount</set>
 		</setters>
 	</element> 
-	<element name="Pony" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_PONY">
+	<element name="Pony" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_PONY">
 		<description>
 			<p><strong><em>Speed.</em></strong> 40 ft.<br/><strong><em>Carrying Capacity.</em></strong> 225 lb.</p>
 		</description>
@@ -96,7 +96,7 @@
 			<set name="type">Mount</set>
 		</setters>
 	</element> 
-	<element name="Warhorse" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_WARHORSE">
+	<element name="Warhorse" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_WARHORSE">
 		<description>
 			<p><strong><em>Speed.</em></strong> 60 ft.<br/><strong><em>Carrying Capacity.</em></strong> 540 lb.</p>
 		</description>
@@ -107,7 +107,7 @@
 			<set name="type">Mount</set>
 		</setters>
 	</element> 
-	<element name="Barding" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_BARDING">
+	<element name="Barding" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_BARDING">
 		<description>
 			<p>Barding is armor designed to protect an animal’s head, neck, chest, and body. Any type of armor shown on the Armor table in this chapter can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much.</p>
 		</description>
@@ -117,7 +117,7 @@
 			<set name="weight" lb="0">—</set>
 		</setters>
 	</element> 
-	<element name="Bit and Bridle" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_BIT_AND_BRIDLE">
+	<element name="Bit and Bridle" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_BIT_AND_BRIDLE">
 		<description>
 			<p></p>
 		</description>
@@ -127,7 +127,7 @@
 			<set name="weight" lb="1">1 lb.</set>
 		</setters>
 	</element> 
-	<element name="Carriage" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_CARRIAGE">
+	<element name="Carriage" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_CARRIAGE">
 		<description>
 			<p></p>
 		</description>
@@ -138,7 +138,7 @@
 			<set name="type">Vehicle</set>
 		</setters>
 	</element> 
-	<element name="Cart" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_CART">
+	<element name="Cart" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_CART">
 		<description>
 			<p></p>
 		</description>
@@ -149,7 +149,7 @@
 			<set name="type">Vehicle</set>
 		</setters>
 	</element> 
-	<element name="Chariot" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_CHARIOT">
+	<element name="Chariot" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_CHARIOT">
 		<description>
 			<p></p>
 		</description>
@@ -160,7 +160,7 @@
 			<set name="type">Vehicle</set>
 		</setters>
 	</element> 
-	<element name="Feed (per day)" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_FEED_PER_DAY">
+	<element name="Feed (per day)" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_FEED_PER_DAY">
 		<description>
 			<p></p>
 		</description>
@@ -171,7 +171,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element> 
-	<element name="Saddle, Exotic" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_SADDLE_EXOTIC">
+	<element name="Saddle, Exotic" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_SADDLE_EXOTIC">
 		<description>
 			<p>A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount.</p>
 		</description>
@@ -181,7 +181,7 @@
 			<set name="weight" lb="40" excludeEncumbrance="true">40 lb.</set>
 		</setters>
 	</element> 
-	<element name="Saddle, Military" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_SADDLE_MILITARY">
+	<element name="Saddle, Military" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_SADDLE_MILITARY">
 		<description>
 			<p>A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount.</p>
 		</description>
@@ -191,7 +191,7 @@
 			<set name="weight" lb="30" excludeEncumbrance="true">30 lb.</set>
 		</setters>
 	</element> 
-	<element name="Saddle, Pack" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_SADDLE_PACK">
+	<element name="Saddle, Pack" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_SADDLE_PACK">
 		<description>
 			<p>A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount.</p>
 		</description>
@@ -201,7 +201,7 @@
 			<set name="weight" lb="15" excludeEncumbrance="true">15 lb.</set>
 		</setters>
 	</element> 
-	<element name="Saddle, Riding" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_SADDLE_RIDING">
+	<element name="Saddle, Riding" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_SADDLE_RIDING">
 		<description>
 			<p>A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount.</p>
 		</description>
@@ -211,7 +211,7 @@
 			<set name="weight" lb="25" excludeEncumbrance="true">25 lb.</set>
 		</setters>
 	</element> 
-	<element name="Saddlebags" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_SADDLEBAGS">
+	<element name="Saddlebags" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_SADDLEBAGS">
 		<description>
 			<p></p>
 		</description>
@@ -221,7 +221,7 @@
 			<set name="weight" lb="8" excludeEncumbrance="true">8 lb.</set>
 		</setters>
 	</element> 
-	<element name="Sled" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_SLED">
+	<element name="Sled" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_SLED">
 		<description>
 			<p></p>
 		</description>
@@ -232,7 +232,7 @@
 			<set name="type">Vehicle</set>
 		</setters>
 	</element> 
-	<element name="Stabling (per day)" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_STABLING">
+	<element name="Stabling (per day)" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_STABLING">
 		<description>
 			<p></p>
 		</description>
@@ -243,7 +243,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element> 
-	<element name="Wagon" type="Item" source="Beginner's Guide" id="ID_FALERIA_BG_ITEM_WAGON">
+	<element name="Wagon" type="Item" source="Beginner's Guide" id="ID_BG_ITEM_WAGON">
 		<description>
 			<p></p>
 		</description>

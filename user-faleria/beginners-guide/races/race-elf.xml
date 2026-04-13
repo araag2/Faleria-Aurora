@@ -259,9 +259,9 @@
 			<description level="5">You know the dancing lights cantrip. You can cast faerie fire and darkness spells once per long rest. Charisma is your spellcasting ability for these spells.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_DANCING_LIGHTS" level="1" />
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_FAERIE_FIRE" level="3" />
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_DARKNESS" level="5" />
+			<grant type="Spell" id="ID_BG_SPELL_DANCING_LIGHTS" level="1" />
+			<grant type="Spell" id="ID_BG_SPELL_FAERIE_FIRE" level="3" />
+			<grant type="Spell" id="ID_BG_SPELL_DARKNESS" level="5" />
 		</rules>
 	</element>
 	<element name="Drow Weapon Training" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_DROW_WEAPON_TRAINING">

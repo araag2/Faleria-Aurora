@@ -126,9 +126,9 @@
 			<description level="5">You can cast darkness once per long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_CONTROL_FLAMES" level="1" />
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_ICE_KNIFE" level="3" />
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_DARKNESS" level="5" />
+			<grant type="Spell" id="ID_BG_SPELL_CONTROL_FLAMES" level="1" />
+			<grant type="Spell" id="ID_BG_SPELL_ICE_KNIFE" level="3" />
+			<grant type="Spell" id="ID_BG_SPELL_DARKNESS" level="5" />
 		</rules>
 	</element>  
 
@@ -159,9 +159,9 @@
             <description level="5">You can cast crown of madness once per long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_TRUE_STRIKE" level="1" />
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_WRATHFUL_SMITE" level="3" />
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_CROWN_OF_MADNESS" level="5" />
+			<grant type="Spell" id="ID_BG_SPELL_TRUE_STRIKE" level="1" />
+			<grant type="Spell" id="ID_BG_SPELL_WRATHFUL_SMITE" level="3" />
+			<grant type="Spell" id="ID_BG_SPELL_CROWN_OF_MADNESS" level="5" />
 		</rules>
 	</element>
     <element name="Imperial Elf Weapon Training" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_IMPERIAL_ELF_WEAPON_TRAINING">
@@ -206,9 +206,9 @@
             <description level="5">You can cast invisibility once per long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_LIGHT" level="1" />
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_FAERIE_FIRE" level="3" />
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_INVISIBILITY" level="5" />
+			<grant type="Spell" id="ID_BG_SPELL_LIGHT" level="1" />
+			<grant type="Spell" id="ID_BG_SPELL_FAERIE_FIRE" level="3" />
+			<grant type="Spell" id="ID_BG_SPELL_INVISIBILITY" level="5" />
 		</rules>
 	</element>
     <element name="Light Elf Lightvision" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_LIGHT_ELF_LIGHTVISION">
@@ -247,9 +247,9 @@
             <description level="5">You can cast moonbeam once per long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_DRUIDCRAFT" level="1" />
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_ENTANGLE" level="3" />
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_MOONBEAM" level="5" />
+			<grant type="Spell" id="ID_BG_SPELL_DRUIDCRAFT" level="1" />
+			<grant type="Spell" id="ID_BG_SPELL_ENTANGLE" level="3" />
+			<grant type="Spell" id="ID_BG_SPELL_MOONBEAM" level="5" />
 		</rules>
 	</element>
     <element name="Night Elf Ancestral Knowledge" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_NIGHT_ELF_ANCESTRAL_KNOWLEDGE">

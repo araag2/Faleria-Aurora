@@ -8,7 +8,7 @@
 			<file name="deities.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/deities.xml" />
 		</update>
 	</info>
-	<element name="Auril" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_AURIL">
+	<element name="Auril" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_AURIL">
 		<description>
 			<p class="flavor">goddess of winter</p>
 		</description>
@@ -23,7 +23,7 @@
 			<description>goddess of winter</description>
 		</sheet>
 	</element>
-	<element name="Azuth" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_AZUTH">
+	<element name="Azuth" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_AZUTH">
 		<description>
 			<p class="flavor">god of wizards</p>
 		</description>
@@ -38,7 +38,7 @@
 			<description>god of wizards</description>
 		</sheet>
 	</element>
-	<element name="Bane" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_BANE">
+	<element name="Bane" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_BANE">
 		<description>
 			<p class="flavor">god of tyranny</p>
 		</description>
@@ -53,7 +53,7 @@
 			<description>god of tyranny</description>
 		</sheet>
 	</element>
-	<element name="Beshaba" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_BESHABA">
+	<element name="Beshaba" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_BESHABA">
 		<description>
 			<p class="flavor">goddess of misfortune</p>
 		</description>
@@ -68,7 +68,7 @@
 			<description>goddess of misfortune</description>
 		</sheet>
 	</element>
-	<element name="Bhaal" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_BHAAL">
+	<element name="Bhaal" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_BHAAL">
 		<description>
 			<p class="flavor">god of murder</p>
 		</description>
@@ -83,7 +83,7 @@
 			<description>god of murder</description>
 		</sheet>
 	</element>
-	<element name="Chauntea" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_CHAUNTEA">
+	<element name="Chauntea" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_CHAUNTEA">
 		<description>
 			<p class="flavor">goddess of agriculture</p>
 		</description>
@@ -98,7 +98,7 @@
 			<description>goddess of agriculture</description>
 		</sheet>
 	</element>
-	<element name="Cyric" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_CYRIC">
+	<element name="Cyric" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_CYRIC">
 		<description>
 			<p class="flavor">god of lies</p>
 		</description>
@@ -113,7 +113,7 @@
 			<description>god of lies</description>
 		</sheet>
 	</element>
-	<element name="Deneir" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_DENEIR">
+	<element name="Deneir" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_DENEIR">
 		<description>
 			<p class="flavor">god of writing</p>
 		</description>
@@ -128,7 +128,7 @@
 			<description>god of writing</description>
 		</sheet>
 	</element>
-	<element name="Eldath" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_ELDATH">
+	<element name="Eldath" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_ELDATH">
 		<description>
 			<p class="flavor">goddess of peace</p>
 		</description>
@@ -143,7 +143,7 @@
 			<description>goddess of peace</description>
 		</sheet>
 	</element>
-	<element name="Gond" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_GOND">
+	<element name="Gond" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_GOND">
 		<description>
 			<p class="flavor">god of craft</p>
 		</description>
@@ -158,7 +158,7 @@
 			<description>god of craft</description>
 		</sheet>
 	</element>
-	<element name="Helm" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_HELM">
+	<element name="Helm" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_HELM">
 		<description>
 			<p class="flavor">god of protection</p>
 		</description>
@@ -173,7 +173,7 @@
 			<description>god of protection</description>
 		</sheet>
 	</element>
-	<element name="Ilmater" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_ILMATER">
+	<element name="Ilmater" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_ILMATER">
 		<description>
 			<p class="flavor">god of endurance</p>
 		</description>
@@ -188,7 +188,7 @@
 			<description>god of endurance</description>
 		</sheet>
 	</element>
-	<element name="Kelemvor" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_KELEMVOR">
+	<element name="Kelemvor" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_KELEMVOR">
 		<description>
 			<p class="flavor">god of the dead</p>
 		</description>
@@ -203,7 +203,7 @@
 			<description>god of the dead</description>
 		</sheet>
 	</element>
-	<element name="Lathander" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_LATHANDER">
+	<element name="Lathander" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_LATHANDER">
 		<description>
 			<p class="flavor">god of birth and renewal</p>
 		</description>
@@ -218,7 +218,7 @@
 			<description>god of birth and renewal</description>
 		</sheet>
 	</element>
-	<element name="Leira" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_LEIRA">
+	<element name="Leira" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_LEIRA">
 		<description>
 			<p class="flavor">goddess of illusion</p>
 		</description>
@@ -233,7 +233,7 @@
 			<description>goddess of illusion</description>
 		</sheet>
 	</element>
-	<element name="Lliira" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_LLIIRA">
+	<element name="Lliira" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_LLIIRA">
 		<description>
 			<p class="flavor">goddess of joy</p>
 		</description>
@@ -248,7 +248,7 @@
 			<description>goddess of joy</description>
 		</sheet>
 	</element>
-	<element name="Loviatar" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_LOVIATAR">
+	<element name="Loviatar" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_LOVIATAR">
 		<description>
 			<p class="flavor">goddess of pain</p>
 		</description>
@@ -263,7 +263,7 @@
 			<description>goddess of pain</description>
 		</sheet>
 	</element>
-	<element name="Malar" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_MALAR">
+	<element name="Malar" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_MALAR">
 		<description>
 			<p class="flavor">god of the hunt</p>
 		</description>
@@ -278,7 +278,7 @@
 			<description>god of the hunt</description>
 		</sheet>
 	</element>
-	<element name="Mask" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_MASK">
+	<element name="Mask" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_MASK">
 		<description>
 			<p class="flavor">god of thieves</p>
 		</description>
@@ -293,7 +293,7 @@
 			<description>god of thieves</description>
 		</sheet>
 	</element>
-	<element name="Mielikki" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_MIELIKKI">
+	<element name="Mielikki" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_MIELIKKI">
 		<description>
 			<p class="flavor">goddess of forests</p>
 		</description>
@@ -308,7 +308,7 @@
 			<description>goddess of forests</description>
 		</sheet>
 	</element>
-	<element name="Milil" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_MILIL">
+	<element name="Milil" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_MILIL">
 		<description>
 			<p class="flavor">god of poetry and song</p>
 		</description>
@@ -323,7 +323,7 @@
 			<description>god of poetry and song</description>
 		</sheet>
 	</element>
-	<element name="Myrkul" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_MYRKUL">
+	<element name="Myrkul" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_MYRKUL">
 		<description>
 			<p class="flavor">god of death</p>
 		</description>
@@ -338,7 +338,7 @@
 			<description>god of death</description>
 		</sheet>
 	</element>
-	<element name="Mystra" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_MYSTRA">
+	<element name="Mystra" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_MYSTRA">
 		<description>
 			<p class="flavor">goddess of magic</p>
 		</description>
@@ -353,7 +353,7 @@
 			<description>goddess of magic</description>
 		</sheet>
 	</element>
-	<element name="Oghma" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_OGHMA">
+	<element name="Oghma" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_OGHMA">
 		<description>
 			<p class="flavor">god of knowledge</p>
 		</description>
@@ -368,7 +368,7 @@
 			<description>god of knowledge</description>
 		</sheet>
 	</element>
-	<element name="Savras" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SAVRAS">
+	<element name="Savras" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SAVRAS">
 		<description>
 			<p class="flavor">god of divination and fate</p>
 		</description>
@@ -383,7 +383,7 @@
 			<description>god of divination and fate</description>
 		</sheet>
 	</element>
-	<element name="Selune" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SELUNE">
+	<element name="Selune" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SELUNE">
 		<description>
 			<p class="flavor">goddess of the moon</p>
 		</description>
@@ -398,7 +398,7 @@
 			<description>goddess of the moon</description>
 		</sheet>
 	</element>
-	<element name="Shar" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SHAR">
+	<element name="Shar" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SHAR">
 		<description>
 			<p class="flavor">goddess of darkness and loss</p>
 		</description>
@@ -413,7 +413,7 @@
 			<description>goddess of darkness and loss</description>
 		</sheet>
 	</element>
-	<element name="Silvanus" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SILVANUS">
+	<element name="Silvanus" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SILVANUS">
 		<description>
 			<p class="flavor">god of wild nature</p>
 		</description>
@@ -428,7 +428,7 @@
 			<description>god of wild nature</description>
 		</sheet>
 	</element>
-	<element name="Sune" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SUNE">
+	<element name="Sune" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SUNE">
 		<description>
 			<p class="flavor">goddess of love and beauty</p>
 		</description>
@@ -443,7 +443,7 @@
 			<description>goddess of love and beauty</description>
 		</sheet>
 	</element>
-	<element name="Talona" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_TALONA">
+	<element name="Talona" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_TALONA">
 		<description>
 			<p class="flavor">goddess of disease and poison</p>
 		</description>
@@ -458,7 +458,7 @@
 			<description>goddess of disease and poison</description>
 		</sheet>
 	</element>
-	<element name="Talos" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_TALOS">
+	<element name="Talos" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_TALOS">
 		<description>
 			<p class="flavor">god of storms</p>
 		</description>
@@ -473,7 +473,7 @@
 			<description>god of storms</description>
 		</sheet>
 	</element>
-	<element name="Tempus" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_TEMPUS">
+	<element name="Tempus" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_TEMPUS">
 		<description>
 			<p class="flavor">god of war</p>
 		</description>
@@ -488,7 +488,7 @@
 			<description>god of war</description>
 		</sheet>
 	</element>
-	<element name="Torm" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_TORM">
+	<element name="Torm" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_TORM">
 		<description>
 			<p class="flavor">god of courage and self-sacrifice</p>
 		</description>
@@ -503,7 +503,7 @@
 			<description>god of courage and self-sacrifice</description>
 		</sheet>
 	</element>
-	<element name="Tymora" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_TYMORA">
+	<element name="Tymora" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_TYMORA">
 		<description>
 			<p class="flavor">goddess of good fortune</p>
 		</description>
@@ -518,7 +518,7 @@
 			<description>goddess of good fortune</description>
 		</sheet>
 	</element>
-	<element name="Tyr" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_TYR">
+	<element name="Tyr" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_TYR">
 		<description>
 			<p class="flavor">god of justice</p>
 		</description>
@@ -533,7 +533,7 @@
 			<description>god of justice</description>
 		</sheet>
 	</element>
-	<element name="Umberlee" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_UMBERLEE">
+	<element name="Umberlee" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_UMBERLEE">
 		<description>
 			<p class="flavor">goddess of the sea</p>
 		</description>
@@ -548,7 +548,7 @@
 			<description>goddess of the sea</description>
 		</sheet>
 	</element>
-	<element name="Waukeen" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_WAUKEEN">
+	<element name="Waukeen" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_WAUKEEN">
 		<description>
 			<p class="flavor">goddess of trade</p>
 		</description>
@@ -565,7 +565,7 @@
 	</element>
 
 	<!-- Greyhawk -->
-	<element name="Beory" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_BEORY">
+	<element name="Beory" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_BEORY">
 		<description>
 			<p class="flavor">goddess of nature</p>
 		</description>
@@ -580,7 +580,7 @@
 			<description>goddess of nature</description>
 		</sheet>
 	</element>
-	<element name="Boccob" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_BOCCOB">
+	<element name="Boccob" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_BOCCOB">
 		<description>
 			<p class="flavor">god of magic</p>
 		</description>
@@ -595,7 +595,7 @@
 			<description>god of magic</description>
 		</sheet>
 	</element>
-	<element name="Celestian" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_CELESTIAN">
+	<element name="Celestian" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_CELESTIAN">
 		<description>
 			<p class="flavor">god of stars and wanderers</p>
 		</description>
@@ -610,7 +610,7 @@
 			<description>god of stars and wanderers</description>
 		</sheet>
 	</element>
-	<element name="Ehlonna" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_EHLONNA">
+	<element name="Ehlonna" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_EHLONNA">
 		<description>
 			<p class="flavor">goddess of woodlands</p>
 		</description>
@@ -625,7 +625,7 @@
 			<description>goddess of woodlands</description>
 		</sheet>
 	</element>
-	<element name="Erythnul" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_ERYTHNUL">
+	<element name="Erythnul" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_ERYTHNUL">
 		<description>
 			<p class="flavor">god of envy and slaughter</p>
 		</description>
@@ -640,7 +640,7 @@
 			<description>god of envy and slaughter</description>
 		</sheet>
 	</element>
-	<element name="Fharlanghn" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_FHARLANGHN">
+	<element name="Fharlanghn" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_FHARLANGHN">
 		<description>
 			<p class="flavor">god of horizons and travel</p>
 		</description>
@@ -655,7 +655,7 @@
 			<description>god of horizons and travel</description>
 		</sheet>
 	</element>
-	<element name="Heironeous" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_HEIRONEOUS">
+	<element name="Heironeous" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_HEIRONEOUS">
 		<description>
 			<p class="flavor">god of chivalry and valor</p>
 		</description>
@@ -670,7 +670,7 @@
 			<description>god of chivalry and valor</description>
 		</sheet>
 	</element>
-	<element name="Hextor" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_HEXTOR">
+	<element name="Hextor" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_HEXTOR">
 		<description>
 			<p class="flavor">god of war and discord</p>
 		</description>
@@ -685,7 +685,7 @@
 			<description>god of war and discord</description>
 		</sheet>
 	</element>
-	<element name="Kord" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_KORD">
+	<element name="Kord" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_KORD">
 		<description>
 			<p class="flavor">god of athletics and sport</p>
 		</description>
@@ -700,7 +700,7 @@
 			<description>god of athletics and sport</description>
 		</sheet>
 	</element>
-	<element name="Incabulos" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_INCABULOS">
+	<element name="Incabulos" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_INCABULOS">
 		<description>
 			<p class="flavor">god of plague and famine</p>
 		</description>
@@ -715,7 +715,7 @@
 			<description>god of plague and famine</description>
 		</sheet>
 	</element>
-	<element name="Istus" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_ISTUS">
+	<element name="Istus" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_ISTUS">
 		<description>
 			<p class="flavor">goddess of fate and destiny</p>
 		</description>
@@ -730,7 +730,7 @@
 			<description>goddess of fate and destiny</description>
 		</sheet>
 	</element>
-	<element name="luz" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_LUZ">
+	<element name="luz" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_LUZ">
 		<description>
 			<p class="flavor">god of pain and oppression</p>
 		</description>
@@ -745,7 +745,7 @@
 			<description>god of pain and oppression</description>
 		</sheet>
 	</element>
-	<element name="Nerull" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_NERULL">
+	<element name="Nerull" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_NERULL">
 		<description>
 			<p class="flavor">god of death</p>
 		</description>
@@ -760,7 +760,7 @@
 			<description>god of death</description>
 		</sheet>
 	</element>
-	<element name="Obad-Hai" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_OBAD_HAI">
+	<element name="Obad-Hai" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_OBAD_HAI">
 		<description>
 			<p class="flavor">god of nature</p>
 		</description>
@@ -775,7 +775,7 @@
 			<description>god of nature</description>
 		</sheet>
 	</element>
-	<element name="Olidammara" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_OLIDAMMARA">
+	<element name="Olidammara" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_OLIDAMMARA">
 		<description>
 			<p class="flavor">god of revelry</p>
 		</description>
@@ -790,7 +790,7 @@
 			<description>god of revelry</description>
 		</sheet>
 	</element>
-	<element name="Pelor" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_PELOR">
+	<element name="Pelor" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_PELOR">
 		<description>
 			<p class="flavor">god of the sun and healing</p>
 		</description>
@@ -805,7 +805,7 @@
 			<description>god of the sun and healing</description>
 		</sheet>
 	</element>
-	<element name="Pholtus" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_PHOLTUS">
+	<element name="Pholtus" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_PHOLTUS">
 		<description>
 			<p class="flavor">god of light and law</p>
 		</description>
@@ -820,7 +820,7 @@
 			<description>god of light and law</description>
 		</sheet>
 	</element>
-	<element name="Ralishaz" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_RALISHAZ">
+	<element name="Ralishaz" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_RALISHAZ">
 		<description>
 			<p class="flavor">god of ill luck and insanity</p>
 		</description>
@@ -835,7 +835,7 @@
 			<description>god of ill luck and insanity</description>
 		</sheet>
 	</element>
-	<element name="Rao" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_RAO">
+	<element name="Rao" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_RAO">
 		<description>
 			<p class="flavor">god of peace and reason</p>
 		</description>
@@ -850,7 +850,7 @@
 			<description>god of peace and reason</description>
 		</sheet>
 	</element>
-	<element name="St. Cuthbert" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_ST_CUTHBERT">
+	<element name="St. Cuthbert" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_ST_CUTHBERT">
 		<description>
 			<p class="flavor">god of common sense and zeal</p>
 		</description>
@@ -865,7 +865,7 @@
 			<description>god of common sense and zeal</description>
 		</sheet>
 	</element>
-	<element name="Tharizdun" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_THARIZDUN">
+	<element name="Tharizdun" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_THARIZDUN">
 		<description>
 			<p class="flavor">god of eternal darkness</p>
 		</description>
@@ -880,7 +880,7 @@
 			<description>god of eternal darkness</description>
 		</sheet>
 	</element>
-	<element name="Trithereon" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_TRITHEREON">
+	<element name="Trithereon" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_TRITHEREON">
 		<description>
 			<p class="flavor">god of liberty and retribution</p>
 		</description>
@@ -895,7 +895,7 @@
 			<description>god of liberty and retribution</description>
 		</sheet>
 	</element>
-	<element name="Ulaa" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_ULAA">
+	<element name="Ulaa" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_ULAA">
 		<description>
 			<p class="flavor">goddess of hills and mountains</p>
 		</description>
@@ -910,7 +910,7 @@
 			<description>goddess of hills and mountains</description>
 		</sheet>
 	</element>
-	<element name="Vecna" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_VECNA">
+	<element name="Vecna" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_VECNA">
 		<description>
 			<p class="flavor">god of evil secrets</p>
 		</description>
@@ -925,7 +925,7 @@
 			<description>god of evil secrets</description>
 		</sheet>
 	</element>
-	<element name="Wee Jas" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_WEE_JAS">
+	<element name="Wee Jas" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_WEE_JAS">
 		<description>
 			<p class="flavor">goddess of magic and death</p>
 		</description>
@@ -942,7 +942,7 @@
 	</element>
 
 	<!-- Dragonlance -->
-	<element name="Paladine" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_PALADINE">
+	<element name="Paladine" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_PALADINE">
 		<description>
 			<p class="flavor">god of rulers and guardians</p>
 		</description>
@@ -957,7 +957,7 @@
 			<description>god of rulers and guardians</description>
 		</sheet>
 	</element>
-	<element name="Branchala" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_BRANCHALA">
+	<element name="Branchala" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_BRANCHALA">
 		<description>
 			<p class="flavor">god of music</p>
 		</description>
@@ -972,7 +972,7 @@
 			<description>god of music</description>
 		</sheet>
 	</element>
-	<element name="Habbakuk" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_HABBAKUK">
+	<element name="Habbakuk" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_HABBAKUK">
 		<description>
 			<p class="flavor">god of animal life and the sea</p>
 		</description>
@@ -987,7 +987,7 @@
 			<description>god of animal life and the sea</description>
 		</sheet>
 	</element>
-	<element name="Kiri-Jolith" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_KIRI_JOLITH">
+	<element name="Kiri-Jolith" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_KIRI_JOLITH">
 		<description>
 			<p class="flavor">god of honor and war</p>
 		</description>
@@ -1002,7 +1002,7 @@
 			<description>god of honor and war</description>
 		</sheet>
 	</element>
-	<element name="Majere" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_MAJERE">
+	<element name="Majere" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_MAJERE">
 		<description>
 			<p class="flavor">god of meditation and order</p>
 		</description>
@@ -1017,7 +1017,7 @@
 			<description>god of meditation and order</description>
 		</sheet>
 	</element>
-	<element name="Mishakal" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_MISHAKAL">
+	<element name="Mishakal" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_MISHAKAL">
 		<description>
 			<p class="flavor">goddess of healing</p>
 		</description>
@@ -1032,7 +1032,7 @@
 			<description>goddess of healing</description>
 		</sheet>
 	</element>
-	<element name="Solinari" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SOLINARI">
+	<element name="Solinari" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SOLINARI">
 		<description>
 			<p class="flavor">god of good magic</p>
 		</description>
@@ -1047,7 +1047,7 @@
 			<description>god of good magic</description>
 		</sheet>
 	</element>
-	<element name="Gilean" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_GILEAN">
+	<element name="Gilean" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_GILEAN">
 		<description>
 			<p class="flavor">god of knowledge</p>
 		</description>
@@ -1062,7 +1062,7 @@
 			<description>god of knowledge</description>
 		</sheet>
 	</element>
-	<element name="Chislev" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_CHISLEV">
+	<element name="Chislev" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_CHISLEV">
 		<description>
 			<p class="flavor">goddess of nature</p>
 		</description>
@@ -1077,7 +1077,7 @@
 			<description>goddess of nature</description>
 		</sheet>
 	</element>
-	<element name="Reorx" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_REORX">
+	<element name="Reorx" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_REORX">
 		<description>
 			<p class="flavor">god of craft</p>
 		</description>
@@ -1092,7 +1092,7 @@
 			<description>god of craft</description>
 		</sheet>
 	</element>
-	<element name="Shinare" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SHINARE">
+	<element name="Shinare" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SHINARE">
 		<description>
 			<p class="flavor">goddess of wealth and trade</p>
 		</description>
@@ -1107,7 +1107,7 @@
 			<description>goddess of wealth and trade</description>
 		</sheet>
 	</element>
-	<element name="Sirrion" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SIRRION">
+	<element name="Sirrion" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SIRRION">
 		<description>
 			<p class="flavor">god of fire and change</p>
 		</description>
@@ -1122,7 +1122,7 @@
 			<description>god of fire and change</description>
 		</sheet>
 	</element>
-	<element name="Zivilyn" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_ZIVILYN">
+	<element name="Zivilyn" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_ZIVILYN">
 		<description>
 			<p class="flavor">god of wisdom</p>
 		</description>
@@ -1137,7 +1137,7 @@
 			<description>god of wisdom</description>
 		</sheet>
 	</element>
-	<element name="Lunitari" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_LUNITARI">
+	<element name="Lunitari" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_LUNITARI">
 		<description>
 			<p class="flavor">goddess of neutral magic</p>
 		</description>
@@ -1152,7 +1152,7 @@
 			<description>goddess of neutral magic</description>
 		</sheet>
 	</element>
-	<element name="Takhisis" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_TAKHISIS">
+	<element name="Takhisis" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_TAKHISIS">
 		<description>
 			<p class="flavor">goddess of night and hatred</p>
 		</description>
@@ -1167,7 +1167,7 @@
 			<description>goddess of night and hatred</description>
 		</sheet>
 	</element>
-	<element name="Chemosh" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_CHEMOSH">
+	<element name="Chemosh" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_CHEMOSH">
 		<description>
 			<p class="flavor">god of the undead</p>
 		</description>
@@ -1182,7 +1182,7 @@
 			<description>god of the undead</description>
 		</sheet>
 	</element>
-	<element name="Hiddukel" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_HIDDUKEL">
+	<element name="Hiddukel" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_HIDDUKEL">
 		<description>
 			<p class="flavor">god of lies and greed</p>
 		</description>
@@ -1197,7 +1197,7 @@
 			<description>god of lies and greed</description>
 		</sheet>
 	</element>
-	<element name="Morgion" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_MORGION">
+	<element name="Morgion" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_MORGION">
 		<description>
 			<p class="flavor">god of disease and secrecy</p>
 		</description>
@@ -1212,7 +1212,7 @@
 			<description>god of disease and secrecy</description>
 		</sheet>
 	</element>
-	<element name="Sargonnas" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SARGONNAS">
+	<element name="Sargonnas" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SARGONNAS">
 		<description>
 			<p class="flavor">god of vengeance and fire</p>
 		</description>
@@ -1227,7 +1227,7 @@
 			<description>god of vengeance and fire</description>
 		</sheet>
 	</element>
-	<element name="Zeboim" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_ZEBOIM">
+	<element name="Zeboim" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_ZEBOIM">
 		<description>
 			<p class="flavor">goddess of the sea and storms</p>
 		</description>
@@ -1242,7 +1242,7 @@
 			<description>goddess of the sea and storms</description>
 		</sheet>
 	</element>
-	<element name="Nuitari" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_NUITARI">
+	<element name="Nuitari" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_NUITARI">
 		<description>
 			<p class="flavor">god of evil magic</p>
 		</description>
@@ -1259,7 +1259,7 @@
 	</element>
 
 	<!-- Eberron -->
-	<element name="Arawai" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_ARAWAI">
+	<element name="Arawai" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_ARAWAI">
 		<description>
 			<p class="flavor">goddess of fertility</p>
 		</description>
@@ -1274,7 +1274,7 @@
 			<description>goddess of fertility</description>
 		</sheet>
 	</element>
-	<element name="Aureon" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_AUREON">
+	<element name="Aureon" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_AUREON">
 		<description>
 			<p class="flavor">god of law and knowledge</p>
 		</description>
@@ -1289,7 +1289,7 @@
 			<description>god of law and knowledge</description>
 		</sheet>
 	</element>
-	<element name="Balinor" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_BALINOR">
+	<element name="Balinor" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_BALINOR">
 		<description>
 			<p class="flavor">god of beasts and the hunt</p>
 		</description>
@@ -1304,7 +1304,7 @@
 			<description>god of beasts and the hunt</description>
 		</sheet>
 	</element>
-	<element name="Boldrei" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_BOLDREI">
+	<element name="Boldrei" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_BOLDREI">
 		<description>
 			<p class="flavor">goddess of community and home</p>
 		</description>
@@ -1319,7 +1319,7 @@
 			<description>goddess of community and home</description>
 		</sheet>
 	</element>
-	<element name="Dol Arrah" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_DOL_ARRAH">
+	<element name="Dol Arrah" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_DOL_ARRAH">
 		<description>
 			<p class="flavor">goddess of sunlight and honor</p>
 		</description>
@@ -1334,7 +1334,7 @@
 			<description>goddess of sunlight and honor</description>
 		</sheet>
 	</element>
-	<element name="Dol Dorn" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_DOL_DORN">
+	<element name="Dol Dorn" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_DOL_DORN">
 		<description>
 			<p class="flavor">god of strength at arms</p>
 		</description>
@@ -1349,7 +1349,7 @@
 			<description>god of strength at arms</description>
 		</sheet>
 	</element>
-	<element name="Kol Korran" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_KOL_KORRAN">
+	<element name="Kol Korran" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_KOL_KORRAN">
 		<description>
 			<p class="flavor">god of trade and wealth</p>
 		</description>
@@ -1364,7 +1364,7 @@
 			<description>god of trade and wealth</description>
 		</sheet>
 	</element>
-	<element name="Olladra" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_OLLADRA">
+	<element name="Olladra" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_OLLADRA">
 		<description>
 			<p class="flavor">goddess of good fortune</p>
 		</description>
@@ -1379,7 +1379,7 @@
 			<description>goddess of good fortune</description>
 		</sheet>
 	</element>
-	<element name="Onatar" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_ONATAR">
+	<element name="Onatar" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_ONATAR">
 		<description>
 			<p class="flavor">god of craft</p>
 		</description>
@@ -1394,7 +1394,7 @@
 			<description>god of craft</description>
 		</sheet>
 	</element>
-	<element name="The Devourer" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_THE_DEVOURER">
+	<element name="The Devourer" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_THE_DEVOURER">
 		<description>
 			<p class="flavor">god of nature’s wrath</p>
 		</description>
@@ -1409,7 +1409,7 @@
 			<description>god of nature’s wrath</description>
 		</sheet>
 	</element>
-	<element name="The Fury" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_THE_FURY">
+	<element name="The Fury" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_THE_FURY">
 		<description>
 			<p class="flavor">goddess of wrath and madness</p>
 		</description>
@@ -1424,7 +1424,7 @@
 			<description>goddess of wrath and madness</description>
 		</sheet>
 	</element>
-	<element name="The Keeper" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_THE_KEEPER">
+	<element name="The Keeper" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_THE_KEEPER">
 		<description>
 			<p class="flavor">god of greed and death</p>
 		</description>
@@ -1439,7 +1439,7 @@
 			<description>god of greed and death</description>
 		</sheet>
 	</element>
-	<element name="The Mockery" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_THE_MOCKERY">
+	<element name="The Mockery" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_THE_MOCKERY">
 		<description>
 			<p class="flavor">god of violence and treachery</p>
 		</description>
@@ -1454,7 +1454,7 @@
 			<description>god of violence and treachery</description>
 		</sheet>
 	</element>
-	<element name="The Shadow" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_THE_SHADOW">
+	<element name="The Shadow" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_THE_SHADOW">
 		<description>
 			<p class="flavor">god of dark magic</p>
 		</description>
@@ -1469,7 +1469,7 @@
 			<description>god of dark magic</description>
 		</sheet>
 	</element>
-	<element name="The Traveler" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_THE_TRAVELER">
+	<element name="The Traveler" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_THE_TRAVELER">
 		<description>
 			<p class="flavor">deity of chaos and change</p>
 		</description>
@@ -1484,7 +1484,7 @@
 			<description>deity of chaos and change</description>
 		</sheet>
 	</element>
-	<element name="The Silver Flame" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_THE_SILVER_FLAME">
+	<element name="The Silver Flame" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_THE_SILVER_FLAME">
 		<description>
 			<p class="flavor">deity of protection and good</p>
 		</description>
@@ -1499,7 +1499,7 @@
 			<description>deity of protection and good</description>
 		</sheet>
 	</element>
-	<element name="The Blood of Vol" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_THE_BLOOD_OF_VOL">
+	<element name="The Blood of Vol" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_THE_BLOOD_OF_VOL">
 		<description>
 			<p class="flavor">philosophy of immortality and undeath</p>
 		</description>
@@ -1514,7 +1514,7 @@
 			<description>philosophy of immortality and undeath</description>
 		</sheet>
 	</element>
-	<element name="Cults of the Dragon Below" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_CULTS_OF_THE_DRAGON_BELOW">
+	<element name="Cults of the Dragon Below" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_CULTS_OF_THE_DRAGON_BELOW">
 		<description>
 			<p class="flavor">deities of madness</p>
 		</description>
@@ -1529,7 +1529,7 @@
 			<description>deities of madness</description>
 		</sheet>
 	</element>
-	<element name="The Path of Light" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_THE_PATH_OF_LIGHT">
+	<element name="The Path of Light" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_THE_PATH_OF_LIGHT">
 		<description>
 			<p class="flavor">philosophy of light and self-improvement</p>
 		</description>
@@ -1544,7 +1544,7 @@
 			<description>philosophy of light and self-improvement</description>
 		</sheet>
 	</element>
-	<element name="The Undying Court" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_THE_UNDYING_COURT">
+	<element name="The Undying Court" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_THE_UNDYING_COURT">
 		<description>
 			<p class="flavor">elven ancestors</p>
 		</description>
@@ -1559,7 +1559,7 @@
 			<description>elven ancestors</description>
 		</sheet>
 	</element>
-	<element name="The Spirits of the Past" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_THE_SPIRITS_OF_THE_PAST">
+	<element name="The Spirits of the Past" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_THE_SPIRITS_OF_THE_PAST">
 		<description>
 			<p class="flavor">elven ancestors</p>
 		</description>
@@ -1576,7 +1576,7 @@
 	</element>
 
 	<!-- Forgotten Realms -->
-	<element name="Bahamut" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_BAHAMUT">
+	<element name="Bahamut" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_BAHAMUT">
 		<description>
 			<p class="flavor">dragon god of good</p>
 		</description>
@@ -1591,7 +1591,7 @@
 			<description>dragon god of good</description>
 		</sheet>
 	</element>
-	<element name="Blibdoolpoolp" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_BLIBDOOLPOOLP">
+	<element name="Blibdoolpoolp" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_BLIBDOOLPOOLP">
 		<description>
 			<p class="flavor">kuo-toa goddess</p>
 		</description>
@@ -1606,7 +1606,7 @@
 			<description>kuo-toa goddess</description>
 		</sheet>
 	</element>
-	<element name="Corellon Larethian" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_CORELLON_LARETHIAN">
+	<element name="Corellon Larethian" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_CORELLON_LARETHIAN">
 		<description>
 			<p class="flavor">elf deity of art and magic</p>
 		</description>
@@ -1621,7 +1621,7 @@
 			<description>elf deity of art and magic</description>
 		</sheet>
 	</element>
-	<element name="Deep Sashelas" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_DEEP_SASHELAS">
+	<element name="Deep Sashelas" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_DEEP_SASHELAS">
 		<description>
 			<p class="flavor">elf god of the sea</p>
 		</description>
@@ -1636,7 +1636,7 @@
 			<description>elf god of the sea</description>
 		</sheet>
 	</element>
-	<element name="Eadro" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_EADRO">
+	<element name="Eadro" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_EADRO">
 		<description>
 			<p class="flavor">merfolk deity of the sea</p>
 		</description>
@@ -1651,7 +1651,7 @@
 			<description>merfolk deity of the sea</description>
 		</sheet>
 	</element>
-	<element name="Garl Glittergold" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_GARL_GLITTERGOLD">
+	<element name="Garl Glittergold" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_GARL_GLITTERGOLD">
 		<description>
 			<p class="flavor">gnome god of trickery and wiles</p>
 		</description>
@@ -1666,7 +1666,7 @@
 			<description>gnome god of trickery and wiles</description>
 		</sheet>
 	</element>
-	<element name="Grolantor" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_GROLANTOR">
+	<element name="Grolantor" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_GROLANTOR">
 		<description>
 			<p class="flavor">hill giant god of war</p>
 		</description>
@@ -1681,7 +1681,7 @@
 			<description>hill giant god of war</description>
 		</sheet>
 	</element>
-	<element name="Gruumsh" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_GRUUMSH">
+	<element name="Gruumsh" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_GRUUMSH">
 		<description>
 			<p class="flavor">orc god of storms and war</p>
 		</description>
@@ -1696,7 +1696,7 @@
 			<description>orc god of storms and war</description>
 		</sheet>
 	</element>
-	<element name="Hruggek" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_HRUGGEK">
+	<element name="Hruggek" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_HRUGGEK">
 		<description>
 			<p class="flavor">bugbear god of violence</p>
 		</description>
@@ -1711,7 +1711,7 @@
 			<description>bugbear god of violence</description>
 		</sheet>
 	</element>
-	<element name="Kurtulmak" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_KURTULMAK">
+	<element name="Kurtulmak" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_KURTULMAK">
 		<description>
 			<p class="flavor">kobold god of war and mining</p>
 		</description>
@@ -1726,7 +1726,7 @@
 			<description>kobold god of war and mining</description>
 		</sheet>
 	</element>
-	<element name="Laogzed" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_LAOGZED">
+	<element name="Laogzed" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_LAOGZED">
 		<description>
 			<p class="flavor">troglodyte god of hunger</p>
 		</description>
@@ -1741,7 +1741,7 @@
 			<description>troglodyte god of hunger</description>
 		</sheet>
 	</element>
-	<element name="Lolth" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_LOLTH">
+	<element name="Lolth" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_LOLTH">
 		<description>
 			<p class="flavor">drow goddess of spiders</p>
 		</description>
@@ -1756,7 +1756,7 @@
 			<description>drow goddess of spiders</description>
 		</sheet>
 	</element>
-	<element name="Maglubiyet" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_MAGLUBIYET">
+	<element name="Maglubiyet" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_MAGLUBIYET">
 		<description>
 			<p class="flavor">goblinoid god of war</p>
 		</description>
@@ -1771,7 +1771,7 @@
 			<description>goblinoid god of war</description>
 		</sheet>
 	</element>
-	<element name="Moradin" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_MORADIN">
+	<element name="Moradin" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_MORADIN">
 		<description>
 			<p class="flavor">dwarf god of creation</p>
 		</description>
@@ -1786,7 +1786,7 @@
 			<description>dwarf god of creation</description>
 		</sheet>
 	</element>
-	<element name="Rillifane Rallathil" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_RILLIFANE_RALLATHIL">
+	<element name="Rillifane Rallathil" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_RILLIFANE_RALLATHIL">
 		<description>
 			<p class="flavor">wood elf god of nature</p>
 		</description>
@@ -1801,7 +1801,7 @@
 			<description>wood elf god of nature</description>
 		</sheet>
 	</element>
-	<element name="Sehanine Moonbow" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SEHANINE_MOONBOW">
+	<element name="Sehanine Moonbow" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SEHANINE_MOONBOW">
 		<description>
 			<p class="flavor">elf goddess of the moon</p>
 		</description>
@@ -1816,7 +1816,7 @@
 			<description>elf goddess of the moon</description>
 		</sheet>
 	</element>
-	<element name="Sekolah" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SEKOLAH">
+	<element name="Sekolah" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SEKOLAH">
 		<description>
 			<p class="flavor">sahuagin god of the hunt</p>
 		</description>
@@ -1831,7 +1831,7 @@
 			<description>sahuagin god of the hunt</description>
 		</sheet>
 	</element>
-	<element name="Semuanya" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SEMUANYA">
+	<element name="Semuanya" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SEMUANYA">
 		<description>
 			<p class="flavor">lizardfolk deity of survival</p>
 		</description>
@@ -1846,7 +1846,7 @@
 			<description>lizardfolk deity of survival</description>
 		</sheet>
 	</element>
-	<element name="Skerrit" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SKERRIT">
+	<element name="Skerrit" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SKERRIT">
 		<description>
 			<p class="flavor">centaur and satyr god of nature</p>
 		</description>
@@ -1861,7 +1861,7 @@
 			<description>centaur and satyr god of nature</description>
 		</sheet>
 	</element>
-	<element name="Skoraeus Stonebones" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SKORAEUS_STONEBONES">
+	<element name="Skoraeus Stonebones" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SKORAEUS_STONEBONES">
 		<description>
 			<p class="flavor">god of stone giants and art</p>
 		</description>
@@ -1876,7 +1876,7 @@
 			<description>god of stone giants and art</description>
 		</sheet>
 	</element>
-	<element name="Surtur" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_SURTUR">
+	<element name="Surtur" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_SURTUR">
 		<description>
 			<p class="flavor">god of fire giants and craft</p>
 		</description>
@@ -1891,7 +1891,7 @@
 			<description>god of fire giants and craft</description>
 		</sheet>
 	</element>
-	<element name="Thrym" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_THRYM">
+	<element name="Thrym" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_THRYM">
 		<description>
 			<p class="flavor">god of frost giants and strength</p>
 		</description>
@@ -1906,7 +1906,7 @@
 			<description>god of frost giants and strength</description>
 		</sheet>
 	</element>
-	<element name="Tiamat" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_TIAMAT">
+	<element name="Tiamat" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_TIAMAT">
 		<description>
 			<p class="flavor">dragon goddess of evil</p>
 		</description>
@@ -1921,7 +1921,7 @@
 			<description>dragon goddess of evil</description>
 		</sheet>
 	</element>
-	<element name="Yondalla" type="Deity" source="Beginner's Guide" id="ID_FALERIA_BG_DEITY_YONDALLA">
+	<element name="Yondalla" type="Deity" source="Beginner's Guide" id="ID_BG_DEITY_YONDALLA">
 		<description>
 			<p class="flavor">halfling goddess of fertility and protection</p>
 		</description>

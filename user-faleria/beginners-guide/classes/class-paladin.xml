@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Paladin" type="Class" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_PALADIN">
+	<element name="Paladin" type="Class" source="Beginner's Guide" id="ID_BG_CLASS_PALADIN">
 		<description>
 			<p>Clad in plate armor that gleams in the sunlight despite the dust and grime of long travel, a human lays down her sword and shield and places her hands on a mortally wounded man. Divine radiance shines from her hands, the man’s wounds knit closed, and his eyes open wide with amazement.</p>
 			<p class="indent">A dwarf crouches behind an outcrop, his black cloak making him nearly invisible in the night, and watches an orc war band celebrating its recent victory. Silently, he stalks into their midst and whispers an oath, and two orcs are dead before they even realize he is there.</p>
@@ -78,19 +78,19 @@
 				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 				<tr><td>20th</td><td class="left">Sacred Oath feature</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 			</table>
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_DIVINE_SENSE" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_LAY_ON_HANDS" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_FIGHTING_STYLE" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_SPELLCASTING" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_DIVINE_SMITE" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_DIVINE_HEALTH" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_SACRED_OATH" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_ASI" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_EXTRA_ATTACK" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_IMPROVED_DIVINE_SMITE" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_CLEANSING_TOUCH" />
+			<div element="ID_BG_CLASS_FEATURE_PALADIN_DIVINE_SENSE" />
+			<div element="ID_BG_CLASS_FEATURE_PALADIN_LAY_ON_HANDS" />
+			<div element="ID_BG_CLASS_FEATURE_PALADIN_FIGHTING_STYLE" />
+			<div element="ID_BG_CLASS_FEATURE_PALADIN_SPELLCASTING" />
+			<div element="ID_BG_CLASS_FEATURE_PALADIN_DIVINE_SMITE" />
+			<div element="ID_BG_CLASS_FEATURE_PALADIN_DIVINE_HEALTH" />
+			<div element="ID_BG_CLASS_FEATURE_PALADIN_SACRED_OATH" />
+			<div element="ID_BG_CLASS_FEATURE_PALADIN_ASI" />
+			<div element="ID_BG_CLASS_FEATURE_PALADIN_EXTRA_ATTACK" />
+			<div element="ID_BG_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION" />
+			<div element="ID_BG_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE" />
+			<div element="ID_BG_CLASS_FEATURE_PALADIN_IMPROVED_DIVINE_SMITE" />
+			<div element="ID_BG_CLASS_FEATURE_PALADIN_CLEANSING_TOUCH" />
 		</description>
 		<sheet display="false">
 			<description>A holy warrior bound to a sacred oath.</description>
@@ -100,32 +100,32 @@
 			<set name="hd">d10</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_PALADIN" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_PALADIN" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_PALADIN" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_FALERIA_BG_MULTICLASS_PALADIN" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_FALERIA_BG_MULTICLASS_PALADIN" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_FALERIA_BG_MULTICLASS_PALADIN" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_FALERIA_BG_MULTICLASS_PALADIN" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_FALERIA_BG_MULTICLASS_PALADIN" />
-			<select type="Proficiency" name="Skill Proficiency (Paladin)" supports="Skill,Paladin" number="2" requirements="!ID_FALERIA_BG_MULTICLASS_PALADIN" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_DIVINE_SENSE" level="1" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_LAY_ON_HANDS" level="1" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_FIGHTING_STYLE" level="2" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_SPELLCASTING" level="2" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_DIVINE_SMITE" level="2" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_DIVINE_HEALTH" level="3" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_SACRED_OATH" level="3" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_ASI" level="4" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_EXTRA_ATTACK" level="5" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION" level="6" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE" level="10" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_IMPROVED_DIVINE_SMITE" level="11" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_CLEANSING_TOUCH" level="14" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_BG_MULTICLASS_PALADIN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_BG_MULTICLASS_PALADIN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_BG_MULTICLASS_PALADIN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_BG_MULTICLASS_PALADIN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_BG_MULTICLASS_PALADIN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_BG_MULTICLASS_PALADIN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_BG_MULTICLASS_PALADIN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_BG_MULTICLASS_PALADIN" />
+			<select type="Proficiency" name="Skill Proficiency (Paladin)" supports="Skill,Paladin" number="2" requirements="!ID_BG_MULTICLASS_PALADIN" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_DIVINE_SENSE" level="1" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_LAY_ON_HANDS" level="1" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_FIGHTING_STYLE" level="2" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_SPELLCASTING" level="2" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_DIVINE_SMITE" level="2" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_DIVINE_HEALTH" level="3" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_SACRED_OATH" level="3" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_ASI" level="4" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_EXTRA_ATTACK" level="5" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION" level="6" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE" level="10" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_IMPROVED_DIVINE_SMITE" level="11" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_CLEANSING_TOUCH" level="14" />
 		</rules>
-		<multiclass id="ID_FALERIA_BG_MULTICLASS_PALADIN">
+		<multiclass id="ID_BG_MULTICLASS_PALADIN">
 			<prerequisite>Strength 13 and Charisma 13</prerequisite>
-			<requirements>(([str:13],[cha:13]),!(ID_WOTC_PHB24_CLASS_PALADIN||ID_WOTC_PHB24_MULTICLASS_PALADIN))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
+			<requirements>(([str:13],[cha:13]),!(ID_BG_CLASS_PALADIN||ID_BG_MULTICLASS_PALADIN))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
 			<setters>
 				<set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons</set>
 			</setters>
@@ -139,7 +139,7 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Divine Sense" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_DIVINE_SENSE">
+	<element name="Divine Sense" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_PALADIN_DIVINE_SENSE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_DIVINE_SENSE</requirements>
 		<description>
 			<p>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the <i>hallow</i> spell.</p>
@@ -153,7 +153,7 @@
 			<stat name="divine sense:count" value="charisma:modifier" />
 		</rules>
 	</element>
-	<element name="Lay on Hands" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_LAY_ON_HANDS">
+	<element name="Lay on Hands" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_PALADIN_LAY_ON_HANDS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_LAY_ON_HANDS</requirements>
 		<description>
 			<p>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.</p>
@@ -174,7 +174,7 @@
 			<stat name="lay on hands:hp pool" value="level:paladin" />
 		</rules>
 	</element>
-	<element name="Fighting Style" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_FIGHTING_STYLE">
+	<element name="Fighting Style" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_PALADIN_FIGHTING_STYLE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_FIGHTING_STYLE</requirements>
 		<description>
 			<p>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
@@ -191,7 +191,7 @@
 			<select type="Class Feature" name="Fighting Style" supports="Fighting Style,Paladin" />
 		</rules>
 	</element>
-	<element name="Spellcasting" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_SPELLCASTING">
+	<element name="Spellcasting" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_PALADIN_SPELLCASTING">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_SPELLCASTING</requirements>
 		<description>
 			<p>By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See chapter 10 for the general rules of spellcasting and chapter 11 for the paladin spell list.</p>
@@ -235,7 +235,7 @@
 			<stat name="paladin:spellcasting:prepare" value="level:paladin:half" />
 		</rules>
 	</element>
-	<element name="Divine Smite" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_DIVINE_SMITE">
+	<element name="Divine Smite" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_PALADIN_DIVINE_SMITE">
 		<requirements>!ID_KBP_DMBD_CLASS_FEATURE_ANTIPALADIN_UNHOLY_SMITE, !ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_DIVINE_SMITE</requirements>
 		<description>
 			<p>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon’s damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend, to a maximum of 6d8.</p>
@@ -244,7 +244,7 @@
 			<description>When you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon’s damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend, to a maximum of 6d8.</description>
 		</sheet>
 	</element>
-	<element name="Divine Health" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_DIVINE_HEALTH">
+	<element name="Divine Health" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_PALADIN_DIVINE_HEALTH">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_DIVINE_HEALTH</requirements>
 		<description>
 			<p>By 3rd level, the divine magic flowing through you makes you immune to disease.</p>
@@ -253,7 +253,7 @@
 			<description>The divine magic flowing through you makes you immune to disease.</description>
 		</sheet>
 	</element>
-	<element name="Sacred Oath" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_SACRED_OATH">
+	<element name="Sacred Oath" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_PALADIN_SACRED_OATH">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_SACRED_OATH</requirements>
 		<description>
 			<p>When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose the Oath of Devotion, the Oath of the Ancients, or the Oath of Vengeance, all detailed at the end of the class description.</p>
@@ -274,7 +274,7 @@
 			<stat name="channel divinity:count" value="1" level="1" bonus="base" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_ASI">
+	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_PALADIN_ASI">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -289,7 +289,7 @@
 			<select type="Class Feature" name="Improvement Option (Paladin 19)" supports="Improvement Option,Paladin,19" level="19" />
 		</rules>
 	</element>
-	<element name="Extra Attack" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_EXTRA_ATTACK">
+	<element name="Extra Attack" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_PALADIN_EXTRA_ATTACK">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_EXTRA_ATTACK</requirements>
 		<description>
 			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
@@ -301,7 +301,7 @@
 			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
 		</rules>
 	</element>
-	<element name="Aura of Protection" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION">
+	<element name="Aura of Protection" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_AURA_OF_PROTECTION</requirements>
 		<description>
 			<p>Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.</p>
@@ -317,7 +317,7 @@
 			<stat name="aura of protection:save bonus" value="charisma:modifier" bonus="base"/>
 		</rules>
 	</element>
-	<element name="Aura of Courage" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE">
+	<element name="Aura of Courage" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_AURA_OF_COURAGE</requirements>
 		<description>
 			<p>Starting at 10th level, you and friendly creatures within 10 feet of you can’t be frightened while you are conscious.</p>
@@ -331,7 +331,7 @@
 			<stat name="aura of courage:range" value="30" level="18" bonus="base" />
 		</rules>
 	</element>
-	<element name="Improved Divine Smite" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_IMPROVED_DIVINE_SMITE">
+	<element name="Improved Divine Smite" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_PALADIN_IMPROVED_DIVINE_SMITE">
 		<requirements>!ID_KBP_DMBD_CLASS_FEATURE_ANTIPALADIN_IMPROVED_UNHOLY_SMITE, !ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_IMPROVED_DIVINE_SMITE</requirements>
 		<description>
 			<p>By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage.</p>
@@ -340,7 +340,7 @@
 			<description>Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage.</description>
 		</sheet>
 	</element>
-	<element name="Cleansing Touch" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_PALADIN_CLEANSING_TOUCH">
+	<element name="Cleansing Touch" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_PALADIN_CLEANSING_TOUCH">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_CLEANSING_TOUCH</requirements>
 		<description>
 			<p>Beginning at 14th level, you can use your action to end one spell on yourself or on one willing creature that you touch.</p>

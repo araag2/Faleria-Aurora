@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Barbarian" type="Class" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_BARBARIAN">
+	<element name="Barbarian" type="Class" source="Beginner's Guide" id="ID_BG_CLASS_BARBARIAN">
 		<description>
 			<p>A tall human tribesman strides through a blizzard, draped in fur and hefting his axe. He laughs as he charges toward the frost giant who dared poach his people’s elk herd.</p>
 			<p class="indent">A half-orc snarls at the latest challenger to her authority over their savage tribe, ready to break his neck with her bare hands as she did to the last six rivals.</p>
@@ -78,20 +78,20 @@
 				<tr><td>19th</td><td>6</td><td>+4</td><td class="left">Ability Score Improvement</td></tr>
 				<tr><td>20th</td><td>Unlimited</td><td>+4</td><td class="left">Primal Champion</td></tr>
 			</table>
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_RAGE" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_DANGER_SENSE" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE"/>
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION" />
+			<div element="ID_BG_CLASS_FEATURE_BARBARIAN_RAGE" />
+			<div element="ID_BG_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" />
+			<div element="ID_BG_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK" />
+			<div element="ID_BG_CLASS_FEATURE_BARBARIAN_DANGER_SENSE" />
+			<div element="ID_BG_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH" />
+			<div element="ID_BG_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT" />
+			<div element="ID_BG_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" />
+			<div element="ID_BG_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT" />
+			<div element="ID_BG_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT" />
+			<div element="ID_BG_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL" />
+			<div element="ID_BG_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE" />
+			<div element="ID_BG_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE"/>
+			<div element="ID_BG_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT" />
+			<div element="ID_BG_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION" />
 		</description>
 		<sheet display="false">
 			<description>A fierce warrior of primitive background who can enter a battle rage.</description>
@@ -101,32 +101,32 @@
 			<set name="hd">d12</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_BARBARIAN" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_BARBARIAN" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_FALERIA_BG_MULTICLASS_BARBARIAN" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_FALERIA_BG_MULTICLASS_BARBARIAN"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_FALERIA_BG_MULTICLASS_BARBARIAN" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_FALERIA_BG_MULTICLASS_BARBARIAN" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_FALERIA_BG_MULTICLASS_BARBARIAN" />
-			<select type="Proficiency" name="Skill Proficiency (Barbarian)" number="2" supports="Skill,Barbarian" requirements="!ID_FALERIA_BG_MULTICLASS_BARBARIAN" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_RAGE" level="1" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" level="1" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK" level="2" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_DANGER_SENSE" level="2" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH" level="3" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT" level="4" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" level="5" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT" level="5" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT" level="7" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL" level="9" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE" level="11" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE" level="15" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT" level="18" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION" level="20" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_BG_MULTICLASS_BARBARIAN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_BG_MULTICLASS_BARBARIAN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_BG_MULTICLASS_BARBARIAN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_BG_MULTICLASS_BARBARIAN"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_BG_MULTICLASS_BARBARIAN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_BG_MULTICLASS_BARBARIAN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_BG_MULTICLASS_BARBARIAN" />
+			<select type="Proficiency" name="Skill Proficiency (Barbarian)" number="2" supports="Skill,Barbarian" requirements="!ID_BG_MULTICLASS_BARBARIAN" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_BARBARIAN_RAGE" level="1" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" level="1" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK" level="2" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_BARBARIAN_DANGER_SENSE" level="2" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH" level="3" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT" level="4" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" level="5" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT" level="5" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT" level="7" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL" level="9" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE" level="11" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE" level="15" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT" level="18" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION" level="20" />
 		</rules>
-		<multiclass id="ID_FALERIA_BG_MULTICLASS_BARBARIAN">
+		<multiclass id="ID_BG_MULTICLASS_BARBARIAN">
 			<prerequisite>Strength 13</prerequisite>
-			<requirements>([str:13],!(ID_WOTC_PHB24_CLASS_BARBARIAN||ID_WOTC_PHB24_MULTICLASS_BARBARIAN))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
+			<requirements>([str:13],!(ID_BG_CLASS_BARBARIAN||ID_BG_MULTICLASS_BARBARIAN))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
 			<setters>
 				<set name="multiclass proficiencies">Shields, simple weapons, martial weapons</set>
 			</setters>
@@ -138,7 +138,7 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Rage" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_RAGE">
+	<element name="Rage" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_BARBARIAN_RAGE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_RAGE</requirements>
 		<description>
 			<p>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren’t wearing heavy armor:</p>
@@ -179,7 +179,7 @@
 			-->
 		</rules>
 	</element>
-	<element name="Unarmored Defense" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE">
+	<element name="Unarmored Defense" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_UNARMORED_DEFENCE</requirements>
 		<description>
 			<p>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</p>
@@ -199,7 +199,7 @@
 			<stat name="ac:calculation" value="ac:unarmored defense barbarian" bonus="calculation" equipped="[armor:none]" alt="Unarmored Defense (Barbarian)" />
 		</rules>
 	</element>
-	<element name="Reckless Attack" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK">
+	<element name="Reckless Attack" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_RECKLESS_ATTACK</requirements>
 		<description>
 			<p>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</p>
@@ -208,7 +208,7 @@
 			<description>When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</description>
 		</sheet>
 	</element>
-	<element name="Danger Sense" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_DANGER_SENSE">
+	<element name="Danger Sense" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_BARBARIAN_DANGER_SENSE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_DANGER_SENSE</requirements>
 		<description>
 			<p>At 2nd level, you gain an uncanny sense of when things nearby aren’t as they should be, giving you an edge when you dodge away from danger.</p>
@@ -221,7 +221,7 @@
 			<!--<stat name="advantage:Dexterity Saving Throws" condition="against effects that you can see, such as traps and spells. While not blinded, deafened, or incapacitated." />-->
 		</rules>
 	</element>
-	<element name="Primal Path" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH">
+	<element name="Primal Path" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_PRIMAL_PATH</requirements>
 		<description>
 			<p>At 3rd level, you choose a path that shapes the nature of your rage. Choose the Path of the Berserker or the Path of the Totem Warrior, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.</p>
@@ -231,7 +231,7 @@
 			<select type="Archetype" name="Primal Path" supports="Primal Path" level="3" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT">
+	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -246,7 +246,7 @@
 			<select type="Class Feature" name="Improvement Option (Barbarian 19)" supports="Improvement Option,Barbarian,19" level="19" />
 		</rules>
 	</element>
-	<element name="Extra Attack" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK">
+	<element name="Extra Attack" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_EXTRA_ATTACK</requirements>
 		<description>
 			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
@@ -258,7 +258,7 @@
 			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
 		</rules>
 	</element>
-	<element name="Fast Movement" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT">
+	<element name="Fast Movement" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_FAST_MOVEMENT</requirements>
 		<description>
 			<p>Starting at 5th level, your speed increases by 10 feet while you aren’t wearing heavy armor.</p>
@@ -274,7 +274,7 @@
 			<stat name="innate speed:burrow:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:burrow:1]" />
 		</rules>
 	</element>
-	<element name="Feral Instinct" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT">
+	<element name="Feral Instinct" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_FERAL_INSTINCT</requirements>
 		<description>
 			<p>By 7th level, your instincts are so honed that you have advantage on initiative rolls.</p>
@@ -288,7 +288,7 @@
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
 		</rules>
 	</element>
-	<element name="Brutal Critical" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL">
+	<element name="Brutal Critical" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_BRUTAL_CRITICAL</requirements>
 		<description>
 			<p>Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>
@@ -300,7 +300,7 @@
 			<description level="17">Three additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</description>
 		</sheet>
 	</element>
-	<element name="Relentless Rage" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE">
+	<element name="Relentless Rage" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_RELENTLESS_RAGE</requirements>
 		<description>
 			<p>Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you’re raging and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.</p>
@@ -310,7 +310,7 @@
 			<description>If you drop to 0 hp while you’re raging and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hp instead. Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</description>
 		</sheet>
 	</element>
-	<element name="Persistant Rage" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE">
+	<element name="Persistant Rage" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_PERSISTANT_RAG</requirements>
 		<description>
 			<p>Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</p>
@@ -319,7 +319,7 @@
 			<description>Your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</description>
 		</sheet>
 	</element>
-	<element name="Indomitable Might" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT">
+	<element name="Indomitable Might" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_INDOMITABLE_MIGHT</requirements>
 		<description>
 			<p>Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.</p>
@@ -328,7 +328,7 @@
 			<description>If your total for a Strength check is less than {{strength:score}}, you can use {{strength:score}} place of the total.</description>
 		</sheet>
 	</element>
-	<element name="Primal Champion" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION">
+	<element name="Primal Champion" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_PRIMAL_CHAMPION</requirements>
 		<description>
 			<p>At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</p>

@@ -35,7 +35,7 @@
 			<div element="ID_BACKGROUND_FEATURE_CRIMINAL_CONTACT" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>
 			<p>Criminals might seem like villains on the surface, and many of them are villainous to the core. But some have an abundance of endearing, if not redeeming, characteristics. There might be honor among thieves, but criminals rarely show any respect for law or authority.</p>
-			<div element="ID_FALERIA_BG_BACKGROUND_VARIANT_CRIMINAL_SPY" />
+			<div element="ID_BG_BACKGROUND_VARIANT_CRIMINAL_SPY" />
 		</description>
 		<setters>
 			<set name="short">Deception, Stealth, Gaming Set, Thieves’ Tools</set>
@@ -106,7 +106,7 @@
 		</sheet>
 	</element>
 
-	<element name="Variant Criminal: Spy" type="Background Variant" source="Beginner's Guide" id="ID_FALERIA_BG_BACKGROUND_VARIANT_CRIMINAL_SPY">
+	<element name="Variant Criminal: Spy" type="Background Variant" source="Beginner's Guide" id="ID_BG_BACKGROUND_VARIANT_CRIMINAL_SPY">
 		<supports>Variant Criminal</supports>
 		<description>
 			<p>Although your capabilities are not much different from those of a burglar or smuggler, you learned and practiced them in a very different context: as an espionage agent. You might have been an officially sanctioned agent of the crown, or perhaps you sold the secrets you uncovered to the highest bidder.</p>

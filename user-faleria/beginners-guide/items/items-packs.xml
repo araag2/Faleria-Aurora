@@ -18,20 +18,20 @@
 			<set name="weight" lb="10">10 lbs.</set>
 		</setters>
 		<extract>
-			<item>ID_FALERIA_BG_ITEM_BACKPACK</item>
-			<item>ID_FALERIA_BG_ITEM_BALLBEARINGS</item>
-			<item>ID_FALERIA_BG_ITEM_STRING_10FEET</item>
-			<item>ID_FALERIA_BG_ITEM_BELL</item>
-			<item amount="5">ID_FALERIA_BG_ITEM_CANDLE</item>
-			<item>ID_FALERIA_BG_ITEM_CROWBAR</item>
-			<item>ID_FALERIA_BG_ITEM_HAMMER</item>
-			<item amount="10">ID_FALERIA_BG_ITEM_PITON</item>
-			<item>ID_FALERIA_BG_ITEM_LANTERN_HOODED</item>
-			<item amount="2">ID_FALERIA_BG_ITEM_OIL_FLASK</item>
-			<item amount="5">ID_FALERIA_BG_ITEM_RATIONS_1DAY</item>
-			<item>ID_FALERIA_BG_ITEM_TINDERBOX</item>
-			<item>ID_FALERIA_BG_ITEM_WATERSKIN</item>
-			<item>ID_FALERIA_BG_ITEM_ROPE_HEMPEN_50FEET</item>
+			<item>ID_BG_ITEM_BACKPACK</item>
+			<item>ID_BG_ITEM_BALLBEARINGS</item>
+			<item>ID_BG_ITEM_STRING_10FEET</item>
+			<item>ID_BG_ITEM_BELL</item>
+			<item amount="5">ID_BG_ITEM_CANDLE</item>
+			<item>ID_BG_ITEM_CROWBAR</item>
+			<item>ID_BG_ITEM_HAMMER</item>
+			<item amount="10">ID_BG_ITEM_PITON</item>
+			<item>ID_BG_ITEM_LANTERN_HOODED</item>
+			<item amount="2">ID_BG_ITEM_OIL_FLASK</item>
+			<item amount="5">ID_BG_ITEM_RATIONS_1DAY</item>
+			<item>ID_BG_ITEM_TINDERBOX</item>
+			<item>ID_BG_ITEM_WATERSKIN</item>
+			<item>ID_BG_ITEM_ROPE_HEMPEN_50FEET</item>
 		</extract>
 	</element>
 	<element name="Diplomat’s Pack" type="Item" source="Beginner's Guide" id="ID_FALERIA_ITEM_DIPLOMATS_PACK">
@@ -44,17 +44,17 @@
 			<set name="weight" lb="10">10 lbs.</set>
 		</setters>
 		<extract>
-			<item>ID_FALERIA_BG_ITEM_CHEST</item>
-			<item amount="2">ID_FALERIA_BG_ITEM_CASE_MAPORSCROLL</item>
-			<item>ID_FALERIA_BG_ITEM_CLOTHES_FINE</item>
-			<item>ID_FALERIA_BG_ITEM_INK_1OUNCEBOTTLE</item>
-			<item>ID_FALERIA_BG_ITEM_INKPEN</item>
-			<item>ID_FALERIA_BG_ITEM_LAMP</item>
-			<item amount="2">ID_FALERIA_BG_ITEM_OIL_FLASK</item>
-			<item amount="5">ID_FALERIA_BG_ITEM_PAPER_ONESHEET</item>
-			<item>ID_FALERIA_BG_ITEM_PERFUME_VIAL</item>
-			<item>ID_FALERIA_BG_ITEM_SEALINGWAX</item>
-			<item>ID_FALERIA_BG_ITEM_SOAP</item>
+			<item>ID_BG_ITEM_CHEST</item>
+			<item amount="2">ID_BG_ITEM_CASE_MAPORSCROLL</item>
+			<item>ID_BG_ITEM_CLOTHES_FINE</item>
+			<item>ID_BG_ITEM_INK_1OUNCEBOTTLE</item>
+			<item>ID_BG_ITEM_INKPEN</item>
+			<item>ID_BG_ITEM_LAMP</item>
+			<item amount="2">ID_BG_ITEM_OIL_FLASK</item>
+			<item amount="5">ID_BG_ITEM_PAPER_ONESHEET</item>
+			<item>ID_BG_ITEM_PERFUME_VIAL</item>
+			<item>ID_BG_ITEM_SEALINGWAX</item>
+			<item>ID_BG_ITEM_SOAP</item>
 		</extract>
 	</element>
 	<element name="Dungeoneer’s Pack" type="Item" source="Beginner's Guide" id="ID_FALERIA_ITEM_DUNGEONEERS_PACK">
@@ -67,15 +67,15 @@
 			<set name="weight" lb="10">10 lbs.</set>
 		</setters>
 		<extract>
-			<item>ID_FALERIA_BG_ITEM_BACKPACK</item>
-			<item>ID_FALERIA_BG_ITEM_CROWBAR</item>
-			<item>ID_FALERIA_BG_ITEM_HAMMER</item>
-			<item amount="10">ID_FALERIA_BG_ITEM_PITON</item>
-			<item amount="10">ID_FALERIA_BG_ITEM_TORCH</item>
-			<item>ID_FALERIA_BG_ITEM_TINDERBOX</item>
-			<item amount="10">ID_FALERIA_BG_ITEM_RATIONS_1DAY</item>
-			<item>ID_FALERIA_BG_ITEM_WATERSKIN</item>
-			<item>ID_FALERIA_BG_ITEM_ROPE_HEMPEN_50FEET</item>
+			<item>ID_BG_ITEM_BACKPACK</item>
+			<item>ID_BG_ITEM_CROWBAR</item>
+			<item>ID_BG_ITEM_HAMMER</item>
+			<item amount="10">ID_BG_ITEM_PITON</item>
+			<item amount="10">ID_BG_ITEM_TORCH</item>
+			<item>ID_BG_ITEM_TINDERBOX</item>
+			<item amount="10">ID_BG_ITEM_RATIONS_1DAY</item>
+			<item>ID_BG_ITEM_WATERSKIN</item>
+			<item>ID_BG_ITEM_ROPE_HEMPEN_50FEET</item>
 		</extract>
 	</element>
 	<element name="Entertainer’s Pack" type="Item" source="Beginner's Guide" id="ID_FALERIA_ITEM_ENTERTAINERS_PACK">
@@ -88,13 +88,13 @@
 			<set name="weight" lb="10">10 lbs.</set>
 		</setters>
 		<extract>
-			<item>ID_FALERIA_BG_ITEM_BACKPACK</item>
-			<item>ID_FALERIA_BG_ITEM_BEDROLL</item>
-			<item amount="2">ID_FALERIA_BG_ITEM_CLOTHES_COSTUME</item>
-			<item amount="5">ID_FALERIA_BG_ITEM_CANDLE</item>
-			<item amount="5">ID_FALERIA_BG_ITEM_RATIONS_1DAY</item>
-			<item>ID_FALERIA_BG_ITEM_WATERSKIN</item>
-			<item>ID_FALERIA_BG_ITEM_TOOL_DISGUISE_KIT</item>
+			<item>ID_BG_ITEM_BACKPACK</item>
+			<item>ID_BG_ITEM_BEDROLL</item>
+			<item amount="2">ID_BG_ITEM_CLOTHES_COSTUME</item>
+			<item amount="5">ID_BG_ITEM_CANDLE</item>
+			<item amount="5">ID_BG_ITEM_RATIONS_1DAY</item>
+			<item>ID_BG_ITEM_WATERSKIN</item>
+			<item>ID_BG_ITEM_TOOL_DISGUISE_KIT</item>
 		</extract>
 	</element>
 	<element name="Explorer’s Pack" type="Item" source="Beginner's Guide" id="ID_FALERIA_ITEM_EXPLORERS_PACK">
@@ -107,14 +107,14 @@
 			<set name="weight" lb="10">10 lbs.</set>
 		</setters>
 		<extract>
-			<item>ID_FALERIA_BG_ITEM_BACKPACK</item>
-			<item>ID_FALERIA_BG_ITEM_BEDROLL</item>
-			<item>ID_FALERIA_BG_ITEM_MESSKIT</item>
-			<item>ID_FALERIA_BG_ITEM_TINDERBOX</item>
-			<item amount="10">ID_FALERIA_BG_ITEM_TORCH</item>
-			<item amount="10">ID_FALERIA_BG_ITEM_RATIONS_1DAY</item>
-			<item>ID_FALERIA_BG_ITEM_WATERSKIN</item>
-			<item>ID_FALERIA_BG_ITEM_ROPE_HEMPEN_50FEET</item>
+			<item>ID_BG_ITEM_BACKPACK</item>
+			<item>ID_BG_ITEM_BEDROLL</item>
+			<item>ID_BG_ITEM_MESSKIT</item>
+			<item>ID_BG_ITEM_TINDERBOX</item>
+			<item amount="10">ID_BG_ITEM_TORCH</item>
+			<item amount="10">ID_BG_ITEM_RATIONS_1DAY</item>
+			<item>ID_BG_ITEM_WATERSKIN</item>
+			<item>ID_BG_ITEM_ROPE_HEMPEN_50FEET</item>
 		</extract>
 	</element>
 	<element name="Priest’s Pack" type="Item" source="Beginner's Guide" id="ID_FALERIA_ITEM_PRIESTS_PACK">
@@ -127,16 +127,16 @@
 			<set name="weight" lb="10">10 lbs.</set>
 		</setters>
 		<extract>
-			<item>ID_FALERIA_BG_ITEM_BACKPACK</item>
-			<item>ID_FALERIA_BG_ITEM_BLANKET</item>
-			<item amount="5">ID_FALERIA_BG_ITEM_CANDLE</item>
-			<item>ID_FALERIA_BG_ITEM_TINDERBOX</item>
+			<item>ID_BG_ITEM_BACKPACK</item>
+			<item>ID_BG_ITEM_BLANKET</item>
+			<item amount="5">ID_BG_ITEM_CANDLE</item>
+			<item>ID_BG_ITEM_TINDERBOX</item>
 			<!-- alms box -->
 			<!-- 2 blocks of incense -->
 			<!-- censer -->
 			<!-- vestments -->
-			<item amount="2">ID_FALERIA_BG_ITEM_RATIONS_1DAY</item>
-			<item>ID_FALERIA_BG_ITEM_WATERSKIN</item>
+			<item amount="2">ID_BG_ITEM_RATIONS_1DAY</item>
+			<item>ID_BG_ITEM_WATERSKIN</item>
 		</extract>
 	</element>
 	<element name="Scholar’s Pack" type="Item" source="Beginner's Guide" id="ID_FALERIA_ITEM_SCHOLARS_PACK">
@@ -150,11 +150,11 @@
 		</setters>
 		<extract>
 			<description>Includes a backpack, a book of lore, a bottle of ink, an ink pen, 10 sheets of parchment, a little bag of sand, and a small knife.</description>
-			<item>ID_FALERIA_BG_ITEM_BACKPACK</item>
-			<item>ID_FALERIA_BG_ITEM_BOOK</item>
-			<item>ID_FALERIA_BG_ITEM_INK_1OUNCEBOTTLE</item>
-			<item>ID_FALERIA_BG_ITEM_INKPEN</item>
-			<item amount="10">ID_FALERIA_BG_ITEM_PARCHMENT_ONESHEET</item>
+			<item>ID_BG_ITEM_BACKPACK</item>
+			<item>ID_BG_ITEM_BOOK</item>
+			<item>ID_BG_ITEM_INK_1OUNCEBOTTLE</item>
+			<item>ID_BG_ITEM_INKPEN</item>
+			<item amount="10">ID_BG_ITEM_PARCHMENT_ONESHEET</item>
 			<!-- bag of sand -->
 			<!-- small knife -->
 		</extract>

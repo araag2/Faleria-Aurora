@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Ranger" type="Class" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_RANGER">
+	<element name="Ranger" type="Class" source="Beginner's Guide" id="ID_BG_CLASS_RANGER">
 		<description>
 			<p class="flavor">A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</p>			
 			<p>Rough and wild looking, a human stalks alone through the shadows of trees, hunting the orcs he knows are planning a raid on a nearby farm. Clutching a shortsword in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.</p>
@@ -101,14 +101,14 @@
 			<set name="hd">d10</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_RANGER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_RANGER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_FALERIA_BG_MULTICLASS_RANGER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_FALERIA_BG_MULTICLASS_RANGER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_FALERIA_BG_MULTICLASS_RANGER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_FALERIA_BG_MULTICLASS_RANGER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_FALERIA_BG_MULTICLASS_RANGER" />
-			<select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="3" requirements="!ID_FALERIA_BG_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_BG_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_BG_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_BG_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_BG_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_BG_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_BG_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_BG_MULTICLASS_RANGER" />
+			<select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="3" requirements="!ID_BG_MULTICLASS_RANGER" />
 			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_FAVORED_ENEMY" level="1"/>
 			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_NATURAL_EXPLORER" level="1"/>
 			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_FIGHTING_STYLE" level="2"/>
@@ -123,9 +123,9 @@
 			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_FERAL_SENSES" level="18"/>
 			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_FOE_SLAYER" level="20"/>
 		</rules>
-		<multiclass id="ID_FALERIA_BG_MULTICLASS_RANGER">
+		<multiclass id="ID_BG_MULTICLASS_RANGER">
 			<prerequisite>Dexterity 13 and Wisdom 13</prerequisite>
-			<requirements>(([dex:13],[wis:13]),!(ID_WOTC_PHB24_CLASS_RANGER||ID_WOTC_PHB24_MULTICLASS_RANGER))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
+			<requirements>(([dex:13],[wis:13]),!(ID_BG_CLASS_RANGER||ID_BG_MULTICLASS_RANGER))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
 			<setters>
 				<set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons, one skill from the class’s skill list</set>
 			</setters>
@@ -156,9 +156,9 @@
 			<select type="Class Feature" name="Favored Enemy" supports="Favored Enemy" level="1" />
 			<select type="Class Feature" name="Favored Enemy" supports="Favored Enemy" level="6" />
 			<select type="Class Feature" name="Favored Enemy" supports="Favored Enemy" level="14" />			
-			<select type="Class Feature" name="Favored Enemy, Humanoid" supports="Humanoid Favored Enemy" number="2" level="1" requirements="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_1" />
-			<select type="Class Feature" name="Favored Enemy, Humanoid" supports="Humanoid Favored Enemy" number="2" level="6" requirements="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_2" />
-			<select type="Class Feature" name="Favored Enemy, Humanoid" supports="Humanoid Favored Enemy" number="2" level="14" requirements="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_3" />
+			<select type="Class Feature" name="Favored Enemy, Humanoid" supports="Humanoid Favored Enemy" number="2" level="1" requirements="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_1" />
+			<select type="Class Feature" name="Favored Enemy, Humanoid" supports="Humanoid Favored Enemy" number="2" level="6" requirements="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_2" />
+			<select type="Class Feature" name="Favored Enemy, Humanoid" supports="Humanoid Favored Enemy" number="2" level="14" requirements="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_3" />
 			<select type="Language" name="Language (Favored Enemy)" level="1" />
 			<select type="Language" name="Language (Favored Enemy)" level="6" />
 			<select type="Language" name="Language (Favored Enemy)" level="14" />
@@ -441,81 +441,81 @@
 			<p>Undead are once-living creatures brought to a horrifying state of undeath through the practice of necromantic magic or some unholy curse. Undead include walking corpses, such as vampires and zombies, as well as bodiless spirits, such as ghosts and specters.</p>
 		</description>		
 	</element>
-    <element name="Humanoids" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_1">
+    <element name="Humanoids" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_1">
         <supports>Favored Enemy,Monster Type</supports>
         <description>
             <p>Humanoids are the main peoples of the D&amp;D world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate magical abilities (though most humanoids can learn spellcasting), and a bipedal form. The most common humanoid races are the ones most suitable as player characters: humans, dwarves, elves, and halflings. Almost as numerous but far more savage and brutal, and almost uniformly evil, are the races of goblinoids (goblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds.</p>
         </description>
         <sheet display="false" />
     </element>
-    <element name="Humanoids" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_2">
+    <element name="Humanoids" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_2">
 		<compendium display="false" />
-        <requirements>ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_1</requirements>
+        <requirements>ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_1</requirements>
         <supports>Favored Enemy,Monster Type</supports>
         <description>
             <p>Humanoids are the main peoples of the D&amp;D world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate magical abilities (though most humanoids can learn spellcasting), and a bipedal form. The most common humanoid races are the ones most suitable as player characters: humans, dwarves, elves, and halflings. Almost as numerous but far more savage and brutal, and almost uniformly evil, are the races of goblinoids (goblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds.</p>
         </description>
         <sheet display="false" />
     </element>
-    <element name="Humanoids" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_3">
+    <element name="Humanoids" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_3">
 		<compendium display="false" />
-        <requirements>ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_2</requirements>
+        <requirements>ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_2</requirements>
         <supports>Favored Enemy,Monster Type</supports>
         <description>
             <p>Humanoids are the main peoples of the D&amp;D world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate magical abilities (though most humanoids can learn spellcasting), and a bipedal form. The most common humanoid races are the ones most suitable as player characters: humans, dwarves, elves, and halflings. Almost as numerous but far more savage and brutal, and almost uniformly evil, are the races of goblinoids (goblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds.</p>
         </description>
         <sheet display="false" />
     </element>
-    <element name="Humans" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_HUMAN">
+    <element name="Humans" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_HUMAN">
         <supports>Humanoid Favored Enemy</supports>
         <description>
             <p>In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that’s why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.</p>
         </description>
     </element>
-    <element name="Dwarves" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_DWARVES">
+    <element name="Dwarves" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_DWARVES">
         <supports>Humanoid Favored Enemy</supports>
         <description>
             <p>Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller.</p>
         </description>
     </element>
-    <element name="Elves" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_ELVES">
+    <element name="Elves" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_ELVES">
         <supports>Humanoid Favored Enemy</supports>
         <description>
             <p>Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.</p>
         </description>
     </element>
-    <element name="Halflings" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_HALFLINGS">
+    <element name="Halflings" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_HALFLINGS">
         <supports>Humanoid Favored Enemy</supports>
         <description>
             <p>The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense. Standing about 3 feet tall, they appear relatively harmless and so have managed to survive for centuries in the shadow of empires and on the edges of wars and political strife.</p>
         </description>
     </element>
-    <element name="Dragonborn" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_DRAGONBORN">
+    <element name="Dragonborn" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_DRAGONBORN">
         <supports>Humanoid Favored Enemy</supports>
         <description>
             <p>It’s easy to assume that a dragonborn is a monster, especially if his or her scales betray a chromatic heritage. Unless the dragonborn starts breathing fire and causing destruction, though, people are likely to respond with caution rather than outright fear.</p>
         </description>
     </element>
-    <element name="Gnomes" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GNOME">
+    <element name="Gnomes" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GNOME">
         <supports>Humanoid Favored Enemy</supports>
         <description>
             <p>Gnomes don’t look like a threat and can quickly disarm suspicion with good humor. The common folk are often curious about gnomes, likely never having seen one before, but they are rarely hostile or fearful.</p>
         </description>
     </element>
-    <element name="Half-Elves" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_HALF_ELF">
+    <element name="Half-Elves" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_HALF_ELF">
         <supports>Humanoid Favored Enemy</supports>
         <description>
             <p>To humans, half-elves look like elves, and to elves, they look human. In height, they’re on par with both parents, though they’re neither as slender as elves nor as broad as humans.</p>
         </description>
     </element>
-    <element name="Half-Orcs" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_HALF_ORC">
+    <element name="Half-Orcs" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_HALF_ORC">
         <supports>Humanoid Favored Enemy</supports>
         <description>
             <p>Half-orcs’ grayish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and towering builds make their orcish heritage plain for all to see. Half-orcs stand between 6 and 7 feet tall and usually weigh between 180 and 250 pounds.</p>
             <p class="indent"></p>
         </description>
     </element>
-    <element name="Tieflings" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_TIEFLING">
+    <element name="Tieflings" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_TIEFLING">
         <supports>Humanoid Favored Enemy</supports>
         <description>
             <p>Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human. However, their infernal heritage has left a clear imprint on their appearance. Tieflings have large horns that take any of a variety of shapes - some have curling horns like a ram, others have straight and tall horns like a gazelle’s, and some spiral upward like an antelopes’ horns. They have thick tails, four to five feet long, which lash or coil around their legs when they get upset or nervous. Their canine teeth are sharply pointed, and their eyes are solid colors black, red, white, silver, or gold with no visible sclera or pupil. Their skin tones cover the full range of human coloration, but also include various shades of red. Their hair, cascading down from behind their horns, is usually dark, from black or brown to dark red, blue, or purple.</p>

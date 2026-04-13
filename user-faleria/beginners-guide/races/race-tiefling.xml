@@ -82,9 +82,9 @@
 			<description level="5">You know the thaumaturgy cantrip. You can cast the hellish rebuke spell as a 2nd-level spell and the darkness spell once per rest. Charisma is your spellcasting ability for these spells.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_THAUMATURGY" />
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_HELLISH_REBUKE" level="3"/>
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_DARKNESS" level="5"/>
+			<grant type="Spell" id="ID_BG_SPELL_THAUMATURGY" />
+			<grant type="Spell" id="ID_BG_SPELL_HELLISH_REBUKE" level="3"/>
+			<grant type="Spell" id="ID_BG_SPELL_DARKNESS" level="5"/>
 		</rules>
 	</element>
 	<!-- an element that you should grant in a subrace so that you can override stats/infernal legacy -->

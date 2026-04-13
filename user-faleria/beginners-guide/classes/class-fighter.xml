@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Fighter" type="Class" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FIGHTER">
+	<element name="Fighter" type="Class" source="Beginner's Guide" id="ID_BG_CLASS_FIGHTER">
 		<description>
 			<p>A human in clanging plate armor holds her shield before her as she runs toward the massed goblins. An elf behind her, clad in studded leather armor, peppers the goblins with arrows loosed from his exquisite bow. The half-orc nearby shouts orders, helping the two combatants coordinate their assault to the best advantage.</p>
 			<p class="indent">A dwarf in chain mail interposes his shield between the ogre’s club and his companion, knocking the deadly blow aside. His companion, a half-elf in scale armor, swings two scimitars in a blinding whirl as she circles the ogre, looking for a blind spot in its defenses.</p>
@@ -77,13 +77,13 @@
 				<tr><td>19th</td><td class="left">Ability Score Improvement</td></tr>
 				<tr><td>20th</td><td class="left">Extra Attack (3)</td></tr>
 			</table>
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_FIGHTINGSTYLE" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_SECONDWIND" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_ACTIONSURGE" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_MARTIALARCHETYPE" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_EXTRAATTACK" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_INDOMITABLE" />
+			<div element="ID_BG_CLASS_FEATURE_FIGHTINGSTYLE" />
+			<div element="ID_BG_CLASS_FEATURE_SECONDWIND" />
+			<div element="ID_BG_CLASS_FEATURE_ACTIONSURGE" />
+			<div element="ID_BG_CLASS_FEATURE_MARTIALARCHETYPE" />
+			<div element="ID_BG_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER" />
+			<div element="ID_BG_CLASS_FEATURE_EXTRAATTACK" />
+			<div element="ID_BG_CLASS_FEATURE_INDOMITABLE" />
 		</description>
 		<sheet display="false">
 			<description>A master of martial combat, skilled with a variety of weapons and armor.</description>
@@ -93,26 +93,26 @@
 			<set name="hd">d10</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_FIGHTER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_FIGHTER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_FIGHTER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_FALERIA_BG_MULTICLASS_FIGHTER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_FALERIA_BG_MULTICLASS_FIGHTER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_FALERIA_BG_MULTICLASS_FIGHTER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_FALERIA_BG_MULTICLASS_FIGHTER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_FALERIA_BG_MULTICLASS_FIGHTER"/>
-			<select type="Proficiency" name="Skill Proficiency (Fighter)" supports="Skill,Fighter" number="2" requirements="!ID_FALERIA_BG_MULTICLASS_FIGHTER"/>
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_FIGHTINGSTYLE" level="1"/>
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_SECONDWIND" level="1"/>
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_ACTIONSURGE" level="2"/>
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_MARTIALARCHETYPE" level="3"/>
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER" level="4"/>
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_EXTRAATTACK" level="5"/>
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_INDOMITABLE" level="9"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_BG_MULTICLASS_FIGHTER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_BG_MULTICLASS_FIGHTER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_BG_MULTICLASS_FIGHTER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_BG_MULTICLASS_FIGHTER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_BG_MULTICLASS_FIGHTER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_BG_MULTICLASS_FIGHTER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_BG_MULTICLASS_FIGHTER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_BG_MULTICLASS_FIGHTER"/>
+			<select type="Proficiency" name="Skill Proficiency (Fighter)" supports="Skill,Fighter" number="2" requirements="!ID_BG_MULTICLASS_FIGHTER"/>
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_FIGHTINGSTYLE" level="1"/>
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_SECONDWIND" level="1"/>
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_ACTIONSURGE" level="2"/>
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_MARTIALARCHETYPE" level="3"/>
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER" level="4"/>
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_EXTRAATTACK" level="5"/>
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_INDOMITABLE" level="9"/>
 		</rules>
-		<multiclass id="ID_FALERIA_BG_MULTICLASS_FIGHTER">
+		<multiclass id="ID_BG_MULTICLASS_FIGHTER">
 			<prerequisite>Strength 13 or Dexterity 13</prerequisite>
-			<requirements>(([str:13]||[dex:13]),!(ID_WOTC_PHB24_CLASS_FIGHTER||ID_WOTC_PHB24_MULTICLASS_FIGHTER))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
+			<requirements>(([str:13]||[dex:13]),!(ID_BG_CLASS_FIGHTER||ID_BG_MULTICLASS_FIGHTER))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
 			<setters>
 				<set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons</set>
 			</setters>
@@ -126,7 +126,7 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Fighting Style" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_FIGHTINGSTYLE">
+	<element name="Fighting Style" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_FIGHTINGSTYLE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_FIGHTING_STYLE</requirements>
 		<description>
 			<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
@@ -147,7 +147,7 @@
 			<select type="Class Feature" name="Fighting Style" supports="Fighting Style, Fighter" level="1"/>
 		</rules>
 	</element>
-	<element name="Second Wind" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_SECONDWIND">
+	<element name="Second Wind" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_SECONDWIND">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_SECOND_WIND</requirements>
 		<description>
 			<p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.</p>
@@ -157,7 +157,7 @@
 			<description>You regain 1d10+{{level:fighter}} hp.</description>
 		</sheet>
 	</element>
-	<element name="Action Surge" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_ACTIONSURGE">
+	<element name="Action Surge" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_ACTIONSURGE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_ACTION_SURGE</requirements>
 		<description>
 			<p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p>
@@ -168,7 +168,7 @@
 			<description usage="2/Short Rest" level="17">On your turn, you can take one additional action on top of your regular action.</description>
 		</sheet>
 	</element>
-	<element name="Martial Archetype" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_MARTIALARCHETYPE">
+	<element name="Martial Archetype" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_MARTIALARCHETYPE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_MARTIAL_ARCHETYPE</requirements>
 		<description>
 			<p>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. The Champion archetype is detailed at the end of the class description; see the Beginner's Guide for information on other martial archetypes. Your archetype grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</p>
@@ -178,7 +178,7 @@
 			<select type="Archetype" name="Martial Archetype" supports="Martial Archetype" level="3" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER">
+	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -195,7 +195,7 @@
 			<select type="Class Feature" name="Improvement Option (Fighter 19)" supports="Improvement Option,Fighter,19" level="19" />
 		</rules>
 	</element>
-	<element name="Extra Attack" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_EXTRAATTACK">
+	<element name="Extra Attack" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_EXTRAATTACK">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_EXTRA_ATTACK</requirements>
 		<description>
 			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
@@ -212,7 +212,7 @@
 			<stat name="extra attack:count" value="4" level="20" bonus="extra attack" />
 		</rules>
 	</element>
-	<element name="Indomitable" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_INDOMITABLE">
+	<element name="Indomitable" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_INDOMITABLE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_INDOMITABLE</requirements>
 		<description>
 			<p>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this feature again until you finish a long rest.</p>
@@ -229,8 +229,8 @@
 	</element>
 
 	<!-- Fighting Styles -->
-	<element name="Archery" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_FIGHTINGSTYLE_ARCHERY">
-		<requirements>!ID_WOTC_PHB24_FEAT_ARCHERY</requirements>
+	<element name="Archery" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_FIGHTINGSTYLE_ARCHERY">
+		<requirements>!ID_BG_FEAT_ARCHERY</requirements>
 		<supports>Fighting Style, Fighter, Ranger</supports>
 		<description>
 			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
@@ -242,8 +242,8 @@
 			<stat name="ranged:attack" value="2" />
 		</rules>
 	</element>
-	<element name="Defense" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
-		<requirements>!ID_WOTC_PHB24_FEAT_DEFENSE</requirements>
+	<element name="Defense" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
+		<requirements>!ID_BG_FEAT_DEFENSE</requirements>
 		<supports>Fighting Style, Fighter, Paladin, Ranger</supports>
 		<description>
 			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
@@ -255,8 +255,8 @@
 			<stat name="ac:misc" value="1" bonus="fighting style" equipped="[armor:any]" alt="Defense (Fighting Style)" />
 		</rules>
 	</element>
-	<element name="Dueling" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
-		<requirements>!ID_WOTC_PHB24_FEAT_DUELING</requirements>
+	<element name="Dueling" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
+		<requirements>!ID_BG_FEAT_DUELING</requirements>
 		<supports>Fighting Style, Fighter, Paladin, Ranger</supports>
 		<description>
 			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
@@ -268,8 +268,8 @@
 			<!-- <stat name="melee:damage" value="2" equipped="[primary:any],([secondary:none]||[shield:any])" /> -->
 		</rules>
 	</element>
-	<element name="Great Weapon Fighting" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
-		<requirements>!ID_WOTC_PHB24_FEAT_GREAT_WEAPON_FIGHTING</requirements>
+	<element name="Great Weapon Fighting" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
+		<requirements>!ID_BG_FEAT_GREAT_WEAPON_FIGHTING</requirements>
 		<supports>Fighting Style, Fighter, Paladin</supports>
 		<description>
 			<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
@@ -278,8 +278,8 @@
 			<description>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</description>
 		</sheet>
 	</element>
-	<element name="Protection" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_FIGHTINGSTYLE_PROTECTION">
-		<requirements>!ID_WOTC_PHB24_FEAT_PROTECTION</requirements>
+	<element name="Protection" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_FIGHTINGSTYLE_PROTECTION">
+		<requirements>!ID_BG_FEAT_PROTECTION</requirements>
 		<supports>Fighting Style, Fighter, Paladin</supports>
 		<description>
 			<p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p>
@@ -288,8 +288,8 @@
 			<description>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</description>
 		</sheet>
 	</element>
-	<element name="Two-Weapon Fighting" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
-		<requirements>!ID_WOTC_PHB24_FEAT_TWOWEAPON_FIGHTING</requirements>
+	<element name="Two-Weapon Fighting" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
+		<requirements>!ID_BG_FEAT_TWOWEAPON_FIGHTING</requirements>
 		<supports>Fighting Style, Fighter, Ranger</supports>
 		<description>
 			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>

@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	
-	<element name="Cleric" type="Class" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_CLERIC">
+	<element name="Cleric" type="Class" source="Beginner's Guide" id="ID_BG_CLASS_CLERIC">
 		<description>
 			<p>Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to glow with an inner light that spills out to heal his battle-worn companions.</p>
 			<p class="indent">Chanting a song of glory, a dwarf swings his axe in wide swaths to cut through the ranks of orcs arrayed against him, shouting praise to the gods with every foe’s fall.</p>
@@ -81,13 +81,13 @@
 				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
 				<tr><td>20th</td><td class="left">Divine Intervention Improvement</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
 			</table>
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_DIVINEDOMAIN" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_CHANNELDIVINITY" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_DESTROYUNDEAD" />
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" />
+			<div element="ID_BG_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC" />
+			<div element="ID_BG_CLASS_FEATURE_CLERIC_DIVINEDOMAIN" />
+			<div element="ID_BG_CLASS_FEATURE_CLERIC_CHANNELDIVINITY" />
+			<div element="ID_BG_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD" />
+			<div element="ID_BG_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC" />
+			<div element="ID_BG_CLASS_FEATURE_CLERIC_DESTROYUNDEAD" />
+			<div element="ID_BG_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" />
 		</description>
 		<sheet display="false">
 			<description>A priestly champion who wields divine magic in service of a higher power.</description>
@@ -97,24 +97,24 @@
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_CLERIC"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_FALERIA_BG_MULTICLASS_CLERIC"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD" requirements="!ID_FALERIA_BG_MULTICLASS_CLERIC"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_FALERIA_BG_MULTICLASS_CLERIC"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_FALERIA_BG_MULTICLASS_CLERIC"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_FALERIA_BG_MULTICLASS_CLERIC"/>
-			<select type="Proficiency" name="Skill Proficiency (Cleric)" supports="Skill,Cleric" number="2" requirements="!ID_FALERIA_BG_MULTICLASS_CLERIC"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_BG_MULTICLASS_CLERIC"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_BG_MULTICLASS_CLERIC"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD" requirements="!ID_BG_MULTICLASS_CLERIC"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_BG_MULTICLASS_CLERIC"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_BG_MULTICLASS_CLERIC"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_BG_MULTICLASS_CLERIC"/>
+			<select type="Proficiency" name="Skill Proficiency (Cleric)" supports="Skill,Cleric" number="2" requirements="!ID_BG_MULTICLASS_CLERIC"/>
 
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC" level="1" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_DIVINEDOMAIN" level="1" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_CHANNELDIVINITY" level="2" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC" level="4" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_DESTROYUNDEAD" level="5" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" level="10" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC" level="1" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_CLERIC_DIVINEDOMAIN" level="1" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_CLERIC_CHANNELDIVINITY" level="2" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC" level="4" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_CLERIC_DESTROYUNDEAD" level="5" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" level="10" />
 		</rules>
-		<multiclass id="ID_FALERIA_BG_MULTICLASS_CLERIC">
+		<multiclass id="ID_BG_MULTICLASS_CLERIC">
 			<prerequisite>Wisdom 13</prerequisite>
-			<requirements>([wis:13],!(ID_WOTC_PHB24_CLASS_CLERIC||ID_WOTC_PHB24_MULTICLASS_CLERIC))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
+			<requirements>([wis:13],!(ID_BG_CLASS_CLERIC||ID_BG_MULTICLASS_CLERIC))||ID_RACIAL_TRAIT_SHARP_MIND</requirements>
 			<setters>
 				<set name="multiclass proficiencies">Light armor, medium armor, shields</set>
 			</setters>
@@ -126,7 +126,7 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Spellcasting" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC">
+	<element name="Spellcasting" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_SPELLCASTING</requirements>
 		<description>
 			<p>As a conduit for divine power, you can cast cleric spells.</p>
@@ -187,7 +187,7 @@
 			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Cleric" />
 		</rules>
 	</element>
-	<element name="Divine Domain" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_DIVINEDOMAIN">
+	<element name="Divine Domain" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_CLERIC_DIVINEDOMAIN">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_DOMAIN</requirements>
 		<description>
 			<p>Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.</p>
@@ -200,24 +200,24 @@
 			<select type="Archetype" name="Divine Domain" supports="Divine Domain" />
 		</rules>
 	</element>
-	<element name="Channel Divinity" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_CHANNELDIVINITY">
+	<element name="Channel Divinity" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_CLERIC_CHANNELDIVINITY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_CHANNEL_DIVINITY</requirements>
 		<description>
 			<p>At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.</p>
 			<p class="indent">When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again.</p>
 			<p class="indent">Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.</p>
 			<p class="indent">Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.</p>
-			<div element="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD" />
+			<div element="ID_BG_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD" />
 		</description>
 		<sheet usage="{{channel divinity:count}}/Short Rest" />
 		<rules>
 			<stat name="channel divinity:count" value="1" bonus="base" />
 			<stat name="channel divinity:count" value="2" level="6" bonus="base" />
 			<stat name="channel divinity:count" value="3" level="18" bonus="base" />
-			<grant type="Class Feature" id="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD" />
+			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD" />
 		</rules>
 	</element>
-	<element name="Channel Divinity: Turn Undead" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD">
+	<element name="Channel Divinity: Turn Undead" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_CHANNELDIVINITY_TURN_UNDEAD</requirements>
 		<description>
 			<p>As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.</p>
@@ -228,7 +228,7 @@
 				A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</description>
 		</sheet>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC">
+	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -243,7 +243,7 @@
 			<select type="Class Feature" name="Improvement Option (Cleric 19)" supports="Improvement Option,Cleric,19" level="19" />
 		</rules>
 	</element>
-	<element name="Destroy Undead" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_DESTROYUNDEAD">
+	<element name="Destroy Undead" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_CLERIC_DESTROYUNDEAD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DESTROY_UNDEAD</requirements>
 		<description>
 			<p>Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Destroy Undead table.</p>
@@ -267,7 +267,7 @@
 			<description level="17">When an undead of CR 4 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed.</description>
 		</sheet>
 	</element>
-	<element name="Divine Intervention" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_BG_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION">
+	<element name="Divine Intervention" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_INTERVENTION</requirements>
 		<description>
 			<p>Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great.</p>

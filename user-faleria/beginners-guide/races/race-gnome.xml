@@ -114,7 +114,7 @@
 			<description>You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_FALERIA_BG_SPELL_MINOR_ILLUSION" />
+			<grant type="Spell" id="ID_BG_SPELL_MINOR_ILLUSION" />
 		</rules>
 	</element>
 	<element name="Speak with Small Beasts" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS">

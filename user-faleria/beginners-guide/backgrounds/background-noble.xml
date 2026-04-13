@@ -41,9 +41,9 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
 			<select type="Proficiency" name="Gaming Set (Noble)" supports="Gaming Set" />
 			<select type="Language" name="Language (Noble)" supports="Standard||Exotic" />
-			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_POSITIONOFPRIVILEGE" requirements="!ID_FALERIA_BG_BACKGROUND_FEATURE_KNIGHT_RETAINERS,!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_POSITIONOFPRIVILEGE" requirements="!ID_BG_BACKGROUND_FEATURE_KNIGHT_RETAINERS,!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
 			<select type="Background Variant" name="Variant Noble" supports="Variant Noble" optional="true" />
-			<select type="Background Feature" name="Variant Feature" supports="Background Feature, Noble || Optional Background Feature" optional="true" requirements="!ID_FALERIA_BG_BACKGROUND_VARIANT_NOBLE_KNIGHT" />
+			<select type="Background Feature" name="Variant Feature" supports="Background Feature, Noble || Optional Background Feature" optional="true" requirements="!ID_BG_BACKGROUND_VARIANT_NOBLE_KNIGHT" />
 			<select name="Personality Trait" type="List" number="2">
 				<item id="1">My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world.</item>
 				<item id="2">The common folk love me for my kindness and generosity.</item>
@@ -89,7 +89,7 @@
 		<sheet alt="Position of Privilege" />
 	</element>
 
-	<element name="Variant Noble: Knight" type="Background Variant" source="Beginner's Guide" id="ID_FALERIA_BG_BACKGROUND_VARIANT_NOBLE_KNIGHT">
+	<element name="Variant Noble: Knight" type="Background Variant" source="Beginner's Guide" id="ID_BG_BACKGROUND_VARIANT_NOBLE_KNIGHT">
 		<supports>Variant Noble</supports>
 		<description>
 			<p>A knighthood is among the lowest noble titles in most societies, but it can be a path to higher status. If you wish to be a knight, choose the Retainers feature (see the sidebar) instead of the Position of Privilege feature. One of your commoner retainers is replaced by a noble who serves as your squire, aiding you in exchange for training on his or her own path to knighthood. Your two remaining retainers might include a groom to care for your horse and a servant who polishes your armor (and even helps you put it on).</p>
@@ -97,11 +97,11 @@
 		</description>
 		<sheet alt="Knight" />
 		<rules>
-			<grant type="Background Feature" id="ID_FALERIA_BG_BACKGROUND_FEATURE_KNIGHT_RETAINERS" />
+			<grant type="Background Feature" id="ID_BG_BACKGROUND_FEATURE_KNIGHT_RETAINERS" />
 		</rules>
 	</element>
 
-	<element name="Feature: Retainers" type="Background Feature" source="Beginner's Guide" id="ID_FALERIA_BG_BACKGROUND_FEATURE_KNIGHT_RETAINERS">
+	<element name="Feature: Retainers" type="Background Feature" source="Beginner's Guide" id="ID_BG_BACKGROUND_FEATURE_KNIGHT_RETAINERS">
 		<supports>Background Feature, Noble</supports>
 		<description>
 			<p>If your character has a noble background, you may select this background feature instead of Position of Privilege. You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. Your retainers are commoners who can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused.</p>
