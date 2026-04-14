@@ -4,7 +4,7 @@
 		<name>Beginner's Guide</name>
 		<description>The Beginner's Guide is the essential reference for every Dungeons &amp; Dragons roleplayer. It contains rules for character creation and advancement, backgrounds and skills, exploration and combat, equipment, spells, and much more. Use this book to create exciting characters from among the most iconic D&amp;D races and classes.</description>
 		<author url="https://faleria.pt/">Faleria</author>
-		<update version="1.0.3">
+		<update version="1.0.4">
 			<file name="beginners-guide.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide.index" />
 		</update>
 	</info>
@@ -139,7 +139,21 @@
 		<file name="items-mounts.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/items/items-mounts.xml" />
 
 		<!-- spells -->
-		<file name="spells.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells.xml" />
+		<file name="spells_aag.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_aag.xml" />
+		<file name="spells_bmt.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_bmt.xml" />
+		<file name="spells_egw.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_egw.xml" />
+		<file name="spells_Faleria-Custom.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_Faleria-Custom.xml" />
+		<file name="spells_ftd.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_ftd.xml" />
+		<file name="spells_ggr.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_ggr.xml" />
+		<file name="spells_idrotf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_idrotf.xml" />
+		<file name="spells_og_2024.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_og_2024.xml" />
+		<file name="spells_phb-2014.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_phb-2014.xml" />
+		<file name="spells_phb-2024.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_phb-2024.xml" />
+		<file name="spells_sato.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_sato.xml" />
+		<file name="spells_scc.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_scc.xml" />
+		<file name="spells_tce.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_tce.xml" />
+		<file name="spells_xge.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_xge.xml" />
+		
 
 		<!-- misc -->
 		<file name="languages.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/languages.xml" />

@@ -8,7 +8,7 @@
 		</update>
 	</info>
 	
-	<element name="Borrowed Knowledge" type="Spell" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_SPELL_BORROWED_KNOWLEDGE">
+	<element name="Borrowed Knowledge" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_BORROWED_KNOWLEDGE">
 		<supports>Bard, Cleric, Warlock, Wizard</supports>
 		<description>
 			<p>You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell’s duration, you have proficiency in the chosen skill. The spell ends early if you cast it again.</p>
@@ -26,7 +26,7 @@
 			<set name="duration">1 hour</set>
 		</setters>
 	</element>
-	<element name="Kinetic Jaunt" type="Spell" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_SPELL_KINETIC_JAUNT">
+	<element name="Kinetic Jaunt" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_KINETIC_JAUNT">
 		<supports>Artificer, Bard, Sorcerer, Wizard</supports>
 		<description>
 			<p>You magically empower your movement with dance-like steps, giving yourself the following benefits for the duration:</p>
@@ -50,7 +50,7 @@
 			<set name="isConcentration">true</set>
 		</setters>
 	</element>
-	<element name="Silvery Barbs" type="Spell" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_SPELL_SILVERY_BARBS">
+	<element name="Silvery Barbs" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SILVERY_BARBS">
 		<supports>Bard, Sorcerer, Wizard</supports>
 		<description>
 			<p>You magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the d20 and use the lower roll.</p>
@@ -69,7 +69,7 @@
 			<set name="duration">Instantaneous</set>
 		</setters>
 	</element>
-	<element name="Vortex Warp" type="Spell" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_SPELL_VORTEX_WARP">
+	<element name="Vortex Warp" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_VORTEX_WARP">
 		<supports>Artificer, Sorcerer, Wizard, Constitution, Spell Saving Throw</supports>
 		<description>
 			<p>You magically twist space around another creature you can see within range. The target must succeed on a Constitution saving throw (the target can choose to fail), or the target is teleported to an unoccupied space of your choice that you can see within range. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.</p>
@@ -88,7 +88,7 @@
 			<set name="duration">Instantaneous</set>
 		</setters>
 	</element>
-	<element name="Wither and Bloom" type="Spell" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_SPELL_WITHER_AND_BLOOM">
+	<element name="Wither and Bloom" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_WITHER_AND_BLOOM">
 		<supports>Druid, Sorcerer, Wizard, Constitution, Spell Saving Throw</supports>
 		<description>
 			<p>You invoke both death and life upon a 10-foot-radius sphere centered on a point within range. Each creature of your choice in that area must make a Constitution saving throw, taking 2d6 necrotic damage on a failed save, or half as much damage on a successful one. Nonmagical vegetation in that area withers.</p>

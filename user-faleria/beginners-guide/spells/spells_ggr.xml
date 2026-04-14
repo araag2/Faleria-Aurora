@@ -8,7 +8,7 @@
             <file name="spells_ggr.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_ggr.xml" />
         </update>
     </info>	
-    <element name="Encode Thoughts" type="Spell" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_SPELL_ENCODE_THOUGHTS">
+    <element name="Encode Thoughts" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_ENCODE_THOUGHTS">
         <description>
 			<p>Putting a finger to your head, you pull a memory, an idea, or a message from your mind and transform it into a tangible string of glowing energy called a thought strand, which persists for the duration or until you cast this spell again. The thought strand appears in an unoccupied space within 5 feet of you as a Tiny, weightless, semisolid object that can be held and carried like a ribbon. It is otherwise stationary.</p>
 			<p class="indent">If you cast this spell while concentrating on a spell or an ability that allows you to read or manipulate the thoughts of others (such as detect thoughts or modify memory), you can transform the thoughts or memories you read, rather than your own, into a thought strand.</p>
@@ -29,7 +29,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-	<element name="Chaos Bolt" type="Spell" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_SPELL_CHAOS_BOLT">
+	<element name="Chaos Bolt" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_CHAOS_BOLT">
         <supports>Ranged, Spell Attack</supports>
         <description>
             <p>You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the d8s. The number rolled on that die determines the attack's damage type, as shown below.</p>

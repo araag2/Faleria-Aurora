@@ -8,7 +8,7 @@
 		</update>
 	</info>
 
-	<element name="Air Bubble" type="Spell" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_SPELL_AIR_BUBBLE">
+	<element name="Air Bubble" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_AIR_BUBBLE">
 		<supports>Artificer, Druid, Ranger, Sorcerer, Wizard</supports>
 		<description>
 			<p>You create a spectral globe around the head of a willing creature you can see within range. The globe is filled with fresh air that lasts until the spell ends. If the creature has more than one head, the globe of air appears around only one of its heads (which is all the creature needs to avoid suffocation, assuming that all its heads share the same respiratory system).</p>
@@ -31,7 +31,7 @@
 	</element>
 
 	<!-- Removed by Nuno
-	<element name="Create Spelljamming Helm" type="Spell" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_SPELL_CREATE_SPELLJAMMING_HELM">
+	<element name="Create Spelljamming Helm" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_CREATE_SPELLJAMMING_HELM">
 		<supports>Artificer, Wizard</supports>
 		<description>
 			<p>Holding the rod used in the casting of the spell, you touch a Large or smaller chair that is unoccupied. The rod disappears, and the chair is transformed into a spelljamming helm (see “Magic Items” in the <i>Astral Adventurer's Guide</i>).</p>

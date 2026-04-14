@@ -7,7 +7,7 @@
 			<file name="spells_tce.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_tce.xml" />
 		</update>
 	</info>
-	<element name="Blade Of Disaster" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_BLADE_OF_DISASTER">
+	<element name="Blade Of Disaster" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_BLADE_OF_DISASTER">
 		<supports>Sorcerer, Warlock, Wizard, Melee, Spell Attack</supports>
 		<description>
 			<p>You create a blade-shaped planar rift about 3 feet long in an unoccupied space you can see within range. The blade lasts for the duration.</p>
@@ -27,7 +27,7 @@
 			<set name="isConcentration">true</set>
 		</setters>
 	</element>	
-	<element name="Booming Blade" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_BOOMING_BLADE">
+	<element name="Booming Blade" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_BOOMING_BLADE">
 		<supports>Artificer, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects and then becomes sheathed in booming energy until the start of your next turn. If the target willingly moves 5 feet or more before then, the target takes 1d8 thunder damage, and the spell ends.</p>
@@ -45,7 +45,7 @@
 			<set name="duration">1 round</set>
 		</setters>
 	</element>
-	<element name="Dream Of The Blue Veil" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_DREAM_OF_THE_BLUE_VEIL">
+	<element name="Dream Of The Blue Veil" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_DREAM_OF_THE_BLUE_VEIL">
 		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You and up to eight willing creatures within range fall unconscious for the spells’ duration and experience visions of another world on the Material Plane, such as Oerth, Toril, Krynn, or Eberron. If the spell reaches its full duration, the visions conclude with each of you encountering and pulling back a mysterious blue curtain. The spell then ends with you mentally and physically transported to the world that was in the visions.</p>
@@ -64,7 +64,7 @@
 			<set name="duration">6 hours</set>
 		</setters>
 	</element>
-	<element name="Green-Flame Blade" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_GREENFLAME_BLADE">
+	<element name="Green-Flame Blade" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_GREENFLAME_BLADE">
 		<supports>Artificer, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.</p>
@@ -82,7 +82,7 @@
 			<set name="duration">Instantaneous</set>
 		</setters>
 	</element>
-	<element name="Intellect Fortress" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_INTELLECT_FORTRESS">
+	<element name="Intellect Fortress" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_INTELLECT_FORTRESS">
 		<supports>Artificer, Bard, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>For the duration, you or one willing creature you can see within range has resistance by psychic damage, as well as advantage on Intelligence, Wisdom, and Charisma saving throws.</p>
@@ -100,7 +100,7 @@
 			<set name="isConcentration">true</set>
 		</setters>
 	</element>
-	<element name="Lightning Lure" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_LIGHTNING_LURE">
+	<element name="Lightning Lure" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_LIGHTNING_LURE">
 		<supports>Artificer, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you. This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
@@ -116,7 +116,7 @@
 			<set name="duration">Instantaneous</set>
 		</setters>
 	</element>
-	<element name="Mind Sliver" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_MIND_SLIVER">
+	<element name="Mind Sliver" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_MIND_SLIVER">
 		<supports>Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take 1d6 psychic damage and subtract 1d4 from the next saving throw it makes before the end of your next turn.</p>
@@ -133,7 +133,7 @@
 			<set name="duration">1 round</set>
 		</setters>
 	</element>
-	<element name="Spirit Shroud" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SPIRIT_SHROUD">
+	<element name="Spirit Shroud" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SPIRIT_SHROUD">
 		<supports>Cleric, Paladin, Warlock, Wizard</supports>
 		<description>
 			<p>You call forth spirits of the dead, which flit around you for the spell’s duration. The spirits are intangible and invulnerable.</p>
@@ -153,7 +153,7 @@
 			<set name="isConcentration">true</set>
 		</setters>
 	</element>
-	<element name="Summon Aberration" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_ABERRATION">
+	<element name="Summon Aberration" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SUMMON_ABERRATION">
 		<supports>Warlock, Wizard</supports>
 		<description>
 			<p>You call forth an aberrant spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Aberrant Spirit stat block. When you cast the spell choose Beholderkin, Slaad, or Star Spawn. The creature resembles an aberration of that kind, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>
@@ -176,7 +176,7 @@
 			<set name="isConcentration">true</set>
 		</setters>
 	</element>
-	<element name="Summon Beast" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_BEAST">
+	<element name="Summon Beast" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SUMMON_BEAST">
 		<supports>Druid, Ranger</supports>
 		<description>
 			<p>You call forth a bestial spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Bestial Spirit stat block. When you cast the spell, choose an environment: Air, Land, or Water. The creature resembles an animal of your choice that is native to the chosen environment, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>
@@ -201,7 +201,7 @@
 	</element>
 
 	<!-- Removed by Nuno 
-	<element name="Summon Celestial" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_CELESTIAL">
+	<element name="Summon Celestial" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SUMMON_CELESTIAL">
 		<supports>Cleric, Paladin</supports>
 		<description>
 			<p>You call forth a celestial spirit. It manifests in an angelic form in an unoccupied space that you can see within range. This corporeal form uses the Celestial Spirit stat block. When you cast the spell, choose Avenger or Defender.</p>
@@ -227,7 +227,7 @@
 	</element>
 	-->
 
-	<element name="Summon Construct" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_CONSTRUCT">
+	<element name="Summon Construct" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SUMMON_CONSTRUCT">
 		<supports>Artificer, Wizard</supports>
 		<description>
 			<p>You call forth the spirit of a construct. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Construct Spirit stat block. When you cast the spell, choose a material: Clay, Metal, or Stone. The creature resembles a golem or a modron (your choice) made of the chosen material, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>
@@ -250,7 +250,7 @@
 			<set name="isConcentration">true</set>
 		</setters>
 	</element>
-	<element name="Summon Elemental" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_ELEMENTAL">
+	<element name="Summon Elemental" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SUMMON_ELEMENTAL">
 		<supports>Druid, Ranger, Wizard</supports>
 		<description>
 			<p>You call forth an elemental spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Elemental Spirit stat block. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature resembles a bipedal form wreathed in the chosen element, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>
@@ -275,7 +275,7 @@
 	</element>
 
 	<!-- Removed by Nuno 
-	<element name="Summon Fey" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_FEY">
+	<element name="Summon Fey" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SUMMON_FEY">
 		<supports>Druid, Ranger, Warlock, Wizard</supports>
 		<description>
 			<p>You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Fey Spirit stat block. When you cast the spell, choose a mood. Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>
@@ -300,7 +300,7 @@
 	</element>
 	-->
 
-	<element name="Summon Fiend" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_FIEND">
+	<element name="Summon Fiend" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SUMMON_FIEND">
 		<supports>Warlock, Wizard</supports>
 		<description>
 			<p>You call forth a fiendish spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Fiendish Spirit stat block. When you cast the spell, choose Demon, Devil, or Yugoloth. The creature resembles a fiend of the chosen type, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>
@@ -325,7 +325,7 @@
 	</element>
 
 	<!-- Removed by Nuno 
-	<element name="Summon Shadowspawn" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_SHADOWSPAWN">
+	<element name="Summon Shadowspawn" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SUMMON_SHADOWSPAWN">
 		<supports>Warlock, Wizard</supports>
 		<description>
 			<p>You call forth a shadowy spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Shadow Spirit stat block. When you cast the spell, choose an emotion: Fury, Despair, or Fear. The creature resembles a misshapen biped marked by the chosen emotion, which determines certain traits in its stat block. The creature determines when it drop to 0 hit points or when the spell ends.</p>
@@ -350,7 +350,7 @@
 	</element>
 	-->
 
-	<element name="Summon Undead" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_UNDEAD">
+	<element name="Summon Undead" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SUMMON_UNDEAD">
 		<supports>Warlock, Wizard</supports>
 		<description>
 			<p>You call forth an undead spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Undead Spirit stat block. When you cast the spell, choose the creature’s form: Ghostly, Putrid, or Skeletal. The spirit resembles an undead creature with the chosen form, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>
@@ -373,7 +373,7 @@
 			<set name="isConcentration">true</set>
 		</setters>
 	</element>
-	<element name="Sword Burst" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SWORD_BURST">
+	<element name="Sword Burst" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SWORD_BURST">
 		<supports>Artificer, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You create a momentary circle of spectral blades that sweep around you. All other creatures within 5 feet of you must succeed on a Dexterity saving throw or take 1d6 force damage This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
@@ -389,7 +389,7 @@
 			<set name="duration">Instantaneous</set>
 		</setters>
 	</element>
-	<element name="Tasha’s Caustic Brew" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_TASHAS_CAUSTIC_BREW">
+	<element name="Tasha’s Caustic Brew" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_TASHAS_CAUSTIC_BREW">
 		<supports>Artificer, Sorcerer, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell’s duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 2d4 acid damage at start of each of its turns.</p>
@@ -408,7 +408,7 @@
 			<set name="isConcentration">true</set>
 		</setters>
 	</element>
-	<element name="Tasha’s Mind Whip" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_TASHAS_MIND_WHIP">
+	<element name="Tasha’s Mind Whip" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_TASHAS_MIND_WHIP">
 		<supports>Sorcerer, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You psychically lash out at one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes 3d6 psychic damage, and it can’t take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell’s other effects.</p>
@@ -425,7 +425,7 @@
 			<set name="duration">1 round</set>
 		</setters>
 	</element>
-	<element name="Tasha’s Otherworldly Guise" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_TASHAS_OTHERWORLDLY_GUISE">
+	<element name="Tasha’s Otherworldly Guise" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_TASHAS_OTHERWORLDLY_GUISE">
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>Uttering an incantation, you draw on the magic of the Lower Planes or Upper Planes (your choice) to transform yourself. You gain the following benefits until the spell ends:</p>

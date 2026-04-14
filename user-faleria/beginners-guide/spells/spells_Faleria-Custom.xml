@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-    <element name="Arcane Fever" type="Spell" source="Player’s Handbook" id="ID_BG_SPELL_ARCANE_FEVER">
+    <element name="Arcane Fever" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_ARCANE_FEVER">
 		<supports>Spell Saving Throw</supports>
 		<description>
 			<p>You weaponize the thread of magic around your oponent.</p>

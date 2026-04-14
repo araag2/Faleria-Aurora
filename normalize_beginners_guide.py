@@ -1,24 +1,64 @@
 from __future__ import annotations
 
 import argparse
+import re
 from pathlib import Path
 
 
-TEXT_REPLACEMENTS = [
-    #("https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/tashas-cauldron-of-everything/", "https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/"),
-    #("source=\"Tasha’s Cauldron of Everything\"", "source=\"Beginner's Guide\""),
-    #("source=\"Player's Handbook\"", "source=\"Beginner's Guide\""),
-    #("ID_WOTC_", "ID_"),
-    ("ID_PHB24_", "ID_BG_"),
-    #("ID_PHB_", "ID_BG_"),
-    #("ID_FALERIA_BG_", "ID_BG_"),
-]
+TEXT_REPLACEMENTS = []
+
+SPELL_ELEMENT_RE = re.compile(
+    r'(<element\b[^>]*\btype="Spell"[^>]*>)',
+    flags=re.IGNORECASE,
+)
+
+SOURCE_ATTR_RE = re.compile(r'source="[^"]*"')
+ID_ATTR_RE = re.compile(r'id="([^"]*)"')
+NON_ALNUM_RE = re.compile(r'[^A-Z0-9]+')
+
+
+def normalize_spell_id(old_id: str, element_tag: str) -> str:
+    if "_SPELL_" in old_id:
+        suffix = old_id.split("_SPELL_", 1)[1]
+    else:
+        name_match = re.search(r'name="([^"]+)"', element_tag)
+        if not name_match:
+            return old_id
+        name = name_match.group(1).upper()
+        suffix = NON_ALNUM_RE.sub("_", name).strip("_")
+
+    suffix = NON_ALNUM_RE.sub("_", suffix.upper()).strip("_")
+    if not suffix:
+        return old_id
+    return f"ID_BG_SPELL_{suffix}"
+
+
+def normalize_spell_element(element_tag: str) -> str:
+    updated = SOURCE_ATTR_RE.sub('source="Beginner\'s Guide"', element_tag)
+
+    id_match = ID_ATTR_RE.search(updated)
+    if not id_match:
+        return updated
+
+    old_id = id_match.group(1)
+    new_id = normalize_spell_id(old_id, updated)
+    if new_id == old_id:
+        return updated
+
+    return ID_ATTR_RE.sub(f'id="{new_id}"', updated, count=1)
 
 
 def normalize_text(content: str) -> str:
     updated = content
     for old, new in TEXT_REPLACEMENTS:
         updated = updated.replace(old, new)
+
+    # Only normalize Spell elements so Information and other IDs remain stable.
+    updated = SPELL_ELEMENT_RE.sub(
+        lambda m: normalize_spell_element(m.group(1)),
+        updated,
+    )
+
     return updated
 
 
@@ -29,7 +69,9 @@ def main() -> int:
     parser.add_argument(
         "--root",
         nargs="?",
-        default=str(Path(__file__).resolve().parent / "user-faleria"),
+        default=str(
+            Path(__file__).resolve().parent / "user-faleria" / "beginners-guide" / "spells"
+        ),
         help="Root folder to process",
     )
     args = parser.parse_args()

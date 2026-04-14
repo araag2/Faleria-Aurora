@@ -8,7 +8,7 @@
 		</update>
 	</info>
 
-	<element name="Warp Sense" type="Spell" source="Sigil and the Outlands" id="ID_WOTC_SATO_SPELL_WARP_SENSE">
+	<element name="Warp Sense" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_WARP_SENSE">
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>For the duration, you sense the presence of portals, even inactive ones, within 30 feet of yourself.</p>
@@ -30,7 +30,7 @@
 		</setters>
 	</element>
 
-	<element name="Gate Seal" type="Spell" source="Sigil and the Outlands" id="ID_WOTC_SATO_SPELL_GATE_SEAL">
+	<element name="Gate Seal" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_GATE_SEAL">
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You fortify the fabric of the planes in a 30-foot cube you can see within range. Within that area, portals close and can't be opened for the duration. Spells and other effects that allow planar travel or open portals, such as gate or plane shift, fail if used to enter or leave the area. The cube is stationary.</p>

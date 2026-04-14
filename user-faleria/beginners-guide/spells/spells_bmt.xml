@@ -8,7 +8,7 @@
 		</update>
 	</info>
 
-	<element name="Spray of Cards" type="Spell" source="The Book of Many Things" id="ID_WOTC_BOMT_SPELL_SPRAY_OF_CARDS">
+	<element name="Spray of Cards" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SPRAY_OF_CARDS">
 		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You spray a 15-foot cone of spectral cards. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 2d10 force damage and has the blinded condition until the end of its next turn. On a successful save, a creature takes half as much damage only.</p>
@@ -28,7 +28,7 @@
 		</setters>
 	</element>
 
-	<element name="Antagonize" type="Spell" source="The Book of Many Things" id="ID_WOTC_BOMT_SPELL_ANTAGONIZE">
+	<element name="Antagonize" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_ANTAGONIZE">
 		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You whisper magical words that antagonize one creature of your choice within range. The target must make a Wisdom saving throw. On a failed save, the target takes 4d4 psychic damage and must immediately use its reaction to make a melee attack against another creature of your choice that you can see. If the target can't make this attack (for example, because there is no one within its reach or because its reaction is unavailable), the target instead has disadvantage on the next attack roll it makes before the start of your next turn. On a successful save, the target takes half as much damage only.</p>
@@ -49,7 +49,7 @@
 	</element>
 
     <!-- Removed by Nuno
-	<element name="Spirit of Death" type="Spell" source="The Book of Many Things" id="ID_WOTC_BOMT_SPELL_SPIRIT_OF_DEATH">
+	<element name="Spirit of Death" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SPIRIT_OF_DEATH">
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You call forth a spirit that embodies death. The spirit manifests in an unoccupied space you can see within range and uses the reaper spirit stat block. The spirit disappears when it is reduced to 0 hit points or when the spell ends.</p>
