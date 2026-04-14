@@ -2,13 +2,14 @@
 <index>
     <info>
       <name>Faleria Content</name>
-      <update version="1.0.2">
+      <update version="1.0.3">
           <file name="user-faleria.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria.index" />
       </update>
     </info>
     <files>
     	<file name="internal.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/internal.xml" />
 		  <file name="faleria-essentials.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials.xml" />
+      <file name="faleria-essentials.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials.index" />
       <file name="beginners-guide.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide.index" />
     </files>
 </index>

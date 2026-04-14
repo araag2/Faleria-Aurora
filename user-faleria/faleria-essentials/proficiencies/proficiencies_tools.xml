@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Proficiencies Tools</name>
+		<update version="0.0.1">
+			<file name="proficiencies_tools.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies_tools.xml" />
+		</update>
+	</info>
+
+    <!-- Tool Expertises -->
+    <element name="Tool Expertise (Thieves’ Tools)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_TOOL_EXPERTISE_THIEVES_TOOLS">
+		<supports>Expertise, Tool Expertise, ID_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_INTERNAL_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Thieves’ Tools check you make.</p>
+			<div class="reference">
+				<div element="ID_BG_ITEM_TOOL_THIEVES_TOOLS" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="thieves tools:proficiency" value="proficiency" bonus="double" />
+			<grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_TOOL_EXPERTISE_THIEVES_TOOLS" />
+		</rules>
+	</element>
+
+</elements>

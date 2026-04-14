@@ -82,7 +82,7 @@
 			<description>You gain half proficiency in a skill of your choosing. This half proficiency may be changed after finishing a long rest.</description>
 		</sheet>
         <rules>
-			<select type="Proficiency" name="Malleable Skill (Half Proficiency)" supports="Faleria Skill Half Proficiency" number="1" />
+			<select type="Proficiency" name="Malleable Skill (Half Proficiency)" supports="Skill Half Proficiency" number="1" />
         </rules>
     </element>
 
