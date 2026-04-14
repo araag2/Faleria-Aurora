@@ -27,7 +27,7 @@
 		<file name="race-tiefling.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-tiefling.xml" />
 
 		<!-- classes -->
-		<file name="class-artificier.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-artificier.xml" />
+		<file name="class-artificer.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-artificer.xml" />
 		<file name="class-barbarian.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-barbarian.xml" />
 		<file name="class-bard.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-bard.xml" />
 		<file name="class-cleric.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-cleric.xml" />
