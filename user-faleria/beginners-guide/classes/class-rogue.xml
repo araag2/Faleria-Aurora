@@ -317,7 +317,7 @@
 
 	<!-- Expertise -->
 	<element name="Skill Expertise (Acrobatics)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_ACROBATICS">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_ACROBATICS</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Acrobatics check you make.</p>
@@ -331,7 +331,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Animal Handling)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_ANIMALHANDLING">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_ANIMALHANDLING</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Animal Handling check you make.</p>
@@ -345,7 +345,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Arcana)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_ARCANA">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_ARCANA</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Arcana check you make.</p>
@@ -359,7 +359,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Athletics)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_ATHLETICS">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_ATHLETICS</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Athletics check you make.</p>
@@ -373,7 +373,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Deception)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_DECEPTION">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_DECEPTION</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Deception check you make.</p>
@@ -387,7 +387,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (History)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_HISTORY">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_HISTORY</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any History check you make.</p>
@@ -401,7 +401,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Insight)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_INSIGHT">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_INSIGHT</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Insight check you make.</p>
@@ -415,7 +415,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Intimidation)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_INTIMIDATION">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_INTIMIDATION</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Intimidation check you make.</p>
@@ -429,7 +429,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Investigation)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_INVESTIGATION">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_INVESTIGATION</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Investigation check you make.</p>
@@ -443,7 +443,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Medicine)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_MEDICINE">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_MEDICINE</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Medicine check you make.</p>
@@ -457,7 +457,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Nature)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_NATURE">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_NATURE</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Nature check you make.</p>
@@ -471,7 +471,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Perception)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_PERCEPTION">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_PERCEPTION</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Perception check you make.</p>
@@ -485,7 +485,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Performance)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_PERFORMANCE">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_PERFORMANCE</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Performance check you make.</p>
@@ -499,7 +499,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Persuasion)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_PERSUASION">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_PERSUASION</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Persuasion check you make.</p>
@@ -513,7 +513,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Religion)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_RELIGION">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_RELIGION</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Religion check you make.</p>
@@ -527,7 +527,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Sleight of Hand)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_SLEIGHTOFHAND">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_SLEIGHTOFHAND</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Sleight of Hand check you make.</p>
@@ -541,7 +541,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Stealth)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_STEALTH">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_STEALTH</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Stealth check you make.</p>
@@ -555,7 +555,7 @@
 		</rules>
 	</element>
 	<element name="Skill Expertise (Survival)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_EXPERTISE_SKILL_SURVIVAL">
-		<supports>Expertise, Skill, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Skill, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_SKILL_SURVIVAL</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Survival check you make.</p>
@@ -569,7 +569,7 @@
 		</rules>
 	</element>
 	<element name="Tool Expertise (Thieves’ Tools)" type="Class Feature" source="Beginner's Guide" id="ID_ROGUE_PROFICIENCY_TOOL_EXPERTISE_THIEVES_TOOLS">
-		<supports>Expertise, Tool, ID__SUPPORT_EXPERTISE</supports>
+		<supports>Expertise, Tool, ID_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Thieves’ Tools check you make.</p>
