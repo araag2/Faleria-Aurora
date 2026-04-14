@@ -186,7 +186,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Language" id="ID_BG_LANGUAGE_THIEVES_CANT" />
+			<grant type="Language" id="ID_LANGUAGE_THIEVES_CANT" />
 		</rules>
 	</element>
 
