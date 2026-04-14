@@ -27,6 +27,7 @@
 		<file name="race-tiefling.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-tiefling.xml" />
 
 		<!-- classes -->
+		<file name="class-artificier.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-artificier.xml" />
 		<file name="class-barbarian.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-barbarian.xml" />
 		<file name="class-bard.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-bard.xml" />
 		<file name="class-cleric.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-cleric.xml" />
@@ -41,46 +42,76 @@
 		<file name="class-wizard.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-wizard.xml" />
 
 		<!-- archetypes -->
-		<file name="barbarian-berserker.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/barbarian-berserker.xml" />
-		<file name="barbarian-totem.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/barbarian-totem.xml" />
-		<file name="bard-lore.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/bard-lore.xml" />
-		<file name="bard-valor.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/bard-valor.xml" />
-		<file name="cleric-knowledge.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric-knowledge.xml" />
-		<file name="cleric-life.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric-life.xml" />
-		<file name="cleric-light.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric-light.xml" />
-		<file name="cleric-nature.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric-nature.xml" />
-		<file name="cleric-tempest.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric-tempest.xml" />
-		<file name="cleric-trickery.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric-trickery.xml" />
-		<file name="cleric-war.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric-war.xml" />
-		<file name="druid-land.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/druid-land.xml" />
-		<file name="druid-moon.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/druid-moon.xml" />
-		<file name="fighter-battle-master.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/fighter-battle-master.xml" />
-		<file name="fighter-champion.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/fighter-champion.xml" />
-		<file name="fighter-eldritch-knight.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/fighter-eldritch-knight.xml" />
-		<file name="monk-four-elements.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/monk-four-elements.xml" />
-		<file name="monk-open-hand.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/monk-open-hand.xml" />
-		<file name="monk-shadow.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/monk-shadow.xml" />
-		<file name="paladin-ancients.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/paladin-ancients.xml" />
-		<file name="paladin-devotion.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/paladin-devotion.xml" />
-		<file name="paladin-vengeance.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/paladin-vengeance.xml" />
-		<file name="ranger-beast-master.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/ranger-beast-master.xml" />
-		<file name="ranger-hunter.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/ranger-hunter.xml" />
-		<file name="rogue-arcane-trickster.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/rogue-arcane-trickster.xml" />
-		<file name="rogue-assassin.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/rogue-assassin.xml" />
-		<file name="rogue-thief.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/rogue-thief.xml" />
-		<file name="sorcerer-draconic.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/sorcerer-draconic.xml" />
-		<file name="sorcerer-wild.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/sorcerer-wild.xml" />
-		<file name="warlock-archfey.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/warlock-archfey.xml" />
-		<file name="warlock-fiend.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/warlock-fiend.xml" />
-		<file name="warlock-great-old-one.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/warlock-great-old-one.xml" />
-		<file name="wizard-abjuration.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard-abjuration.xml" />
-		<file name="wizard-conjuration.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard-conjuration.xml" />
-		<file name="wizard-divination.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard-divination.xml" />
-		<file name="wizard-enchantment.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard-enchantment.xml" />
-		<file name="wizard-evocation.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard-evocation.xml" />
-		<file name="wizard-illusion.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard-illusion.xml" />
-		<file name="wizard-necromancy.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard-necromancy.xml" />
-		<file name="wizard-transmutation.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard-transmutation.xml" />
+		<file name="artificer-alchemist.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/artificier/artificer-alchemist.xml" />
+		<file name="artificer-armorer.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/artificier/artificer-armorer.xml" />
+		<file name="artificer-artillerist.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/artificier/artificer-artillerist.xml" />
+		<file name="artificer-battlesmith.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/artificier/artificer-battlesmith.xml" />
+		<file name="barbarian-beast.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/barbarian/barbarian-beast.xml" />
+		<file name="barbarian-berserker.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/barbarian/barbarian-berserker.xml" />
+		<file name="barbarian-magic.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/barbarian/barbarian-magic.xml" />
+		<file name="barbarian-totem.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/barbarian/barbarian-totem.xml" />
+		<file name="bard-creation.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/bard/bard-creation.xml" />
+		<file name="bard-eloquence.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/bard/bard-eloquence.xml" />
+		<file name="bard-lore.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/bard/bard-lore.xml" />
+		<file name="bard-valor.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/bard/bard-valor.xml" />
+		<file name="cleric-knowledge.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric/cleric-knowledge.xml" />
+		<file name="cleric-life.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric/cleric-life.xml" />
+		<file name="cleric-light.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric/cleric-light.xml" />
+		<file name="cleric-nature.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric/cleric-nature.xml" />
+		<file name="cleric-order.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric/cleric-order.xml" />
+		<file name="cleric-peace.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric/cleric-peace.xml" />
+		<file name="cleric-tempest.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric/cleric-tempest.xml" />
+		<file name="cleric-trickery.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric/cleric-trickery.xml" />
+		<file name="cleric-twilight.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric/cleric-twilight.xml" />
+		<file name="cleric-war.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/cleric/cleric-war.xml" />
+		<file name="druid-land.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/druid/druid-land.xml" />
+		<file name="druid-moon.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/druid/druid-moon.xml" />
+		<file name="druid-spores.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/druid/druid-spores.xml" />
+		<file name="druid-stars.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/druid/druid-stars.xml" />
+		<file name="druid-wildfire.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/druid/druid-wildfire.xml" />
+		<file name="fighter-battle-master.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/fighter/fighter-battle-master.xml" />
+		<file name="fighter-champion.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/fighter/fighter-champion.xml" />
+		<file name="fighter-eldritch-knight.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/fighter/fighter-eldritch-knight.xml" />
+		<file name="fighter-psi.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/fighter/fighter-psi.xml" />
+		<file name="fighter-rune.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/fighter/fighter-rune.xml" />
+		<file name="monk-astral.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/monk/monk-astral.xml" />
+		<file name="monk-four-elements.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/monk/monk-four-elements.xml" />
+		<file name="monk-mercy.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/monk/monk-mercy.xml" />
+		<file name="monk-open-hand.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/monk/monk-open-hand.xml" />
+		<file name="monk-shadow.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/monk/monk-shadow.xml" />
+		<file name="paladin-ancients.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/paladin/paladin-ancients.xml" />
+		<file name="paladin-devotion.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/paladin/paladin-devotion.xml" />
+		<file name="paladin-glory.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/paladin/paladin-glory.xml" />
+		<file name="paladin-vengeance.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/paladin/paladin-vengeance.xml" />
+		<file name="paladin-watcher.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/paladin/paladin-watcher.xml" />
+		<file name="ranger-beast-master.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/ranger/ranger-beast-master.xml" />
+		<file name="ranger-fey.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/ranger/ranger-fey.xml" />
+		<file name="ranger-hunter.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/ranger/ranger-hunter.xml" />
+		<file name="ranger-swarmkeeper.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/ranger/ranger-swarmkeeper.xml" />
+		<file name="rogue-arcane-trickster.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/rogue/rogue-arcane-trickster.xml" />
+		<file name="rogue-assassin.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/rogue/rogue-assassin.xml" />
+		<file name="rogue-phantom.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/rogue/rogue-phantom.xml" />
+		<file name="rogue-soulknife.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/rogue/rogue-soulknife.xml" />
+		<file name="rogue-thief.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/rogue/rogue-thief.xml" />
+		<file name="sorcerer-aberrant.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/sorcerer/sorcerer-aberrant.xml" />
+		<file name="sorcerer-clockwork.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/sorcerer/sorcerer-clockwork.xml" />
+		<file name="sorcerer-draconic.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/sorcerer/sorcerer-draconic.xml" />
+		<file name="sorcerer-wild.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/sorcerer/sorcerer-wild.xml" />
+		<file name="warlock-archfey.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/warlock/warlock-archfey.xml" />
+		<file name="warlock-fathomless.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/warlock/warlock-fathomless.xml" />
+		<file name="warlock-fiend.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/warlock/warlock-fiend.xml" />
+		<file name="warlock-genie.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/warlock/warlock-genie.xml" />
+		<file name="warlock-great-old-one.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/warlock/warlock-great-old-one.xml" />
+		<file name="wizard-abjuration.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard/wizard-abjuration.xml" />
+		<file name="wizard-bladesinging.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard/wizard-bladesinging.xml" />
+		<file name="wizard-conjuration.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard/wizard-conjuration.xml" />
+		<file name="wizard-divination.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard/wizard-divination.xml" />
+		<file name="wizard-enchantment.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard/wizard-enchantment.xml" />
+		<file name="wizard-evocation.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard/wizard-evocation.xml" />
+		<file name="wizard-illusion.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard/wizard-illusion.xml" />
+		<file name="wizard-necromancy.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard/wizard-necromancy.xml" />
+		<file name="wizard-scribes.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard/wizard-scribes.xml" />
+		<file name="wizard-transmutation.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard/wizard-transmutation.xml" />
 
 		<!-- backgrounds -->		
 		<file name="background-acolyte.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/backgrounds/background-acolyte.xml" />
@@ -107,10 +138,13 @@
 		<file name="items-tools.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/items/items-tools.xml" />
 		<file name="items-mounts.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/items/items-mounts.xml" />
 
+		<!-- spells -->
+		<file name="spells.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells.xml" />
+
 		<!-- misc -->
 		<file name="languages.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/languages.xml" />
 		<file name="feats.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/feats.xml" />
-		<file name="spells.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells.xml" />
+		<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/eldritch-invocations.xml" />
 		<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/eldritch-invocations.xml" />
 		<file name="deities.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/deities.xml" />
 		<file name="companions.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/companions.xml" />

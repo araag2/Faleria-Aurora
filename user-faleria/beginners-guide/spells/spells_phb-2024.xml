@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Spells from Player's Handbook 2024</name>
+		<description>The Spells adapted from Player's Handbook 2024</description>
+		<update version="0.5.6">
+			<file name="spells_phb-2024.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_phb-2024.xml" />
+		</update>
+	</info>
+
+	<element name="(2024) Acid Splash" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ACID_SPLASH">
+		<supports>Artificer, Sorcerer, Wizard, Damaging Spell, Spell Saving Throw</supports>
+		<description>
+			<p>You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed in a Dexterity saving throw or take 1d6 Acid damage.</p>
+			<p class="indent"><b><i>Cantrip Upgrade.</i></b> The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).</p>
+		</description>
+		<setters>
+			<set name="keywords">sphere, damage, dexterity, save, upgrade</set>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">Action</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="duration">Instantaneous</set>
+		</setters>
+	</element>
+
+	<element name="(2024) Continual Flame" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_CONTINUAL_FLAME">
+		<supports>Artificer, Cleric, Druid, Wizard</supports>
+		<description>
+			<p>A flame springs from an object that you touch. The effect casts Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched.</p>
+		</description>
+		<setters>
+			<set name="keywords">bright, dim, light</set>
+			<set name="level">2</set>
+			<set name="school">Evocation</set>
+			<set name="time">Action</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">ruby dust worth 50+ GP, which the spell consumes</set>
+			<set name="duration">Until dispelled</set>
+		</setters>
+	</element>
+
+	<element name="(2024) Dispel Magic" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DISPEL_MAGIC">
+		<supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard, Artificer</supports>
+		<description>
+			<p>Choose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level 4 or higher on the target, make an ability check using your spellcasting ability (DC 10 plus that spell's level). On a successful check, the spell ends.</p>
+			<p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> You automatically end a spell on the target if the spell's level is equal to or less than the level of the spell slot you use.</p>
+		</description>
+		<setters>
+			<set name="keywords">upcasting, higher-level spell slot</set>
+			<set name="level">3</set>
+			<set name="school">Abjuration</set>
+			<set name="time">Action</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="duration">Instantaneous</set>
+		</setters>
+	</element>
+
+	<element name="(2024) Divine Smite" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DIVINE_SMITE">
+		<supports>Paladin, Damaging Spell</supports>
+		<description>
+			<p>The target takes an extra 2d8 Radiant damage from the attack. The damage increases by 1d8 if the target is a Fiend or an Undead.</p>
+			<p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> The damage increases by 1d8 for each spell slot level above 1.</p>
+		</description>
+		<setters>
+			<set name="keywords">on hit, melee, weapon, unarmed strike, radiant, damage, fiend, undead, upcasting, higher-level spell slot</set>
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="duration">Instantaneous</set>
+		</setters>
+	</element>
+
+	<element name="(2024) Hunter's Mark" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_HUNTERS_MARK">
+		<supports>Ranger</supports>
+		<description>
+			<p>You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra 1d6 Force damage to the target whenever you hit it with an attack roll. You also have Advantage on any Wisdom (Perception or Survival) check you make to find it.</p>
+			<p class="indent">If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.</p>
+			<p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> Your Concentration can last longer with a spell slot of level 3-4 (up to 8 hours) or 5+ (up to 24 hours).</p>
+		</description>
+		<setters>
+			<set name="keywords">force, damage, advantage, wisdom, ability checks, upcasting, higher-level spell slot</set>
+			<set name="level">1</set>
+			<set name="school">Divination</set>
+			<set name="time">Bonus Action</set>
+			<set name="range">90 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="isConcentration">true</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+		</setters>
+	</element>
+
+	<element name="(2024) Magic Aura" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_NYSTULS_MAGIC_AURA">
+		<supports>Wizard</supports>
+		<description>
+			<p>With a touch, you place an illusion on a willing creature or an object that isn't being worn or carried. A creature gains the Mask effect below, and an object gains the False Aura effect below. The effect lasts for the duration. If you cast the spell on the same target every day for 30 days, the illusion lasts until dispelled.</p>
+			<p class="indent"><strong><i>Mask (Creature).</i></strong> Choose a creature type other than the target's actual type. Spells and other magical effects treat the target as if it were a creature of the chosen type.</p>
+			<p class="indent"><strong><i>False Aura (Object). </i></strong> You change the way the target appears to spells and magical effects that detect magical auras, such as Detect Magic. You can make a nonmagical object appear magical, make a magic item appear nonmagical, or change the object's aura so that it appears to belong to a school of magic you choose.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Illusion</set>
+			<set name="time">Action</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a small square of silk</set>
+			<set name="duration">24 hours</set>
+		</setters>
+	</element>
+
+	<element name="(2024) Magic Weapon" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MAGIC_WEAPON">
+		<supports>Artificer, Paladin, Ranger, Sorcerer, Wizard</supports>
+		<description>
+			<p>You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. The spell ends early if you cast it again.</p>
+			<p class="indent"><b><i>Using a Higher-Level Spell Slot.</i></b> The bonus increases to +2 with a level 3-5 spell slot. The bonus increases to +3 with a level 6+ spell slot.</p>
+		</description>
+		<setters>
+			<set name="keywords">+1, +2, +3, bonus, enhancement, attack rolls, damage, upcasting, higher-level spell slot</set>
+			<set name="level">2</set>
+			<set name="school">Transmutation</set>
+			<set name="time">Bonus Action</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="duration">1 hour</set>
+		</setters>
+	</element>
+
+	<element name="(2024) Mind Sliver" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MIND_SLIVER">
+		<supports>Sorcerer, Warlock, Wizard, Damaging Spell, Spell Saving Throw</supports>
+		<description>
+			<p>You try to temporarily sliver the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take 1d6 Psychic damage and subtract 1d4 from the next saving throw it makes before the end of your next turn.</p>
+			<p class="indent"><b><i>Cantrip Upgrade.</i></b> The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).</p>
+		</description>
+		<setters>
+			<set name="keywords">intelligence, psychic, damage, saves, saving throws, upgrade</set>
+			<set name="level">0</set>
+			<set name="school">Enchantment</set>
+			<set name="time">Action</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="duration">1 round</set>
+		</setters>
+	</element>
+
+	<element name="(2024) Poison Spray" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_POISON_SPRAY">
+		<supports>Artificer, Druid, Sorcerer, Warlock, Wizard, Damaging Spell, Ranged, Spell Attack</supports>
+		<description>
+			<p>You spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d12 Poison damage.</p>
+			<p class="indent"><b><i>Cantrip Upgrade</i></b> The damage increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12).</p>
+		</description>
+		<setters>
+			<set name="keywords">poison, damage, upgrade</set>
+			<set name="level">0</set>
+			<set name="school">Necromancy</set>
+			<set name="time">Action</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="duration">Instantaneous</set>
+		</setters>
+	</element>
+
+	<element name="(2024) True Strike" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_TRUE_STRIKE">
+		<supports>Bard, Sorcerer, Warlock, Wizard, Damaging Spell</supports>
+		<description>
+			<p>Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice).</p>
+			<p class="indent"><b><i>Cantrip Upgrade.</i></b> Whether you deal Radiant damage or the weapon's normal damage type, the attack deals extra Radiant damage when you reach levels 5 (1d6), 11 (2d6), and 17 (3d6).</p>
+		</description>
+		<setters>
+			<set name="keywords">attack rolls, radiant, damage, upgrade</set>
+			<set name="level">0</set>
+			<set name="school">Divination</set>
+			<set name="time">Action</set>
+			<set name="range">Self</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a weapon with which you have proficiency and that is worth 1+ CP </set>
+			<set name="duration">Instantaneous</set>
+		</setters>
+	</element>
+
+	<element name="(2024) Sorcerous Burst" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SORCEROUS_BURST">
+		<supports>Sorcerer, Damaging Spell, Ranged, Spell Attack</supports>
+		<description>
+			<p>You cast sorcerous energy at one creature or object within range. Make a ranged attack roll against the target. On a hit, the target takes 1d8 damage of a type you choose: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder.</p>
+			<p class="indent">If you roll an 8 on a d8 for this spell, you can roll another d8, and add it to the damage. When you cast this spell, the maximum number of these d8s you can add to the spell's damage equals your spellcasting ability modifier.</p>
+			<p class="indent"><b><i>Cantrip Upgrade.</i></b> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>
+		</description>
+		<setters>
+			<set name="keywords">acid, cold, fire, lightning, poison, psychic, thunder, damage, upgrade</set>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">Action</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="duration">Instantaneous</set>
+		</setters>
+	</element>
+
+	<element name="(2024) Starry Wisp" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_STARRY_WISP">
+		<supports>Bard, Druid, Damaging Spell, Ranged, Spell Attack</supports>
+		<description>
+			<p>You launch a mote of light at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 Radiant damage, and until the end of your next turn, it emits Dim Light in a 10-foot radius and can't benefit from the Invisible condition.</p>
+			<p class="indent"><b><i>Cantrip Upgrade.</i></b> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>
+		</description>
+		<setters>
+			<set name="keywords">radiant, damage, dim, light, invisible, upgrade</set>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">Action</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="duration">Instantaneous</set>
+		</setters>
+	</element>
+</elements>
