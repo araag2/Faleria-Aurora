@@ -71,10 +71,12 @@
 				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>12</td><td>6</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 				<tr><td>20th</td><td class="left">Soul of Artifice</td><td>12</td><td>6</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 			</table>
+			<!-- [REMOVED] Firearms don't exist in Faleria
 			<div class="sidebar">
 				<h5>OPTIONAL RULE: FIREARM PROFICIENCY</h5>
 				<p>The secrets of creating and operating gunpowder weapons have been discovered in various corners of the D&amp;D multiverse. If your Dungeon Master uses the rules on firearms in chapter 9 of the Dungeon Master’s Guide and your artificer has been exposed to the operation of such weapons, your artificer is proficient with them.</p>
 			</div>
+			-->
 			<div element="ID_BG_CLASS_FEATURE_ARTIFICER_MAGICAL_TINKERING" />
 			<div element="ID_BG_CLASS_FEATURE_ARTIFICER_SPELLCASTING" />
 			<div element="ID_BG_CLASS_FEATURE_ARTIFICER_INFUSE_ITEM" />
@@ -102,8 +104,9 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS" />
 			<select type="Proficiency" name="Artisan Tool, Artificer" supports="Artisan tools" requirements="!ID_BG_MULTICLASS_ARTIFICER" />
+			<!-- [REMOVED] Firearms don't exist in Faleria 
 			<grant type="Proficiency" id="ID_DMG_PROFICIENCY_WEAPON_FIREARMS" />
-
+			-->
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_BG_MULTICLASS_ARTIFICER" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_BG_MULTICLASS_ARTIFICER" />
 			<select type="Proficiency" name="Skill Proficiency, Artificer" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" number="2" requirements="!ID_BG_MULTICLASS_ARTIFICER" />

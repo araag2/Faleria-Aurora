@@ -75,7 +75,7 @@
 	</element>
     -->
 
-	<element name="Reaper Spirit" type="Information" source="The Book of Many Things" id="ID_WOTC_BOMT_INFORMATION_REAPER_SPIRIT_STATBLOCK">
+	<element name="Reaper Spirit" type="Information" source="Beginner's Guide" id="ID_BG_INFORMATION_REAPER_SPIRIT_STATBLOCK">
 		<description>
 			<p style="margin-bottom:-5px"><em>Medium Undead, Neutral</em></p>
 			<h4 style="margin-top:5px" />

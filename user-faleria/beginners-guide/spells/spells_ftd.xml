@@ -160,7 +160,7 @@
 	</element>
 
 	<!-- Summons Statblock -->
-	<element name="Draconic Spirit" type="Information" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_INFORMATION_SUMMON_DRACONIC_STATBLOCK">
+	<element name="Draconic Spirit" type="Information" source="Beginner's Guide" id="ID_BG_INFORMATION_SUMMON_DRACONIC_STATBLOCK">
 		<description>
 			<p style="margin-bottom:-5px"><em>Large Dragon, Neutral</em></p>
 			<h4 style="margin-top:5px" />

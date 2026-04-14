@@ -8,7 +8,7 @@
 		</update>
 	</info>
 
-	<element name="(2024) Acid Splash" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_ACID_SPLASH">
+	<element name="Acid Splash (2024)" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_ACID_SPLASH">
 		<supports>Artificer, Sorcerer, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed in a Dexterity saving throw or take 1d6 Acid damage.</p>
@@ -26,7 +26,7 @@
 		</setters>
 	</element>
 
-	<element name="(2024) Continual Flame" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_CONTINUAL_FLAME">
+	<element name="Continual Flame (2024)" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_CONTINUAL_FLAME">
 		<supports>Artificer, Cleric, Druid, Wizard</supports>
 		<description>
 			<p>A flame springs from an object that you touch. The effect casts Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched.</p>
@@ -45,7 +45,7 @@
 		</setters>
 	</element>
 
-	<element name="(2024) Dispel Magic" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_DISPEL_MAGIC">
+	<element name="Dispel Magic (2024)" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_DISPEL_MAGIC">
 		<supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard, Artificer</supports>
 		<description>
 			<p>Choose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level 4 or higher on the target, make an ability check using your spellcasting ability (DC 10 plus that spell's level). On a successful check, the spell ends.</p>
@@ -63,7 +63,7 @@
 		</setters>
 	</element>
 
-	<element name="(2024) Divine Smite" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_DIVINE_SMITE">
+	<element name="Divine Smite (2024)" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_DIVINE_SMITE">
 		<supports>Paladin, Damaging Spell</supports>
 		<description>
 			<p>The target takes an extra 2d8 Radiant damage from the attack. The damage increases by 1d8 if the target is a Fiend or an Undead.</p>
@@ -80,7 +80,7 @@
 		</setters>
 	</element>
 
-	<element name="(2024) Hunter's Mark" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_HUNTERS_MARK">
+	<element name="Hunter's Mark (2024)" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_HUNTERS_MARK">
 		<supports>Ranger</supports>
 		<description>
 			<p>You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra 1d6 Force damage to the target whenever you hit it with an attack roll. You also have Advantage on any Wisdom (Perception or Survival) check you make to find it.</p>
@@ -99,7 +99,7 @@
 		</setters>
 	</element>
 
-	<element name="(2024) Magic Aura" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_NYSTULS_MAGIC_AURA">
+	<element name="Magic Aura (2024)" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_NYSTULS_MAGIC_AURA">
 		<supports>Wizard</supports>
 		<description>
 			<p>With a touch, you place an illusion on a willing creature or an object that isn't being worn or carried. A creature gains the Mask effect below, and an object gains the False Aura effect below. The effect lasts for the duration. If you cast the spell on the same target every day for 30 days, the illusion lasts until dispelled.</p>
@@ -120,7 +120,7 @@
 		</setters>
 	</element>
 
-	<element name="(2024) Magic Weapon" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_MAGIC_WEAPON">
+	<element name="Magic Weapon (2024)" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_MAGIC_WEAPON">
 		<supports>Artificer, Paladin, Ranger, Sorcerer, Wizard</supports>
 		<description>
 			<p>You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. The spell ends early if you cast it again.</p>
@@ -138,7 +138,7 @@
 		</setters>
 	</element>
 
-	<element name="(2024) Mind Sliver" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_MIND_SLIVER">
+	<element name="Mind Sliver (2024)" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_MIND_SLIVER">
 		<supports>Sorcerer, Warlock, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You try to temporarily sliver the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take 1d6 Psychic damage and subtract 1d4 from the next saving throw it makes before the end of your next turn.</p>
@@ -155,7 +155,7 @@
 		</setters>
 	</element>
 
-	<element name="(2024) Poison Spray" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_POISON_SPRAY">
+	<element name="Poison Spray (2024)" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_POISON_SPRAY">
 		<supports>Artificer, Druid, Sorcerer, Warlock, Wizard, Damaging Spell, Ranged, Spell Attack</supports>
 		<description>
 			<p>You spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d12 Poison damage.</p>
@@ -173,7 +173,7 @@
 		</setters>
 	</element>
 
-	<element name="(2024) True Strike" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_TRUE_STRIKE">
+	<element name="Radiant Strike (2024)" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_RADIANT_STRIKE">
 		<supports>Bard, Sorcerer, Warlock, Wizard, Damaging Spell</supports>
 		<description>
 			<p>Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice).</p>
@@ -192,7 +192,7 @@
 		</setters>
 	</element>
 
-	<element name="(2024) Sorcerous Burst" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SORCEROUS_BURST">
+	<element name="Sorcerous Burst (2024)" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_SORCEROUS_BURST">
 		<supports>Sorcerer, Damaging Spell, Ranged, Spell Attack</supports>
 		<description>
 			<p>You cast sorcerous energy at one creature or object within range. Make a ranged attack roll against the target. On a hit, the target takes 1d8 damage of a type you choose: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder.</p>
@@ -211,7 +211,7 @@
 		</setters>
 	</element>
 
-	<element name="(2024) Starry Wisp" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_STARRY_WISP">
+	<element name="Starry Wisp (2024)" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_STARRY_WISP">
 		<supports>Bard, Druid, Damaging Spell, Ranged, Spell Attack</supports>
 		<description>
 			<p>You launch a mote of light at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 Radiant damage, and until the end of your next turn, it emits Dim Light in a 10-foot radius and can't benefit from the Invisible condition.</p>
