@@ -10,7 +10,7 @@
 	</info>
 	<files>
     	<!-- Proficiencies -->
-        <file name="proficiencies_skills.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies_skills.xml"/>
-		<file name="proficiencies_tools.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies_tools.xml"/>
+        <file name="proficiencies_skills.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_skills.xml"/>
+		<file name="proficiencies_tools.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_tools.xml"/>
 	</files>
 </index>

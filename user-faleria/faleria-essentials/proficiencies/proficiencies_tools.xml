@@ -3,7 +3,7 @@
 	<info>
 		<name>Proficiencies Tools</name>
 		<update version="0.0.1">
-			<file name="proficiencies_tools.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies_tools.xml" />
+			<file name="proficiencies_tools.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_tools.xml" />
 		</update>
 	</info>
 

@@ -3,7 +3,7 @@
 	<info>
 		<name>Proficiencies Skills</name>
 		<update version="0.0.1">
-			<file name="proficiencies_skills.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies_skills.xml" />
+			<file name="proficiencies_skills.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_skills.xml" />
 		</update>
 	</info>
 
