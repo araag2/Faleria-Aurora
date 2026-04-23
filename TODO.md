@@ -6,6 +6,9 @@
 
 ## Content
 
+### Races
+- [ ] Continue Half-Troll, I stopped in line 46 of the XML file, I need to add the racial traits and the subtypes.
+
 ### Classes
 - [ ] Change all Archtypes supports that to be consistent between all classes.
 - [ ] Add BloodHunter and SoulGatherer to the list of classes.  

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Half-Troll</name>
+		<update version="0.3.2">
+			<file name="race-Half-Troll.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-Half-Troll.xml" />
+		</update>
+	</info>
+
+	<element name="Half-Troll" type="Race" source="Beginner's Guide" id="ID_RACE_HALF_TROLL">
+		<description>
+			<p class="flavor">"It is one of life's greatest mysteries: who would be stupid enough to procreate with a troll? But it did happen. Somehow... Nevermind how, half-trolls were born, abominable little things that they are. Their parentage got them one less finger and tusks that must make eating quite unpleasent. I thank the Gods that our empire houses so few, even if they are quite capable warriors. They did get me thinking though: they can regenerate injuries and even limbs, so if I cut them just in the right place, will I be able to see a living soul?"
+			<br />- Y. Mageshell, Manyhals of Death</p>
+
+			<p>Half-trolls are one of the newest mortals to join Faleria, only coming into existence at around 567 p.p. As such, they haven't been able to create their own nation or lead their own armies, in fact only on the Bysso Isles can there be found any half-troll settlement. Unlike Lenams or Ronams, half-trolls have not even gotten a true name. Altough new, they have scattered around the world like wildfire, descending from various types of trolls. Due to being so few, relatively to other mortals, they have a great sense of fellowship towards one another, especially when they share ancestry or an ideal.</p>
+
+			<h4>THE ALL-FATHER</h4>
+			<p>In the year 566 p.p. a young dwarven explorer, by the name of Oren Thunderock, set sail from his Silvanian home in hopes of discovering new lands in the middle of the Unexplored Sea. During his voyage, he insulted the whale Babenga who promptly sunk his ship. He washed ashore on a deserted island, only inhabited by the troll Shima. At first, she tied him to a stake and covered him in salt so she could eat him. He somehow charmed her into not only sparing him, but also into laying with him. She began expecting and was worried he'd leave before their children were born, so for three months she stayed awake watching him. Being that trolls are huge compared to dwarves, Shima gave birth to a litter of the first half-trolls. She was exhausted after the fact, finally falling asleep, an opportunity Oren couldn't ignore, so he set sail and left.</p>
+
+            <p>For years Oren sailed and for years Oren sunk. From Shima's Isle he sailed west to Scanduri, where he got trapped in a sand worm's cave, only to be saved by a sand troll, that he coupled with. When leaving the Scandurian ports, a giant storm sunk his ship and crew, leading him to Manyhal. There, he got mixed in the middle of a raging war by aiding trolls who were fleeing their burning homes. One got very friendly as a thank you. After another year, he left the warring continent and headed east but got boarded by pirates and kidnapped, forced to work for them until he burnt their ship in order to escpae onto a nearby Njörsan fishing village. Turns out the village was deserted. He wandered the snow covered fields for days until an ice troll with a boat found him. He quickly got access to that boat.</p>
+
+            <p>When he finally found his shining home of the Silvermace Empire, he almost immediatly left. As there are no trolls in Zeiloryn.</p>
+
+			<h4>HALF-TROLL NAMES</h4>
+			<p>Due to their sizeable tusks, half-trolls cannot produce the sound of the letter l, producing a different type of r instead. Their names hold immense significance, inheriting their mother's name's last two letters as their first syllable, such as Gallanda, Damulis, Isterin, Inocuscia and Iamanda.</p>
+
+
+			<h4>HALF-TROLL TRAITS</h4>
+            <p>Your half-troll character has certain characteristics in common with all other half-trolls.</p>
+			<p class="indent"><strong><em>Creature Type.</em></strong> Half-trolls are 1,95-2,25 meters tall, average 80 kg and are humanoids. Half-trolls reach adulthood at the age of 15 but are considered young until the age of 20. On average, they live about 70 years.</p>
+			<p class="indent"><strong><em>Size and Speed.</em></strong> Your size is Medium and your base walking speed is 9 meters.</p>
+			<p class="indent"><strong><em>Half-Troll Ability Score Increase.</em></strong> You may choose to increase an ability score by 2 and one other ability score by 1, or increase three different ability scores by 1. Your Constituiton score maximum is 22, instead of the normal 20.</p>
+			<p class="indent"><strong><em>Half-Troll Regeneration.</em></strong> The blood that courses through your veins stems from creatures with an incredible healing ability. As a bonus action, you can expend one hit dice of your choice to regenerate some of your wounds, regaining hit points equal to your level + your constitution modifier. If you have been hit with acid or fire damage you cannot use this feature until the start of your next turn. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. You can use this feature to recuperate limbs or heal injuries instead of gaining hit points. You cannot regenerate your head.</p>
+			<p class="indent"><strong><em>Mortal Subtype.</em></strong>Four subtypes are available: Ice Half-Trolls, Sand Half-Trolls, Tropical Half-Trolls and War Half-Trolls.</p>
+
+			<p>See <a href="https://faleria.pt/mortal_type/half-troll">Website</a> for more details.</p>
+		</description>
+		<rules>
+			<select type="Ability Score Improvement" name="Half-Troll Ability Score Improvement Option (Half-Troll)" supports="Custom Ability Score Improvement Option" />
+			<stat name="constitution:max:extra" value="2" bonus="base" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_ABILITY_SCORE_MAXIMUM_OVER_20" />
+			<stat name="innate speed" value="9" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_HALF_TROLL" />
+
+TO:DO - Stopped here in line 46
+
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALF_TROLL_KEEN_SENSES" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALF_TROLL_RESEARCHERS_OF_MYLLAD" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALF_TROLL_ELVISH_REST" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALF_TROLL_SUBRACE" />
+		</rules>
+	</element>
+	<element name="Keen Senses" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_HALF_TROLL_KEEN_SENSES">
+		<description>
+			<p>You have proficiency in the Perception skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Perception skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_FALERIA_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_FALERIA_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Researchers of Myllad" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_HALF_TROLL_RESEARCHERS_OF_MYLLAD">
+		<description>
+			<p>You have advantage on saving throws against exhaustion, and magic can't put you to sleep.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against exhaustion, and magic can't put you to sleep.</description>
+		</sheet>
+	</element>
+
+	<element name="Elvish Rest" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_HALF_TROLL_ELVISH_REST">
+		<description>
+			<p>When performing a long rest, elves don't need to sleep. Instead, they can enter a meditative state for only 4 hours. The clear state of mind gained by meditating in this way grants you the ability to cast your Mortal Subtype's level 1 spell twice instead of once. You may instead rest for the normal 8 hours, which grants you 1d10 temporary hit points.</p>
+		</description>
+		<sheet>
+			<description>You can long rest in 4 hours by meditating, or rest 8 hours to gain 1d10 temporary hit points.</description>
+		</sheet>
+	</element>
+
+    
+	<element name="Half-Troll Subrace" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_HALF_TROLL_SUBRACE">
+		<description>
+			<p>Four subtypes are available: Dark Elves, Imperial Elves, Light Elves and Night Elves.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Half-Troll Subrace" supports="Half-Troll" />
+		</rules>
+	</element>
+
+    <!-- Elf Sub Races List-->
+
+    <!-- Dark Elf Sub Race-->
+
+    <element name="Dark Elf" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_DARK_ELF">
+		<supports>Half-Troll</supports>
+		<description>
+            <p class="indent"><strong><em>Mortal Subtype.</em></strong> <em>Dark Elves</em> are natural to the frozen tundras of Nyjörsa. They are often mistaken for dwarves in literature due to both being described as “ice-born” in silvanian, but physically they are very different. Like most elves, these are a tall and slender people, but dark elves tend to be the bulkiest of the elves. They have a distinct charcoal or dark blue skin, purple or pink eyes and silver white hair.</p>
+
+			<p class="indent"><strong><em>Shadowborn.</em></strong> You know the control flames cantrip. When you reach 3rd level, you can cast the ice knife spell with this trait. Starting at 5th level, you can also cast the darkness spell with this trait, without requiring a material component. Once you cast ice knife or darkness with this trait, you can’t cast that spell again with it again until you finish a long rest.</p>
+
+            <p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</p>
+
+			<p class="indent"><strong><em>Facing Shadows.</em></strong> You have superior vision in dark and dim conditions. You can see in dim light within 36 meters of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of silver.</p>
+		</description>
+		<rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_RACE_DARK_ELF"/>
+			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DARK_ELF_MAGIC" />
+		</rules>
+	</element> 	
+	<element name="Dark Elf Magic" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_DARK_ELF_MAGIC">
+		<description>
+			<p>You know the <em>control flames</em> cantrip. When you reach 3rd level, you can cast the <em>ice knife</em> spell this trait. When you reach 5th level, you can also cast the <em>darkness</em> spell with this trait. Once you cast <em>ice knife</em> or <em>darkness</em> with this trait, you can’t cast that spell again with it again until you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>You know the control flames cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
+			<description level="3">You can cast ice knife once per long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
+			<description level="5">You can cast darkness once per long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_BG_SPELL_CONTROL_FLAMES" level="1" />
+			<grant type="Spell" id="ID_BG_SPELL_ICE_KNIFE" level="3" />
+			<grant type="Spell" id="ID_BG_SPELL_DARKNESS" level="5" />
+		</rules>
+	</element>  
+
+    <!-- Imperial Elf Sub Race-->
+
+	<element name="Imperial Elf" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_IMPERIAL_ELF">
+		<supports>Half-Troll</supports>
+		<description>
+            <p class="indent"><strong><em>Mortal Subtype.</em></strong> <em>Imperial Elves</em> are closely related to light elves, directly deriving from them in “recent” times. Over the centuries, they have been raised only to serve the emperor. These elves have blonde or light brown hair, blue or green eyes and fair skin. Their ears are the longest of any elf, their length being a symbol of virtue, being adorned elegantly to show power or achievements.</p>
+
+			<p class="indent"><strong><em>Highborn.</em></strong> You know the <em>true strike</em> cantrip. When you reach 3rd level, you can cast the <em>wrathful smite</em> spell and at 5th level the <em>crown of madness</em> spell with this trait, without requiring material components. Once you cast the <em>wrathful smite</em> or <em>crown of madness</em> spell with this trait, you can’t cast it again until you finish a long rest.</p>
+
+			<p class="indent"><strong><em>Imperial Training.</em></strong> You have proficiency with the shortsword, mace, shortbow and longbow.</p>
+		</description>
+		<rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_RACE_IMPERIAL_ELF"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_IMPERIAL_ELF_MAGIC" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_IMPERIAL_ELF_WEAPON_TRAINING" />
+		</rules>
+	</element> 	
+	<element name="Imperial Elf Magic" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_IMPERIAL_ELF_MAGIC">
+		<description>
+			<p>You know the <em>true strike</em> cantrip. When you reach 3rd level, you can cast the <em>wrathful smite</em> spell and at 5th level the <em>crown of madness</em> spell with this trait, without requiring material components. Once you cast the <em>wrathful smite</em> or <em>crown of madness</em> spell with this trait, you can’t cast it again until you finish a long rest.</p>
+		</description>
+		<sheet>
+            <description>You know the true strike cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
+            <description level="3">You can cast wrathful smite once per long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
+            <description level="5">You can cast crown of madness once per long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_BG_SPELL_TRUE_STRIKE" level="1" />
+			<grant type="Spell" id="ID_BG_SPELL_WRATHFUL_SMITE" level="3" />
+			<grant type="Spell" id="ID_BG_SPELL_CROWN_OF_MADNESS" level="5" />
+		</rules>
+	</element>
+    <element name="Imperial Elf Weapon Training" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_IMPERIAL_ELF_WEAPON_TRAINING">
+		<description>
+			<p>You have proficiency with the shortsword, mace, shortbow and longbow.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency with the shortsword, mace, shortbow and longbow.</description>
+		</sheet>
+		<rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+		</rules>
+	</element>
+
+    <!-- Light Elf -->
+
+    <element name="Light Elf" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_LIGHT_ELF">
+		<supports>Half-Troll</supports>
+		<description>
+            <p class="indent"><strong><em>Mortal Subtype.</em></strong> <em>Light Elves</em> are the long lost cousins to the imperial elves. Natural to Scanduri, they are descendants of the elves that chose not to join the empire. These elves have brownish skin, brown or black hair, brown or black eyes and have the shortest ears of all elvish subtypes, with some being mistaken for Half-Elves. Despite their darker features, they call themselves light elves due to their enlightened decision to stay in Scanduri. Imperial elves only call them traitors.</p>
+
+			<p class="indent"><strong><em>Lightborn.</em></strong> You know the <em>light</em> cantrip. When you reach 3rd level, you can cast the <em>faerie fire</em> spell with this trait. Starting at 5th level, you can also cast the <em>invisibility</em> spell with this trait, without requiring a material component. Once you cast the <em>faerie fire</em> or <em>invisibility</em> spell with this trait, you can’t cast that spell with it again until you finish a long rest.</p>
+
+			<p class="indent"><strong><em>Lightvision.</em></strong> You are immune to the blinded condition if it would be caused by light.</p>
+		</description>
+		<rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_RACE_LIGHT_ELF"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIGHT_ELF_MAGIC" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIGHT_ELF_LIGHTVISION" />
+		</rules>
+	</element> 	
+	<element name="Light Elf Magic" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_LIGHT_ELF_MAGIC">
+		<description>
+			<p>You know the <em>light</em> cantrip. When you reach 3rd level, you can cast the <em>faerie fire</em> spell with this trait. Starting at 5th level, you can also cast the <em>invisibility</em> spell with this trait, without requiring a material component. Once you cast the <em>faerie fire</em> or <em>invisibility</em> spell with this trait, you can’t cast that spell with it again until you finish a long rest.</p>
+		</description>
+		<sheet>
+            <description>You know the light cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
+            <description level="3">You can cast faerie fire once per long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
+            <description level="5">You can cast invisibility once per long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_BG_SPELL_LIGHT" level="1" />
+			<grant type="Spell" id="ID_BG_SPELL_FAERIE_FIRE" level="3" />
+			<grant type="Spell" id="ID_BG_SPELL_INVISIBILITY" level="5" />
+		</rules>
+	</element>
+    <element name="Light Elf Lightvision" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_LIGHT_ELF_LIGHTVISION">
+		<description>
+			<p>You are immune to the blinded condition if it would be caused by light.</p>
+		</description>
+		<sheet>
+			<description>You are immune to the blinded condition if it would be caused by light.</description>
+		</sheet>
+	</element>
+
+    <!-- Night Elf -->
+
+    <element name="Night Elf" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_NIGHT_ELF">
+		<supports>Half-Troll</supports>
+		<description>
+            <p class="indent"><strong><em>Mortal Subtype.</em></strong> <em>Night Elves</em> were the first elves to set foot in Faleria. Their purpose is lost to time, but now they remain in Manyhal. Having spent millenea in this world, their magic has attuned with the very nature that surrounds them. Their bodies have adapted to nature and transformed to resemble it. Their hair comes in almost any colour, as long as nature presents it. Their eyes either have a humanlike iris or an iris that covers their whole eye and these can be orange, yellow, brown, green or blue. Their skin has become a variation of the colour of tree trunks, so in a range from spruce to dark oak.</p>
+
+			<p class="indent"><strong><em>Oakborn.</em></strong> You know the <em>druidcraft</em> cantrip. When you reach 3rd level, you can cast the <em>entangle</em> spell and at 5th level the <em>moonbeam</em> spell with this trait, without requiring a material component. Once you cast the entangle or moonbeam spell with this trait, you can’t cast it again until you finish a long rest.</p>
+
+			<p class="indent"><strong><em>Ancestral Knowledge.</em></strong> You gain proficiency on a Wisdom skill of your choice..</p>
+		</description>
+		<rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_RACE_NIGHT_ELF"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NIGHT_ELF_MAGIC" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NIGHT_ELF_ANCESTRAL_KNOWLEDGE" />
+		</rules>
+	</element> 	
+	<element name="Night Elf Magic" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_NIGHT_ELF_MAGIC">
+		<description>
+			<p>You know the <em>druidcraft</em> cantrip. When you reach 3rd level, you can cast the <em>entangle</em> spell and at 5th level the <em>moonbeam</em> spell with this trait, without requiring a material component. Once you cast the entangle or moonbeam spell with this trait, you can’t cast it again until you finish a long rest.</p>
+		</description>
+		<sheet>
+            <description>You know the druidcraft cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
+            <description level="3">You can cast entangle once per long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
+            <description level="5">You can cast moonbeam once per long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_BG_SPELL_DRUIDCRAFT" level="1" />
+			<grant type="Spell" id="ID_BG_SPELL_ENTANGLE" level="3" />
+			<grant type="Spell" id="ID_BG_SPELL_MOONBEAM" level="5" />
+		</rules>
+	</element>
+    <element name="Night Elf Ancestral Knowledge" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_NIGHT_ELF_ANCESTRAL_KNOWLEDGE">
+		<description>
+			<p>You gain proficiency on a Wisdom skill of your choice.</p>
+		</description>
+		<sheet display="false">
+			<description>You gain proficiency on a Wisdom skill of your choice.</description>
+		</sheet>
+        <rules>
+			<select type="Proficiency" name="Skill Proficiency (Night Elf)" supports="Skill,Wisdom" number="1"/>
+        </rules>
+	</element>
+
+
+</elements>
