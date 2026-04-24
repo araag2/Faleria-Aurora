@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>ASI Generic for Boons (PHB24)</name>
+		<update version="0.0.1">
+			<file name="asi_boon.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_boon.xml" />
+		</update>
+	</info>
+
+	<!-- Generic Ability Score Increase for Boons from PHB24 and onward -->
+	<element name="Strength +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_STRENGTH">
+		<supports>Boon Ability Score Increase</supports>
+		<description>
+			<p>Your Strength increases by 1, to a maximum of 30.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" alt="Ability Score Increase" />
+			<stat name="strength:max:extra" value="10" bonus="base" />
+		</rules>
+	</element>
+	<element name="Dexterity +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_DEXTERITY">
+		<supports>Boon Ability Score Increase</supports>
+		<description>
+			<p>Your Dexterity increases by 1, to a maximum of 30.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1" alt="Ability Score Increase" />
+			<stat name="dexterity:max:extra" value="10" bonus="base" />
+		</rules>
+	</element>
+	<element name="Constitution +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_CONSTITUTION">
+		<supports>Boon Ability Score Increase</supports>
+		<description>
+			<p>Your Constitution increases by 1, to a maximum of 30.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" alt="Ability Score Increase" />
+			<stat name="constitution:max:extra" value="10" bonus="base" />
+		</rules>
+	</element>
+	<element name="Intelligence +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_INTELLIGENCE">
+		<supports>Boon Ability Score Increase</supports>
+		<description>
+			<p>Your Intelligence increases by 1, to a maximum of 30.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" alt="Ability Score Increase" />
+			<stat name="intelligence:max:extra" value="10" bonus="base" />
+		</rules>
+	</element>
+	<element name="Wisdom +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_WISDOM">
+		<supports>Boon Ability Score Increase</supports>
+		<description>
+			<p>Your Wisdom increases by 1, to a maximum of 30.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" alt="Ability Score Increase" />
+			<stat name="wisdom:max:extra" value="10" bonus="base" />
+		</rules>
+	</element>
+	<element name="Charisma +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_CHARISMA">
+		<supports>Boon Ability Score Increase</supports>
+		<description>
+			<p>Your Charisma increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" alt="Ability Score Increase" />
+			<stat name="charisma:max:extra" value="10" bonus="base" />
+		</rules>
+	</element>
+</elements>

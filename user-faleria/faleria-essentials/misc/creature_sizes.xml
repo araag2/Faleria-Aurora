@@ -78,4 +78,171 @@
 			<grant type="Size" id="ID_SIZE_COLOSSAL" />
 		</rules>
 	</element>
+
+	<!-- Speed Items -->
+	<element name="Speed: Climb Equals Walking" type="Item" source="Internal" id="ID_INTERNAL_ITEM_CLIMB_WALKING">
+		<description>
+			<p><i>You can equip this item to "enable" it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>You have a climbing speed equal to your walking speed.</p>
+		</description>
+		<setters>
+			<set name="category">Additional Feature</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:climb" value="innate speed" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Speed: Climb +5 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_CLIMB_5">
+		<description>
+			<p><i>You can equip this item to "enable" it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>You have an additional 5 feet of climbing speed.</p>
+		</description>
+		<setters>
+			<set name="category">Additional Feature</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:climb" value="5" />
+		</rules>
+	</element>
+
+	<element name="Speed: Climb +10 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_CLIMB_10">
+		<description>
+			<p><i>You can equip this item to "enable" it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>You have an additional 10 feet of climbing speed.</p>
+		</description>
+		<setters>
+			<set name="category">Additional Feature</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:climb" value="10"/>
+		</rules>
+	</element>
+
+	<element name="Speed: Swim Equals Walking" type="Item" source="Internal" id="ID_INTERNAL_ITEM_SWIM_WALKING">
+		<description>
+			<p><i>You can equip this item to "enable" it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>You have a swimming speed equal to your walking speed.</p>
+		</description>
+		<setters>
+			<set name="category">Additional Feature</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:swim" value="innate speed" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Speed: Swim +5 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_SWIM_5">
+		<description>
+			<p><i>You can equip this item to "enable" it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>You have an additional 5 feet of swimming speed.</p>
+		</description>
+		<setters>
+			<set name="category">Additional Feature</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:swim" value="5" />
+		</rules>
+	</element>
+
+	<element name="Speed: Swim +10 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_SWIM_10">
+		<description>
+			<p><i>You can equip this item to "enable" it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>You have an additional 10 feet of swimming speed.</p>
+		</description>
+		<setters>
+			<set name="category">Additional Feature</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:swim" value="10" />
+		</rules>
+	</element>
+
+	<element name="Speed: Fly Equals Walking" type="Item" source="Internal" id="ID_INTERNAL_ITEM_FLY_WALKING">
+		<description>
+			<p><i>You can equip this item to "enable" it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>You have a flying speed equal to your walking speed.</p>
+		</description>
+		<setters>
+			<set name="category">Additional Feature</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:fly" value="innate speed" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Speed: Fly +5 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_FLY_5">
+		<description>
+			<p><i>You can equip this item to "enable" it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>You have an additional 5 feet of flying speed.</p>
+		</description>
+		<setters>
+			<set name="category">Additional Feature</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:fly" value="5"/>
+		</rules>
+	</element>
+
+	<element name="Speed: Fly +10 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_FLY_10">
+		<description>
+			<p><i>You can equip this item to "enable" it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>You have an additional 10 feet of flying speed.</p>
+		</description>
+		<setters>
+			<set name="category">Additional Feature</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed:fly" value="10" />
+		</rules>
+	</element>
+
+	<element name="Speed: Walk +5 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_WALK_5">
+		<description>
+			<p><i>You can equip this item to "enable" it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>You have an additional 5 feet of walking speed.</p>
+		</description>
+		<setters>
+			<set name="category">Additional Feature</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed" value="5"/>
+		</rules>
+	</element>
+
+	<element name="Speed: Walk +10 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_WALK_10">
+		<description>
+			<p><i>You can equip this item to "enable" it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>You have an additional 10 feet of walking speed.</p>
+		</description>
+		<setters>
+			<set name="category">Additional Feature</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<stat name="innate speed" value="10" />
+		</rules>
+	</element>
+
 </elements>

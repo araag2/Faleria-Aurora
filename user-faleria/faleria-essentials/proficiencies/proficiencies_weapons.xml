@@ -327,4 +327,7 @@
 		</description>
 	</element>
 
+	<!-- Weapon Groups -->
+	<element name="Weapon Group (Polearms)" type="Weapon Group" source="Internal" id="ID_INTERNAL_WEAPON_GROUP_POLEARMS" />
+
 </elements>
