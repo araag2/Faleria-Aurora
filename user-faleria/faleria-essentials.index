@@ -4,7 +4,7 @@
 		<name>Faleria Essentials</name>
 		<description>The Faleria Essentials is a collection of the internal elements used by Faleria, such as skills, languages, conditions, and other elements that are used across the content.</description>
 		<author url="https://faleria.pt/">Faleria</author>
-		<update version="1.0.6">
+		<update version="1.0.7">
 			<file name="faleria-essentials.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials.index" />
 		</update>
 	</info>
@@ -12,6 +12,6 @@
     	<!-- Proficiencies -->
         <file name="proficiencies_skills.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_skills.xml"/>
 		<file name="proficiencies_tools.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_tools.xml"/>
-		<file name="proficiencies_saving-throws.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_saving-throws.xml"/>
+		<file name="proficiencies_saving-throws.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_saving-throws.xml" />
 	</files>
 </index>
