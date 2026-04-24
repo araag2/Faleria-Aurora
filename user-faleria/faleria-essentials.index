@@ -9,8 +9,18 @@
 		</update>
 	</info>
 	<files>
+		<file name="source.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/source.xml" />
+
+		<!-- Classes -->
+		<file name="ranger_features.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/classes/ranger_features.xml" />
+
+		<!-- Languages -->
+		<file name="languages.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/languages/languages.xml" />
+
 		<!-- Misc -->
+		<file name="alignments.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/alignments.xml" />
 		<file name="creature_sizes.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/creature_sizes.xml" />
+		<file name="vision_traits.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/vision_traits.xml" />
 
     	<!-- Proficiencies -->
 		<file name="proficiencies_armor.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_armor.xml" />

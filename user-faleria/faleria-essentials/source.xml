@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.11">
+			<file name="source.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/source.xml" />
+		</update>
+	</info>
+	
+	<element name="Faleria Essentials" type="Source" source="Core" id="ID_FALERIA_ESSENTIALS">
+		<description>
+			<p>The <i>Faleria Essentials</i> is a collection of elements that function in a similar way to <i>Internal</i> elements, allowing compatibility between original 5e (2014) and updated rules (2024). But while <i>Internal</i> elements are hidden from the Compendium (as those elements often don't even contain any descriptions), the elements of this source still appear as any other elements, which gives the ability for the user to quickly look up and reference relevant rules.</p>
+		</description>
+		<setters>
+			<set name="abbreviation">FE</set>
+			<set name="url">https://faleria.pt/</set> 
+			<set name="author" abbreviation="Faleria" url="https://faleria.pt/">Faleria</set>
+			<set name="official">false</set>
+			<set name="core">true</set>
+			<set name="homebrew">true</set>
+			<set name="information">The contents of this source are required for the proper functionality of the Faleria repository.</set>
+			<set name="release">00000000</set>
+		</setters>
+	</element>
+</elements>
