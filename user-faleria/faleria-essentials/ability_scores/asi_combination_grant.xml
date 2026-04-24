@@ -31,6 +31,172 @@
 		</rules>
 	</element>
 
+	<!-- Level-Up ASI or Feat Choices -->
+	<!-- Level 4 -->
+	<element name="Ability Score Improvement" type="Class Feature" source="Faleria Essentials" id="ID_INTERNAL_ASI_OR_FEAT_ASI_LEVEL_4">
+		<compendium display="false" />
+		<supports>ASI or Feat Level 4</supports>
+		<description>
+			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Level 4)" supports="Ability Score Improvement,Class" number="2" />
+		</rules>
+	</element>
+	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_4">
+		<compendium display="false" />
+		<supports>ASI or Feat Level 4</supports>
+		<description>
+			<p>Select a feat of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<select name="Feat (Level 4)" type="Feat" />
+		</rules>
+	</element>
+
+	<!-- Level 6, just for Fighter -->
+	<element name="Ability Score Improvement" type="Class Feature" source="Faleria Essentials" id="ID_INTERNAL_ASI_OR_FEAT_ASI_LEVEL_6">
+		<compendium display="false" />
+		<supports>ASI or Feat Level 6</supports>
+		<description>
+			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Level 6)" supports="Ability Score Improvement,Class" number="2" />
+		</rules>
+	</element>
+	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_6">
+		<compendium display="false" />
+		<supports>ASI or Feat Level 6</supports>
+		<description>
+			<p>Select a feat of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<select name="Feat (Level 6)" type="Feat" />
+		</rules>
+	</element>
+
+	<!-- Level 8 -->
+	<element name="Ability Score Improvement" type="Class Feature" source="Faleria Essentials" id="ID_INTERNAL_ASI_OR_FEAT_ASI_LEVEL_8">
+		<compendium display="false" />
+		<supports>ASI or Feat Level 8</supports>
+		<description>
+			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Level 8)" supports="Ability Score Improvement,Class" number="2" />
+		</rules>
+	</element>
+	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_8">
+		<compendium display="false" />
+		<supports>ASI or Feat Level 8</supports>
+		<description>
+			<p>Select a feat of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<select name="Feat (Level 8)" type="Feat" />
+		</rules>
+	</element>
+
+	<!-- Level 12 -->
+	<element name="Ability Score Improvement" type="Class Feature" source="Faleria Essentials" id="ID_INTERNAL_ASI_OR_FEAT_ASI_LEVEL_12">
+		<compendium display="false" />
+		<supports>ASI or Feat Level 12</supports>
+		<description>
+			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Level 12)" supports="Ability Score Improvement,Class" number="2" />
+		</rules>
+	</element>
+
+	
+	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_12">
+		<compendium display="false" />
+		<supports>ASI or Feat Level 12</supports>
+		<description>
+			<p>Select a feat of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<select name="Feat (Level 12)" type="Feat" />
+		</rules>
+	</element>
+
+	<!-- Level 16 -->
+	<element name="Ability Score Improvement" type="Class Feature" source="Faleria Essentials" id="ID_INTERNAL_ASI_OR_FEAT_ASI_LEVEL_16">
+		<compendium display="false" />
+		<supports>ASI or Feat Level 16</supports>
+		<description>
+			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Level 16)" supports="Ability Score Improvement,Class" number="2" />
+		</rules>
+	</element>
+
+	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_16">
+		<compendium display="false" />
+		<supports>ASI or Feat Level 16</supports>
+		<description>
+			<p>Select a feat of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<select name="Feat (Level 16)" type="Feat" />
+		</rules>
+	</element>
+
+	<!-- Level 19 -->
+	<element name="Ability Score Improvement" type="Class Feature" source="Faleria Essentials" id="ID_INTERNAL_ASI_OR_FEAT_ASI_LEVEL_19">
+		<compendium display="false" />
+		<supports>ASI or Feat Level 19</supports>
+		<description>
+			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Level 19)" supports="Ability Score Improvement,Class" number="2" />
+		</rules>
+	</element>
+	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_19">
+		<compendium display="false" />
+		<supports>ASI or Feat Level 19</supports>
+		<description>
+			<p>Select a feat of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<select name="Feat (Level 19)" type="Feat" />
+		</rules>
+	</element>
+
 	<!-- 5e 2024: ASI Combinations elements for Backgrounds -->
 	<element name="Strength, Dexterity, Constitution" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CON">
 		<supports>Custom Background Ability Score Combination</supports>

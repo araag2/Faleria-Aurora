@@ -8,6 +8,9 @@
 	</info>
 
 	<!--Faleria Race/Subrace Grants for Feats, Items, Exc-->
+	<element name="Race Adept Human" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_ADEPT_HUMAN" />
+	<element name="Race Veteran Human" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_VETERAN_HUMAN" />
+
 	<element name="Race Dark Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DARK_ELF" />
 	<element name="Race Imperial Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_IMPERIAL_ELF" />
 	<element name="Race Light Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_LIGHT_ELF" />
