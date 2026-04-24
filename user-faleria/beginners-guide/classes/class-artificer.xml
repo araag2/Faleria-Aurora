@@ -288,20 +288,21 @@ is detailed after the class's description. Your choice grants you features at 5t
 			<description>With thieves’ tools or artisan’s tools in hand, you can magically create one set of artisan’s tools in an unoccupied space within 5 feet of you. This creation requires 1 hour of uninterrupted work.</description>
 		</sheet>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT</requirements>
+	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_ARTIFICER_ABILITYSCOREIMPROVEMENT_ARTIFICER">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ARTIFICER_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p><em>4th-level artificer feature</em></p>
-			<p>When you reach 4th, 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can either: 
+				- Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+				- Take a feat.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option,Eberron Artificer,4" level="4" />
-			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option,Eberron Artificer,8" level="8" />
-			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option,Eberron Artificer,12" level="12" />
-			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option,Eberron Artificer,16" level="16" />
-			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option,Eberron Artificer,19" level="19" />
+			<select type="Class Feature" name="Improvement Option (Artificer 4)" supports="ASI or Feat Level 4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Artificer 8)" supports="ASI or Feat Level 8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Artificer 12)" supports="ASI or Feat Level 12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Artificer 16)" supports="ASI or Feat Level 16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Artificer 19)" supports="ASI or Feat Level 19" level="19" />
 		</rules>
 	</element>
 	<element name="Tool Expertise" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_ARTIFICER_TOOL_EXPERTISE">
@@ -436,142 +437,4 @@ is detailed after the class's description. Your choice grants you features at 5t
 	<element name="Magic Item Savant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_MAGIC_ITEM_SAVANT" />
 	<element name="Magic Item Master Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_MAGIC_ITEM_MASTER" />
 	<element name="Soul of Artifice Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_SOUL_OF_ARTIFICE" />
-
-
-	<!-- v1.19.3XX workaround -->
-	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_ABILITY_4">
-		<compendium display="false" />
-		<supports>Improvement Option, Eberron Artificer, 4</supports>
-		<requirements>ID_BG_CLASS_FEATURE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT</requirements>
-		<description>
-			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Level 4)" supports="Ability Score Improvement,Class" number="2" />
-		</rules>
-	</element>
-	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_FEAT_4">
-		<compendium display="false" />
-		<supports>Improvement Option, Eberron Artificer, 4</supports>
-		<requirements>ID_BG_CLASS_FEATURE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT,ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
-		<description>
-			<p>Select a feat of your choice.</p>
-		</description>
-		<sheet display="false" />
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
-		<rules>
-			<select name="Feat (Level 4)" type="Feat" />
-		</rules>
-	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_ABILITY_8">
-		<compendium display="false" />
-		<supports>Improvement Option, Eberron Artificer, 8</supports>
-		<requirements>ID_BG_CLASS_FEATURE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT</requirements>
-		<description>
-			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Level 8)" supports="Ability Score Improvement,Class" number="2" />
-		</rules>
-	</element>
-	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_FEAT_8">
-		<compendium display="false" />
-		<supports>Improvement Option, Eberron Artificer, 8</supports>
-		<requirements>ID_BG_CLASS_FEATURE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT,ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
-		<description>
-			<p>Select a feat of your choice.</p>
-		</description>
-		<sheet display="false" />
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
-		<rules>
-			<select name="Feat (Level 8)" type="Feat" />
-		</rules>
-	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_ABILITY_12">
-		<compendium display="false" />
-		<supports>Improvement Option, Eberron Artificer, 12</supports>
-		<requirements>ID_BG_CLASS_FEATURE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT</requirements>
-		<description>
-			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Level 12)" supports="Ability Score Improvement,Class" number="2" />
-		</rules>
-	</element>
-	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_FEAT_12">
-		<compendium display="false" />
-		<supports>Improvement Option, Eberron Artificer, 12</supports>
-		<requirements>ID_BG_CLASS_FEATURE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT,ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
-		<description>
-			<p>Select a feat of your choice.</p>
-		</description>
-		<sheet display="false" />
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
-		<rules>
-			<select name="Feat (Level 12)" type="Feat" />
-		</rules>
-	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_ABILITY_16">
-		<compendium display="false" />
-		<supports>Improvement Option, Eberron Artificer, 16</supports>
-		<requirements>ID_BG_CLASS_FEATURE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT</requirements>
-		<description>
-			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Level 16)" supports="Ability Score Improvement,Class" number="2" />
-		</rules>
-	</element>
-	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_FEAT_16">
-		<compendium display="false" />
-		<supports>Improvement Option, Eberron Artificer, 16</supports>
-		<requirements>ID_BG_CLASS_FEATURE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT,ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
-		<description>
-			<p>Select a feat of your choice.</p>
-		</description>
-		<sheet display="false" />
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
-		<rules>
-			<select name="Feat (Level 16)" type="Feat" />
-		</rules>
-	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_ABILITY_19">
-		<compendium display="false" />
-		<supports>Improvement Option, Eberron Artificer, 19</supports>
-		<requirements>ID_BG_CLASS_FEATURE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT</requirements>
-		<description>
-			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Level 19)" supports="Ability Score Improvement,Class" number="2" />
-		</rules>
-	</element>
-	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_FEAT_19">
-		<compendium display="false" />
-		<supports>Improvement Option, Eberron Artificer, 19</supports>
-		<requirements>ID_BG_CLASS_FEATURE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT,ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
-		<description>
-			<p>Select a feat of your choice.</p>
-		</description>
-		<sheet display="false" />
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
-		<rules>
-			<select name="Feat (Level 19)" type="Feat" />
-		</rules>
-	</element>
 </elements>

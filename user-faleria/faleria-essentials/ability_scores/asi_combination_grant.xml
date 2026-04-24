@@ -44,7 +44,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Increase (Level 4)" supports="Ability Score Improvement,Class" number="2" />
 		</rules>
 	</element>
-	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_4">
+	<element name="Feat" type="Class Feature" source="Faleria Essentials" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_4">
 		<compendium display="false" />
 		<supports>ASI or Feat Level 4</supports>
 		<description>
@@ -71,7 +71,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Increase (Level 6)" supports="Ability Score Improvement,Class" number="2" />
 		</rules>
 	</element>
-	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_6">
+	<element name="Feat" type="Class Feature" source="Faleria Essentials" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_6">
 		<compendium display="false" />
 		<supports>ASI or Feat Level 6</supports>
 		<description>
@@ -98,7 +98,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Increase (Level 8)" supports="Ability Score Improvement,Class" number="2" />
 		</rules>
 	</element>
-	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_8">
+	<element name="Feat" type="Class Feature" source="Faleria Essentials" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_8">
 		<compendium display="false" />
 		<supports>ASI or Feat Level 8</supports>
 		<description>
@@ -127,7 +127,7 @@
 	</element>
 
 	
-	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_12">
+	<element name="Feat" type="Class Feature" source="Faleria Essentials" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_12">
 		<compendium display="false" />
 		<supports>ASI or Feat Level 12</supports>
 		<description>
@@ -155,7 +155,7 @@
 		</rules>
 	</element>
 
-	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_16">
+	<element name="Feat" type="Class Feature" source="Faleria Essentials" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_16">
 		<compendium display="false" />
 		<supports>ASI or Feat Level 16</supports>
 		<description>
@@ -182,7 +182,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Increase (Level 19)" supports="Ability Score Improvement,Class" number="2" />
 		</rules>
 	</element>
-	<element name="Feat" type="Class Feature" source="Beginner's Guide" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_19">
+	<element name="Feat" type="Class Feature" source="Faleria Essentials" id="ID_INTERNAL_ASI_OR_FEAT_FEAT_LEVEL_19">
 		<compendium display="false" />
 		<supports>ASI or Feat Level 19</supports>
 		<description>

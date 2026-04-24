@@ -248,19 +248,21 @@
 			<select type="Class Feature" name="Metamagic" supports="Metamagic" level="17"/>
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER">
+	<element name="Ability Score Improvement" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_SORCERER_ABILITYSCOREIMPROVEMENT_SORCERER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can either: 
+				- Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+				- Take a feat.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Improvement Option (Sorcerer 4)" supports="Improvement Option,Sorcerer,4" level="4" />
-			<select type="Class Feature" name="Improvement Option (Sorcerer 8)" supports="Improvement Option,Sorcerer,8" level="8" />
-			<select type="Class Feature" name="Improvement Option (Sorcerer 12)" supports="Improvement Option,Sorcerer,12" level="12" />
-			<select type="Class Feature" name="Improvement Option (Sorcerer 16)" supports="Improvement Option,Sorcerer,16" level="16" />
-			<select type="Class Feature" name="Improvement Option (Sorcerer 19)" supports="Improvement Option,Sorcerer,19" level="19" />
+			<select type="Class Feature" name="Improvement Option (Sorcerer 4)" supports="ASI or Feat Level 4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Sorcerer 8)" supports="ASI or Feat Level 8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Sorcerer 12)" supports="ASI or Feat Level 12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Sorcerer 16)" supports="ASI or Feat Level 16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Sorcerer 19)" supports="ASI or Feat Level 19" level="19" />
 		</rules>
 	</element>
 	<element name="Sorcerous Restoration" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION">
