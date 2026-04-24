@@ -4,7 +4,7 @@
 		<name>Beginner's Guide</name>
 		<description>The Beginner's Guide is the essential reference for every Dungeons &amp; Dragons roleplayer. It contains rules for character creation and advancement, backgrounds and skills, exploration and combat, equipment, spells, and much more. Use this book to create exciting characters from among the most iconic D&amp;D races and classes.</description>
 		<author url="https://faleria.pt/">Faleria</author>
-		<update version="1.0.5">
+		<update version="1.0.6">
 			<file name="beginners-guide.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide.index" />
 		</update>
 	</info>
@@ -152,15 +152,14 @@
 		<file name="spells_scc.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_scc.xml" />
 		<file name="spells_tce.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_tce.xml" />
 		<file name="spells_xge.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_xge.xml" />
-		
 
 		<!-- misc -->
 		<file name="languages.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/languages.xml" />
 		<file name="feats.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/feats.xml" />
 		<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/eldritch-invocations.xml" />
-		<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/eldritch-invocations.xml" />
 		<file name="deities.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/deities.xml" />
 		<file name="companions.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/companions.xml" />
+		<file name="artificer-infusions.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/artificer-infusions.xml" />
         <file name="proficiencies.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/proficiencies.xml" />
 	</files>
 </index>

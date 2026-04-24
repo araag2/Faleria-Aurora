@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
+		<name>Artificer Infusions</name>
 		<update version="0.0.5">
 			<file name="artificer-infusions.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/artificer-infusions.xml" />
-			
 		</update>
 	</info>
 

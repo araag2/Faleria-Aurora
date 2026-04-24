@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Misc Grants and Homebrew Items</name>
+		<update version="0.0.1">
+			<file name="misc_grants.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/misc_grants.xml" />
+		</update>
+	</info>
+
+	<!--Misc-->
+	<element name="Armor Ignore Strength Requirement" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT" />
+	<element name="Background with a Feat" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_BACKGROUND_WITH_A_FEAT" />
+
+	<!--DDB Boomerang-->
+	<element name="Boomerang" type="Weapon" source="Internal" id="ID_INTERNAL_WEAPON_BOOMERANG">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<description>
+			<p>The boomerang is a ranged weapon, and any creature proficient with the javelin is also proficient with this weapon.</p>
+			<p class="indent">On a miss, a boomerang returns to the thrower's hand.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">60/120</set>
+			<set name="damage" type="bludgeoning">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN</set>
+			<set name="sourceUrl">https://www.dndbeyond.com/equipment/boomerang</set>
+		</setters>
+	</element>
+</elements>

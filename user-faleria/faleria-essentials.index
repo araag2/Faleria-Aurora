@@ -4,14 +4,23 @@
 		<name>Faleria Essentials</name>
 		<description>The Faleria Essentials is a collection of the internal elements used by Faleria, such as skills, languages, conditions, and other elements that are used across the content.</description>
 		<author url="https://faleria.pt/">Faleria</author>
-		<update version="1.0.7">
+		<update version="1.0.8">
 			<file name="faleria-essentials.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials.index" />
 		</update>
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/source.xml" />
 
+		<!-- Ability Scores -->
+		<file name="asi_diminishment.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_diminishment.xml" />
+		<file name="asi_customized.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_customized.xml" />
+		<file name="asi_feat.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_feat.xml" />
+		<file name="asi_boon.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_boon.xml" />
+		<file name="asi_max_over_20.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_max_over_20.xml" />
+		<file name="asi_background_combinations.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_background_combinations.xml" />
+
 		<!-- Classes -->
+		<file name="class_grants.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/classes/class_grants.xml" />
 		<file name="ranger_features.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/classes/ranger_features.xml" />
 
 		<!-- Languages -->
@@ -20,6 +29,9 @@
 		<!-- Misc -->
 		<file name="alignments.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/alignments.xml" />
 		<file name="creature_sizes.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/creature_sizes.xml" />
+		<file name="creature_types.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/creature_types.xml" />
+		<file name="misc_grants.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/misc_grants.xml" />
+		<file name="race_grants.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/race_grants.xml" />
 		<file name="vision_traits.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/vision_traits.xml" />
 
     	<!-- Proficiencies -->
@@ -28,6 +40,6 @@
         <file name="proficiencies_skills.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_skills.xml"/>
 		<file name="proficiencies_tools.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_tools.xml"/>
 		<file name="proficiencies_weapons.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_weapons.xml" />
-		
+
 	</files>
 </index>

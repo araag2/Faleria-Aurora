@@ -1420,12 +1420,4 @@
 		</sheet>
 	</element>
 
-	<!-- Saving Throws -->
-	<element name="Saving Throw Proficiency (Strength)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH">
-		<supports>Saving Throw</supports>
-		<rules>
-			<stat name="strength:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
-		</rules>
-	</element>
-
 </elements>
