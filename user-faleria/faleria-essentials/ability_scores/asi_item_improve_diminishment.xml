@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>ASI Diminishment</name>
+		<name>ASI Item Improve / Diminishment</name>
 		<update version="0.0.1">
-			<file name="asi_diminishment.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_diminishment.xml" />
+			<file name="asi_item_improve_diminishment.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_item_improve_diminishment.xml" />
 		</update>
 	</info>
+
+	<!-- TO:DO Do Parallels for Increase, only Diminish here -->
 
 	<!-- Additional Ability Score Improvement Items -->
 	<element name="Additional Ability Score Diminishment, Strength" type="Item" source="Internal" id="ID_INTERNAL_ITEM_ASI_STRENGTH_DECREASE_1">

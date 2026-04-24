@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Class Grants</name>
+		<name>Class Misc Grants</name>
 		<update version="0.0.1">
-			<file name="class_grants.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/classes/class_grants.xml" />
+			<file name="class_misc_grants.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/classes/class_misc_grants.xml" />
 		</update>
 	</info>
 
@@ -25,10 +25,7 @@
 
 	<!-- Class Feature Grants -->
 	<element name="Background Ability Score Improvement" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
-
 	<element name="Fighting Style Feature" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_FIGHTING_STYLE_FEATURE" />
-
 	<element name="Spellcasting Feature Grants" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE" />
-
 	<element name="Pact Magic Feature Grants" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PACT_MAGIC_FEATURE" />
 </elements>

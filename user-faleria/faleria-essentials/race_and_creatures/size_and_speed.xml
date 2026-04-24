@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Creature Sizes</name>
+		<name>Size and Speed</name>
 		<update version="0.0.1">
-			<file name="creature_sizes.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/creature_sizes.xml" />
+			<file name="size_and_speed.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/race_and_creatures/size_and_speed.xml" />
 		</update>
 	</info>
 

@@ -12,15 +12,13 @@
 		<file name="source.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/source.xml" />
 
 		<!-- Ability Scores -->
-		<file name="asi_diminishment.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_diminishment.xml" />
-		<file name="asi_customized.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_customized.xml" />
-		<file name="asi_feat.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_feat.xml" />
-		<file name="asi_boon.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_boon.xml" />
+		<file name="asi_combination_grant.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_combination_grant.xml" />
+	    <file name="asi_feat.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_feat.xml" />
+		<file name="asi_item_improve_diminishment.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_item_improve_diminishment.xml" />
 		<file name="asi_max_over_20.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_max_over_20.xml" />
-		<file name="asi_background_combinations.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/ability_scores/asi_background_combinations.xml" />
 
 		<!-- Classes -->
-		<file name="class_grants.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/classes/class_grants.xml" />
+		<file name="class_misc_grants.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/classes/class_misc_grants.xml" />
 		<file name="ranger_features.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/classes/ranger_features.xml" />
 
 		<!-- Languages -->
@@ -28,11 +26,7 @@
 
 		<!-- Misc -->
 		<file name="alignments.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/alignments.xml" />
-		<file name="creature_sizes.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/creature_sizes.xml" />
-		<file name="creature_types.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/creature_types.xml" />
 		<file name="misc_grants.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/misc_grants.xml" />
-		<file name="race_grants.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/race_grants.xml" />
-		<file name="vision_traits.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/vision_traits.xml" />
 
     	<!-- Proficiencies -->
 		<file name="proficiencies_armor.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_armor.xml" />
@@ -40,6 +34,12 @@
         <file name="proficiencies_skills.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_skills.xml"/>
 		<file name="proficiencies_tools.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_tools.xml"/>
 		<file name="proficiencies_weapons.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_weapons.xml" />
+
+		<!-- Race and Creatures -->
+		<file name="creature_types.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/race_and_creatures/creature_types.xml" />
+		<file name="race_types.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/race_and_creatures/race_types.xml" />
+		<file name="size_and_speed.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/race_and_creatures/size_and_speed.xml" />
+		<file name="vision_traits.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/race_and_creatures/vision_traits.xml" />
 
 	</files>
 </index>

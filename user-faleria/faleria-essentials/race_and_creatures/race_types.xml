@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Race Grants</name>
+		<name>Race Types</name>
 		<update version="0.0.1">
-			<file name="race_grants.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/race_grants.xml" />
+			<file name="race_types.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/race_and_creatures/race_types.xml" />
 		</update>
 	</info>
 
