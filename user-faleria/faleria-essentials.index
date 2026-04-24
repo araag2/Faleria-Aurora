@@ -9,9 +9,14 @@
 		</update>
 	</info>
 	<files>
+		<!-- Misc -->
+		<file name="creature_sizes.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/creature_sizes.xml" />
+
     	<!-- Proficiencies -->
         <file name="proficiencies_skills.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_skills.xml"/>
 		<file name="proficiencies_tools.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_tools.xml"/>
 		<file name="proficiencies_saving-throws.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_saving-throws.xml" />
+
+		
 	</files>
 </index>
