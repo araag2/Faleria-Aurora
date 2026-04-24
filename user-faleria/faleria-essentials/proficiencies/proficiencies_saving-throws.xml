@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Proficiencies Saving Throws</name>
+		<update version="0.0.1">
+			<file name="proficiencies_saving-throws.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_saving-throws.xml" />
+		</update>
+	</info>
+
+	<!-- Half Proficiencies for saving throws (e.g., Variant Human Malleable) -->
+    <element name="Half Saving Throw Proficiency (Strength)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_HALF_STRENGTH">
+		<supports>Saving Throw Half Proficiency</supports>
+		<rules>
+			<stat name="strength:save:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+		</rules>
+	</element>
+
+    <element name="Half Saving Throw Proficiency (Dexterity)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_HALF_DEXTERITY">
+		<supports>Saving Throw Half Proficiency</supports>
+		<rules>
+			<stat name="dexterity:save:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+		</rules>
+	</element>
+
+    <element name="Half Saving Throw Proficiency (Constitution)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_HALF_CONSTITUTION">
+        <supports>Saving Throw Half Proficiency</supports>
+        <rules>
+            <stat name="constitution:save:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+        </rules>
+    </element>
+
+    <element name="Half Saving Throw Proficiency (Intelligence)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_HALF_INTELLIGENCE">
+        <supports>Saving Throw Half Proficiency</supports>
+        <rules>
+            <stat name="intelligence:save:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+        </rules>
+    </element>
+
+    <element name="Half Saving Throw Proficiency (Wisdom)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_HALF_WISDOM">
+        <supports>Saving Throw Half Proficiency</supports>
+        <rules>
+            <stat name="wisdom:save:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+        </rules>
+    </element>
+
+    <element name="Half Saving Throw Proficiency (Charisma)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_HALF_CHARISMA">
+        <supports>Saving Throw Half Proficiency</supports>
+        <rules>
+            <stat name="charisma:save:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+        </rules>
+    </element>
+
+    <!-- Proficiencies for saving throws-->
+    <element name="Saving Throw Proficiency (Strength)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH">
+		<supports>Saving Throw</supports>
+		<rules>
+			<stat name="strength:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
+		</rules>
+	</element>
+
+    <element name="Saving Throw Proficiency (Dexterity)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY">
+		<supports>Saving Throw</supports>
+		<rules>
+			<stat name="dexterity:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
+		</rules>
+	</element>
+
+	<element name="Saving Throw Proficiency (Constitution)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION">
+		<supports>Saving Throw</supports>
+		<rules>
+			<stat name="constitution:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
+		</rules>
+	</element>
+
+	<element name="Saving Throw Proficiency (Intelligence)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE">
+		<supports>Saving Throw</supports>
+		<rules>
+			<stat name="intelligence:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
+		</rules>
+	</element>
+
+	<element name="Saving Throw Proficiency (Wisdom)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM">
+		<supports>Saving Throw</supports>
+		<rules>
+			<stat name="wisdom:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
+		</rules>
+	</element>
+
+	<element name="Saving Throw Proficiency (Charisma)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA">
+		<supports>Saving Throw</supports>
+		<rules>
+			<stat name="charisma:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
+		</rules>
+	</element>
+
+    <!-- Expertise for saving throws-->
+    <element name="Saving Throw Expertise (Strength)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_EXPERTISE_STRENGTH">
+		<supports>Saving Throw Expertise</supports>
+        <requirements>ID_PROFICIENCY_SAVINGTHROW_STRENGTH</requirements>
+        <description>
+            <p>Your proficiency bonus is doubled for any Strength Saving Throw you make.</p>
+            <div class="reference">
+                <div element="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+            </div>
+        </description>
+        <sheet display="false" />
+		<rules>
+			<stat name="strength:save:proficiency" value="proficiency" bonus="double"/>
+		</rules>
+	</element>
+
+    <element name="Saving Throw Expertise (Dexterity)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_EXPERTISE_DEXTERITY">
+        <supports>Saving Throw Expertise</supports>
+        <requirements>ID_PROFICIENCY_SAVINGTHROW_DEXTERITY</requirements>
+        <description>
+            <p>Your proficiency bonus is doubled for any Dexterity Saving Throw you make.</p>
+            <div class="reference">
+                <div element="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+            </div>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity:save:proficiency" value="proficiency" bonus="double"/>
+        </rules>
+    </element>
+
+    <element name="Saving Throw Expertise (Constitution)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_EXPERTISE_CONSTITUTION">
+        <supports>Saving Throw Expertise</supports>
+        <requirements>ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION</requirements>
+        <description>
+            <p>Your proficiency bonus is doubled for any Constitution Saving Throw you make.</p>
+            <div class="reference">
+                <div element="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+            </div>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution:save:proficiency" value="proficiency" bonus="double"/>
+        </rules>
+    </element>
+
+    <element name="Saving Throw Expertise (Intelligence)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_EXPERTISE_INTELLIGENCE">
+        <supports>Saving Throw Expertise</supports>
+        <requirements>ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE</requirements>
+        <description>
+            <p>Your proficiency bonus is doubled for any Intelligence Saving Throw you make.</p>
+            <div class="reference">
+                <div element="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+            </div>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence:save:proficiency" value="proficiency" bonus="double"/>
+        </rules>
+    </element>
+
+    <element name="Saving Throw Expertise (Wisdom)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_EXPERTISE_WISDOM">
+        <supports>Saving Throw Expertise</supports>
+        <requirements>ID_PROFICIENCY_SAVINGTHROW_WISDOM</requirements>
+        <description>
+            <p>Your proficiency bonus is doubled for any Wisdom Saving Throw you make.</p>
+            <div class="reference">
+                <div element="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+            </div>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom:save:proficiency" value="proficiency" bonus="double"/>
+        </rules>
+    </element>
+
+    <element name="Saving Throw Expertise (Charisma)" type="Proficiency" source="Faleria Essentials" id="ID_PROFICIENCY_SAVINGTHROW_EXPERTISE_CHARISMA">
+        <supports>Saving Throw Expertise</supports>
+        <requirements>ID_PROFICIENCY_SAVINGTHROW_CHARISMA</requirements>
+        <description>
+            <p>Your proficiency bonus is doubled for any Charisma Saving Throw you make.</p>
+            <div class="reference">
+                <div element="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+            </div>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma:save:proficiency" value="proficiency" bonus="double"/>
+        </rules>
+    </element>
+
+</elements>
