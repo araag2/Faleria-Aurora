@@ -4,7 +4,7 @@
 		<name>Beginner's Guide</name>
 		<description>The Beginner's Guide is the essential reference for every Dungeons &amp; Dragons roleplayer. It contains rules for character creation and advancement, backgrounds and skills, exploration and combat, equipment, spells, and much more. Use this book to create exciting characters from among the most iconic D&amp;D races and classes.</description>
 		<author url="https://faleria.pt/">Faleria</author>
-		<update version="1.0.6">
+		<update version="1.0.7">
 			<file name="beginners-guide.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide.index" />
 		</update>
 	</info>
@@ -16,7 +16,8 @@
 		<file name="race-FElf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-FElf.xml" />
 		<file name="race-orc.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-orc.xml" />
 
-		<!-- races -->
+
+		<!-- Old Races 
 		<file name="race-dragonborn.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-dragonborn.xml" />
 		<file name="race-dwarf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-dwarf.xml" />
 		<file name="race-elf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-elf.xml" />
@@ -25,7 +26,7 @@
 		<file name="race-halfling.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-halfling.xml" />
 		<file name="race-halforc.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-halforc.xml" />
 		<file name="race-human.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-human.xml" />
-		<file name="race-tiefling.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-tiefling.xml" />
+		<file name="race-tiefling.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-tiefling.xml" /> -->
 
 		<!-- classes -->
 		<file name="class-artificer.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-artificer.xml" />
