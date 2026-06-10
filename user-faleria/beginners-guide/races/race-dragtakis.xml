@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Dragtákis</name>
-		<update version="0.3.2">
+		<update version="0.3.3">
 			<file name="race-dragtakis.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-dragtakis.xml" />
 		</update>
 	</info>
@@ -21,12 +21,13 @@
 			<p>See <a href="https://faleria.pt/mortal_type/dragt%C3%A1kis-1753093276487x473818360961826800">Website</a> for more details.</p>
 		</description>
 		<rules>
-			<select type="Ability Score Improvement" name="Orc Ability Score Improvement Option (Orc)" supports="Custom Ability Score Improvement Option" />
+			<select type="Ability Score Improvement" name="Dragtákis Ability Score Improvement Option (Dragtákis)" supports="Custom Ability Score Improvement Option" />
 			<stat name="dexterity:max:extra" value="2" bonus="base" />
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_ABILITY_SCORE_MAXIMUM_OVER_20" />
 			<stat name="innate speed" value="7.5" bonus="base" />
 			<grant type="Size" id="ID_SIZE_SMALL" />
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_DRAGTAKIS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRAGTAKIS_SUBRACE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRACONIC_RESISTANCE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_INFUSING_BREATH" />
 		</rules>
