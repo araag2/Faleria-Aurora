@@ -14,6 +14,7 @@
 		<!-- Faleria Races -->
 		<file name="race-FHuman.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-FHuman.xml" />
 		<file name="race-FElf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-FElf.xml" />
+		<file name="race-orc.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-orc.xml" />
 
 		<!-- races -->
 		<file name="race-dragonborn.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-dragonborn.xml" />

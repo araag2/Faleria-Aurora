@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Orc</name>
+		<update version="0.3.2">
+			<file name="race-orc.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-orc.xml" />
+		</update>
+	</info>
+
+	<element name="Orc" type="Race" source="Beginner's Guide" id="ID_RACE_ORC">
+		<description>
+			<p class="flavor">"Orcs rose to this world from a cursed soil. The first orcs were elves, knights fighting against the Goddess Sophía in the name of the Goddess Tiriane, who, when captured, were morphed and changed into fanged abominations of green skin. In the various centuries that followed, the orcs found their very nature altered to embrace and thrive in war. Capable fighters, doomed to short lives, these green men warred even amongst themselves, seperating into various tribes with their own unique practices and beliefs." </p>
+
+			<h4>ORC TRAITS</h4>
+            <p>Your orc character has certain characteristics in common with all other orcs.</p>
+			<p class="indent"><strong><em>Creature Type.</em></strong> Orcs are 1,75-2,5 meters tall, average 90 kg and are humanoids. Orcs reach adulthood at the age of 10 but are considered young until the age of 15. On average, they live about 80 years.</p>
+			<p class="indent"><strong><em>Size and Speed.</em></strong> Your size is Medium and your base walking speed is 9 meters.</p>
+			<p class="indent"><strong><em>Elven Ability Score Increase.</em></strong> You may choose to increase an ability score by 2 and one other ability score by 1 or increase three different ability scores by 1. Your Strength score maximum is 22, instead of the normal 20.</p>
+			<p class="indent"><strong><em>Scars of War.</em></strong> Whenever you suffer a critical hit, gain resistance to the next instance of weapon damage dealt to you before the end of your next turn.</p>
+			<p class="indent"><strong><em>Battle Fury.</em></strong> Once per long rest, when you drop to 0 hit points but are not killed you can choose to drop to 1 hit point instead. Additionally, if you sustain an injury, other than losing a limb, during combat you can ignore it’s effects until the end of that combat.</p>
+			<p class="indent"><strong><em>Tribalism.</em></strong> When an ally, within 9 meters of you, drops to 0 hit points you can use your reaction to move closer to them. If the enemy that dropped them to 0 hit points is within reach of you when you finish your movement, you may also try to perform the shove action to push them.</p>
+			<p class="indent"><strong><em>Mortal Subtype.</em></strong> Two subtypes are available: Ashen Tribe Orcs and Unbroken Tribe Orcs.</p>
+
+			<p>See <a href="https://faleria.pt/mortal_type/orc-1753091634972x164087156462059520">Website</a> for more details.</p>
+		</description>
+		<rules>
+			<select type="Ability Score Improvement" name="Orc Ability Score Improvement Option (Orc)" supports="Custom Ability Score Improvement Option" />
+			<stat name="strength:max:extra" value="2" bonus="base" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_ABILITY_SCORE_MAXIMUM_OVER_20" />
+			<stat name="innate speed" value="9" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<!-- <grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_ELVISH" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_FALERIA_TCOE_OPTION_CUSTOMIZED_LANGUAGE" /> -->
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_ORC" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ORC_SCARS_OF_WAR" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ORC_BATTLE_FURY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ORC_TRIBALISM" />
+		</rules>
+	</element>
+	<element name="Scars of War" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_ORC_SCARS_OF_WAR">
+		<description>
+			<p>Whenever you suffer a critical hit, gain resistance to the next instance of weapon damage dealt to you before the end of your next turn.</p>
+		</description>
+        <sheet>
+			<description>Whenever you suffer a critical hit, gain resistance to the next instance of weapon damage dealt to you before the end of your next turn.</description>
+		</sheet>
+	</element>
+
+	<element name="Battle Fury" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_ORC_BATTLE_FURY">
+		<description>
+			<p>Once per long rest, when you drop to 0 hit points but are not killed you can choose to drop to 1 hit point instead. Additionally, if you sustain an injury, other than losing a limb, during combat you can ignore it’s effects until the end of that combat.</p>
+		</description>
+		<sheet>
+			<description>Once per long rest, when you drop to 0 hit points but are not killed you can choose to drop to 1 hit point instead. Additionally, if you sustain an injury, other than losing a limb, during combat you can ignore it’s effects until the end of that combat.</description>
+		</sheet>
+	</element>
+
+	<element name="Tribalism" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_ORC_TRIBALISM">
+		<description>
+			<p>When an ally, within 9 meters of you, drops to 0 hit points you can use your reaction to move closer to them. If the enemy that dropped them to 0 hit points is within reach of you when you finish your movement, you may also try to perform the shove action to push them.</p>
+		</description>
+		<sheet>
+			<description>When an ally, within 9 meters of you, drops to 0 hit points you can use your reaction to move closer to them. If the enemy that dropped them to 0 hit points is within reach of you when you finish your movement, you may also try to perform the shove action to push them.</description>
+		</sheet>
+	</element>
+
+    
+	<element name="Orc Subrace" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_ORC_SUBRACE">
+		<description>
+			<p>Two subtypes are available: Ashen Tribe Orcs and Unbroken Tribe Orcs.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Orc Subrace" supports="Orc" />
+		</rules>
+	</element>
+
+    <!-- Orc Sub Races List-->
+
+    <!-- Ashen Tribe Orc Sub Race-->
+
+    <element name="Ashen Tribe Orc" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_ASHEN_TRIBE_ORC">
+		<supports>Orc</supports>
+		<description>
+            <p class="indent"><strong><em>Mortal Subtype.</em></strong> <em>Ashen Tribe Orcs</em> believe in the cycle of strength, in which being the strongest only means that you haven't found whomever is inevitably stronger than you. Orcs of this tribe can be found near volcanoes, preferably active ones. Their skin changed from green to an ash color, while their hair became white and their eyes resemble the very fire they live next to, often being only one color. Like all other orcs, they have small protruding tusks, pointy ears, akin to the Lenams', and some have tribal tattoos and piercings.</p>
+
+			<p class="indent"><strong><em>River of Fire.</em></strong> You are immune to the Burning condition. Additionally, you have mistvision. You can see in lightly obscured areas within 9 meters of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</p>
+
+			<p class="indent"><strong><em>Erupting Fury.</em></strong> For 1 minute after using Battle Fury or Tribalism, your skins fractures and starts to resemble magma. During that time your critical hit chance increases by 1.</p>
+		</description>
+		<rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_RACE_ASHEN_TRIBE_ORC"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_ASHEN_TRIBE_ORC_RIVER_OF_FIRE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ASHEN_TRIBE_ORC_ERUPTING_FURY" />
+		</rules>
+	</element> 	
+	<element name="River of Fire" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_ASHEN_TRIBE_ORC_RIVER_OF_FIRE">
+		<description>
+			<p>You are immune to the Burning condition. Additionally, you have mistvision. You can see in lightly obscured areas within 9 meters of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</p>
+		</description>
+		<sheet>
+			<description>You are immune to the Burning condition. Additionally, you have mistvision. You can see in lightly obscured areas within 9 meters of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</description>
+		</sheet>
+		<rules>
+            <grant type="Vision" id="ID_VISION_MISTVISION" />
+		</rules>
+	</element>
+    <element name="Erupting Fury" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_ASHEN_TRIBE_ORC_ERUPTING_FURY">
+		<description>
+			<p>For 1 minute after using Battle Fury or Tribalism, your skin fractures and starts to resemble magma. During that time your critical hit chance increases by 1.</p>
+		</description>
+		<sheet>
+			<description>For 1 minute after using Battle Fury or Tribalism, your skin fractures and starts to resemble magma. During that time your critical hit chance increases by 1.</description>
+		</sheet>
+	</element>
+
+    <!-- Unbroken Tribe Orc Sub Race -->
+
+	<element name="Unbroken Tribe Orc" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_UNBROKEN_TRIBE_ORC">
+		<supports>Orc</supports>
+		<description>
+            <p class="indent"><strong><em>Mortal Subtype.</em></strong> <em>Unbroken Tribe Orcs</em> believe that strength comes alongside honor and courage, so no worthy win can come from trickery or cheating. Orcs of this tribe can be typically found in grasslands. Their skin comes in various shades of green, while their eyes and hair can be brown, black, blue, red, green, yellow or orange. Like all other orcs, they have small protruding tusks, pointy ears, akin to the Lenams’, and some have tribal tattoos and piercings.</p>
+
+			<p class="indent"><strong><em>Battle Hardened.</em></strong> You are immune to the Frightened condition. Additionally, you have proficiency with the Intimidation skill.</p>
+
+			<p class="indent"><strong><em>Unbroken.</em></strong> Once per long rest, when you drop to 0 points, and have already used Battle Fury, you go prone instead of unconscious and your speed drops to 0. You only go unconscious at the end of your next turn or if you are hit again. You musn’t roll death saving throws before going unconscious. Being healed ends the prone condition and restores your movement speed.</p>
+		</description>
+		<rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_RACE_UNBROKEN_TRIBE_ORC"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_UNBROKEN_TRIBE_ORC_BATTLE_HARDENED" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_UNBROKEN_TRIBE_ORC_UNBROKEN" />
+		</rules>
+	</element> 	
+    <element name="Battle Hardened" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_UNBROKEN_TRIBE_ORC_BATTLE_HARDENED">
+		<description>
+			<p>You are immune to the Frightened condition. Additionally, you have proficiency with the Intimidation skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You are immune to the Frightened condition. Additionally, you have proficiency with the Intimidation skill.</description>
+		</sheet>
+		<rules>
+            <grant type="Immunity" id="ID_INTERNAL_CONDITION_IMMUNITY_FRIGHTENED" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+		</rules>
+	</element>
+    <element name="Unbroken" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_UNBROKEN_TRIBE_ORC_UNBROKEN">
+        <description>
+            <p>Once per long rest, when you drop to 0 points, and have already used Battle Fury, you go prone instead of unconscious and your speed drops to 0. You only go unconscious at the end of your next turn or if you are hit again. You musn’t roll death saving throws before going unconscious. Being healed ends the prone condition and restores your movement speed.</p>
+        </description>
+        <sheet>
+            <description>Once per long rest, when you drop to 0 points, and have already used Battle Fury, you go prone instead of unconscious and your speed drops to 0. You only go unconscious at the end of your next turn or if you are hit again. You musn’t roll death saving throws before going unconscious. Being healed ends the prone condition and restores your movement speed.</description>
+        </sheet>
+    </element>
+
+
+</elements>

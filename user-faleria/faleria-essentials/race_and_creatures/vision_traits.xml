@@ -29,7 +29,19 @@
 			<description>You perceive your surroundings within {{blindsight:range}} feet without relying on sight.</description>
 		</sheet>
 		<rules>
-			<stat name="blindsight:range" value="0" bonus="base" />
+			<stat name="blindsight:range" value="10" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Mistvision" type="Vision" source="Faleria Essentials" id="ID_VISION_MISTVISION">
+		<description>
+			<p>A creature with mistvision can, out to a specific range, see in lightly obscured areas within 9 meters of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</p>
+		</description>
+		<sheet>
+			<description>You can see in lightly obscured areas within {{mistvision:range}} meters of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</description>
+		</sheet>
+		<rules>
+			<stat name="mistvision:range" value="9" bonus="base" />
 		</rules>
 	</element>
 
@@ -41,7 +53,7 @@
 			<description>You can see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic within {{truesight:range}} feet. Furthermore, the creature can see into the Ethereal Plane.</description>
 		</sheet>
 		<rules>
-			<stat name="truesight:range" value="0" bonus="base" />
+			<stat name="truesight:range" value="30" bonus="base" />
 		</rules>
 	</element>
 
@@ -54,7 +66,7 @@
 			<description>You can detect and pinpoint the origin of vibrations within {{tremorsense:range}} feet, provided that the monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures.</description>
 		</sheet>
 		<rules>
-			<stat name="tremorsense:range" value="0" bonus="base" />
+			<stat name="tremorsense:range" value="10" bonus="base" />
 		</rules>
 	</element>
 

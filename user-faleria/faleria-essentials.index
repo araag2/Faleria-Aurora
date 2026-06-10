@@ -27,6 +27,7 @@
 		<!-- Misc -->
 		<file name="alignments.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/alignments.xml" />
 		<file name="misc_grants.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/misc_grants.xml" />
+		<file name="damage_and_conditions.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/damage_and_conditions.xml" />
 
     	<!-- Proficiencies -->
 		<file name="proficiencies_armor.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/proficiencies/proficiencies_armor.xml" />

@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Damage and Conditions</name>
+		<update version="0.0.1">
+			<file name="damage_and_conditions.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/misc/damage_and_conditions.xml" />
+		</update>
+	</info>
+
+<!-- Alignments. Overrides the same elements within the app, so they can be used with disabled PHB Source -->
+    <!--Damage Types:Slashing
+                     Piercing
+                     Bludgeoning
+                     Poison
+                     Acid
+                     Fire
+                     Cold
+                     Radiant
+                     Necrotic
+                     Lightning
+                     Thunder
+                     Force
+                     Psychic -->
+
+	<element name="Vulnerable Slashing" type="Vulnerability" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_SLASHING">
+		<description>
+			<p>You have vulnerability to slashing damage.</p>
+		</description>
+		<sheet>
+			<description>You have vulnerability to slashing damage.</description>
+		</sheet>
+	</element>
+
+    <element name="Resistant Slashing" type="Resistance" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_SLASHING">
+        <description>
+            <p>You have resistance to slashing damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to slashing damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Slashing" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_SLASHING">
+        <description>
+            <p>You are immune to slashing damage.</p>
+        </description>
+        <sheet>
+            <description>You are immune to slashing damage.</description>
+        </sheet>
+    </element>
+
+        <element name="Vulnerable Piercing" type="Vulnerability" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_PIERCING">
+        <description>
+            <p>You have vulnerability to piercing damage.</p>
+        </description>
+        <sheet>
+            <description>You have vulnerability to piercing damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Resistant Piercing" type="Resistance" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PIERCING">
+        <description>
+            <p>You have resistance to piercing damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to piercing damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Piercing" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_PIERCING">
+        <description>
+            <p>You are immune to piercing damage.</p>
+        </description>
+        <sheet>
+            <description>You are immune to piercing damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Vulnerable Bludgeoning" type="Vulnerability" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_BLUDGEONING">
+        <description>
+            <p>You have vulnerability to bludgeoning damage.</p>
+        </description>
+        <sheet>
+            <description>You have vulnerability to bludgeoning damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Resistant Bludgeoning" type="Resistance" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING">
+        <description>
+            <p>You have resistance to bludgeoning damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to bludgeoning damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Bludgeoning" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_BLUDGEONING">
+        <description>
+            <p>You are immune to bludgeoning damage.</p>
+        </description>
+        <sheet>
+            <description>You are immune to bludgeoning damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Vulnerable Poison" type="Vulnerability" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_POISON">
+        <description>
+            <p>You have vulnerability to poison damage.</p>
+        </description>
+        <sheet>
+            <description>You have vulnerability to poison damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Resistant Poison" type="Resistance" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON">
+        <description>
+            <p>You have resistance to poison damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to poison damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Poison" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON">
+        <description>
+            <p>You are immune to poison damage.</p>
+        </description>
+        <sheet>
+            <description>You are immune to poison damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Vulnerable Acid" type="Vulnerability" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_ACID">
+        <description>
+            <p>You have vulnerability to acid damage.</p>
+        </description>
+        <sheet>
+            <description>You have vulnerability to acid damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Resistant Acid" type="Resistance" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID">
+        <description>
+            <p>You have resistance to acid damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to acid damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Acid" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_ACID">
+        <description>
+            <p>You are immune to acid damage.</p>
+        </description>
+        <sheet>
+            <description>You are immune to acid damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Vulnerable Fire" type="Vulnerability" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_FIRE">
+        <description>
+            <p>You have vulnerability to fire damage.</p>
+        </description>
+        <sheet>
+            <description>You have vulnerability to fire damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Resistant Fire" type="Resistance" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE">
+        <description>
+            <p>You have resistance to fire damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to fire damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Fire" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE">
+        <description>
+            <p>You are immune to fire damage.</p>
+        </description>
+        <sheet>
+            <description>You are immune to fire damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Vulnerable Cold" type="Vulnerability" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_COLD">
+        <description>
+            <p>You have vulnerability to cold damage.</p>
+        </description>
+        <sheet>
+            <description>You have vulnerability to cold damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Resistant Cold" type="Resistance" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD">
+        <description>
+            <p>You have resistance to cold damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to cold damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Cold" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_COLD">
+        <description>
+            <p>You are immune to cold damage.</p>
+        </description>
+        <sheet>
+            <description>You are immune to cold damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Vulnerable Radiant" type="Vulnerability" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_RADIANT">
+        <description>
+            <p>You have vulnerability to radiant damage.</p>
+        </description>
+        <sheet>
+            <description>You have vulnerability to radiant damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Resistant Radiant" type="Resistance" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT">
+        <description>
+            <p>You have resistance to radiant damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to radiant damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Radiant" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_RADIANT">
+        <description>
+            <p>You are immune to radiant damage.</p>
+        </description>
+        <sheet>
+            <description>You are immune to radiant damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Vulnerable Necrotic" type="Vulnerability" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_NECROTIC">
+        <description>
+            <p>You have vulnerability to necrotic damage.</p>
+        </description>
+        <sheet>
+            <description>You have vulnerability to necrotic damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Resistant Necrotic" type="Resistance" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC">
+        <description>
+            <p>You have resistance to necrotic damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to necrotic damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Necrotic" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC">
+        <description>
+            <p>You are immune to necrotic damage.</p>
+        </description>
+        <sheet>
+            <description>You are immune to necrotic damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Vulnerable Lightning" type="Vulnerability" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_LIGHTNING">
+        <description>
+            <p>You have vulnerability to lightning damage.</p>
+        </description>
+        <sheet>
+            <description>You have vulnerability to lightning damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Resistant Lightning" type="Resistance" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING">
+        <description>
+            <p>You have resistance to lightning damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to lightning damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Lightning" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_LIGHTNING">
+        <description>
+            <p>You are immune to lightning damage.</p>
+        </description>
+        <sheet>
+            <description>You are immune to lightning damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Vulnerable Thunder" type="Vulnerability" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_THUNDER">
+        <description>
+            <p>You have vulnerability to thunder damage.</p>
+        </description>
+        <sheet>
+            <description>You have vulnerability to thunder damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Resistant Thunder" type="Resistance" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER">
+        <description>
+            <p>You have resistance to thunder damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to thunder damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Thunder" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_THUNDER">
+        <description>
+            <p>You are immune to thunder damage.</p>
+        </description>
+        <sheet>
+            <description>You are immune to thunder damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Vulnerable Force" type="Vulnerability" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_FORCE">
+        <description>
+            <p>You have vulnerability to force damage.</p>
+        </description>
+        <sheet>
+            <description>You have vulnerability to force damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Resistant Force" type="Resistance" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE">
+        <description>
+            <p>You have resistance to force damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to force damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Force" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FORCE">
+        <description>
+            <p>You are immune to force damage.</p>
+        </description>
+        <sheet>
+            <description>You are immune to force damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Vulnerable Psychic" type="Vulnerability" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_PSYCHIC">
+        <description>
+            <p>You have vulnerability to psychic damage.</p>
+        </description>
+        <sheet>
+            <description>You have vulnerability to psychic damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Resistant Psychic" type="Resistance" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC">
+        <description>
+            <p>You have resistance to psychic damage.</p>
+        </description>
+        <sheet>
+            <description>You have resistance to psychic damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Psychic" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_PSYCHIC">
+        <description>
+            <p>You are immune to psychic damage.</p>
+        </description>
+        <sheet>
+            <description>You are immune to psychic damage.</description>
+        </sheet>
+    </element>
+
+    <!--Conditions: Blinded
+                Charmed
+                Deafened
+                Frightened
+                Grappled
+                Incapacitated
+                Invisible
+                Paralyzed
+                Petrified
+                Poisoned
+                Prone
+                Restrained
+                Stunned
+                Unconscious
+                Burning
+                Dazed
+                Wet
+                Drenched
+                Withered -->
+    
+    <element name="Immune Blinded" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_BLINDED">
+        <description>
+            <p>You are immune to the Blinded Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Blinded Condition.</description>
+        </sheet>
+    </element>
+
+        <element name="Immune Charmed" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_CHARMED">
+        <description>
+            <p>You are immune to the Charmed Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Charmed Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Deafened" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_DEAFENED">
+        <description>
+            <p>You are immune to the Deafened Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Deafened Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Frightened" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_FRIGHTENED">
+        <description>
+            <p>You are immune to the Frightened Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Frightened Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Grappled" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_GRAPPLED">
+        <description>
+            <p>You are immune to the Grappled Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Grappled Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Incapacitated" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_INCAPACITATED">
+        <description>
+            <p>You are immune to the Incapacitated Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Incapacitated Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Invisible" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_INVISIBLE">
+        <description>
+            <p>You are immune to the Invisible Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Invisible Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Paralyzed" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_PARALYZED">
+        <description>
+            <p>You are immune to the Paralyzed Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Paralyzed Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Petrified" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_PETRIFIED">
+        <description>
+            <p>You are immune to the Petrified Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Petrified Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Poisoned" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_POISONED">
+        <description>
+            <p>You are immune to the Poisoned Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Poisoned Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Prone" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_PRONE">
+        <description>
+            <p>You are immune to the Prone Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Prone Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Restrained" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_RESTRAINED">
+        <description>
+            <p>You are immune to the Restrained Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Restrained Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Stunned" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_STUNNED">
+        <description>
+            <p>You are immune to the Stunned Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Stunned Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Unconscious" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_UNCONSCIOUS">
+        <description>
+            <p>You are immune to the Unconscious Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Unconscious Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Burning" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_BURNING">
+        <description>
+            <p>You are immune to the Burning Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Burning Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Dazed" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_DAZED">
+        <description>
+            <p>You are immune to the Dazed Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Dazed Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Wet" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_WET">
+        <description>
+            <p>You are immune to the Wet Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Wet Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Drenched" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_DRENCHED">
+        <description>
+            <p>You are immune to the Drenched Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Drenched Condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Immune Withered" type="Immunity" source="Faleria Essentials" id="ID_INTERNAL_CONDITION_IMMUNITY_WITHERED">
+        <description>
+            <p>You are immune to the Withered Condition.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the Withered Condition.</description>
+        </sheet>
+    </element>
+
+</elements>

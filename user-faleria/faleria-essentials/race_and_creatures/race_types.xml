@@ -16,6 +16,9 @@
 	<element name="Race Light Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_LIGHT_ELF" />
 	<element name="Race Night Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_NIGHT_ELF" />
 
+	<element name="Race Ashen Tribe Orc" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_ASHEN_TRIBE_ORC" />
+	<element name="Race Unbroken Tribe Orc" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_UNBROKEN_TRIBE_ORC" />
+
 	<!--Race/Subrace Grants for Feats, Items, Exc-->
 	<element name="Race Dragonborn" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DRAGONBORN" />
 	<element name="Race Dwarf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DWARF" />
