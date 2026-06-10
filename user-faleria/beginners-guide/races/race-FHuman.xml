@@ -61,7 +61,7 @@
 			<p class="indent"><strong><em>Malleable.</em></strong> You gain half proficiency in a skill of your choosing. This half proficiency may be changed after finishing a long rest.</p>
 		</description>
 		<rules>
-			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_ADEPT_HUMAN"/>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_SUB_RACE_ADEPT_HUMAN"/>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_QUICK_LEARNER" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MALLEABLE" />
 		</rules>
@@ -94,7 +94,7 @@
 			<p class="indent"><strong><em>Long Life.</em></strong> You can choose 2 backgrounds instead of 1. The second background you choose does not give you items nor gold.</p>
 		</description>
 		<rules>
-			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_VETERAN_HUMAN"/>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_SUB_RACE_VETERAN_HUMAN"/>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SHARP_MIND" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LONG_LIFE" />
 		</rules>

@@ -8,16 +8,21 @@
 	</info>
 
 	<!--Faleria Race/Subrace Grants for Feats, Items, Exc-->
-	<element name="Race Adept Human" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_ADEPT_HUMAN" />
-	<element name="Race Veteran Human" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_VETERAN_HUMAN" />
+	<element name="Race Adept Human" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_ADEPT_HUMAN" />
+	<element name="Race Veteran Human" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_VETERAN_HUMAN" />
 
-	<element name="Race Dark Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DARK_ELF" />
-	<element name="Race Imperial Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_IMPERIAL_ELF" />
-	<element name="Race Light Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_LIGHT_ELF" />
-	<element name="Race Night Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_NIGHT_ELF" />
+	<element name="Race Dark Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_DARK_ELF" />
+	<element name="Race Imperial Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_IMPERIAL_ELF" />
+	<element name="Race Light Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_LIGHT_ELF" />
+	<element name="Race Night Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_NIGHT_ELF" />
 
-	<element name="Race Ashen Tribe Orc" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_ASHEN_TRIBE_ORC" />
-	<element name="Race Unbroken Tribe Orc" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_UNBROKEN_TRIBE_ORC" />
+	<element name="Race Ashen Tribe Orc" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_ASHEN_TRIBE_ORC" />
+	<element name="Race Unbroken Tribe Orc" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_UNBROKEN_TRIBE_ORC" />
+
+	<element name="Race Dragtakis" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DRAGTAKIS" />
+	<element name="Race Chromatic Dragtakis" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_CHROMATIC_DRAGTAKIS" />
+	<element name="Race Gem Dragtakis" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_GEM_DRAGTAKIS" />
+	<element name="Race Metallic Dragtakis" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_METALLIC_DRAGTAKIS" />
 
 	<!--Race/Subrace Grants for Feats, Items, Exc-->
 	<element name="Race Dragonborn" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DRAGONBORN" />

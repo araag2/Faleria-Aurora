@@ -15,7 +15,7 @@
             <p>Your orc character has certain characteristics in common with all other orcs.</p>
 			<p class="indent"><strong><em>Creature Type.</em></strong> Orcs are 1,75-2,5 meters tall, average 90 kg and are humanoids. Orcs reach adulthood at the age of 10 but are considered young until the age of 15. On average, they live about 80 years.</p>
 			<p class="indent"><strong><em>Size and Speed.</em></strong> Your size is Medium and your base walking speed is 9 meters.</p>
-			<p class="indent"><strong><em>Elven Ability Score Increase.</em></strong> You may choose to increase an ability score by 2 and one other ability score by 1 or increase three different ability scores by 1. Your Strength score maximum is 22, instead of the normal 20.</p>
+			<p class="indent"><strong><em>Orcish Ability Score Increase.</em></strong> You may choose to increase an ability score by 2 and one other ability score by 1 or increase three different ability scores by 1. Your Strength score maximum is 22, instead of the normal 20.</p>
 			<p class="indent"><strong><em>Scars of War.</em></strong> Whenever you suffer a critical hit, gain resistance to the next instance of weapon damage dealt to you before the end of your next turn.</p>
 			<p class="indent"><strong><em>Battle Fury.</em></strong> Once per long rest, when you drop to 0 hit points but are not killed you can choose to drop to 1 hit point instead. Additionally, if you sustain an injury, other than losing a limb, during combat you can ignore it’s effects until the end of that combat.</p>
 			<p class="indent"><strong><em>Tribalism.</em></strong> When an ally, within 9 meters of you, drops to 0 hit points you can use your reaction to move closer to them. If the enemy that dropped them to 0 hit points is within reach of you when you finish your movement, you may also try to perform the shove action to push them.</p>
@@ -91,7 +91,7 @@
 			<p class="indent"><strong><em>Erupting Fury.</em></strong> For 1 minute after using Battle Fury or Tribalism, your skins fractures and starts to resemble magma. During that time your critical hit chance increases by 1.</p>
 		</description>
 		<rules>
-            <grant type="Grants" id="ID_INTERNAL_GRANT_RACE_ASHEN_TRIBE_ORC"/>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_SUB_RACE_ASHEN_TRIBE_ORC"/>
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_ASHEN_TRIBE_ORC_RIVER_OF_FIRE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ASHEN_TRIBE_ORC_ERUPTING_FURY" />
 		</rules>
@@ -128,7 +128,7 @@
 			<p class="indent"><strong><em>Unbroken.</em></strong> Once per long rest, when you drop to 0 points, and have already used Battle Fury, you go prone instead of unconscious and your speed drops to 0. You only go unconscious at the end of your next turn or if you are hit again. You musn’t roll death saving throws before going unconscious. Being healed ends the prone condition and restores your movement speed.</p>
 		</description>
 		<rules>
-            <grant type="Grants" id="ID_INTERNAL_GRANT_RACE_UNBROKEN_TRIBE_ORC"/>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_SUB_RACE_UNBROKEN_TRIBE_ORC"/>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_UNBROKEN_TRIBE_ORC_BATTLE_HARDENED" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_UNBROKEN_TRIBE_ORC_UNBROKEN" />
 		</rules>

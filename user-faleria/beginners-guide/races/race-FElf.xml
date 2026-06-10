@@ -111,7 +111,7 @@
 			<p class="indent"><strong><em>Facing Shadows.</em></strong> You have superior vision in dark and dim conditions. You can see in dim light within 36 meters of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of silver.</p>
 		</description>
 		<rules>
-            <grant type="Grants" id="ID_INTERNAL_GRANT_RACE_DARK_ELF"/>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_SUB_RACE_DARK_ELF"/>
 			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DARK_ELF_MAGIC" />
 		</rules>
@@ -144,7 +144,7 @@
 			<p class="indent"><strong><em>Imperial Training.</em></strong> You have proficiency with the shortsword, mace, shortbow and longbow.</p>
 		</description>
 		<rules>
-            <grant type="Grants" id="ID_INTERNAL_GRANT_RACE_IMPERIAL_ELF"/>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_SUB_RACE_IMPERIAL_ELF"/>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_IMPERIAL_ELF_MAGIC" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_IMPERIAL_ELF_WEAPON_TRAINING" />
 		</rules>
@@ -191,7 +191,7 @@
 			<p class="indent"><strong><em>Lightvision.</em></strong> You are immune to the blinded condition if it would be caused by light.</p>
 		</description>
 		<rules>
-            <grant type="Grants" id="ID_INTERNAL_GRANT_RACE_LIGHT_ELF"/>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_SUB_RACE_LIGHT_ELF"/>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIGHT_ELF_MAGIC" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIGHT_ELF_LIGHTVISION" />
 		</rules>
@@ -232,7 +232,7 @@
 			<p class="indent"><strong><em>Ancestral Knowledge.</em></strong> You gain proficiency on a Wisdom skill of your choice..</p>
 		</description>
 		<rules>
-            <grant type="Grants" id="ID_INTERNAL_GRANT_RACE_NIGHT_ELF"/>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_SUB_RACE_NIGHT_ELF"/>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NIGHT_ELF_MAGIC" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NIGHT_ELF_ANCESTRAL_KNOWLEDGE" />
 		</rules>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Dragtákis</name>
+		<update version="0.3.2">
+			<file name="race-dragtakis.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-dragtakis.xml" />
+		</update>
+	</info>
+
+	<element name="Dragtákis" type="Race" source="Beginner's Guide" id="ID_RACE_DRAGTAKIS">
+		<description>
+			<p class="flavor">"TO:DO" </p>
+
+			<h4>DRAGTÁKIS TRAITS</h4>
+            <p>Your dragtákis character has certain characteristics in common with all other dragtákis.</p>
+			<p class="indent"><strong><em>Creature Type.</em></strong> Dragtákis are 0,50-1 meter tall, average 47 kg and are humanoids. Dragtákis reach adulthood at the age of 17 but are considered young until the age of 28. On average, they live about 175 years.</p>
+			<p class="indent"><strong><em>Size and Speed.</em></strong> Your size is Small and your base walking speed is 7,5 meters.</p>
+			<p class="indent"><strong><em>Dragtákis' Ability Score Increase.</em></strong> You may choose to increase an ability score by 2 and one other ability score by 1 or increase three different ability scores by 1. Your Dexterity score maximum is 22, instead of the normal 20.</p>
+			<p class="indent"><strong><em>Mortal Subtype.</em></strong> Three subtypes are available: Chromatic Dragtákis, Gem Dragtákis and Metallic Dragtákis.</p>
+
+			<p>See <a href="https://faleria.pt/mortal_type/dragt%C3%A1kis-1753093276487x473818360961826800">Website</a> for more details.</p>
+		</description>
+		<rules>
+			<select type="Ability Score Improvement" name="Orc Ability Score Improvement Option (Orc)" supports="Custom Ability Score Improvement Option" />
+			<stat name="dexterity:max:extra" value="2" bonus="base" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_ABILITY_SCORE_MAXIMUM_OVER_20" />
+			<stat name="innate speed" value="7.5" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_DRAGTAKIS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRACONIC_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_INFUSING_BREATH" />
+		</rules>
+	</element>
+	
+	<element name="Dragtákis Subrace" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_DRAGTAKIS_SUBRACE">
+		<description>
+			<p>Three subtypes are available: Chromatic Dragtákis, Gem Dragtákis and Metallic Dragtákis.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Dragtákis Subrace" supports="Dragtákis" />
+		</rules>
+	</element>
+
+	<element name="Draconic Resistance" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_DRACONIC_RESISTANCE">
+		<description>
+			<p>You have resistance to the damage type associated with your draconic ancestry.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to {{draconic-ancestry:damage type}}.</description>
+		</sheet>
+		<rules> <!-- TO:DO 
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE" /> -->
+		</rules>
+	</element>
+
+	<element name="Infusing Breath" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_INFUSING_BREATH">
+		<description>
+			<p>As a bonus action, you can exhale magical energy onto a weapon or ammunition that is up 1,5 meters away from you. For 3 attacks, a weapon infused with your breath deals 1d4 {{draconic-ancestry:damage type}} damage. You can infuse 3 pieces of ammunition instead of a weapon.</p>
+
+			<p>A weapon infused with your breath is not considered magical. You can use your Infusing Breath a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+
+			<p>Additionally, at 6th level the damage from your Infusing Breath ignores resistances.</p>
+		</description>
+		<sheet action="Bonus Action" usage="PB/Long Rest">
+			<description>Infuse a weapon (or 3 pieces of ammunition) for 3 uses with {{draconic-ancestry:damage type}} damage. At 6th level, the damage ignores resistances.</description>
+		</sheet>
+	</element>
+
+    <!-- Dragtákis Sub Races List-->
+
+    <!-- Chromatic Dragtákis Sub Race-->
+
+	<element name="Chromatic Dragtákis" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_CHROMATIC_DRAGTAKIS">
+		<supports>Dragtákis</supports>
+		<description>
+            <p class="indent"><strong><em>Mortal Subtype.</em></strong> <em>Chromatic Dragtákis</em> were created to serve the Chromatic Dragons appointed to guard the entrances to the realm of the Gods. Like their masters, these Drakonians have scales primarily of one colour representitive of their ancestral element. Unlike their masters, they stand on two feet, have arms and sometimes a tail as well. Dragtákis are smaller than their Draganér bretheren, which means their scales are more rigid and thus tend to have a darker shade of their respective colours.</p>
+
+			<p class="indent"><strong><em>Chromatic Ancestry.</em></strong> You have a chromatic dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits, as shown in the table.</p>
+
+			<h5>Chromatic Ancestry</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td> | <td>Damage Type</td></tr>
+				</thead>
+				<tr><td>Black</td> | <td>Acid</td></tr>
+				<tr><td>Blue</td> | <td>Lightning</td></tr>
+				<tr><td>Green</td> | <td>Fire</td></tr>
+				<tr><td>Red</td> | <td>Lightning</td></tr>
+				<tr><td>White</td> | <td>Acid</td></tr>
+			</table>
+
+			<p class="indent"><strong><em>Infusing Breath.</em></strong> For 1 minute after using Battle Fury or Tribalism, your skins fractures and starts to resemble magma. During that time your critical hit chance increases by 1.</p>
+
+			<p class="indent">A weapon infused with your breath is not considered magical. You can use your Infusing Breath a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+
+			<p class="indent">Additionally, at 6th level the damage from your Infusing Breath ignores resistances.</p>
+
+			<p class="indent"><strong><em>Draconic Resistance.</em></strong> You have resistance to the damage type associated with your Chromatic Ancestry.</p>
+
+			<p class="indent"><strong><em>Cry for Help.</em></strong> As an action, you let out a cry at your enemies within 3 meters of you. Until the start of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear you. You can use this trait once per long rest.</p>
+
+		</description>
+		<rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANT_SUB_RACE_CHROMATIC_DRAGTAKIS"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CHROMATIC_DRAGTAKIS_CHROMATIC_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CHROMATIC_DRAGTAKIS_CRY_FOR_HELP" />
+		</rules>
+	</element> 
+
+	<element name="Chromatic Ancestry" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_CHROMATIC_DRAGTAKIS_CHROMATIC_ANCESTRY">
+		<description>
+			<p> You have a chromatic dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits, as shown in the table.</p>
+			<h5>CHROMATIC ANCESTRY</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td> | <td>Damage Type</td></tr>
+				</thead>
+				<tr><td>Black</td> | <td>Acid</td></tr>
+				<tr><td>Blue</td> | <td>Lightning</td></tr>
+				<tr><td>Green</td> | <td>Fire</td></tr>
+				<tr><td>Red</td> | <td>Lightning</td></tr>
+				<tr><td>White</td> | <td>Acid</td></tr>
+			</table>
+		</description>
+		<rules>
+			<select type="Racial Trait" name="Chromatic Ancestry" supports="Chromatic Ancestry" />
+		</rules>
+	</element>
+
+    
+	<!-- All available Ancestry Options for all types -->
+	<element name="Chromatic Ancestry (Black)" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_CHROMATIC_DRAGTAKIS_CHROMATIC_ANCESTRY_BLACK">
+		<supports>Chromatic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_CHROMATIC_DRAGTAKIS_CHROMATIC_ANCESTRY" />
+		</description>
+		<sheet alt="Black">
+			<description>Your chromatic ancestry is {{draconic-ancestry}}. The damage type of your infused breath is {{draconic-ancestry:damage type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Black"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Acid" />
+		</rules>
+	</element>
+
+	<element name="Chromatic Ancestry (Blue)" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_CHROMATIC_DRAGTAKIS_CHROMATIC_ANCESTRY_BLUE">
+		<supports>Chromatic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_CHROMATIC_DRAGTAKIS_CHROMATIC_ANCESTRY" />
+		</description>
+		<sheet alt="Blue">
+			<description>Your chromatic ancestry is {{draconic-ancestry}}. The damage type of your infused breath is {{draconic-ancestry:damage type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Blue"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Lightning" />
+		</rules>
+	</element>
+
+	<element name="Chromatic Ancestry (Green)" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_CHROMATIC_DRAGTAKIS_CHROMATIC_ANCESTRY_GREEN">
+		<supports>Chromatic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_CHROMATIC_DRAGTAKIS_CHROMATIC_ANCESTRY" />
+		</description>
+		<sheet alt="Green">
+			<description>Your chromatic ancestry is {{draconic-ancestry}}. The damage type of your infused breath is {{draconic-ancestry:damage type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Green"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Poison" />
+		</rules>
+	</element>
+
+	<element name="Chromatic Ancestry (Red)" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_CHROMATIC_DRAGTAKIS_CHROMATIC_ANCESTRY_RED">
+		<supports>Chromatic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_CHROMATIC_DRAGTAKIS_CHROMATIC_ANCESTRY" />
+		</description>
+		<sheet alt="Red">
+			<description>Your chromatic ancestry is {{draconic-ancestry}}. The damage type of your infused breath is {{draconic-ancestry:damage type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Red"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
+		</rules>
+	</element>
+
+	<element name="Chromatic Ancestry (White)" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_CHROMATIC_DRAGTAKIS_CHROMATIC_ANCESTRY_WHITE">
+		<supports>Chromatic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_CHROMATIC_DRAGTAKIS_CHROMATIC_ANCESTRY" />
+		</description>
+		<sheet alt="White">
+			<description>Your chromatic ancestry is {{draconic-ancestry}}. The damage type of your infused breath is {{draconic-ancestry:damage type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="White"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Cold" />
+		</rules>
+	</element>
+
+
+</elements>
