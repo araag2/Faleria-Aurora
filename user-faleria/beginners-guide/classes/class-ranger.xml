@@ -4,7 +4,7 @@
 		<name>Ranger</name>
 		<description>The Ranger class from the Beginner's Guide.</description>
 		<author url="https://faleria.pt/">Faleria</author>
-		<update version="0.3.3">
+		<update version="0.3.4">
 			<file name="class-ranger.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-ranger.xml" />
 		</update>
 	</info>
@@ -85,7 +85,6 @@
 			<div element="ID_FALERIA_CLASSFEATURE_RANGER_SPELLCASTING" />
 			<div element="ID_FALERIA_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" />
 			<div element="ID_FALERIA_CLASSFEATURE_RANGER_PRIMEVAL_AWARENESS" />
-			<div element="ID_FALERIA_CLASSFEATURE_RANGER_ASI" />
 			<div element="ID_FALERIA_CLASSFEATURE_RANGER_EXTRA_ATTACK" />
 			<div element="ID_FALERIA_CLASSFEATURE_RANGER_LANDS_STRIDE" />
 			<div element="ID_FALERIA_CLASSFEATURE_RANGER_HIDE_IN_PLAIN_SIGHT" />
@@ -115,7 +114,6 @@
 		
 			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" level="3"/>
 			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_PRIMEVAL_AWARENESS" level="3"/>
-			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_ASI" level="4"/>
 			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_EXTRA_ATTACK" level="5"/>
 			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_LANDS_STRIDE" level="8"/>
 			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_HIDE_IN_PLAIN_SIGHT" level="10"/>
