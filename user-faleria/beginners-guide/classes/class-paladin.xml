@@ -4,7 +4,7 @@
 		<name>Paladin</name>
 		<description>The Paladin class from the Beginner's Guide.</description>
 		<author url="https://faleria.pt/">Faleria</author>
-		<update version="0.3.4">
+		<update version="0.3.5">
 			<file name="class-paladin.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-paladin.xml" />
 		</update>
 	</info>
@@ -85,7 +85,6 @@
 			<div element="ID_BG_CLASS_FEATURE_PALADIN_DIVINE_SMITE" />
 			<div element="ID_BG_CLASS_FEATURE_PALADIN_DIVINE_HEALTH" />
 			<div element="ID_BG_CLASS_FEATURE_PALADIN_SACRED_OATH" />
-			<div element="ID_BG_CLASS_FEATURE_PALADIN_ASI" />
 			<div element="ID_BG_CLASS_FEATURE_PALADIN_EXTRA_ATTACK" />
 			<div element="ID_BG_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION" />
 			<div element="ID_BG_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE" />
@@ -115,7 +114,6 @@
 			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_DIVINE_SMITE" level="2" />
 			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_DIVINE_HEALTH" level="3" />
 			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_SACRED_OATH" level="3" />
-			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_ASI" level="4" />
 			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_EXTRA_ATTACK" level="5" />
 			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION" level="6" />
 			<grant type="Class Feature" id="ID_BG_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE" level="10" />
