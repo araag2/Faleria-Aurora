@@ -4,7 +4,7 @@
 		<name>Beginner's Guide</name>
 		<description>The Beginner's Guide is the essential reference for every Dungeons &amp; Dragons roleplayer. It contains rules for character creation and advancement, backgrounds and skills, exploration and combat, equipment, spells, and much more. Use this book to create exciting characters from among the most iconic D&amp;D races and classes.</description>
 		<author url="https://faleria.pt/">Faleria</author>
-		<update version="1.0.12">
+		<update version="1.0.13">
 			<file name="beginners-guide.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide.index" />
 		</update>
 	</info>
@@ -46,7 +46,7 @@
 		<file name="class-rogue.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-rogue.xml" />
 		<file name="class-sorcerer.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-sorcerer.xml" />
 		<file name="class-warlock.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-warlock.xml" />
-		<file name="class-wizard.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-wizard.xml" />
+		<file name="class-arcanist.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-arcanist.xml" />
 
 		<!-- archetypes -->
 		<file name="artificer-alchemist.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/artificier/artificer-alchemist.xml" />

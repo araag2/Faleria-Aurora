@@ -2,12 +2,12 @@
 <elements>
 	<info>
 		<name>Dragtákis</name>
-		<update version="0.3.3">
+		<update version="0.3.4">
 			<file name="race-dragtakis.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-dragtakis.xml" />
 		</update>
 	</info>
 
-	<element name="Dragtákis" type="Race" source="Beginner's Guide" id="ID_RACE_DRAGTAKIS">
+	<element name="Dragtakis" type="Race" source="Beginner's Guide" id="ID_RACE_DRAGTAKIS">
 		<description>
 			<p class="flavor">"TO:DO" </p>
 
@@ -51,13 +51,6 @@
 		<sheet>
 			<description>You have resistance to {{draconic-ancestry:damage type}}.</description>
 		</sheet>
-		<rules> <!-- TO:DO 
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER" />
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE" />
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED" />
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN" />
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE" /> -->
-		</rules>
 	</element>
 
 	<element name="Infusing Breath" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_INFUSING_BREATH">
@@ -78,7 +71,7 @@
     <!-- Chromatic Dragtákis Sub Race-->
 
 	<element name="Chromatic Dragtákis" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_CHROMATIC_DRAGTAKIS">
-		<supports>Dragtákis</supports>
+		<supports>Dragtakis</supports>
 		<description>
             <p class="indent"><strong><em>Mortal Subtype.</em></strong> <em>Chromatic Dragtákis</em> were created to serve the Chromatic Dragons appointed to guard the entrances to the realm of the Gods. Like their masters, these Drakonians have scales primarily of one colour representitive of their ancestral element. Unlike their masters, they stand on two feet, have arms and sometimes a tail as well. Dragtákis are smaller than their Draganér bretheren, which means their scales are more rigid and thus tend to have a darker shade of their respective colours.</p>
 
@@ -91,9 +84,9 @@
 				</thead>
 				<tr><td>Black</td><td>Acid</td></tr>
 				<tr><td>Blue</td><td>Lightning</td></tr>
-				<tr><td>Green</td><td>Fire</td></tr>
-				<tr><td>Red</td><td>Lightning</td></tr>
-				<tr><td>White</td><td>Acid</td></tr>
+				<tr><td>Green</td><td>Poison</td></tr>
+				<tr><td>Red</td><td>Fire</td></tr>
+				<tr><td>White</td><td>Cold</td></tr>
 			</table>
 
 			<p class="indent"><strong><em>Infusing Breath.</em></strong> For 1 minute after using Battle Fury or Tribalism, your skins fractures and starts to resemble magma. During that time your critical hit chance increases by 1.</p>
@@ -124,9 +117,9 @@
 				</thead>
 				<tr><td>Black</td><td>Acid</td></tr>
 				<tr><td>Blue</td><td>Lightning</td></tr>
-				<tr><td>Green</td><td>Fire</td></tr>
-				<tr><td>Red</td><td>Lightning</td></tr>
-				<tr><td>White</td><td>Acid</td></tr>
+				<tr><td>Green</td><td>Poison</td></tr>
+				<tr><td>Red</td><td>Fire</td></tr>
+				<tr><td>White</td><td>Cold</td></tr>
 			</table>
 		</description>
 		<rules>
