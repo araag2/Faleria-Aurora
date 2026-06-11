@@ -174,9 +174,9 @@
 			</ul>
 			<p class="indent">You gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a Shield:</p>
 			<ul>
-				<li><strong><em>Bonus Unarmed Strike.</em></strong> You can make an Unarmed Strike as a Bonus Action.</em></li>
-				<li><strong><em>Martial Arts Die.</em></strong> You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</em></li>
-				<li><strong><em>Dexterous Attacks.</em></strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</em></li>
+				<li><strong><em>Bonus Unarmed Strike.</em></strong> You can make an Unarmed Strike as a Bonus Action.</li>
+				<li><strong><em>Martial Arts Die.</em></strong> You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</li>
+				<li><strong><em>Dexterous Attacks.</em></strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</li>
 			</ul>
 		</description>
 		<sheet>
