@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Elf</name>
-		<update version="0.3.2">
+		<update version="0.3.3">
 			<file name="race-elf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-elf.xml" />
 		</update>
 	</info>

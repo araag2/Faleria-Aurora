@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Human</name>
-		<update version="0.2.6">
+		<update version="0.2.7">
 			<file name="race-human.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-human.xml" />
 		</update>
 	</info>
