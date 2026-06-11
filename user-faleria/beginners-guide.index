@@ -12,7 +12,7 @@
 		<file name="source.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/source.xml" />
 
 		<!-- Faleria Races -->
-		<file name="race-FHuman.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-FHuman.xml" />
+		<file name="race-human.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-human.xml" />
 		<file name="race-elf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-elf.xml" />
 		<file name="race-orc.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-orc.xml" />
 		<file name="race-dragtakis.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-dragtakis.xml" />
