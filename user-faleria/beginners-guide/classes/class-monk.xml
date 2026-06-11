@@ -4,7 +4,7 @@
 		<name>Monk</name>
 		<description>The Monk class from the Beginner's Guide.</description>
 		<author url="https://faleria.pt/">Faleria</author>
-		<update version="0.3.1">
+		<update version="0.3.2">
 			<file name="class-monk.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/classes/class-monk.xml" />
 		</update>
 	</info>
