@@ -4,7 +4,7 @@
 		<name>Faleria Essentials</name>
 		<description>The Faleria Essentials is a collection of the internal elements used by Faleria, such as skills, languages, conditions, and other elements that are used across the content.</description>
 		<author url="https://faleria.pt/">Faleria</author>
-		<update version="1.0.12">
+		<update version="1.0.13">
 			<file name="faleria-essentials.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials.index" />
 		</update>
 	</info>

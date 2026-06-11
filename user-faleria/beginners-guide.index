@@ -4,7 +4,7 @@
 		<name>Beginner's Guide</name>
 		<description>The Beginner's Guide is the essential reference for every Dungeons &amp; Dragons roleplayer. It contains rules for character creation and advancement, backgrounds and skills, exploration and combat, equipment, spells, and much more. Use this book to create exciting characters from among the most iconic D&amp;D races and classes.</description>
 		<author url="https://faleria.pt/">Faleria</author>
-		<update version="1.0.9">
+		<update version="1.0.10">
 			<file name="beginners-guide.index" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide.index" />
 		</update>
 	</info>
@@ -13,9 +13,13 @@
 
 		<!-- Faleria Races -->
 		<file name="race-FHuman.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-FHuman.xml" />
-		<file name="race-FElf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-FElf.xml" />
+		<file name="race-elf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-elf.xml" />
 		<file name="race-orc.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-orc.xml" />
 		<file name="race-dragtakis.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-dragtakis.xml" />
+
+		<!-- TO:DO This is still the same as base DnD pretty much-->
+		<file name="race-gonean.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-gonean.xml" />
+		<file name="race-dwarf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-dwarf.xml" />
 
 
 		<!-- Old Races 
@@ -105,6 +109,7 @@
 		<file name="warlock-fiend.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/warlock/warlock-fiend.xml" />
 		<file name="warlock-genie.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/warlock/warlock-genie.xml" />
 		<file name="warlock-great-old-one.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/warlock/warlock-great-old-one.xml" />
+		<file name="warlock-hexblade.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/warlock/warlock-hexblade.xml" />
 		<file name="wizard-abjuration.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard/wizard-abjuration.xml" />
 		<file name="wizard-bladesinging.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard/wizard-bladesinging.xml" />
 		<file name="wizard-conjuration.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/archetypes/wizard/wizard-conjuration.xml" />

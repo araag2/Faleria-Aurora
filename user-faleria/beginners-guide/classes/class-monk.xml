@@ -58,26 +58,26 @@
 				<thead>
 					<tr><td class="col-10">Level</td><td class="col-10">Martial Arts</td><td class="col-10">Ki Points</td><td class="col-10">Unarmored Movement</td><td class="col-60 left">Features</td></tr>
 				</thead>
-				<tr><td>1st</td><td>1d4</td><td>—</td><td>—</td><td class="left">Unarmored Defense, Martial Arts</td></tr>
-				<tr><td>2nd</td><td>1d4</td><td>2</td><td>+10 ft.</td><td class="left">Ki, Unarmored Movement</td></tr>
-				<tr><td>3rd</td><td>1d4</td><td>3</td><td>+10 ft.</td><td class="left">Monastic Tradition, Deflect Missiles</td></tr>
-				<tr><td>4th</td><td>1d4</td><td>4</td><td>+10 ft.</td><td class="left">Ability Score Improvement, Slow Fall</td></tr>
-				<tr><td>5th</td><td>1d6</td><td>5</td><td>+10 ft.</td><td class="left">Extra Attack, Stunning Strike</td></tr>
-				<tr><td>6th</td><td>1d6</td><td>6</td><td>+15 ft.</td><td class="left">Ki-Empowered Strikes, Monastic Tradition feature</td></tr>
-				<tr><td>7th</td><td>1d6</td><td>7</td><td>+15 ft.</td><td class="left">Evasion, Stillness of Mind</td></tr>
-				<tr><td>8th</td><td>1d6</td><td>8</td><td>+15 ft.</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>9th</td><td>1d6</td><td>9</td><td>+15 ft.</td><td class="left">Unarmored Movement improvement</td></tr>
-				<tr><td>10th</td><td>1d6</td><td>10</td><td>+20 ft.</td><td class="left">Purity of Body</td></tr>
-				<tr><td>11th</td><td>1d8</td><td>11</td><td>+20 ft.</td><td class="left">Monastic Tradition feature</td></tr>
-				<tr><td>12th</td><td>1d8</td><td>12</td><td>+20 ft.</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>13th</td><td>1d8</td><td>13</td><td>+20 ft.</td><td class="left">Tongue of the Sun and Moon</td></tr>
-				<tr><td>14th</td><td>1d8</td><td>14</td><td>+25 ft.</td><td class="left">Diamond Soul</td></tr>
-				<tr><td>15th</td><td>1d8</td><td>15</td><td>+25 ft.</td><td class="left">Timeless Body</td></tr>
-				<tr><td>16th</td><td>1d8</td><td>16</td><td>+25 ft.</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>17th</td><td>1d10</td><td>17</td><td>+25 ft.</td><td class="left">Monastic Tradition feature</td></tr>
-				<tr><td>18th</td><td>1d10</td><td>18</td><td>+30 ft.</td><td class="left">Empty Body</td></tr>
-				<tr><td>19th</td><td>1d10</td><td>19</td><td>+30 ft.</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>20th</td><td>1d10</td><td>20</td><td>+30 ft.</td><td class="left">Perfect Self</td></tr>
+				<tr><td>1st</td><td>1d6</td><td>—</td><td>—</td><td class="left">Unarmored Defense, Martial Arts</td></tr>
+				<tr><td>2nd</td><td>1d6</td><td>2</td><td>+10 ft.</td><td class="left">Ki, Unarmored Movement</td></tr>
+				<tr><td>3rd</td><td>1d6</td><td>3</td><td>+10 ft.</td><td class="left">Monastic Tradition, Deflect Missiles</td></tr>
+				<tr><td>4th</td><td>1d6</td><td>4</td><td>+10 ft.</td><td class="left">Ability Score Improvement, Slow Fall</td></tr>
+				<tr><td>5th</td><td>1d8</td><td>5</td><td>+10 ft.</td><td class="left">Extra Attack, Stunning Strike</td></tr>
+				<tr><td>6th</td><td>1d8</td><td>6</td><td>+15 ft.</td><td class="left">Ki-Empowered Strikes, Monastic Tradition feature</td></tr>
+				<tr><td>7th</td><td>1d8</td><td>7</td><td>+15 ft.</td><td class="left">Evasion, Stillness of Mind</td></tr>
+				<tr><td>8th</td><td>1d8</td><td>8</td><td>+15 ft.</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>9th</td><td>1d8</td><td>9</td><td>+15 ft.</td><td class="left">Unarmored Movement improvement</td></tr>
+				<tr><td>10th</td><td>1d10</td><td>10</td><td>+20 ft.</td><td class="left">Purity of Body</td></tr>
+				<tr><td>11th</td><td>1d10</td><td>11</td><td>+20 ft.</td><td class="left">Monastic Tradition feature</td></tr>
+				<tr><td>12th</td><td>1d10</td><td>12</td><td>+20 ft.</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>13th</td><td>1d10</td><td>13</td><td>+20 ft.</td><td class="left">Tongue of the Sun and Moon</td></tr>
+				<tr><td>14th</td><td>1d10</td><td>14</td><td>+25 ft.</td><td class="left">Diamond Soul</td></tr>
+				<tr><td>15th</td><td>1d10</td><td>15</td><td>+25 ft.</td><td class="left">Timeless Body</td></tr>
+				<tr><td>16th</td><td>1d10</td><td>16</td><td>+25 ft.</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>17th</td><td>1d12</td><td>17</td><td>+25 ft.</td><td class="left">Monastic Tradition feature</td></tr>
+				<tr><td>18th</td><td>1d12</td><td>18</td><td>+30 ft.</td><td class="left">Empty Body</td></tr>
+				<tr><td>19th</td><td>1d12</td><td>19</td><td>+30 ft.</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>20th</td><td>1d12</td><td>20</td><td>+30 ft.</td><td class="left">Perfect Self</td></tr>
 			</table>				
 			<div element="ID_BG_CLASS_FEATURE_MONK_UNARMORED_DEFENSE" />
 			<div element="ID_BG_CLASS_FEATURE_MONK_MARTIAL_ARTS" />
@@ -167,28 +167,31 @@
 	<element name="Martial Arts" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_MONK_MARTIAL_ARTS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_MARTIAL_ARTS</requirements>
 		<description>
-			<p>At 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don’t have the two-handed or heavy property.</p>
-			<p class="indent">You gain the following benefits while you are unarmed or wielding only monk weapons and you aren’t wearing armor or wielding a shield:</p>
+			<p>Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:.</p>
 			<ul>
-				<li>You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.</li>
-				<li>You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.</li>
-				<li>When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven’t already taken a bonus action this turn.</li>
+				<li>Simple Melee Weapons</li>
+				<li>Martial Melee Weapons that have the Light property</li>
 			</ul>
-			<p>Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama). Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon.</p>
+			<p class="indent">You gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a Shield:</p>
+			<ul>
+				<li><strong><em>Bonus Unarmed Strike.</em></strong> You can make an Unarmed Strike as a Bonus Action.</em></li>
+				<li><strong><em>Martial Arts Die.</em></strong> You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</em></li>
+				<li><strong><em>Dexterous Attacks.</em></strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</em></li>
+			</ul>
 		</description>
 		<sheet>
 			<description>Your unarmed strike does 1d{{martial arts:dice}}+{{martial arts:damage}} damage. You can use Strength or Dexterity for these attacks.
-			When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven’t already taken a bonus action this turn.</description>
+			When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action.</description>
 		</sheet>
 		<rules>
 			<stat name="martial arts:attack" value="strength:modifier" bonus="martial arts" />
 			<stat name="martial arts:attack" value="dexterity:modifier" bonus="martial arts" />
 			<stat name="martial arts:damage" value="strength:modifier" bonus="martial arts" />
 			<stat name="martial arts:damage" value="dexterity:modifier" bonus="martial arts" />
-			<stat name="martial arts:dice" value="4" bonus="martial arts" />
-			<stat name="martial arts:dice" value="6" bonus="martial arts" level="5" />
-			<stat name="martial arts:dice" value="8" bonus="martial arts" level="11" />
-			<stat name="martial arts:dice" value="10" bonus="martial arts" level="17" />
+			<stat name="martial arts:dice" value="6" bonus="martial arts" />
+			<stat name="martial arts:dice" value="8" bonus="martial arts" level="5" />
+			<stat name="martial arts:dice" value="10" bonus="martial arts" level="11" />
+			<stat name="martial arts:dice" value="12" bonus="martial arts" level="17" />
 		</rules>
 	</element>
 	<element name="Ki" type="Class Feature" source="Beginner's Guide" id="ID_BG_CLASS_FEATURE_MONK_KI">

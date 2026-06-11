@@ -8,6 +8,26 @@
 			<file name="spells_bg.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/spells/spells_bg.xml" />
 		</update>
 	</info>
+	<element name="Ranger's Mark" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_RANGERS_MARK">
+		<supports>Ranger</supports>
+		<description>
+			<p>You choose a creature you can see within range and mystically mark it as your quarry. Until the spell ends, you deal an extra 1d4 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Divination</set>
+			<set name="time">1 bonus action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">90 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 
     <element name="Arcane Fever" type="Spell" source="Beginner's Guide" id="ID_BG_SPELL_ARCANE_FEVER">
 		<supports>Wizard, Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Spell Saving Throw</supports>

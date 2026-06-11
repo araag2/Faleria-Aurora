@@ -26,6 +26,7 @@
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_ABILITY_SCORE_MAXIMUM_OVER_20" />
 			<stat name="innate speed" value="7.5" bonus="base" />
 			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" />
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_DRAGTAKIS" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRAGTAKIS_SUBRACE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRACONIC_RESISTANCE" />
@@ -86,13 +87,13 @@
 			<h5>Chromatic Ancestry</h5>
 			<table>
 				<thead>
-					<tr><td>Dragon</td> | <td>Damage Type</td></tr>
+					<tr><td>Chromatic Dragon</td><td>Damage Type</td></tr>
 				</thead>
-				<tr><td>Black</td> | <td>Acid</td></tr>
-				<tr><td>Blue</td> | <td>Lightning</td></tr>
-				<tr><td>Green</td> | <td>Fire</td></tr>
-				<tr><td>Red</td> | <td>Lightning</td></tr>
-				<tr><td>White</td> | <td>Acid</td></tr>
+				<tr><td>Black</td><td>Acid</td></tr>
+				<tr><td>Blue</td><td>Lightning</td></tr>
+				<tr><td>Green</td><td>Fire</td></tr>
+				<tr><td>Red</td><td>Lightning</td></tr>
+				<tr><td>White</td><td>Acid</td></tr>
 			</table>
 
 			<p class="indent"><strong><em>Infusing Breath.</em></strong> For 1 minute after using Battle Fury or Tribalism, your skins fractures and starts to resemble magma. During that time your critical hit chance increases by 1.</p>
@@ -116,16 +117,16 @@
 	<element name="Chromatic Ancestry" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_CHROMATIC_DRAGTAKIS_CHROMATIC_ANCESTRY">
 		<description>
 			<p> You have a chromatic dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits, as shown in the table.</p>
-			<h5>CHROMATIC ANCESTRY</h5>
+			<h5>Chromatic Ancestry</h5>
 			<table>
 				<thead>
-					<tr><td>Dragon</td> | <td>Damage Type</td></tr>
+					<tr><td>Chromatic Dragon</td><td>Damage Type</td></tr>
 				</thead>
-				<tr><td>Black</td> | <td>Acid</td></tr>
-				<tr><td>Blue</td> | <td>Lightning</td></tr>
-				<tr><td>Green</td> | <td>Fire</td></tr>
-				<tr><td>Red</td> | <td>Lightning</td></tr>
-				<tr><td>White</td> | <td>Acid</td></tr>
+				<tr><td>Black</td><td>Acid</td></tr>
+				<tr><td>Blue</td><td>Lightning</td></tr>
+				<tr><td>Green</td><td>Fire</td></tr>
+				<tr><td>Red</td><td>Lightning</td></tr>
+				<tr><td>White</td><td>Acid</td></tr>
 			</table>
 		</description>
 		<rules>

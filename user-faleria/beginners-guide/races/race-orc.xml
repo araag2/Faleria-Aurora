@@ -29,10 +29,7 @@
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_ABILITY_SCORE_MAXIMUM_OVER_20" />
 			<stat name="innate speed" value="9" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
-			<!-- <grant type="Vision" id="ID_VISION_DARKVISION" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<grant type="Language" id="ID_LANGUAGE_ELVISH" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_FALERIA_TCOE_OPTION_CUSTOMIZED_LANGUAGE" /> -->
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" />
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_ORC" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ORC_SCARS_OF_WAR" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ORC_BATTLE_FURY" />

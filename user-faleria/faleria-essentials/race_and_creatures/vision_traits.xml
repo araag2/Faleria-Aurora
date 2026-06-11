@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Vision Traits</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="vision_traits.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/race_and_creatures/vision_traits.xml" />
 		</update>
 	</info>
@@ -18,6 +18,19 @@
 		</sheet>
 		<rules>
 			<stat name="darkvision:range" value="60" bonus="base" />
+		</rules>
+	</element>
+
+		<element name="Dwarven Darkvision" type="Vision" source="Faleria Essentials" id="ID_VISION_DWARVEN_DARKVISION">
+		<requirements>!(ID_VISION_SUPERIORDARKVISION || ID_VISION_DARKVISION)</requirements>
+		<description>
+			<p>Many creatures in the worlds of D&amp;D, especially those that dwell underground, have darkvision. While underground, within a specified range, a creature with dwarvendarkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can’t discern color in darkness, only shades of gray.</p>
+		</description>
+		<sheet>
+			<description>While Underground, you can see in dim light within {{dwarven-darkvision:range}} feet of you as if it were bright light, and in darkness as if it were dim light.</description>
+		</sheet>
+		<rules>
+			<stat name="dwarven-darkvision:range" value="18" bonus="base" />
 		</rules>
 	</element>
 

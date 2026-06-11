@@ -58,7 +58,7 @@
 				<thead>
 					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Favored Enemy, Natural Explorer</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 1st</td><td class="left">Spellcasting, Ranger's Mark</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 				<tr><td> 2nd</td><td class="left">Fighting Style, Spellcasting</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 				<tr><td> 3rd</td><td class="left">Ranger Archetype, Primeval Awareness</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -79,8 +79,8 @@
 				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 				<tr><td>20th</td><td class="left">Foe Slayer</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 			</table>
-			<div element="ID_FALERIA_CLASSFEATURE_RANGER_FAVORED_ENEMY" />
-			<div element="ID_FALERIA_CLASSFEATURE_RANGER_NATURAL_EXPLORER" />
+			<div element="ID_FALERIA_CLASSFEATURE_RANGER_SPELLCASTING" />
+			<div element="ID_FALERIA_CLASSFEATURE_RANGER_RANGERS_MARK" />
 			<div element="ID_FALERIA_CLASSFEATURE_RANGER_FIGHTING_STYLE" />
 			<div element="ID_FALERIA_CLASSFEATURE_RANGER_SPELLCASTING" />
 			<div element="ID_FALERIA_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" />
@@ -109,10 +109,10 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_BG_MULTICLASS_RANGER" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_BG_MULTICLASS_RANGER" />
 			<select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="3" requirements="!ID_BG_MULTICLASS_RANGER" />
-			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_FAVORED_ENEMY" level="1"/>
-			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_NATURAL_EXPLORER" level="1"/>
+			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_SPELLCASTING" level="1"/>
+			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_RANGERS_MARK" level="1"/>
 			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_FIGHTING_STYLE" level="2"/>
-			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_SPELLCASTING" level="2"/>
+		
 			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" level="3"/>
 			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_PRIMEVAL_AWARENESS" level="3"/>
 			<grant type="Class Feature" id="ID_FALERIA_CLASSFEATURE_RANGER_ASI" level="4"/>
@@ -139,77 +139,6 @@
 				<select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="1"/>
 			</rules>
 		</multiclass>
-	</element>
-	<element name="Favored Enemy" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_CLASSFEATURE_RANGER_FAVORED_ENEMY">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_FAVORED_ENEMY</requirements>
-		<description>
-			<p>Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.</p>
-			<p class="indent">Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.</p>
-			<p class="indent">You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.</p>
-			<p class="indent">When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.</p>
-			<p class="indent">You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures.</p>
-		</description>
-		<sheet>
-			<description>You have advantage on Survival checks to track your favored enemies, as well as on Intelligence checks to recall information about them.</description>
-		</sheet>
-		<rules>
-			<select type="Class Feature" name="Favored Enemy" supports="Favored Enemy" level="1" />
-			<select type="Class Feature" name="Favored Enemy" supports="Favored Enemy" level="6" />
-			<select type="Class Feature" name="Favored Enemy" supports="Favored Enemy" level="14" />			
-			<select type="Class Feature" name="Favored Enemy, Humanoid" supports="Humanoid Favored Enemy" number="2" level="1" requirements="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_1" />
-			<select type="Class Feature" name="Favored Enemy, Humanoid" supports="Humanoid Favored Enemy" number="2" level="6" requirements="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_2" />
-			<select type="Class Feature" name="Favored Enemy, Humanoid" supports="Humanoid Favored Enemy" number="2" level="14" requirements="ID_BG_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_3" />
-			<select type="Language" name="Language (Favored Enemy)" level="1" />
-			<select type="Language" name="Language (Favored Enemy)" level="6" />
-			<select type="Language" name="Language (Favored Enemy)" level="14" />
-		</rules>
-	</element>
-	<element name="Natural Explorer" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_CLASSFEATURE_RANGER_NATURAL_EXPLORER">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_NATURAL_EXPLORER</requirements>
-		<description>
-			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
-			<p class="indent">While traveling for an hour or more in your favored terrain, you gain the following benefits:</p>
-			<ul>
-				<li>Difficult terrain doesn’t slow your group’s travel.</li>
-				<li>Your group can’t become lost except by magical means.</li>
-				<li>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</li>
-				<li>If you are traveling alone, you can move stealthily at a normal pace.</li>
-				<li>When you forage, you find twice as much food as you normally would.</li>
-				<li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</li>
-			</ul>
-			<p class="indent">You choose additional favored terrain types at 6th and 10th level.</p>
-		</description>
-		<sheet>
-			<description>When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in. While traveling for an hour or more in your favored terrain, you gain the following benefits:
-			Difficult terrain doesn’t slow your group’s travel.
-			Your group can’t become lost except by magical means.
-			Even when you are engaged in another activity while traveling, you remain alert to danger.
-			If you are traveling alone, you can move stealthily at a normal pace.
-			When you forage, you find twice as much food as you normally would.
-			While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</description>
-		</sheet>
-		<rules>
-			<select type="Class Feature" name="Favored Terrain" supports="Favored Terrain" level="1" />
-			<select type="Class Feature" name="Favored Terrain" supports="Favored Terrain" level="6" />
-			<select type="Class Feature" name="Favored Terrain" supports="Favored Terrain" level="10" />
-		</rules>
-	</element>
-	<element name="Fighting Style" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_CLASSFEATURE_RANGER_FIGHTING_STYLE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_FIGHTING_STYLE</requirements>
-		<description>
-			<p>At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
-			<h5 class="caption">ARCHERY</h5>
-			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
-			<h5 class="caption">DEFENSE</h5>
-			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
-			<h5 class="caption">DUELING</h5>
-			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
-			<h5 class="caption">TWO-WEAPON FIGHTING</h5>
-			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
-		</description>
-		<rules>
-			<select type="Class Feature" name="Fighting Style" supports="Fighting Style,Ranger" level="2"/>
-		</rules>
 	</element>
 	<element name="Spellcasting" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_CLASSFEATURE_RANGER_SPELLCASTING">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_SPELLCASTING</requirements>
@@ -238,8 +167,7 @@
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE" />
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
-
-			<stat name="ranger:spellcasting:slots:1" value="2" level="2" />
+			<stat name="ranger:spellcasting:slots:1" value="2" level="1" />
 			<stat name="ranger:spellcasting:slots:1" value="1" level="3" />
 			<stat name="ranger:spellcasting:slots:1" value="1" level="5" />
 			<stat name="ranger:spellcasting:slots:2" value="2" level="5" />
@@ -251,7 +179,7 @@
 			<stat name="ranger:spellcasting:slots:4" value="1" level="17" />
 			<stat name="ranger:spellcasting:slots:5" value="1" level="17" />
 			<stat name="ranger:spellcasting:slots:5" value="1" level="19" />
-
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Ranger"/>
 			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" number="2" spellcasting="Ranger"/>
 			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Ranger" />
 			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Ranger" />
@@ -262,6 +190,36 @@
 			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Ranger" />
 			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Ranger" />
 			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Ranger" />
+		</rules>
+	</element>
+	<element name="Ranger's Mark" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_CLASSFEATURE_RANGER_RANGERS_MARK">
+		<description>
+			<p>You can use Ranger's Mark a number of times equal to your proficiency bonus per long rest.</p>
+			<p> As a bonus action you can mark a target. Each time you hit a marked target with a weapon attack, deal 1d4 extra damage.</p>
+			<p> This mark lasts for 1 hour. If the target drops to 0 hit points before this effect ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+			<description>As a Bonus Action you can mark a target. Each time you hit a marked target with a weapon attack, deal 1d4 extra damage. This mark lasts for 1 hour. If the target drops to 0 hit points before this effect ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_BG_SPELL_RANGERS_MARK" spellcasting="RANGER" level="1" prepared="true" />
+		</rules>
+	</element>
+	<element name="Fighting Style" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_CLASSFEATURE_RANGER_FIGHTING_STYLE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_FIGHTING_STYLE</requirements>
+		<description>
+			<p>At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
+			<h5 class="caption">ARCHERY</h5>
+			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+			<h5 class="caption">DEFENSE</h5>
+			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+			<h5 class="caption">DUELING</h5>
+			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+			<h5 class="caption">TWO-WEAPON FIGHTING</h5>
+			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+		</description>
+		<rules>
+			<select type="Class Feature" name="Fighting Style" supports="Fighting Style,Ranger" level="2"/>
 		</rules>
 	</element>
 	<element name="Ranger Archetype" type="Class Feature" source="Beginner's Guide" id="ID_FALERIA_CLASSFEATURE_RANGER_RANGER_ARCHETYPE">

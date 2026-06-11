@@ -2,203 +2,126 @@
 <elements>
 	<info>
 		<name>Dwarf</name>
-		<author url="https://faleria.pt/">Faleria</author>
-		<update version="0.3.2">
+		<update version="0.3.3">
 			<file name="race-dwarf.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/beginners-guide/races/race-dwarf.xml" />
 		</update>
 	</info>
 
-	<element name="Dwarf" type="Race" source="Beginner's Guide" id="ID_SRD_RACE_DWARF">
-		<description>
-			<p class="flavor">Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs—these common threads unite all dwarves.</p>
-			<h4>SHORT AND STOUT</h4>
-			<p>Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller. Their courage and endurance are also easily a match for any of the larger folk.</p>
-			<p class="indent">Dwarven skin ranges from deep brown to a paler hue tinged with red, but the most common shades are light brown or deep tan, like certain tones of earth. Their hair, worn long but in simple styles, is usually black, gray, or brown, though paler dwarves often have red hair. Male dwarves value their beards highly and groom them carefully.</p>
-			<h4>LONG MEMORY, LONG GRUDGES</h4>
-			<p>Dwarves can live to be more than 400 years old, so the oldest living dwarves often remember a very different world. For example, some of the oldest dwarves living in Citadel Felbarr (in the world of the Forgotten Realms) can recall the day, more than three centuries ago, when orcs conquered the fortress and drove them into an exile that lasted over 250 years. This longevity grants them a perspective on the world that shorter-lived races such as humans and halflings lack.</p>
-			<p class="indent">Dwarves are solid and enduring like the mountains they love, weathering the passage of centuries with stoic endurance and little change. They respect the traditions of their clans, tracing their ancestry back to the founding of their most ancient strongholds in the youth of the world, and don't abandon those traditions lightly. Part of those traditions is devotion to the gods of the dwarves, who uphold the dwarven ideals of industrious labor, skill in battle, and devotion to the forge.</p>
-			<p class="indent">Individual dwarves are determined and loyal, true to their word and decisive in action, sometimes to the point of stubbornness. Many dwarves have a strong sense of justice, and they are slow to forget wrongs they have suffered. A wrong done to one dwarf is a wrong done to the dwarf’s entire clan, so what begins as one dwarf’s hunt for vengeance can become a full-blown clan feud.</p>
-			<h4>CLANS AND KINGDOMS</h4>
-			<p>Dwarven kingdoms stretch deep beneath the mountains where the dwarves mine gems and precious metals and forge items of wonder. They love the beauty and artistry of precious metals and fine jewelry, and in some dwarves this love festers into avarice. Whatever wealth they can’t find in their mountains, they gain through trade. They dislike boats, so enterprising humans and halflings frequently handle trade in dwarven goods along water routes. Trustworthy members of other races are welcome in dwarf settlements, though some areas are off limits even to them.</p>
-			<p class="indent">The chief unit of dwarven society is the clan, and dwarves highly value social standing. Even dwarves who live far from their own kingdoms cherish their clan identities and affiliations, recognize related dwarves, and invoke their ancestors’ names in oaths and curses. To be clanless is the worst fate that can befall a dwarf.</p>
-			<p class="indent">Dwarves in other lands are typically artisans, especially weaponsmiths, armorers, and jewelers. Some become mercenaries or bodyguards, highly sought after for their courage and loyalty.
-			</p>
-			<h4>GODS, GOLD, AND CLANS</h4>
-			<p>Dwarves who take up the adventuring life might be motivated by a desire for treasure—for its own sake, for a specific purpose, or even out of an altruistic desire to help others. Other dwarves are driven by the command or inspiration of a deity, a direct calling or simply a desire to bring glory to one of the dwarf gods. Clan and ancestry are also important motivators. A dwarf might seek to restore a clan’s lost honor, avenge an ancient wrong the clan suffered, or earn a new place within the clan after having been exiled. Or a dwarf might search for the axe wielded by a mighty ancestor, lost on the field of battle centuries ago.</p>
+	<element name="Dwarf" type="Race" source="Beginner's Guide" id="ID_RACE_DWARF">
+	<description>
+			<p class="flavor">"Gran Caster Mezerys once told me that I should never underestimate a dwarfs skill, but I never quite understood him, until yesterday. I've been struggling to design a functional soul container for months. A single dwarf, Drugra Blaereus, did it in a day with only a piece of string, cobalt, ice and the sound of a cat's footsteps. His masterful prowess of the anvil could never be inferred from the way that he eats. After he was done, all he did was stroke his enormous red beard and gave me a satisfied look. His fine work will allow mine to flourish."
+			<br />- Y. Mageshell, Manyhals of Death</p>
+
+			<p>The one thing dwarves love more than their trusty mounts is to forge. Many dwarven kingdoms have gotten rich out of selling items of imense value that they had crafted. Their usefulness makes them targets to kingdoms who are bold enough to think they can enslave them, while others forge alliances to gather their favour. Whatever may be the case, dwarves will only pay attention after they've had their 17th cup of ale.</p>
+
+			<h4>CHILDREN OF THE FORGE</h4>
+			<p>It is said that dwarves were one of the three primary Kássian races, the second to emerge in Faleria, being created alongside Humans and Elves by Yivor, Myllad and Kássia as servants in their godly works. Dwarves were created as payment to Yivor, the Smith, for his contribution in the creation of these mortals. Throughout many years, dwarves mined and polished the finest metals for Yivor's forge and, while performing their task, watched the great smith carefully, to learn his craft, while others chose to leave and settle in the many continents of Faleria.</p>
+
+			<h4>WARHEARTS</h4>
+			<p>While the Great Penury was underway, Yivor and his dwarves remained neutral to this mortal conflict. The other gods begged Yivor to lend them his aid but he didn't budge. Only the hand in marriage of Lypsosi, the Aspect of Lust, would sway him. After a vote, the gods decided the smiths help was too important to dismiss and gave in to his demands, in spite of Lypsosi's and Esnerel's protests. After the wedding ceremony, Yivor did keep his word. He forged three items for three legendary heroes and allowed his dwarves to go help in the war effort..</p>
+
+			<h4>IRON AND STEEL</h4>
+			<p>After the war, many dwarves lingered in Faleria, having found purpose and a new home. They bonded with other mortals and took their place in the world as the great masters of crafting. Their architecture, inspired by their creator, was sharp and rigid. They found themselves reinforced by their time serving Yivor, with better vision than most and a hardened body. They settled closest to the materials they needed, inside mountains and caves and grew communities around the ores that they would forge into art.</p>
+
 			<h4>DWARF NAMES</h4>
-			<p>A dwarf’s name is granted by a clan elder, in accordance with tradition. Every proper dwarven name has been used and reused down through the generations. A dwarf’s name belongs to the clan, not to the individual. A dwarf who misuses or brings shame to a clan name is stripped of the name and forbidden by law to use any dwarven name in its place.</p>
-			<ul class="unstyled">
-				<li><strong>Male Names:</strong> Adrik, Alberich, Baern, Barendd, Brottor, Bruenor, Dain, Darrak, Delg, Eberk, Einkil, Fargrim, Flint, Gardain, Harbek, Kildrak, Morgran, Orsik, Oskar, Rangrim, Rurik, Taklinn, Thoradin, Thorin, Tordek, Traubon, Travok, Ulfgar, Veit, Vondal</li>
-				<li><strong>Female Names:</strong> Amber, Artin, Audhild, Bardryn, Dagnal, Diesa, Eldeth, Falkrunn, Finellen, Gunnloda, Gurdis, Helja, Hlin, Kathra, Kristryd, Ilde, Liftrasa, Mardred, Riswynn, Sannl, Torbera, Torgga, Vistra</li>
-				<li><strong>Clan Names:</strong> Balderk, Battlehammer, Brawnanvil, Dankil, Fireforge, Frostbeard, Gorunn, Holderhek, Ironfist, Loderr, Lutgehr, Rumnaheim, Strakeln, Torunn, Ungart</li>
-			</ul>
+			<p>Dwarves have a habit of rolling their tongue when they speak and that carries over to their names. It's hard to find a dwarf with no R, L or F in their name. Dwarven names can be Gundren, Forgen, Agalar and Lidsa, among others.</p>
+
 			<h4>DWARF TRAITS</h4>
-			<p>Your dwarf character has an assortment of inborn abilities, part and parcel of dwarven nature.</p>			
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2.</p>
-			<p class="indent"><strong><em>Age.</em></strong> Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years.</p>
-			<!-- (removed in Errata v3.0) -->
-			<!-- <p class="indent"><strong><em>Alignment.</em></strong> Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.</p> -->
-			<p class="indent"><strong><em>Size.</em></strong> Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
-			<p class="indent"><strong><em>Dwarven Resilience.</em></strong> You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9).</p>
-			<p class="indent"><strong><em>Dwarven Combat Training.</em></strong> You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.</p>
-			<p class="indent"><strong><em>Tool Proficiency.</em></strong> You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</p>
-			<p class="indent"><strong><em>Stonecunning.</em></strong> Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
-			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.</p>
-			<p class="indent"><strong><em>Subrace.</em></strong> Two main subraces of dwarves populate the worlds of D&amp;D: hill dwarves and mountain dwarves. Choose one of these subraces.</p>
+            <p>Your dwarf character has certain characteristics in common with all other dwarves.</p>
+			<p class="indent"><strong><em>Creature Type.</em></strong> Dwarves are 1,20-1,50 meters tall, average 68 kg and are humanoids. Dwarves reach adulthood at the age of 54 but are considered young until the age of 75. On average, they live about 250 years.</p>
+			<p class="indent"><strong><em>Size and Speed.</em></strong> Your size is Medium and your base walking speed is 7.5 meters.</p>
+			<p class="indent"><strong><em>Dwarven Ability Score Increase.</em></strong> You may choose to increase an ability score by 2 and one other ability score by 1 or increase three different ability scores by 1. Your Constituiton score maximum is 22, instead of the normal 20.</p>
+			<p class="indent"><strong><em>Dwarven Darkvision.</em></strong> While underground, you can see in dim light within 18 meters of you as if it were bright light, and in darkness as if it was dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Dwarven Cunning.</em></strong> The dwarves learned a lot of Yilvor’s techniques while in his forge. While forging an item you can choose to substitute one of it’s ingredients for another of the same cost or rarity.</p>
+			<p>Additionaly, while casting a spell that requires material components, you can choose to substitute one of it’s components for another of the same cost.</p>
+			<p class="indent"><strong><em>Tool Proficiency.</em></strong> You gain proficiency with one artisan’s tools of your choice from: smith’s tools, mason’s tools and cook’s utensils.</p>
+			<p class="indent"><strong><em>Mortal Subtype.</em></strong> Four subtypes are available: Forged Dwarves, Glacial Dwarves, Ironroot Dwarves and Monad Dwarves.</p>
+
+			<p>See <a href="https://faleria.pt/mortal_type/dwarf">Website</a> for more details.</p>
+		</description>
+		<rules>
+			<select type="Ability Score Improvement" name="Dwarf Ability Score Improvement Option (Dwarf)" supports="Custom Ability Score Improvement Option" />
+			<stat name="constitution:max:extra" value="2" bonus="base" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_ABILITY_SCORE_MAXIMUM_OVER_20" />
+			<stat name="innate speed" value="7.5" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_DWARF" />
+			<grant type="Vision" id="ID_VISION_DWARVEN_DARKVISION" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARF_DWARVEN_CUNNING" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARF_TOOL_PROFICIENCY" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARF_SUBRACE" />
+		</rules>
+	</element>
+	<element name="Dwarven Cunning" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_DWARF_DWARVEN_CUNNING">
+		<description>
+			<p><strong><em>Dwarven Cunning.</em></strong> The dwarves learned a lot of Yilvor’s techniques while in his forge. While forging an item you can choose to substitute one of it’s ingredients for another of the same cost or rarity.</p>
+			<p>Additionaly, while casting a spell that requires material components, you can choose to substitute one of it’s components for another of the same cost.</p>
+		</description>
+        <sheet>
+			<description>While forging an item you can choose to substitute one of it’s ingredients for another of the same cost or rarity. Additionally, while casting a spell that requires material components, you can choose to substitute one of it’s components for another of the same cost.</description>
+		</sheet>
+	</element>
+
+	<element name="Tool Proficiency" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_DWARF_TOOL_PROFICIENCY">
+		<description>
+			<p>You gain proficiency with one artisan’s tools of your choice from: smith’s tools, mason’s tools and cook’s utensils.</p>
+		</description>
+		<rules>
+			<select type="Tool Proficiency" name="Dwarf Tool Proficiency" supports="Artisan tools" number="1" />
+		</rules>
+	</element>
+    
+	<element name="Dwarf Subrace" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_DWARF_SUBRACE">
+		<description>
+			<p>Four subtypes are available: Forged Dwarves, Glacial Dwarves, Ironroot Dwarves and Monad Dwarves.</p>
 		</description>
 		<sheet display="false" />
-		<setters>
-			<set name="names" type="male">Adrik, Alberich, Baern, Barendd, Brottor, Bruenor, Dain, Darrak, Delg, Eberk, Einkil, Fargrim, Flint, Gardain, Harbek, Kildrak, Morgran, Orsik, Oskar, Rangrim, Rurik, Taklinn, Thoradin, Thorin, Tordek, Traubon, Travok, Ulfgar, Veit, Vondal</set>
-			<set name="names" type="female">Amber, Artin, Audhild, Bardryn, Dagnal, Diesa, Eldeth, Falkrunn, Finellen, Gunnloda, Gurdis, Helja, Hlin, Kathra, Kristryd, Ilde, Liftrasa, Mardred, Riswynn, Sannl, Torbera, Torgga, Vistra</set>
-			<set name="names" type="clan">Balderk, Battlehammer, Brawnanvil, Dankil, Fireforge, Frostbeard, Gorunn, Holderhek, Ironfist, Loderr, Lutgehr, Rumnaheim, Strakeln, Torunn, Ungart</set>
-			<set name="names-format">{{name}} {{clan}}</set>
-		</setters>
 		<rules>
-			<stat name="constitution" value="2" requirements="!(ID_FALERIA_TCOE_OPTION_CUSTOMIZED_ASI||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Dwarf)" supports="Custom Ability Score Increase 2" requirements="ID_FALERIA_TCOE_OPTION_CUSTOMIZED_ASI,!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
-			<stat name="innate speed" value="25" bonus="base" />
-			<grant type="Grants" id="ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT" />
-			<grant type="Size" id="ID_SIZE_MEDIUM" />
-			<grant type="Vision" id="ID_VISION_DARKVISION" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_FALERIA_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<grant type="Language" id="ID_LANGUAGE_DWARVISH" requirements="!ID_FALERIA_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_FALERIA_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_DWARF"/>
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_RESILIENCE" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_COMBAT_TRAINING" requirements="!ID_FALERIA_PSK_SUBRACE_KALADESH_DWARF" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_TOOL_PROFICIENCY" requirements="!ID_FALERIA_PSK_SUBRACE_KALADESH_DWARF" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STONECUNNING" requirements="!ID_FALERIA_PSK_SUBRACE_KALADESH_DWARF" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_SUBRACE" />
-		</rules>
-	</element>
-	<element name="Dwarven Resilience" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_DWARVEN_RESILIENCE">
-		<description>
-			<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
-		</description>
-		<sheet>
-			<description>You have advantage on saving throws against poison, and you have resistance against poison damage.</description>
-		</sheet>
-		<rules>
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
-		</rules>
-	</element>
-	<element name="Dwarven Combat Training" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_DWARVEN_COMBAT_TRAINING">
-		<description>
-			<p>You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.</p>
-		</description>
-		<sheet display="false">
-			<description>You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.</description>
-		</sheet>
-		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" requirements="!ID_FALERIA_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" requirements="!ID_FALERIA_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" requirements="!ID_FALERIA_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" requirements="!ID_FALERIA_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<select type="Proficiency" name="Simple/Martial Weapon or Tool, Dwarven Combat Training" number="2" supports="Weapon||Tool" requirements="ID_FALERIA_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<select type="Proficiency" name="Simple Weapon or Tool, Dwarven Combat Training" number="2" supports="Simple||Tool" requirements="ID_FALERIA_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-		</rules>
-	</element>
-	<element name="Tool Proficiency" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_DWARVEN_TOOL_PROFICIENCY">
-		<description>
-			<p>You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</p>
-		</description>
-		<sheet display="false"/>
-		<rules>
-			<select type="Proficiency" name="Dwarven Tool Proficiency" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS" requirements="!ID_FALERIA_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<select type="Proficiency" name="Simple Weapon or Tool, Dwarven Tool Proficiency" supports="Simple||Tool" requirements="ID_FALERIA_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-		</rules>
-	</element>
-	<element name="Stonecunning" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_STONECUNNING">
-		<description>
-			<p>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
-		</description>
-		<sheet>
-			<description>A +{{stonecunning:check}} on History checks related to origin of stonework.</description>
-		</sheet>
-		<rules>
-			<stat name="stonecunning:check" value="intelligence:modifier" />
-			<stat name="stonecunning:check" value="history:misc" />
-			<stat name="stonecunning:check" value="proficiency" />
-			<stat name="stonecunning:check" value="proficiency" />
-		</rules>
-	</element>
-	<element name="Dwarven Subrace" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_DWARVEN_SUBRACE">
-		<description>
-			<p>Two main subraces of dwarves populate the worlds of D&amp;D: hill dwarves and mountain dwarves. Choose one of these subraces.</p>
-		</description>
-		<sheet display="false"/>
-		<rules>
-			<select type="Sub Race" name="Dwarven Subrace" supports="Dwarf" />
+			<select type="Sub Race" name="Dwarf Subrace" supports="Dwarf" />
 		</rules>
 	</element>
 
-	<element name="Hill Dwarf" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_HILL_DWARF">
-		<supports>Dwarf</supports>
-		<description>
-			<p>As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faerûn in their mighty southern kingdom are hill dwarves, as are the exiled Neidar and the debased Klar of Krynn in the Dragonlance setting.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
-			<p class="indent"><strong><em>Dwarven Toughness.</em></strong> Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
-		</description>
-		<sheet display="false"/>
-		<setters>
-			<set name="height" modifier="2d4">3'8"</set>
-			<set name="weight" modifier="2d6">115 lb.</set>
-		</setters>
-		<rules>
-			<stat name="wisdom" value="1" requirements="!(ID_FALERIA_TCOE_OPTION_CUSTOMIZED_ASI||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Hill Dwarf)" supports="Custom Ability Score Increase 1" requirements="ID_FALERIA_TCOE_OPTION_CUSTOMIZED_ASI,!(ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_TOUGHNESS" />
-		</rules>
-	</element>
-	<element name="Dwarven Toughness" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_DWARVEN_TOUGHNESS">
-		<description>
-			<p>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
-		</description>
-		<sheet display="false">
-			<description>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</description>
-		</sheet>
-		<rules>
-			<stat name="hp" value="level" />
-		</rules>
-	</element>
+    <!-- Dwarf Sub Races List-->
 
-	<element name="Mountain Dwarf" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_MOUNTAIN_DWARF">
+    <!-- Forged Dwarf Sub Race-->
+
+	<element name="Forged Dwarf" type="Sub Race" source="Beginner's Guide" id="ID_SUB_RACE_FORGED_DWARF">
 		<supports>Dwarf</supports>
 		<description>
-			<p>As a mountain dwarf, you're strong and hardy, accustomed to a difficult life in rugged terrain. You’re probably on the tall side (for a dwarf), and tend toward lighter coloration. The shield dwarves of northern Faerûn, as well as the ruling Hylar clan and the noble Daewar clan of Dragonlance, are mountain dwarves.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2.</p>
-			<p class="indent"><strong><em>Dwarven Armor Training.</em></strong> You have proficiency with light and medium armor.</p>
+            <p class="indent"><strong><em>Mortal Subtype.</em></strong> <em>Forged Dwarfs</em> are strong and well adjusted to live in warm and dry environments. Native to the Scanduri continent, these dark gray skinned smiths present red or orange eye and hair colors. Their cities are mostly found deep beneath the desert sands and far away from the demonic gate they once helped to defend. Cursed by Abyssa to lose their once great regenerative abilities, this dwarven society has withdrawn from the demonic war in fear of losing more of themselves.</p>
+
+			<p class="indent"><strong><em>Fiery Skin.</em></strong> You are immune to fire damage. Additionally, once per turn, any creature that grapples you or otherwise comes into direct contact with your skin must succeed on a DC 12 Dexterity saving throw or take 1d4 fire damage. If a creature continues to touch your skin they suffer an additional 1d4 fire damage at the start of your next turn.</p>
+
+			<p class="indent"><strong><em>Creator’s Knowledge.</em></strong> When using a weapon you crafted, if you miss an attack you may try again. You can use this feature only once per initiative and you regain this use after you roll for a new initiative.</p>
 		</description>
-		<sheet display="false"/>
-		<setters>
-			<set name="height" modifier="2d4">4'</set>
-			<set name="weight" modifier="2d6">130 lb.</set>
-		</setters>
 		<rules>
-			<stat name="strength" value="2" requirements="!(ID_FALERIA_TCOE_OPTION_CUSTOMIZED_ASI||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Mountain Dwarf)" supports="Custom Ability Score Increase 2" requirements="ID_FALERIA_TCOE_OPTION_CUSTOMIZED_ASI,!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_ARMOR_TRAINING" />
+            <grant type="Grants" id="ID_INTERNAL_GRANT_SUB_RACE_FORGED_DWARF"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FORGED_DWARF_FIERY_SKIN" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FORGED_DWARF_CREATOR’S_KNOWLEDGE" />
 		</rules>
-	</element>
-	<element name="Dwarven Armor Training" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_DWARVEN_ARMOR_TRAINING">
+	</element> 	
+    <element name="Fiery Skin" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_FORGED_DWARF_FIERY_SKIN">
 		<description>
-			<p>You have proficiency with light and medium armor.</p>
+			<p>You are immune to fire damage. Additionally, once per turn, any creature that grapples you or otherwise comes into direct contact with your skin must succeed on a DC 12 Dexterity saving throw or take 1d4 fire damage. If a creature continues to touch your skin they suffer an additional 1d4 fire damage at the start of your next turn.</p>
 		</description>
-		<sheet display="false">
-			<description>You have proficiency with light and medium armor.</description>
+		<sheet display="True">
+			<description>Once per turn, any creature that grapples you or otherwise comes into direct contact with your skin must succeed on a DC 12 Dexterity saving throw or take 1d4 fire damage. If a creature continues to touch your skin they suffer an additional 1d4 fire damage at the start of your next turn.</description>
 		</sheet>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_FALERIA_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_FALERIA_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<select type="Proficiency" name="Simple/Martial Weapon or Tool, Martial Training" number="2" supports="Weapon||Tool||Dwarven Armor" requirements="ID_FALERIA_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+            <grant type="Immunity" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE" />
 		</rules>
 	</element>
-	<append id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR">
-		<supports>Dwarven Armor</supports>
-	</append>
-	<append id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR">
-		<supports>Dwarven Armor</supports>
-	</append>
+    <element name="Creator’s Knowledge" type="Racial Trait" source="Beginner's Guide" id="ID_RACIAL_TRAIT_FORGED_DWARF_CREATOR’S_KNOWLEDGE">
+        <description>
+            <p>When using a weapon you crafted, if you miss an attack you may try again. You can use this feature only once per initiative and you regain this use after you roll for a new initiative.</p>
+        </description>
+        <sheet>
+            <description>When using a weapon you crafted, if you miss an attack you may try again. You can use this feature only once per initiative and you regain this use after you roll for a new initiative.</description>
+        </sheet>
+    </element>
+
+	 <!-- TO:DO - REST Dwarf Sub Races List-->
+
+
 </elements>

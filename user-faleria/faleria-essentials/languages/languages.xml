@@ -7,6 +7,20 @@
 		</update>
 	</info>
 
+	<!-- Faleria Essentials Languages -->
+
+	<element name="Levish" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_LEVISH">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by everyone, is the common tongue of Lesdownia.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">All</set>
+			<set name="script">Common</set>
+		</setters>
+	</element>
+
     <!-- Languages. Overrides the same elements within the app, so they can be used with disabled PHB Source -->
 	<element name="Common" type="Language" source="Faleria Essentials" id="ID_LANGUAGE_COMMON">
 		<supports>Standard</supports>

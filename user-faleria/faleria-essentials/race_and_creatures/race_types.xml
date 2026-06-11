@@ -2,15 +2,17 @@
 <elements>
 	<info>
 		<name>Race Types</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="race_types.xml" url="https://raw.githubusercontent.com/araag2/Faleria-Aurora/master/user-faleria/faleria-essentials/race_and_creatures/race_types.xml" />
 		</update>
 	</info>
 
 	<!--Faleria Race/Subrace Grants for Feats, Items, Exc-->
+	<element name="Race Human" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HUMAN" />
 	<element name="Race Adept Human" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_ADEPT_HUMAN" />
 	<element name="Race Veteran Human" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_VETERAN_HUMAN" />
 
+	<element name="Race Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_ELF" />
 	<element name="Race Dark Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_DARK_ELF" />
 	<element name="Race Imperial Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_IMPERIAL_ELF" />
 	<element name="Race Light Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_LIGHT_ELF" />
@@ -24,18 +26,20 @@
 	<element name="Race Gem Dragtakis" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_GEM_DRAGTAKIS" />
 	<element name="Race Metallic Dragtakis" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_METALLIC_DRAGTAKIS" />
 
+	<element name="Race Gonean" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_GONEAN" />
+	<element name="Race Forest Gonean" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_FOREST_GONEAN" />
+	<element name="Race Rock Gonean" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_ROCK_GONEAN" />
+
+	<element name="Race Dwarf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DWARF" />
+	<element name="Race Forged Dwarf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_SUB_RACE_FORGED_DWARF" />
+
 	<!--Race/Subrace Grants for Feats, Items, Exc-->
 	<element name="Race Dragonborn" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DRAGONBORN" />
 	<element name="Race Dwarf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DWARF" />
-	<element name="Race Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_ELF" />
-	<element name="Race High Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HIGH_ELF" />
-	<element name="Race Wood Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_WOOD_ELF" />
-	<element name="Race Gnome" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_GNOME" />
 	<element name="Race Goblinoid" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_GOBLINOID" />
 	<element name="Race Half-Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HALF_ELF" />
 	<element name="Race Half-Orc" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HALF_ORC" />
 	<element name="Race Halfling" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HALFLING" />
-	<element name="Race Human" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HUMAN" />
 	<element name="Race Tiefling" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_TIEFLING" />
 	<element name="Race Aarakocra" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_AARAKOCRA" />
 	<element name="Race Aasimar" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_AASIMAR" />
